@@ -1,6 +1,9 @@
 # Amazon MSK
 
-The Amazon MSK handbook will document managed Kafka operations on AWS.
+!!! note "Preserved reference"
+    Amazon MSK is now documented inside the Apache Kafka handbook for Kafka operations and the AWS handbook for AWS provider operations. New Kafka content should be added to `books/kafka/managed-platforms/amazon-msk/` in the navigation.
+
+The Amazon MSK reference covers managed Kafka operations on AWS.
 
 ## Planned chapters
 

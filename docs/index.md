@@ -1,38 +1,34 @@
 # SRE Academy
 
-SRE Academy is a practical documentation hub for learning how reliable systems are designed, operated, and improved. The handbook catalog is organized by the domains engineers use every day: platforms, observability, messaging, datastores, cloud, delivery, Linux, and networking.
+SRE Academy is a practical documentation hub for learning how reliable systems are designed, operated, and improved. The catalog is organized around core production technologies, with managed services and supporting tools documented inside the handbooks where they naturally belong.
 
-## Handbook domains
+## Core handbooks
 
 <div class="grid cards" markdown>
 
-- **Platform Engineering**
+- **Enterprise Kubernetes**
 
-    Kubernetes, Helm, Argo CD, Terraform, and Kustomize.
+    Kubernetes operations, Helm, Kustomize, GitOps, and managed Kubernetes platforms such as EKS, AKS, and GKE.
 
-- **Observability**
+- **Apache Kafka**
 
-    Prometheus, Grafana, OpenTelemetry, Loki, Tempo, and Jaeger.
-
-- **Messaging & Streaming**
-
-    Apache Kafka, Amazon MSK, and future RabbitMQ guidance.
+    Kafka operations plus managed Kafka platforms such as Amazon MSK, Azure Event Hubs Kafka protocol, Google Managed Service for Apache Kafka, and Confluent Cloud.
 
 - **Datastores**
 
-    PostgreSQL, MongoDB, Elasticsearch, Redis, Snowflake, MySQL, and future Cassandra guidance.
+    PostgreSQL, MongoDB, Elasticsearch, Redis, and Snowflake.
 
-- **Cloud**
+- **Observability**
 
-    AWS, Azure, GCP, and Multi-Cloud reliability patterns.
+    Prometheus and Grafana as flagship observability handbooks, with supporting telemetry tools referenced where appropriate.
 
-- **DevOps & CI/CD**
+- **Platform & Cloud**
 
-    Git, GitHub Actions, Jenkins, Argo Workflows, and future Flux guidance.
+    Argo CD, Terraform, AWS, Azure, and GCP.
 
 - **Linux & Networking**
 
-    Linux, DNS, load balancing, NGINX, and service mesh operations.
+    Linux fundamentals and the Networking handbook for DNS, TCP/IP, HTTP/HTTPS, TLS, load balancing, proxies, ingress, and Gateway API.
 
 </div>
 

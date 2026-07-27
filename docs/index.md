@@ -1,10 +1,54 @@
 # SRE Academy
 
-Welcome to the SRE Academy documentation site.
+SRE Academy is a practical documentation hub for learning how reliable systems are designed, operated, and improved. It is organized around focused books that can grow from foundations into production-ready playbooks.
 
-## What belongs here
+## Learning paths
 
-Use this site to collect course notes, runbooks, reliability engineering practices, and hands-on exercises.
+<div class="grid cards" markdown>
+
+- **Kubernetes**
+
+    Build operational fluency for clusters, workloads, networking, storage, observability, and incident response.
+
+- **Kafka**
+
+    Learn how to operate event streaming platforms with attention to durability, scaling, lag, and recovery.
+
+- **Elasticsearch**
+
+    Understand search and analytics operations, from indexing strategy to shard health and query performance.
+
+- **Snowflake**
+
+    Capture patterns for warehouse reliability, cost controls, data pipelines, governance, and performance tuning.
+
+- **Redis**
+
+    Document cache, queue, and data structure patterns with clear guidance for persistence, replication, and failover.
+
+</div>
+
+## Operating model
+
+```mermaid
+graph LR
+    Learn[Learn the system] --> Practice[Practice core operations]
+    Practice --> Observe[Measure reliability]
+    Observe --> Respond[Respond to incidents]
+    Respond --> Improve[Improve the platform]
+    Improve --> Learn
+```
+
+## Documentation standards
+
+Every page should help readers answer three questions quickly:
+
+1. What problem does this solve?
+2. What should I do first?
+3. How do I know it worked?
+
+!!! tip "Keep pages actionable"
+    Prefer checklists, diagrams, commands, examples, and decision notes over long-form theory alone.
 
 ## Local preview
 

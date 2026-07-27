@@ -1,6 +1,6 @@
-# Kafka
+# Apache Kafka
 
-The Kafka book will focus on operating event streaming systems that are durable, observable, and recoverable.
+The Apache Kafka handbook will focus on operating event streaming systems that are durable, observable, and recoverable.
 
 ## Planned chapters
 

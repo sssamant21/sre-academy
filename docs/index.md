@@ -30,6 +30,10 @@ SRE Academy is a practical documentation hub for learning how reliable systems a
 
     Build database reliability practices for schema changes, backups, replication, failover, performance, and operations.
 
+- **MongoDB**
+
+    Learn document database operations for schema design, indexing, replication, backup, sharding, and incident response.
+
 </div>
 
 ## Operating model

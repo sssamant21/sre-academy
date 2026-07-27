@@ -1,14 +1,23 @@
 # GCP
 
-The GCP handbook will document reliable operations for Google Cloud projects, services, and platform foundations.
+The GCP handbook documents provider-specific cloud operations. It should not duplicate Kubernetes or Kafka internals; use it for Google Cloud services, controls, and operational boundaries that support production platforms.
 
 ## Planned chapters
 
-- Project structure, identity, and organization policies
-- Networking, compute, storage, and managed services
-- Monitoring, budgets, quotas, and service limits
-- Regional resilience and disaster recovery patterns
-- Operational runbooks for common GCP incidents
+- Projects, folders, organization policies, and IAM
+- VPC networking, private connectivity, routing, and security boundaries
+- GKE provider operations and Google Cloud integration points
+- Cloud SQL and managed database operations
+- Cloud Storage, lifecycle controls, and data durability
+- Pub/Sub provider operations and eventing patterns
+- Cloud Monitoring, logging, metrics, alerts, and diagnostics
+- Google Managed Service for Apache Kafka provider operations
+
+## Cross-references
+
+- Use Enterprise Kubernetes for Kubernetes internals, workloads, controllers, and cluster reliability patterns.
+- Use Apache Kafka for Kafka topics, partitions, producers, consumers, retention, and lag.
+- Use Networking for DNS, load balancing, TLS, ingress, and proxy fundamentals.
 
 ## Starter reliability questions
 

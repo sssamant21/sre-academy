@@ -1,6 +1,9 @@
 # Load Balancing
 
-The Load Balancing handbook will document reliable traffic distribution for services and platforms.
+!!! note "Preserved reference"
+    Load balancing is now documented inside the Networking handbook. New content should be added to `books/networking/load-balancing/` in the navigation.
+
+The Load Balancing reference covers reliable traffic distribution for services and platforms.
 
 ## Planned chapters
 

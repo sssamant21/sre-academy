@@ -1,14 +1,25 @@
-# Kubernetes
+# Enterprise Kubernetes
 
-The Kubernetes book will cover the skills needed to operate clusters and applications with confidence.
+The Enterprise Kubernetes handbook covers the skills needed to operate clusters, platform add-ons, and application delivery workflows with confidence.
 
-## Planned chapters
+## Core operating areas
 
 - Cluster architecture and control plane health
 - Workload scheduling, probes, and rollout safety
 - Networking, ingress, and service discovery
 - Storage, backups, and disaster recovery
 - Observability, alerting, and incident response
+- Package, overlay, and GitOps delivery patterns
+- Managed Kubernetes provider operations
+
+## Integrated sections
+
+| Section | Focus |
+| --- | --- |
+| Helm | Chart authoring, release safety, upgrades, and rollbacks. |
+| Kustomize | Bases, overlays, patches, and environment-specific configuration. |
+| GitOps | Declarative delivery patterns and operational handoff to tools such as Argo CD. |
+| Managed Kubernetes | Provider-specific cluster operations for Amazon EKS, Azure AKS, and Google GKE. |
 
 ## Starter reliability questions
 

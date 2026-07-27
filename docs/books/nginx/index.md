@@ -1,6 +1,9 @@
 # NGINX
 
-The NGINX handbook will document reliable proxy, ingress, and web serving operations.
+!!! note "Preserved reference"
+    NGINX is now documented inside the Networking handbook. New content should be added to `books/networking/nginx/` in the navigation.
+
+The NGINX reference covers proxy, ingress, and web serving operations.
 
 ## Planned chapters
 

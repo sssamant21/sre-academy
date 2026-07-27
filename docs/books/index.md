@@ -12,6 +12,7 @@ The SRE Academy books organize documentation by platform and operational domain.
 | Snowflake | Data warehouse operations, performance, cost management, governance, and pipelines. |
 | Redis | Cache and data structure operations, persistence, replication, high availability, and failover. |
 | PostgreSQL | Relational database operations, schema safety, backups, replication, failover, and performance. |
+| MongoDB | Document database operations, schema design, indexing, replication, backups, and sharding. |
 
 ## Suggested page pattern
 

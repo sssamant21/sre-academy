@@ -1,6 +1,9 @@
 # Helm
 
-The Helm handbook will document reliable package management for Kubernetes applications.
+!!! note "Preserved reference"
+    Helm is now documented inside the Enterprise Kubernetes handbook. New content should be added to `books/kubernetes/helm/` in the navigation.
+
+The Helm reference covers reliable package management for Kubernetes applications.
 
 ## Planned chapters
 

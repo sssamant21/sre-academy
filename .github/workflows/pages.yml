@@ -7,9 +7,6 @@ on:
   pull_request:
     branches:
       - main
-      - agent/setup-mkdocs-material-pages
-      - agent/enhance-mkdocs-site
-      - agent/add-mongodb-handbook
   workflow_dispatch:
 
 permissions:

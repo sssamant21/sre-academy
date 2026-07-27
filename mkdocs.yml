@@ -1,5 +1,5 @@
 site_name: SRE Academy
-site_description: Documentation and learning materials for SRE Academy.
+site_description: Practical documentation and learning paths for site reliability engineering.
 site_url: https://sssamant21.github.io/sre-academy/
 repo_url: https://github.com/sssamant21/sre-academy
 repo_name: sssamant21/sre-academy
@@ -32,6 +32,14 @@ theme:
 
 nav:
   - Home: index.md
+  - Books:
+      - Overview: books/index.md
+      - Kubernetes: books/kubernetes/index.md
+      - Kafka: books/kafka/index.md
+      - Elasticsearch: books/elasticsearch/index.md
+      - Snowflake: books/snowflake/index.md
+      - Redis: books/redis/index.md
+      - PostgreSQL: books/postgresql/index.md
 
 markdown_extensions:
   - admonition
@@ -43,7 +51,11 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 

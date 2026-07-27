@@ -1,5 +1,5 @@
 site_name: SRE Academy
-site_description: Documentation and learning materials for SRE Academy.
+site_description: Practical documentation and learning paths for site reliability engineering.
 site_url: https://sssamant21.github.io/sre-academy/
 repo_url: https://github.com/sssamant21/sre-academy
 repo_name: sssamant21/sre-academy
@@ -32,6 +32,56 @@ theme:
 
 nav:
   - Home: index.md
+  - Handbook Catalog: books/index.md
+  - Platform Engineering:
+      - Overview: books/platform-engineering/index.md
+      - Kubernetes: books/kubernetes/index.md
+      - Helm: books/helm/index.md
+      - Argo CD: books/argo-cd/index.md
+      - Terraform: books/terraform/index.md
+      - Kustomize: books/kustomize/index.md
+  - Observability:
+      - Overview: books/observability/index.md
+      - Prometheus: books/prometheus/index.md
+      - Grafana: books/grafana/index.md
+      - OpenTelemetry: books/opentelemetry/index.md
+      - Loki: books/loki/index.md
+      - Tempo: books/tempo/index.md
+      - Jaeger: books/jaeger/index.md
+  - Messaging & Streaming:
+      - Overview: books/messaging-streaming/index.md
+      - Apache Kafka: books/kafka/index.md
+      - Amazon MSK: books/amazon-msk/index.md
+      - RabbitMQ (Future): books/rabbitmq/index.md
+  - Datastores:
+      - Overview: books/datastores/index.md
+      - PostgreSQL: books/postgresql/index.md
+      - MongoDB: books/mongodb/index.md
+      - Elasticsearch: books/elasticsearch/index.md
+      - Redis: books/redis/index.md
+      - Snowflake: books/snowflake/index.md
+      - MySQL: books/mysql/index.md
+      - Cassandra (Future): books/cassandra/index.md
+  - Cloud:
+      - Overview: books/cloud/index.md
+      - AWS: books/aws/index.md
+      - Azure: books/azure/index.md
+      - GCP: books/gcp/index.md
+      - Multi-Cloud: books/multi-cloud/index.md
+  - DevOps & CI/CD:
+      - Overview: books/devops-cicd/index.md
+      - Git: books/git/index.md
+      - GitHub Actions: books/github-actions/index.md
+      - Jenkins: books/jenkins/index.md
+      - Argo Workflows: books/argo-workflows/index.md
+      - Flux (Future): books/flux/index.md
+  - Linux & Networking:
+      - Overview: books/linux-networking/index.md
+      - Linux: books/linux/index.md
+      - DNS: books/dns/index.md
+      - Load Balancing: books/load-balancing/index.md
+      - NGINX: books/nginx/index.md
+      - Service Mesh (Istio): books/service-mesh/index.md
 
 markdown_extensions:
   - admonition
@@ -43,7 +93,11 @@ markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
 

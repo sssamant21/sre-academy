@@ -1,34 +1,38 @@
 # SRE Academy
 
-SRE Academy is a practical documentation hub for learning how reliable systems are designed, operated, and improved. It is organized around focused books that can grow from foundations into production-ready playbooks.
+SRE Academy is a practical documentation hub for learning how reliable systems are designed, operated, and improved. The handbook catalog is organized by the domains engineers use every day: platforms, observability, messaging, datastores, cloud, delivery, Linux, and networking.
 
-## Learning paths
+## Handbook domains
 
 <div class="grid cards" markdown>
 
-- **Kubernetes**
+- **Platform Engineering**
 
-    Build operational fluency for clusters, workloads, networking, storage, observability, and incident response.
+    Kubernetes, Helm, Argo CD, Terraform, and Kustomize.
 
-- **Kafka**
+- **Observability**
 
-    Learn how to operate event streaming platforms with attention to durability, scaling, lag, and recovery.
+    Prometheus, Grafana, OpenTelemetry, Loki, Tempo, and Jaeger.
 
-- **Elasticsearch**
+- **Messaging & Streaming**
 
-    Understand search and analytics operations, from indexing strategy to shard health and query performance.
+    Apache Kafka, Amazon MSK, and future RabbitMQ guidance.
 
-- **Snowflake**
+- **Datastores**
 
-    Capture patterns for warehouse reliability, cost controls, data pipelines, governance, and performance tuning.
+    PostgreSQL, MongoDB, Elasticsearch, Redis, Snowflake, MySQL, and future Cassandra guidance.
 
-- **Redis**
+- **Cloud**
 
-    Document cache, queue, and data structure patterns with clear guidance for persistence, replication, and failover.
+    AWS, Azure, GCP, and Multi-Cloud reliability patterns.
 
-- **PostgreSQL**
+- **DevOps & CI/CD**
 
-    Build database reliability practices for schema changes, backups, replication, failover, performance, and operations.
+    Git, GitHub Actions, Jenkins, Argo Workflows, and future Flux guidance.
+
+- **Linux & Networking**
+
+    Linux, DNS, load balancing, NGINX, and service mesh operations.
 
 </div>
 

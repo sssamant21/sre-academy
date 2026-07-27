@@ -39,6 +39,7 @@ nav:
       - Elasticsearch: books/elasticsearch/index.md
       - Snowflake: books/snowflake/index.md
       - Redis: books/redis/index.md
+      - PostgreSQL: books/postgresql/index.md
 
 markdown_extensions:
   - admonition

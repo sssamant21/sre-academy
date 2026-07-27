@@ -26,6 +26,10 @@ SRE Academy is a practical documentation hub for learning how reliable systems a
 
     Document cache, queue, and data structure patterns with clear guidance for persistence, replication, and failover.
 
+- **PostgreSQL**
+
+    Build database reliability practices for schema changes, backups, replication, failover, performance, and operations.
+
 </div>
 
 ## Operating model

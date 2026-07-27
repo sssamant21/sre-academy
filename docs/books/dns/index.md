@@ -1,6 +1,9 @@
 # DNS
 
-The DNS handbook will document reliable name resolution and traffic discovery practices.
+!!! note "Preserved reference"
+    DNS is now documented inside the Networking handbook. New content should be added to `books/networking/dns/` in the navigation.
+
+The DNS reference covers reliable name resolution and traffic discovery practices.
 
 ## Planned chapters
 

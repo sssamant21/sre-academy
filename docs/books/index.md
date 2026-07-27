@@ -1,76 +1,49 @@
 # Handbook Catalog
 
-The SRE Academy catalog is organized by operational domain. Each handbook can grow from introductory notes into labs, runbooks, troubleshooting guides, and production readiness checklists.
+The SRE Academy catalog is organized around core technologies that justify full production handbooks. Cloud-managed services and supporting tools are documented inside those handbooks instead of being promoted as duplicate standalone books.
 
-## Platform Engineering
-
-| Handbook | Focus |
-| --- | --- |
-| Kubernetes | Cluster operations, workload reliability, networking, storage, and observability. |
-| Helm | Kubernetes package management, release safety, and rollback workflows. |
-| Argo CD | GitOps delivery, drift detection, sync workflows, and multi-cluster operations. |
-| Terraform | Infrastructure as code, state management, plan review, and change safety. |
-| Kustomize | Kubernetes overlays, environment promotion, and manifest customization. |
-
-## Observability
+## Primary handbooks
 
 | Handbook | Focus |
 | --- | --- |
-| Prometheus | Metrics, PromQL, alerting, service-level indicators, and operational signals. |
-| Grafana | Dashboards, alert views, incident context, and observability workflows. |
-| OpenTelemetry | Instrumentation, collectors, telemetry pipelines, and trace context. |
-| Loki | Log aggregation, labels, retention, LogQL, and production troubleshooting. |
-| Tempo | Trace storage, sampling, retention, and metrics-log-trace correlation. |
-| Jaeger | Distributed tracing operations and latency investigation workflows. |
-
-## Messaging & Streaming
-
-| Handbook | Focus |
-| --- | --- |
-| Apache Kafka | Event streaming operations, topic design, consumer health, capacity, and recovery. |
-| Amazon MSK | Managed Kafka on AWS, cluster operations, scaling, monitoring, and recovery. |
-| RabbitMQ (Future) | Queueing operations, routing, acknowledgements, dead lettering, and broker health. |
-
-## Datastores
-
-| Handbook | Focus |
-| --- | --- |
+| Enterprise Kubernetes | Cluster operations, workloads, Helm, Kustomize, GitOps, EKS, AKS, and GKE. |
+| Apache Kafka | Kafka fundamentals, production operations, and managed Kafka platforms. |
 | PostgreSQL | Relational database operations, schema safety, backups, replication, failover, and performance. |
 | MongoDB | Document database operations, schema design, indexing, replication, backups, and sharding. |
 | Elasticsearch | Search operations, index lifecycle, shard health, query tuning, and resilience. |
 | Redis | Cache and data structure operations, persistence, replication, high availability, and failover. |
 | Snowflake | Data warehouse operations, performance, cost management, governance, and pipelines. |
-| MySQL | Relational database operations, replication, backup, restore, performance, and maintenance. |
-| Cassandra (Future) | Distributed database operations, data modeling, repair, compaction, and resilience. |
-
-## Cloud
-
-| Handbook | Focus |
-| --- | --- |
-| AWS | Account foundations, managed services, resilience, quotas, and cloud operations. |
-| Azure | Subscription foundations, managed services, monitoring, resilience, and recovery. |
-| GCP | Project foundations, managed services, monitoring, quotas, and cloud operations. |
-| Multi-Cloud | Cross-provider governance, resilience tradeoffs, portability, and recovery patterns. |
-
-## DevOps & CI/CD
-
-| Handbook | Focus |
-| --- | --- |
-| Git | Source control workflows, release branches, tags, history, and recovery. |
-| GitHub Actions | Workflow automation, permissions, environments, artifacts, and delivery reliability. |
-| Jenkins | Pipeline operations, controller health, agents, credentials, and recovery. |
-| Argo Workflows | Kubernetes-native workflows, retries, artifacts, scheduling, and troubleshooting. |
-| Flux (Future) | GitOps reconciliation, source control state, drift, and automated delivery. |
-
-## Linux & Networking
-
-| Handbook | Focus |
-| --- | --- |
+| Prometheus | Metrics, PromQL, alerting, service-level indicators, and operational signals. |
+| Grafana | Dashboards, alert views, incident context, and observability workflows. |
+| Argo CD | GitOps delivery, drift detection, sync workflows, and multi-cluster operations. |
+| Terraform | Infrastructure as code, state management, plan review, and change safety. |
 | Linux | Host operations, processes, filesystems, resource pressure, and troubleshooting. |
-| DNS | Name resolution, records, delegation, caching, TTLs, and DNS incident response. |
-| Load Balancing | Traffic distribution, health checks, failover, retries, and routing reliability. |
-| NGINX | Proxy, ingress, web serving, TLS, upstreams, and configuration validation. |
-| Service Mesh (Istio) | Mesh traffic policy, mTLS, observability, gateways, and control plane operations. |
+| Networking | DNS, TCP/IP, HTTP/HTTPS, reverse proxy, load balancing, TLS, service discovery, ingress, and gateways. |
+| AWS | AWS platform operations across IAM, Organizations, VPC, EC2, S3, RDS, CloudWatch, Route 53, EKS, and MSK. |
+| Azure | Azure platform operations across AKS, Azure SQL, Key Vault, Azure Monitor, and Virtual Network. |
+| GCP | Google Cloud operations across GKE, Cloud SQL, Cloud Storage, Pub/Sub, Cloud Monitoring, and managed Kafka. |
+
+## Consolidated supporting topics
+
+| Supporting topic | New home |
+| --- | --- |
+| Helm | Enterprise Kubernetes |
+| Kustomize | Enterprise Kubernetes |
+| Amazon EKS | Enterprise Kubernetes and AWS |
+| Azure AKS | Enterprise Kubernetes and Azure |
+| Google GKE | Enterprise Kubernetes and GCP |
+| Amazon MSK | Apache Kafka and AWS |
+| Azure Event Hubs for Kafka protocol | Apache Kafka and Azure |
+| Google Managed Service for Apache Kafka | Apache Kafka and GCP |
+| Confluent Cloud | Apache Kafka |
+| DNS | Networking |
+| Load Balancing | Networking |
+| NGINX | Networking |
+| Service Mesh (Istio) | Networking |
+
+## Preserved reference pages
+
+Existing standalone pages are preserved in the repository so old links and history remain available, but new content should be added to the consolidated handbook locations above.
 
 ## Suggested page pattern
 

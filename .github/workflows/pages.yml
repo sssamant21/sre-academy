@@ -8,6 +8,7 @@ on:
     branches:
       - main
       - agent/setup-mkdocs-material-pages
+      - agent/enhance-mkdocs-site
   workflow_dispatch:
 
 permissions:

@@ -1,6 +1,9 @@
 # Service Mesh
 
-The Service Mesh handbook will document Istio-focused service-to-service traffic management and reliability practices.
+!!! note "Preserved reference"
+    Service mesh guidance is now documented inside the Networking handbook. New content should be added to `books/networking/service-mesh/` topics in the navigation.
+
+The Service Mesh reference covers Istio-focused service-to-service traffic management and reliability practices.
 
 ## Planned chapters
 

@@ -1,14 +1,22 @@
 # Azure
 
-The Azure handbook will document reliable operations for Azure subscriptions, services, and platform foundations.
+The Azure handbook documents provider-specific cloud operations. It should not duplicate Kubernetes or Kafka internals; use it for Azure services, controls, and operational boundaries that support production platforms.
 
 ## Planned chapters
 
-- Subscription design, identity, and policy
-- Networking, compute, storage, and managed services
-- Monitoring, cost management, and service limits
-- Regional resilience and disaster recovery patterns
-- Operational runbooks for common Azure incidents
+- Subscriptions, management groups, identity, and policy
+- Virtual Network, private endpoints, routing, and security boundaries
+- AKS provider operations and Azure integration points
+- Azure SQL and managed database operations
+- Key Vault, secrets, certificates, and access patterns
+- Azure Monitor, logging, metrics, alerts, and diagnostics
+- Event Hubs Kafka protocol provider operations
+
+## Cross-references
+
+- Use Enterprise Kubernetes for Kubernetes internals, workloads, controllers, and cluster reliability patterns.
+- Use Apache Kafka for Kafka protocol fundamentals, topics, partitions, producers, consumers, retention, and lag.
+- Use Networking for DNS, load balancing, TLS, ingress, and proxy fundamentals.
 
 ## Starter reliability questions
 

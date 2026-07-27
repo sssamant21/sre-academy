@@ -11,6 +11,7 @@ The SRE Academy books organize documentation by platform and operational domain.
 | Elasticsearch | Search operations, index lifecycle, shard health, query tuning, and resilience. |
 | Snowflake | Data warehouse operations, performance, cost management, governance, and pipelines. |
 | Redis | Cache and data structure operations, persistence, replication, high availability, and failover. |
+| PostgreSQL | Relational database operations, schema safety, backups, replication, failover, and performance. |
 
 ## Suggested page pattern
 

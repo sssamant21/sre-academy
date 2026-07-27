@@ -43,7 +43,7 @@ When service discovery fails, check:
 
 Ingress controllers and Gateway API implementations bridge external traffic into Kubernetes. They usually depend on cloud load balancers, DNS records, TLS certificates, and controller-specific configuration.
 
-Use the [Networking handbook](../networking/index.md) for broader DNS, HTTP, TLS, reverse proxy, load balancing, ingress, and Gateway API fundamentals.
+Use the [Networking handbook](../../networking/index.md) for broader DNS, HTTP, TLS, reverse proxy, load balancing, ingress, and Gateway API fundamentals.
 
 ## Operating practices
 

@@ -1,6 +1,9 @@
 # Kustomize
 
-The Kustomize handbook will document configuration overlays and environment-specific Kubernetes customization.
+!!! note "Preserved reference"
+    Kustomize is now documented inside the Enterprise Kubernetes handbook. New content should be added to `books/kubernetes/kustomize/` in the navigation.
+
+The Kustomize reference covers configuration overlays and environment-specific Kubernetes customization.
 
 ## Planned chapters
 

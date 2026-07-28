@@ -97,6 +97,8 @@ nav:
           - Traefik: books/networking/traefik.md
           - Kubernetes Ingress: books/networking/kubernetes-ingress.md
           - Gateway API: books/networking/gateway-api.md
+  - Authoring:
+      - Release Process: authoring/release-process.md
 
 markdown_extensions:
   - admonition

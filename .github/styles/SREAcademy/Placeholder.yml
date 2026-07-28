@@ -1,0 +1,9 @@
+extends: existence
+message: "Avoid placeholder language unless it is intentional: '%s'."
+level: warning
+ignorecase: true
+tokens:
+  - TBD
+  - TODO
+  - FIXME
+  - lorem ipsum

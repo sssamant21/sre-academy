@@ -1,0 +1,68 @@
+name: Documentation Pull Request Checks
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
+      - ".codex/**"
+      - ".github/pull_request_template.md"
+      - ".github/styles/**"
+      - ".github/workflows/docs-pr.yml"
+      - ".markdownlint.yml"
+      - ".vale.ini"
+
+permissions:
+  contents: read
+
+jobs:
+  mkdocs:
+    name: Build MkDocs site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install documentation dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: mkdocs build --strict
+
+  markdownlint:
+    name: Lint Markdown
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install markdownlint
+        run: npm install --global markdownlint-cli@0.45.0
+
+      - name: Run markdownlint
+        run: markdownlint "**/*.md" --ignore site --ignore .venv --ignore node_modules
+
+  vale:
+    name: Check documentation style
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Run Vale
+        uses: errata-ai/vale-action@v2
+        with:
+          files: docs .codex .github/pull_request_template.md README.md
+          fail_on_error: true

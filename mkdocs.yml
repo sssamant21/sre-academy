@@ -44,7 +44,9 @@ nav:
               - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md
               - "6. Observability and Operations": books/kubernetes/chapters/chapter-06-observability-operations.md
           - Chapters 7-10:
-              - "7. kube-apiserver": books/kubernetes/chapters/chapter-07-kube-apiserver.md
+              - "7. kube-apiserver":
+                  - Overview: books/kubernetes/chapters/chapter-07-kube-apiserver.md
+                  - "7.1 Introduction": chapter-07/7.1-introduction.md
               - "8. etcd": books/kubernetes/chapters/chapter-08-etcd.md
               - "9. kube-scheduler": books/kubernetes/chapters/chapter-09-kube-scheduler.md
               - "10. kubelet": books/kubernetes/chapters/chapter-10-kubelet.md

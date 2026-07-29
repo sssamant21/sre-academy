@@ -5,8 +5,9 @@ status: Draft
 version: 1.0
 ---
 
-# Chapter 7
-
+<!-- markdownlint-disable MD025 -->
 <!-- vale off -->
+
+# Chapter 7
 
 > TODO: Content will be added by ChatGPT.

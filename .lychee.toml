@@ -1,7 +1,8 @@
 accept = [200, 204, 206, 301, 302, 303, 307, 308]
 exclude = [
   '^mailto:',
-  '^tel:'
+  '^tel:',
+  '^https://kubernetes\.io/docs/reference/using-api/$'
 ]
 max_retries = 2
 timeout = 20

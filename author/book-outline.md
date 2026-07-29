@@ -28,7 +28,7 @@ Status: Draft
 
 ### 1.5 Kubernetes Networking Foundations
 
-Status: Not Started
+Status: Draft
 
 ### 1.6 Kubernetes Storage Foundations
 

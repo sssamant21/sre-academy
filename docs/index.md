@@ -1,60 +1,64 @@
-# SRE Academy
+# Kubernetes SRE Engineering Handbook
 
-SRE Academy is a practical documentation hub for learning how reliable systems are designed, operated, and improved. The catalog is organized around core production technologies, with managed services and supporting tools documented inside the handbooks where they naturally belong.
+SRE Academy is now focused on building a production-grade Kubernetes SRE Engineering Handbook.
 
-## Core handbooks
+The goal is to create a professional reference for engineers who design, operate, troubleshoot, and improve Kubernetes platforms in production.
+
+## What This Book Covers
 
 <div class="grid cards" markdown>
 
-- **Enterprise Kubernetes**
+- **Kubernetes Internals**
 
-    Kubernetes operations, Helm, Kustomize, GitOps, and managed Kubernetes platforms such as EKS, AKS, and GKE.
+    Control plane architecture, kube-apiserver behavior, scheduling, kubelet operations, etcd interaction, watches, informers, and reconciliation.
 
-- **Apache Kafka**
+- **Production Operations**
 
-    Kafka operations plus managed Kafka platforms such as Amazon MSK, Azure Event Hubs Kafka protocol, Google Managed Service for Apache Kafka, and Confluent Cloud.
+    Availability, performance, upgrades, scaling, observability, incident response, failure scenarios, and operational trade-offs.
 
-- **Datastores**
+- **Platform Tooling**
 
-    PostgreSQL, MongoDB, Elasticsearch, Redis, and Snowflake.
+    Helm, Kustomize, GitOps workflows, and managed Kubernetes provider operations for Amazon EKS, Azure AKS, and Google GKE.
 
-- **Observability**
+- **SRE Practice**
 
-    Prometheus and Grafana as flagship observability handbooks, with supporting telemetry tools referenced where appropriate.
-
-- **Platform & Cloud**
-
-    Argo CD, Terraform, AWS, Azure, and GCP.
-
-- **Linux & Networking**
-
-    Linux fundamentals and the Networking handbook for DNS, TCP/IP, HTTP/HTTPS, TLS, load balancing, proxies, ingress, and Gateway API.
+    Runbooks, troubleshooting workflows, labs, best practices, engineering review notes, and interview questions.
 
 </div>
 
-## Operating model
+## Book Standard
+
+Every major section should help readers answer these questions:
+
+1. What is this Kubernetes capability?
+2. Why does Kubernetes need it?
+3. How does it work internally?
+4. What happens in production?
+5. What breaks under failure or load?
+6. How does an SRE detect the problem?
+7. How does an SRE fix or mitigate it?
+8. How does behavior differ across EKS, AKS, and GKE where relevant?
+9. What best practices and trade-offs matter?
+10. What labs prove real understanding?
+
+## Current Focus
+
+The active manuscript focus is Chapter 7, the Kubernetes API Server.
+
+Start with the Kubernetes handbook overview or open the Chapter 7 sections from the navigation.
+
+## Operating Model
 
 ```mermaid
 graph LR
-    Learn[Learn the system] --> Practice[Practice core operations]
-    Practice --> Observe[Measure reliability]
-    Observe --> Respond[Respond to incidents]
-    Respond --> Improve[Improve the platform]
+    Learn[Understand internals] --> Operate[Operate production clusters]
+    Operate --> Observe[Measure reliability signals]
+    Observe --> Respond[Respond to failures]
+    Respond --> Improve[Improve platform design]
     Improve --> Learn
 ```
 
-## Documentation standards
-
-Every page should help readers answer three questions quickly:
-
-1. What problem does this solve?
-2. What should I do first?
-3. How do I know it worked?
-
-!!! tip "Keep pages actionable"
-    Prefer checklists, diagrams, commands, examples, and decision notes over long-form theory alone.
-
-## Local preview
+## Local Preview
 
 Install the documentation dependencies and start the development server:
 

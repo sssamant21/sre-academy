@@ -52,6 +52,7 @@ nav:
           - "2. Cluster Architecture":
               - Overview: books/kubernetes/chapters/chapter-02-cluster-architecture.md
               - "2.1 Cluster Architecture Overview": books/kubernetes/chapter-02/2.1-cluster-architecture-overview.md
+              - "2.2 Control Plane Architecture": books/kubernetes/chapter-02/2.2-control-plane-architecture.md
           - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md

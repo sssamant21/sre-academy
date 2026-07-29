@@ -10,9 +10,45 @@
 
 ## Chapter 1
 
+### 1.1 What Kubernetes Is and Is Not
+
+Status: Draft
+
+### 1.2 Desired State, API Objects, and Reconciliation
+
+Status: Draft
+
+### 1.3 Kubernetes Architecture at Production Scale
+
 Status: Not Started
 
-Outline pending.
+### 1.4 Control Plane and Node Responsibility Boundaries
+
+Status: Not Started
+
+### 1.5 Kubernetes Networking Foundations
+
+Status: Not Started
+
+### 1.6 Kubernetes Storage Foundations
+
+Status: Not Started
+
+### 1.7 Kubernetes Security Foundations
+
+Status: Not Started
+
+### 1.8 Kubernetes Reliability Model
+
+Status: Not Started
+
+### 1.9 Production Use Cases and Anti-Patterns
+
+Status: Not Started
+
+### 1.10 Chapter 1 Labs and Review Questions
+
+Status: Not Started
 
 ## Chapter 2
 

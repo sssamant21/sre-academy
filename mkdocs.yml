@@ -49,7 +49,9 @@ nav:
               - "1.9 Production Use Cases and Anti-Patterns": books/kubernetes/chapter-01/1.9-production-use-cases-and-anti-patterns.md
               - "1.10 Chapter 1 Labs and Review Questions": books/kubernetes/chapter-01/1.10-chapter-1-labs-and-review-questions.md
               - "Chapter 1 Glossary": books/kubernetes/chapter-01/glossary.md
-          - "2. Cluster Architecture": books/kubernetes/chapters/chapter-02-cluster-architecture.md
+          - "2. Cluster Architecture":
+              - Overview: books/kubernetes/chapters/chapter-02-cluster-architecture.md
+              - "2.1 Cluster Architecture Overview": books/kubernetes/chapter-02/2.1-cluster-architecture-overview.md
           - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md

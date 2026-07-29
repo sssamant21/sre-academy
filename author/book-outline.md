@@ -40,7 +40,7 @@ Status: Draft
 
 ### 1.8 Kubernetes Reliability Model
 
-Status: Not Started
+Status: Draft
 
 ### 1.9 Production Use Cases and Anti-Patterns
 

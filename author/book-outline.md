@@ -44,7 +44,7 @@ Status: Draft
 
 ### 1.9 Production Use Cases and Anti-Patterns
 
-Status: Not Started
+Status: Draft
 
 ### 1.10 Chapter 1 Labs and Review Questions
 

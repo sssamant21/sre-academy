@@ -37,6 +37,7 @@ nav:
       - Chapters 1-6:
           - "1. Platform Foundations":
               - Overview: books/kubernetes/chapters/chapter-01-platform-foundations.md
+              - "Production Reference": books/kubernetes/chapter-01/production-reference.md
               - "1.1 What Kubernetes Is and Is Not": books/kubernetes/chapter-01/1.1-what-kubernetes-is-and-is-not.md
               - "1.2 Desired State, API Objects, and Reconciliation": books/kubernetes/chapter-01/1.2-desired-state-api-objects-and-reconciliation.md
               - "1.3 Kubernetes Architecture at Production Scale": books/kubernetes/chapter-01/1.3-kubernetes-architecture-at-production-scale.md

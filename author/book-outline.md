@@ -12,37 +12,37 @@
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 2
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 3
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 4
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 5
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 6
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 7
 
@@ -114,76 +114,76 @@ Status: Not Started
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 9
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 10
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 11
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 12
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 13
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 14
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 15
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 16
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 17
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 18
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 19
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.
 
 ## Chapter 20
 
 Status: Not Started
 
-TODO: Add chapter outline.
+Outline pending.

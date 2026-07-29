@@ -4,7 +4,9 @@
 
 This page turns Chapter 1 into a production reference entry point.
 
-The chapter explains the Kubernetes platform foundation. This page explains how to use that material safely in real engineering work: what has been validated, where behavior depends on implementation, which questions to ask before production use, and how the major Chapter 1 concepts connect.
+The chapter explains the Kubernetes platform foundation. This page explains how to use that material safely in real engineering work: what has
+been validated, where behavior depends on implementation, which questions to ask before production use, and how the major Chapter 1 concepts
+connect.
 
 ## Version and Scope
 
@@ -16,7 +18,9 @@ The chapter explains the Kubernetes platform foundation. This page explains how 
 | Publication state | Chapter 1 is published as foundation material. |
 | Final-release gate | Labs, SRE practitioner review, and editorial review remain required before final release. |
 
-The version baseline is a review target. It is not a claim that all production clusters run the same version or behave identically. Kubernetes behavior can depend on the provider, CNI plugin, CSI driver, ingress controller, Gateway API implementation, admission policy, feature gates, node operating system, and managed-service defaults.
+The version baseline is a review target. It is not a claim that all production clusters run the same version or behave identically.
+Kubernetes behavior can depend on the provider, CNI plugin, CSI driver, ingress controller, Gateway API implementation, admission policy,
+feature gates, node operating system, and managed-service defaults.
 
 ## Production Trust Model
 
@@ -47,7 +51,8 @@ graph TD
   I --> J["1.10 Labs and review questions"]
 ```
 
-The chapter should be read as one operating model, not as isolated definitions. Networking, storage, security, and reliability are connected through the same Kubernetes API, controller, scheduling, node, and provider boundaries.
+The chapter should be read as one operating model, not as isolated definitions. Networking, storage, security, and reliability are connected
+through the same Kubernetes API, controller, scheduling, node, and provider boundaries.
 
 ## Reliability and Responsibility Flow
 
@@ -63,7 +68,8 @@ flowchart LR
   Service --> Users["Users experience service behavior"]
 ```
 
-Production reliability depends on every step in this flow. Kubernetes can reconcile objects, but application teams still own correctness, dependency behavior, data safety, and user-facing reliability.
+Production reliability depends on every step in this flow. Kubernetes can reconcile objects, but application teams still own correctness,
+dependency behavior, data safety, and user-facing reliability.
 
 ## Production Caveat Matrix
 
@@ -134,6 +140,8 @@ For production reference use, read Chapter 1 in this order:
 
 ## Final Production Note
 
-Chapter 1 is a foundation. It should help an engineer ask better production questions and avoid dangerous assumptions. It is not a substitute for cluster-specific validation.
+Chapter 1 is a foundation. It should help an engineer ask better production questions and avoid dangerous assumptions. It is not a substitute
+for cluster-specific validation.
 
-Before applying guidance to a live environment, confirm the Kubernetes version, provider behavior, CNI, CSI, ingress or Gateway implementation, admission policy, node model, and operational ownership for that environment.
+Before applying guidance to a live environment, confirm the Kubernetes version, provider behavior, CNI, CSI, ingress or Gateway implementation,
+admission policy, node model, and operational ownership for that environment.

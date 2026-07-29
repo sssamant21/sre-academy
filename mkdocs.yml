@@ -1,5 +1,5 @@
 site_name: SRE Academy
-site_description: Practical documentation and learning paths for site reliability engineering.
+site_description: Production-grade Kubernetes SRE Engineering Handbook.
 site_url: https://sssamant21.github.io/sre-academy/
 repo_url: https://github.com/sssamant21/sre-academy
 repo_name: sssamant21/sre-academy
@@ -32,88 +32,42 @@ theme:
 
 nav:
   - Home: index.md
-  - Handbook Catalog: books/index.md
-  - Platform Engineering:
-      - Enterprise Kubernetes:
-          - Overview: books/kubernetes/index.md
-          - Chapters 1-6:
-              - "1. Platform Foundations": books/kubernetes/chapters/chapter-01-platform-foundations.md
-              - "2. Cluster Architecture": books/kubernetes/chapters/chapter-02-cluster-architecture.md
-              - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
-              - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
-              - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md
-              - "6. Observability and Operations": books/kubernetes/chapters/chapter-06-observability-operations.md
-          - Chapters 7-10:
-              - "7. kube-apiserver":
-                  - Overview: books/kubernetes/chapters/chapter-07-kube-apiserver.md
-                  - "7.1 Introduction": chapter-07/7.1-introduction.md
-                  - Manuscript Scaffold:
-                      - Index: chapter-07/index.md
-                      - "7.1 Kubernetes API Server Overview": chapter-07/7.1-kubernetes-api-server-overview.md
-                      - "7.2 Why Kubernetes Uses an API": chapter-07/7.2-why-kubernetes-uses-an-api.md
-                      - "7.3 End-to-End API Request Lifecycle": chapter-07/7.3-api-request-lifecycle.md
-                      - "7.3 API Server Architecture": chapter-07/7.3-api-server-architecture.md
-                      - "7.4 API Request Lifecycle": chapter-07/7.4-api-request-lifecycle.md
-                      - "7.5 Authentication": chapter-07/7.5-authentication.md
-                      - "7.6 Authorization": chapter-07/7.6-authorization.md
-                      - "7.7 Admission Control": chapter-07/7.7-admission-control.md
-                      - "7.8 API Versioning": chapter-07/7.8-api-versioning.md
-                      - "7.9 Custom Resource Definitions": chapter-07/7.9-custom-resource-definitions.md
-                      - "7.10 API Server High Availability": chapter-07/7.10-api-server-high-availability.md
-              - "8. etcd": books/kubernetes/chapters/chapter-08-etcd.md
-              - "9. kube-scheduler": books/kubernetes/chapters/chapter-09-kube-scheduler.md
-              - "10. kubelet": books/kubernetes/chapters/chapter-10-kubelet.md
+  - Kubernetes SRE Engineering Handbook:
+      - Overview: books/kubernetes/index.md
+      - Chapters 1-6:
+          - "1. Platform Foundations": books/kubernetes/chapters/chapter-01-platform-foundations.md
+          - "2. Cluster Architecture": books/kubernetes/chapters/chapter-02-cluster-architecture.md
+          - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
+          - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
+          - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md
+          - "6. Observability and Operations": books/kubernetes/chapters/chapter-06-observability-operations.md
+      - Chapter 7 - kube-apiserver:
+          - Overview: books/kubernetes/chapters/chapter-07-kube-apiserver.md
+          - "7.1 Introduction": chapter-07/7.1-introduction.md
+          - "7.1 Kubernetes API Server Overview": chapter-07/7.1-kubernetes-api-server-overview.md
+          - "7.2 Why Kubernetes Uses an API": chapter-07/7.2-why-kubernetes-uses-an-api.md
+          - "7.3 End-to-End API Request Lifecycle": chapter-07/7.3-api-request-lifecycle.md
+          - "7.3 API Server Architecture": chapter-07/7.3-api-server-architecture.md
+          - "7.4 API Request Lifecycle": chapter-07/7.4-api-request-lifecycle.md
+          - "7.5 Authentication": chapter-07/7.5-authentication.md
+          - "7.6 Authorization": chapter-07/7.6-authorization.md
+          - "7.7 Admission Control": chapter-07/7.7-admission-control.md
+          - "7.8 API Versioning": chapter-07/7.8-api-versioning.md
+          - "7.9 Custom Resource Definitions": chapter-07/7.9-custom-resource-definitions.md
+          - "7.10 API Server High Availability": chapter-07/7.10-api-server-high-availability.md
+      - Chapters 8-10:
+          - "8. etcd": books/kubernetes/chapters/chapter-08-etcd.md
+          - "9. kube-scheduler": books/kubernetes/chapters/chapter-09-kube-scheduler.md
+          - "10. kubelet": books/kubernetes/chapters/chapter-10-kubelet.md
+      - Platform Tooling:
           - Helm: books/kubernetes/helm.md
           - Kustomize: books/kubernetes/kustomize.md
           - GitOps: books/kubernetes/gitops.md
-          - Managed Kubernetes:
-              - Overview: books/kubernetes/managed-kubernetes/index.md
-              - Amazon EKS: books/kubernetes/managed-kubernetes/amazon-eks.md
-              - Azure AKS: books/kubernetes/managed-kubernetes/azure-aks.md
-              - Google GKE: books/kubernetes/managed-kubernetes/google-gke.md
-      - Argo CD: books/argo-cd/index.md
-      - Terraform: books/terraform/index.md
-  - Observability:
-      - Prometheus: books/prometheus/index.md
-      - Grafana: books/grafana/index.md
-  - Messaging & Streaming:
-      - Apache Kafka:
-          - Overview: books/kafka/index.md
-          - Managed Kafka Platforms:
-              - Overview: books/kafka/managed-platforms/index.md
-              - Amazon MSK: books/kafka/managed-platforms/amazon-msk.md
-              - Azure Event Hubs for Kafka: books/kafka/managed-platforms/azure-event-hubs.md
-              - Google Managed Service for Apache Kafka: books/kafka/managed-platforms/google-managed-kafka.md
-              - Confluent Cloud: books/kafka/managed-platforms/confluent-cloud.md
-  - Datastores:
-      - PostgreSQL: books/postgresql/index.md
-      - MongoDB: books/mongodb/index.md
-      - Elasticsearch: books/elasticsearch/index.md
-      - Redis: books/redis/index.md
-      - Snowflake: books/snowflake/index.md
-  - Cloud:
-      - AWS: books/aws/index.md
-      - Azure: books/azure/index.md
-      - GCP: books/gcp/index.md
-  - Linux & Networking:
-      - Linux: books/linux/index.md
-      - Networking:
-          - Overview: books/networking/index.md
-          - DNS: books/networking/dns.md
-          - TCP/IP: books/networking/tcp-ip.md
-          - HTTP/HTTPS: books/networking/http-https.md
-          - Reverse Proxy: books/networking/reverse-proxy.md
-          - Load Balancing: books/networking/load-balancing.md
-          - TLS: books/networking/tls.md
-          - Service Discovery: books/networking/service-discovery.md
-          - NGINX: books/networking/nginx.md
-          - Envoy: books/networking/envoy.md
-          - HAProxy: books/networking/haproxy.md
-          - Traefik: books/networking/traefik.md
-          - Kubernetes Ingress: books/networking/kubernetes-ingress.md
-          - Gateway API: books/networking/gateway-api.md
-  - Authoring:
-      - Release Process: authoring/release-process.md
+      - Managed Kubernetes:
+          - Overview: books/kubernetes/managed-kubernetes/index.md
+          - Amazon EKS: books/kubernetes/managed-kubernetes/amazon-eks.md
+          - Azure AKS: books/kubernetes/managed-kubernetes/azure-aks.md
+          - Google GKE: books/kubernetes/managed-kubernetes/google-gke.md
 
 markdown_extensions:
   - admonition

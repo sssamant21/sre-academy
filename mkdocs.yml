@@ -48,6 +48,7 @@ nav:
               - "1.8 Kubernetes Reliability Model": books/kubernetes/chapter-01/1.8-kubernetes-reliability-model.md
               - "1.9 Production Use Cases and Anti-Patterns": books/kubernetes/chapter-01/1.9-production-use-cases-and-anti-patterns.md
               - "1.10 Chapter 1 Labs and Review Questions": books/kubernetes/chapter-01/1.10-chapter-1-labs-and-review-questions.md
+              - "Chapter 1 Glossary": books/kubernetes/chapter-01/glossary.md
           - "2. Cluster Architecture": books/kubernetes/chapters/chapter-02-cluster-architecture.md
           - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
@@ -80,6 +81,8 @@ nav:
           - Amazon EKS: books/kubernetes/managed-kubernetes/amazon-eks.md
           - Azure AKS: books/kubernetes/managed-kubernetes/azure-aks.md
           - Google GKE: books/kubernetes/managed-kubernetes/google-gke.md
+      - Appendices:
+          - "Chapter 1 Review Answers": books/kubernetes/appendices/chapter-01-review-answers.md
 
 markdown_extensions:
   - admonition

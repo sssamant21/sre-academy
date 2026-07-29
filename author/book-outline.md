@@ -36,7 +36,7 @@ Status: Draft
 
 ### 1.7 Kubernetes Security Foundations
 
-Status: Not Started
+Status: Draft
 
 ### 1.8 Kubernetes Reliability Model
 
@@ -221,5 +221,3 @@ Outline pending.
 ## Chapter 20
 
 Status: Not Started
-
-Outline pending.

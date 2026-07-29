@@ -20,11 +20,11 @@ Status: Draft
 
 ### 1.3 Kubernetes Architecture at Production Scale
 
-Status: Not Started
+Status: Draft
 
 ### 1.4 Control Plane and Node Responsibility Boundaries
 
-Status: Not Started
+Status: Draft
 
 ### 1.5 Kubernetes Networking Foundations
 

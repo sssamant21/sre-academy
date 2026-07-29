@@ -42,6 +42,11 @@ nav:
               - "1.3 Kubernetes Architecture at Production Scale": books/kubernetes/chapter-01/1.3-kubernetes-architecture-at-production-scale.md
               - "1.4 Control Plane and Node Responsibility Boundaries": books/kubernetes/chapter-01/1.4-control-plane-and-node-responsibility-boundaries.md
               - "1.5 Kubernetes Networking Foundations": books/kubernetes/chapter-01/1.5-kubernetes-networking-foundations.md
+              - "1.6 Kubernetes Storage Foundations": books/kubernetes/chapter-01/1.6-kubernetes-storage-foundations.md
+              - "1.7 Kubernetes Security Foundations": books/kubernetes/chapter-01/1.7-kubernetes-security-foundations.md
+              - "1.8 Kubernetes Reliability Model": books/kubernetes/chapter-01/1.8-kubernetes-reliability-model.md
+              - "1.9 Production Use Cases and Anti-Patterns": books/kubernetes/chapter-01/1.9-production-use-cases-and-anti-patterns.md
+              - "1.10 Chapter 1 Labs and Review Questions": books/kubernetes/chapter-01/1.10-chapter-1-labs-and-review-questions.md
           - "2. Cluster Architecture": books/kubernetes/chapters/chapter-02-cluster-architecture.md
           - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md

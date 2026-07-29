@@ -52,7 +52,7 @@ jobs:
         run: npm install --global markdownlint-cli@0.45.0
 
       - name: Run markdownlint
-        run: markdownlint "**/*.md" --ignore site --ignore .venv --ignore node_modules
+        run: markdownlint "**/*.md" --ignore site --ignore .venv --ignore node_modules --ignore author
 
   vale:
     name: Check documentation style

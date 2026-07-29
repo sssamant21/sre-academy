@@ -51,6 +51,7 @@ nav:
                       - Index: chapter-07/index.md
                       - "7.1 Kubernetes API Server Overview": chapter-07/7.1-kubernetes-api-server-overview.md
                       - "7.2 Why Kubernetes Uses an API": chapter-07/7.2-why-kubernetes-uses-an-api.md
+                      - "7.3 End-to-End API Request Lifecycle": chapter-07/7.3-api-request-lifecycle.md
                       - "7.3 API Server Architecture": chapter-07/7.3-api-server-architecture.md
                       - "7.4 API Request Lifecycle": chapter-07/7.4-api-request-lifecycle.md
                       - "7.5 Authentication": chapter-07/7.5-authentication.md

@@ -48,7 +48,7 @@ Status: Draft
 
 ### 1.10 Chapter 1 Labs and Review Questions
 
-Status: Not Started
+Status: Draft
 
 ## Chapter 2
 

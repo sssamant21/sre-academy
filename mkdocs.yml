@@ -56,6 +56,7 @@ nav:
               - "2.3 Worker Node Architecture": books/kubernetes/chapter-02/2.3-worker-node-architecture.md
               - "2.4 API Server, etcd, Scheduler, and Controllers": books/kubernetes/chapter-02/2.4-api-server-etcd-scheduler-and-controllers.md
               - "2.5 Node Lifecycle and Node Conditions": books/kubernetes/chapter-02/2.5-node-lifecycle-and-node-conditions.md
+              - "2.6 Cluster Networking Architecture": books/kubernetes/chapter-02/2.6-cluster-networking-architecture.md
           - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md

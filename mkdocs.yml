@@ -59,6 +59,7 @@ nav:
               - "2.6 Cluster Networking Architecture": books/kubernetes/chapter-02/2.6-cluster-networking-architecture.md
               - "2.7 Cluster Storage Architecture": books/kubernetes/chapter-02/2.7-cluster-storage-architecture.md
               - "2.8 Cluster Security Architecture": books/kubernetes/chapter-02/2.8-cluster-security-architecture.md
+              - "2.9 Cluster Upgrade and Version Skew Architecture": books/kubernetes/chapter-02/2.9-cluster-upgrade-and-version-skew-architecture.md
           - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md

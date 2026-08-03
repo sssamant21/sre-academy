@@ -62,7 +62,9 @@ nav:
               - "2.9 Cluster Upgrade and Version Skew Architecture": books/kubernetes/chapter-02/2.9-cluster-upgrade-and-version-skew-architecture.md
               - "2.10 Chapter 2 Labs and Review Questions": books/kubernetes/chapter-02/2.10-chapter-2-labs-and-review-questions.md
               - "Chapter 2 Glossary": books/kubernetes/chapter-02/glossary.md
-          - "3. Workloads and Scheduling": books/kubernetes/chapters/chapter-03-workloads-scheduling.md
+          - "3. Workloads and Scheduling":
+              - Overview: books/kubernetes/chapters/chapter-03-workloads-scheduling.md
+              - "3.1 Workload Architecture Overview": books/kubernetes/chapter-03/3.1-workload-architecture-overview.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md
           - "6. Observability and Operations": books/kubernetes/chapters/chapter-06-observability-operations.md

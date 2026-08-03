@@ -72,6 +72,7 @@ nav:
               - "3.6 Scheduling Fundamentals and Placement Controls": books/kubernetes/chapter-03/3.6-scheduling-fundamentals-and-placement-controls.md
               - "3.7 Resource Management, QoS, and Eviction": books/kubernetes/chapter-03/3.7-resource-management-qos-and-eviction.md
               - "3.8 Workload Autoscaling and Capacity Signals": books/kubernetes/chapter-03/3.8-workload-autoscaling-and-capacity-signals.md
+              - "3.9 Workload Availability, Disruption, and Graceful Termination": books/kubernetes/chapter-03/3.9-workload-availability-disruption-and-graceful-termination.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md
           - "6. Observability and Operations": books/kubernetes/chapters/chapter-06-observability-operations.md

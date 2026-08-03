@@ -70,6 +70,7 @@ nav:
               - "3.4 StatefulSets and DaemonSets": books/kubernetes/chapter-03/3.4-statefulsets-and-daemonsets.md
               - "3.5 Jobs and CronJobs": books/kubernetes/chapter-03/3.5-jobs-and-cronjobs.md
               - "3.6 Scheduling Fundamentals and Placement Controls": books/kubernetes/chapter-03/3.6-scheduling-fundamentals-and-placement-controls.md
+              - "3.7 Resource Management, QoS, and Eviction": books/kubernetes/chapter-03/3.7-resource-management-qos-and-eviction.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md
           - "6. Observability and Operations": books/kubernetes/chapters/chapter-06-observability-operations.md

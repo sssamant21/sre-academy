@@ -74,6 +74,7 @@ nav:
               - "3.8 Workload Autoscaling and Capacity Signals": books/kubernetes/chapter-03/3.8-workload-autoscaling-and-capacity-signals.md
               - "3.9 Workload Availability, Disruption, and Graceful Termination": books/kubernetes/chapter-03/3.9-workload-availability-disruption-and-graceful-termination.md
               - "3.10 Chapter 3 Labs and Review Questions": books/kubernetes/chapter-03/3.10-chapter-3-labs-and-review-questions.md
+              - "Chapter 3 Glossary": books/kubernetes/chapter-03/glossary.md
           - "4. Networking and Ingress": books/kubernetes/chapters/chapter-04-networking-ingress.md
           - "5. Storage and Backup": books/kubernetes/chapters/chapter-05-storage-state-backup.md
           - "6. Observability and Operations": books/kubernetes/chapters/chapter-06-observability-operations.md
@@ -107,6 +108,7 @@ nav:
       - Appendices:
           - "Chapter 1 Review Answers": books/kubernetes/appendices/chapter-01-review-answers.md
           - "Chapter 2 Review Answers": books/kubernetes/appendices/chapter-02-review-answers.md
+          - "Chapter 3 Review Answers": books/kubernetes/appendices/chapter-03-review-answers.md
 
 markdown_extensions:
   - admonition

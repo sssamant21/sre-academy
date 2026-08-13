@@ -109,6 +109,30 @@ nav:
           - "Chapter 1 Review Answers": books/kubernetes/appendices/chapter-01-review-answers.md
           - "Chapter 2 Review Answers": books/kubernetes/appendices/chapter-02-review-answers.md
           - "Chapter 3 Review Answers": books/kubernetes/appendices/chapter-03-review-answers.md
+  - Snowflake Enterprise Handbook:
+      - Overview: books/snowflake/index.md
+      - Summary: books/snowflake/summary.md
+      - Chapters:
+          - "Chapter 01 - Introduction to Snowflake & Enterprise Architecture": books/snowflake/chapter-01/README.md
+          - "Chapter 02 - Snowflake Architecture: Internal Design and Platform Components": books/snowflake/chapter-02/README.md
+          - "Chapter 03 - Database Storage Internals": books/snowflake/chapter-03/README.md
+          - "Chapter 04 - Query Processing & Query Execution Engine": books/snowflake/chapter-04/README.md
+          - "Chapter 05 - Query Performance Engineering and Optimization": books/snowflake/chapter-05/README.md
+          - "Chapter 06 - Workload Management & Concurrency Control": books/snowflake/chapter-06/README.md
+          - "Chapter 07 - Performance Optimization & Query Tuning": books/snowflake/chapter-07/README.md
+          - "Chapter 08 - Security, Governance & Data Protection": books/snowflake/chapter-08/README.md
+          - "Chapter 09 - Monitoring, Observability & Platform Operations": books/snowflake/chapter-09/README.md
+          - "Chapter 10 - Cost Optimization & FinOps Engineering": books/snowflake/chapter-10/README.md
+          - "Chapter 11 - Incident Management, Troubleshooting & Root Cause Analysis (RCA)": books/snowflake/chapter-11/README.md
+          - "Chapter 12 - Automation, DevOps, Infrastructure as Code (IaC) & Platform Engineering for Snowflake": books/snowflake/chapter-12/README.md
+          - "Chapter 13 - Enterprise Monitoring, Observability, Performance Analytics & Operational Dashboards": books/snowflake/chapter-13/README.md
+          - "Chapter 14 - Advanced SQL Performance Tuning, Query Optimization & Workload Engineering": books/snowflake/chapter-14/README.md
+          - "Chapter 15 - Executive Dashboards, Operational Analytics & Enterprise Reporting": books/snowflake/chapter-15/README.md
+          - "Chapter 16 - Enterprise Case Studies, Production Incidents, Root Cause Analysis (RCA) & Operational Excellence": books/snowflake/chapter-16/README.md
+          - "Chapter 17 - Enterprise Snowflake Administration & Operational Management": books/snowflake/chapter-17/README.md
+          - "Chapter 18 - Enterprise Automation, DevOps, Platform Engineering & Self-Healing Operations": books/snowflake/chapter-18/README.md
+          - "Chapter 19 - Enterprise Platform Operating Model & Service Management": books/snowflake/chapter-19/README.md
+          - "Chapter 20 - Enterprise Reference Architectures & Industry Deployment Patterns": books/snowflake/chapter-20/README.md
 
 markdown_extensions:
   - admonition

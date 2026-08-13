@@ -1,17 +1,10 @@
-# Snowflake
+# Snowflake Enterprise Handbook
 
-The Snowflake book will collect practices for reliable, cost-aware data warehouse operations.
+Enterprise Architecture, Administration, Performance Engineering, Security, Platform Engineering, AI, Healthcare, Financial Services, SRE & Production Operations
 
-## Planned chapters
+Version: v1.0.0  
+Status: Production Release
 
-- Warehouse sizing, scaling, and workload isolation
-- Query performance and data modeling fundamentals
-- Cost controls, budgets, and usage reviews
-- Data pipeline reliability and freshness checks
-- Governance, access patterns, and operational audits
+The Snowflake Enterprise Handbook is a 20 chapter enterprise documentation set for Snowflake architecture, administration, performance engineering, security, platform engineering, DevOps, GitOps, SRE, FinOps, AI, regulated industries, migration, and production operations.
 
-## Starter reliability questions
-
-1. Which workloads need predictable warehouse capacity?
-2. How do we detect stale or incomplete data?
-3. What cost signals should trigger investigation?
+Start with [Chapter 01](chapter-01/README.md) or review the [summary](summary.md).

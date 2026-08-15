@@ -1045,7 +1045,7 @@ Authentication answers one fundamental question:
 
 Only after authentication succeeds does Snowflake evaluate authorization, determining what the authenticated identity is allowed to do.
 
-Modern enterprise environments rarely rely on passwords alone. Instead, organizations integrate Snowflake with centralized identity platforms, enforce Multi-Factor Authentication (MFA), adopt Single Sign-On (SSO), and use certificate-based or OAuth authentication for applications and automation.
+Snowflake is deprecating single-factor password sign-ins: human password users must adopt MFA, while service users must move to stronger non-password authentication. Modern enterprise environments should not rely on passwords alone. Instead, organizations integrate Snowflake with centralized identity platforms, enforce Multi-Factor Authentication (MFA), adopt Single Sign-On (SSO), and use certificate-based or OAuth authentication for applications and automation.
 
 A well-designed authentication strategy reduces security risk, simplifies user management, improves the user experience, and supports regulatory compliance.
 
@@ -8719,3 +8719,15 @@ Data Clean Rooms require explicit provider and consumer responsibilities, approv
 - [SCIM identity-provider integration](https://docs.snowflake.com/en/user-guide/scim)
 - [Snowflake Horizon Catalog](https://docs.snowflake.com/en/user-guide/snowflake-horizon)
 - [Snowflake Data Clean Rooms overview](https://docs.snowflake.com/en/user-guide/cleanrooms/overview)
+
+
+## Chapter 8 Vendor Validation Record — 2026-08-15
+
+Validated against official authentication, MFA, SCIM, private connectivity, Access History, encryption, and edition documentation. Snowflake is deprecating single-factor password sign-ins: human password users must adopt MFA and service users must use stronger non-password authentication. SSO does not require Snowflake MFA by default unless an authentication policy enforces it. Access History requires Enterprise Edition or higher; private connectivity and Tri-Secret Secure capabilities require edition and cloud/region validation.
+
+- [MFA](https://docs.snowflake.com/en/user-guide/security-mfa)
+- [Authentication policies](https://docs.snowflake.com/en/user-guide/authentication-policies)
+- [Single-factor password deprecation](https://docs.snowflake.com/en/user-guide/security-mfa-rollout)
+- [SCIM](https://docs.snowflake.com/en/user-guide/scim)
+- [Access History](https://docs.snowflake.com/en/sql-reference/account-usage/access_history)
+- [Snowflake editions](https://docs.snowflake.com/en/user-guide/intro-editions)

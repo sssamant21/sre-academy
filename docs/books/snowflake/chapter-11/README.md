@@ -1,5 +1,16 @@
 # Chapter 11 - Incident Management, Troubleshooting & Root Cause Analysis (RCA)
 
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 11 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
+
+
 ## 11.1 Enterprise Incident Management for Snowflake
 
 Learning Objectives

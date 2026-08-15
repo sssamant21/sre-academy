@@ -1,0 +1,114 @@
+name: Publish Snowflake handbook release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Release tag (for example, snowflake-handbook-v1.1.0). Leave empty to discover the latest release notes."
+        required: false
+        type: string
+      notes_file:
+        description: "Release notes path. Leave empty to discover the latest RELEASE_NOTES_v*.md file."
+        required: false
+        type: string
+      target_sha:
+        description: "Commit to tag. Leave empty to use the commit that last changed the release notes."
+        required: false
+        type: string
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/publish-snowflake-handbook-release.yml"
+      - "docs/books/snowflake/RELEASE_NOTES_v*.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snowflake-handbook-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Validate and publish release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve and validate release inputs
+        id: release
+        shell: bash
+        env:
+          INPUT_TAG: ${{ inputs.release_tag }}
+          INPUT_NOTES: ${{ inputs.notes_file }}
+          INPUT_TARGET: ${{ inputs.target_sha }}
+        run: |
+          set -euo pipefail
+
+          notes_file="${INPUT_NOTES}"
+          if [[ -z "${notes_file}" ]]; then
+            notes_file="$(find docs/books/snowflake -maxdepth 1 -type f -name 'RELEASE_NOTES_v*.md' -printf '%p\n' | sort -V | tail -n 1)"
+          fi
+
+          if [[ -z "${notes_file}" || ! -f "${notes_file}" ]]; then
+            echo "No Snowflake handbook release-notes file was found." >&2
+            exit 1
+          fi
+
+          notes_name="$(basename "${notes_file}")"
+          version="${notes_name#RELEASE_NOTES_}"
+          version="${version%.md}"
+
+          release_tag="${INPUT_TAG:-snowflake-handbook-${version}}"
+          if [[ ! "${release_tag}" =~ ^snowflake-handbook-v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            echo "Invalid release tag: ${release_tag}" >&2
+            exit 1
+          fi
+
+          expected_notes="docs/books/snowflake/RELEASE_NOTES_${release_tag#snowflake-handbook-}.md"
+          if [[ "${notes_file}" != "${expected_notes}" ]]; then
+            echo "Release tag ${release_tag} does not match notes file ${notes_file}." >&2
+            exit 1
+          fi
+
+          target_sha="${INPUT_TARGET}"
+          if [[ -z "${target_sha}" ]]; then
+            target_sha="$(git log -1 --format=%H -- "${notes_file}")"
+          fi
+          git cat-file -e "${target_sha}^{commit}"
+
+          release_name="Snowflake Enterprise Handbook ${release_tag#snowflake-handbook-}"
+
+          {
+            echo "tag=${release_tag}"
+            echo "name=${release_name}"
+            echo "notes=${notes_file}"
+            echo "target=${target_sha}"
+          } >> "${GITHUB_OUTPUT}"
+
+      - name: Publish GitHub release
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ steps.release.outputs.tag }}
+          RELEASE_NAME: ${{ steps.release.outputs.name }}
+          NOTES_FILE: ${{ steps.release.outputs.notes }}
+          TARGET_SHA: ${{ steps.release.outputs.target }}
+        run: |
+          set -euo pipefail
+
+          if gh release view "${RELEASE_TAG}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            echo "Release ${RELEASE_TAG} already exists; no action required."
+            exit 0
+          fi
+
+          gh release create "${RELEASE_TAG}" \
+            --repo "${GITHUB_REPOSITORY}" \
+            --target "${TARGET_SHA}" \
+            --title "${RELEASE_NAME}" \
+            --notes-file "${NOTES_FILE}" \
+            --verify-tag=false

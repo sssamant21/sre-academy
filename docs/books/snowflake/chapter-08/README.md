@@ -1,5 +1,16 @@
 # Chapter 8 - Security, Governance & Data Protection
 
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 8 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
+
+
 ## 8.1 Introduction to Security & Governance in Snowflake
 
 Learning Objectives
@@ -8677,3 +8688,34 @@ Security Best Practices
 Technical Validation
 
 This section is aligned with Snowflake's documented monitoring and auditing capabilities while incorporating established Security Operations Center (SOC), SRE, and incident response practices. It avoids attributing proprietary detection or response features to Snowflake itself and instead focuses on operational processes that leverage supported telemetry sources. The runbooks are designed to be adapted to organization-specific incident management procedures and regulatory obligations.
+
+
+## 8.18 Identity Automation, Horizon Catalog & Privacy-Preserving Collaboration
+
+### 8.18.1 SCIM Provisioning and Deprovisioning
+
+Use SCIM to automate supported user and group lifecycle operations from the enterprise identity provider. Establish a single authoritative identity source, map groups to functional roles rather than directly to object privileges, reconcile drift, and test disablement and emergency-access procedures. SCIM provisioning does not replace RBAC design, ownership governance, authentication controls, or periodic access certification.
+
+Operational controls include least-privilege integration roles, protected bearer tokens, monitored provisioning failures, documented rename and rehire behavior, and prompt deprovisioning tests.
+
+### 8.18.2 Snowflake Horizon Catalog
+
+Horizon Catalog should be treated as an enterprise discovery and governance capability spanning Snowflake-managed data, Apache Iceberg tables, catalog-linked databases, external engines, lineage, policies, and governed data products. Define accountable data owners, certification states, classification standards, lineage review, policy inheritance, and onboarding controls for external catalogs and engines.
+
+### 8.18.3 Snowflake Data Clean Rooms
+
+Data Clean Rooms require explicit provider and consumer responsibilities, approved analysis templates, privacy controls, join and projection policies, regional and deployment validation, audit evidence, and an offboarding process. Treat clean-room installation, application upgrades, linked datasets, differential-privacy choices, and invitations as governed changes.
+
+### 8.18.4 Production Readiness Checklist
+
+- Validate feature availability, edition, cloud, region, and deployment restrictions.
+- Separate platform administration from data-provider and consumer duties.
+- Confirm catalog, clean-room, and identity privileges through least-privilege tests.
+- Monitor provisioning failures, policy changes, invitations, and sensitive-data access.
+- Document rollback, token rotation, collaborator removal, and audit-evidence retention.
+
+### 8.18.5 Vendor Validation
+
+- [SCIM identity-provider integration](https://docs.snowflake.com/en/user-guide/scim)
+- [Snowflake Horizon Catalog](https://docs.snowflake.com/en/user-guide/snowflake-horizon)
+- [Snowflake Data Clean Rooms overview](https://docs.snowflake.com/en/user-guide/cleanrooms/overview)

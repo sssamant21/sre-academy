@@ -7959,7 +7959,7 @@ Auto Resume is recommended for most production environments.
 
 ### 7.17.9 Multi-Cluster Warehouses
 
-Multi-Cluster Warehouses dynamically increase or decrease the number of compute clusters based on concurrent workload demand.
+Multi-cluster warehouses, available with Enterprise Edition or higher, dynamically increase or decrease the number of compute clusters based on concurrent workload demand.
 
 Conceptually:
 
@@ -8362,7 +8362,7 @@ Query History is typically the first place engineers begin a performance investi
 
 ### 7.18.5 ACCOUNT_USAGE Views
 
-The SNOWFLAKE.ACCOUNT_USAGE schema provides historical operational data suitable for reporting and trend analysis.
+The SNOWFLAKE.ACCOUNT_USAGE schema provides historical operational data suitable for reporting and trend analysis. Many views retain 365 days, but latency and retention vary by view and must be validated individually.
 
 Commonly used views include:
 
@@ -9946,3 +9946,13 @@ Monitoring & Observability
 Technical Validation
 
 This section synthesizes Snowflake's documented operational capabilities into practical production procedures suitable for enterprise environments. The case studies, runbooks, and RCA framework are based on established SRE and database operations practices while remaining consistent with Snowflake's documented architecture and monitoring features. The guidance intentionally avoids undocumented internal behaviors and instead emphasizes evidence-based troubleshooting using supported telemetry and operational tools.
+
+
+## Chapter 7 Vendor Validation Record — 2026-08-15
+
+Validated against official Query Profile, micro-partition, search optimization, warehouse, and Account Usage documentation. Multi-cluster warehouses and Search Optimization Service require Enterprise Edition or higher. ACCOUNT_USAGE commonly retains historical data for 365 days, but latency and retention must be checked for each specific view.
+
+- [Query Profile](https://docs.snowflake.com/en/user-guide/ui-query-profile)
+- [Micro-partitions and clustering](https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions)
+- [Search optimization](https://docs.snowflake.com/en/user-guide/search-optimization-service)
+- [Account Usage](https://docs.snowflake.com/en/sql-reference/account-usage)

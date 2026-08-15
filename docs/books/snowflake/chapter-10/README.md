@@ -1991,7 +1991,7 @@ Historical investigation
 
 Operational recovery
 
-However, longer retention periods may increase storage consumption.
+However, longer retention periods increase historical storage consumption; retention greater than one day requires Enterprise Edition or higher and can be configured up to documented limits.
 
 Organizations should:
 
@@ -2644,7 +2644,7 @@ Queue analysis should precede warehouse resizing decisions.
 
 ### 10.6.8 Multi-Cluster Warehouses
 
-Snowflake Multi-Cluster Warehouses improve concurrency by automatically adding compute clusters when demand increases.
+Snowflake multi-cluster warehouses, available with Enterprise Edition or higher, improve concurrency by automatically adding compute clusters when demand increases.
 
 Conceptually:
 
@@ -3521,7 +3521,7 @@ Governance should be continuous rather than reactive.
 
 ### 10.8.3 What Are Resource Monitors?
 
-A Resource Monitor tracks credit consumption against a defined quota.
+A Resource Monitor tracks supported user-managed warehouse credit consumption against a defined quota. Snowflake Budgets are separate and cover a broader set of supported resources and serverless features.
 
 Organizations can configure Resource Monitors to:
 
@@ -6146,3 +6146,14 @@ FinOps automation and policy enforcement
 Enterprise optimization playbooks and operational maturity assessments
 
 These practices provide the foundation for building a cost-efficient, scalable, well-governed, and financially accountable Snowflake platform suitable for enterprise production environments.
+
+
+## Chapter 10 Vendor Validation Record — 2026-08-15
+
+Validated against official cost-control, resource-monitor, budget, warehouse-metering, and Time Travel documentation. Resource monitors primarily control supported warehouse credit usage; Snowflake Budgets cover a broader set of supported objects and serverless features. Custom budgets have documented limits, including a maximum of 100 per account and unsupported Hybrid Table monitoring. Time Travel retention greater than one day and multi-cluster warehouses require Enterprise Edition or higher.
+
+- [Controlling cost](https://docs.snowflake.com/en/user-guide/cost-controlling)
+- [Resource monitors](https://docs.snowflake.com/en/user-guide/resource-monitors)
+- [Snowflake Budgets](https://docs.snowflake.com/en/user-guide/budgets)
+- [Warehouse Metering History](https://docs.snowflake.com/en/sql-reference/account-usage/warehouse_metering_history)
+- [Time Travel](https://docs.snowflake.com/en/user-guide/data-time-travel)

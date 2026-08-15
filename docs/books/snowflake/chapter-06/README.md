@@ -5202,7 +5202,7 @@ As enterprise adoption of Snowflake grows, organizations frequently encounter wo
 
 Increasing the size of a Virtual Warehouse often improves the performance of individual queries, but it does not always resolve contention caused by many concurrent requests. In these situations, additional compute clusters—not simply larger compute nodes—may be required.
 
-To address this challenge, Snowflake provides Multi-Cluster Warehouses, which automatically add or remove compute clusters based on concurrency demand while presenting a single logical warehouse to users and applications.
+To address this challenge, Snowflake Enterprise Edition or higher provides Multi-Cluster Warehouses, which automatically add or remove compute clusters based on concurrency demand while presenting a single logical warehouse to users and applications.
 
 Multi-Cluster Warehouses are therefore a concurrency scaling feature rather than a query acceleration feature.
 
@@ -6141,7 +6141,7 @@ Resource Monitors form an important part of an enterprise governance strategy. T
 
 ### 6.15.2 What Is a Resource Monitor?
 
-A Resource Monitor is a Snowflake object that tracks warehouse credit consumption over a specified monitoring period.
+A Resource Monitor is a Snowflake object that tracks supported user-managed warehouse credit consumption over a specified monitoring period. It is distinct from Snowflake Budgets, which can monitor a broader set of supported resources.
 
 A Resource Monitor can:
 
@@ -9592,3 +9592,13 @@ Monitoring and Observability
 Technical Validation
 
 Chapter 6 has been developed using Snowflake's documented architecture, compute model, warehouse management features, and monitoring capabilities, combined with established enterprise engineering practices from Site Reliability Engineering (SRE), Platform Engineering, DevOps, FinOps, IT Service Management (ITSM), and cloud operations. Where Snowflake documentation defines platform behavior, this chapter follows those definitions. Where architectural guidance is provided, it reflects industry-recognized enterprise design patterns rather than undocumented implementation details.
+
+
+## Chapter 6 Vendor Validation Record — 2026-08-15
+
+Validated against official warehouse, multi-cluster, auto-suspend, and resource-monitor documentation. Multi-cluster warehouses require Enterprise Edition or higher. Auto-scale behavior is bounded by configured minimum/maximum clusters and scaling policy. Resource monitors govern credit usage for supported warehouse scope and are not a substitute for organization-wide budgets.
+
+- [Warehouse overview](https://docs.snowflake.com/en/user-guide/warehouses-overview)
+- [Multi-cluster warehouses](https://docs.snowflake.com/en/user-guide/warehouses-multicluster)
+- [Warehouse cache and auto-suspension](https://docs.snowflake.com/en/user-guide/performance-query-warehouse-cache)
+- [Resource monitors](https://docs.snowflake.com/en/user-guide/resource-monitors)

@@ -5,12 +5,14 @@ on:
     paths:
       - "docs/books/snowflake/**"
       - "scripts/validate_snowflake_handbook.py"
+      - "scripts/validate_snowflake_reader_experience.py"
       - ".github/workflows/snowflake-handbook.yml"
   push:
     branches: [main]
     paths:
       - "docs/books/snowflake/**"
       - "scripts/validate_snowflake_handbook.py"
+      - "scripts/validate_snowflake_reader_experience.py"
 
 permissions:
   contents: read
@@ -25,3 +27,5 @@ jobs:
           python-version: "3.12"
       - name: Validate handbook structure
         run: python scripts/validate_snowflake_handbook.py
+      - name: Validate reader experience and links
+        run: python scripts/validate_snowflake_reader_experience.py

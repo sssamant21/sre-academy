@@ -113,6 +113,7 @@ nav:
       - Overview: books/snowflake/index.md
       - Summary: books/snowflake/summary.md
       - Reader Paths: books/snowflake/reader-paths.md
+      - Operational Architecture Diagrams: books/snowflake/architectures.md
       - Hands-on Labs:
           - Overview: books/snowflake/labs/index.md
           - Authoring Standard: books/snowflake/labs/lab-standard.md
@@ -124,6 +125,16 @@ nav:
           - Authoring Standard: books/snowflake/runbooks/runbook-standard.md
           - Warehouse Queuing: books/snowflake/runbooks/warehouse-queuing.md
           - Unexpected Credit Consumption: books/snowflake/runbooks/unexpected-credit-consumption.md
+          - Query Performance Regression: books/snowflake/runbooks/query-performance-regression.md
+          - Task and Dynamic Table Failures: books/snowflake/runbooks/task-and-dynamic-table-failures.md
+          - Authentication and Connectivity: books/snowflake/runbooks/authentication-and-connectivity.md
+          - Dynamic Table Freshness: books/snowflake/runbooks/dynamic-table-freshness.md
+      - Operational Templates:
+          - Overview: books/snowflake/templates/index.md
+          - Production Readiness Review: books/snowflake/templates/production-readiness-review.md
+          - Performance Investigation: books/snowflake/templates/performance-investigation.md
+          - Incident and RCA: books/snowflake/templates/incident-and-rca.md
+          - FinOps Review: books/snowflake/templates/finops-review.md
       - Release Notes v1.0.0: books/snowflake/RELEASE_NOTES_v1.0.0.md
       - Content Ownership: books/snowflake/content-ownership.md
       - Vendor Validation 01-05: books/snowflake/validation/chapter-01-05.md

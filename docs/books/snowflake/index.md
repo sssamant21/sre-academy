@@ -15,6 +15,8 @@ Start with [Chapter 01](chapter-01/README.md) or review the [summary](summary.md
 - [Role-based reader paths](reader-paths.md)
 - [Hands-on labs](labs/index.md)
 - [Production runbooks](runbooks/index.md)
+- [Operational architecture diagrams](architectures.md)
+- [Operational templates](templates/index.md)
 
 The v1.1.0 material is additive and remains marked as in development until its complete lab and runbook scope passes release validation.
 

@@ -8226,7 +8226,7 @@ Resource Monitors
 
 Technical Validation
 
-This section is based on Snowflake's documented Virtual Warehouse architecture and operational guidance. It accurately distinguishes scaling up from scaling out, emphasizes the intended use of Multi-Cluster Warehouses for concurrency rather than single-query acceleration, and recommends evidence-based tuning using Query Profile and warehouse metrics. The next section, 7.18 – Enterprise Performance Monitoring & Continuous Optimization, will integrate Query History, ACCOUNT_USAGE views, Resource Monitors, Snowsight dashboards, alerts, and operational KPIs into a comprehensive performance engineering framework suitable for production Snowflake environments.
+This section is based on Snowflake's documented Virtual Warehouse architecture and operational guidance. It accurately distinguishes scaling up from scaling out, emphasizes the intended use of Multi-Cluster Warehouses for concurrency rather than single-query acceleration, and recommends evidence-based tuning using Query Profile and warehouse metrics. The next section, 7.18 – Enterprise Performance Monitoring & Continuous Optimization, will integrate Query History, ACCOUNT_USAGE views, Resource Monitors, supported Snowflake visualization surfaces, alerts, and operational KPIs into a comprehensive performance engineering framework suitable for production Snowflake environments.
 
 Top of Form
 

@@ -1,7 +1,7 @@
 # Assessment: Chapters 11–15
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 ## Chapter 11 — Incident Management

@@ -99,7 +99,7 @@ Monitors Monitors
 
 This logical separation supports governance, security, and operational independence between environments.
 
-## 17.5 Chapter Structure
+## Chapter Structure
 
 The developed chapter uses the following authoritative sequence:
 

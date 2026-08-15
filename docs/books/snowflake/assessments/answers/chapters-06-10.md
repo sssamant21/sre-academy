@@ -1,7 +1,7 @@
 # Answers: Chapters 6–10
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 1. Overload reflects warehouse demand, provisioning reflects compute startup/scaling, and blocking reflects transactional locks.

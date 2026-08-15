@@ -29,6 +29,16 @@ The v1.1.0 material is production-ready and extends the validated 20-chapter han
 
 The v1.2.0 material is production-ready and adds facilitated incident simulations, scoring guides, chapter assessments, verified answers and a unified reference layer.
 
+## v1.3.0 DBRE and reliability engineering
+
+- [Snowflake DBRE and Reliability Engineering](dbre/index.md)
+- [DBRE operating model](dbre/operating-model.md)
+- [SLIs, SLOs and error budgets](dbre/reliability-objectives.md)
+- [Production-readiness standard](dbre/production-readiness.md)
+- [DBRE maturity model](dbre/maturity-model.md)
+
+The v1.3.0 workstream defines the customer-owned reliability operating model for Snowflake workloads and connects the existing handbook, labs, runbooks and assessments into a measurable DBRE practice.
+
 ## Release
 
 - [v1.2.0 release notes](RELEASE_NOTES_v1.2.0.md)

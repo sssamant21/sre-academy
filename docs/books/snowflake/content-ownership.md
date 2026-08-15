@@ -17,6 +17,7 @@ This map defines the authoritative purpose of each overlapping chapter. Cross-re
 | 17 | Day-two Snowflake administration and recurring administrative runbooks |
 | 19 | Organization, ownership, service management, governance cadence, and service-level commitments |
 | 20 | Reference architectures and industry deployment patterns |
+| DBRE section | Reliability operating model, service ownership record, SLI/SLO and error-budget policy, integrated control map, production-readiness standard, and maturity assessment. Detailed technical procedures remain with their authoritative chapters. |
 
 ## Editorial rules
 

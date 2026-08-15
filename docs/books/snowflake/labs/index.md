@@ -1,7 +1,7 @@
 # Snowflake Hands-on Labs
 
 Version: v1.1.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 The labs turn handbook concepts into repeatable exercises. Run them in a non-production account or an isolated training environment.

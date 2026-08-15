@@ -2,7 +2,7 @@
 
 Enterprise Architecture, Administration, Performance Engineering, Security, Platform Engineering, AI, Healthcare, Financial Services, SRE & Production Operations
 
-Version: v1.0.0  
+Version: v1.1.0  
 Release date: 2026-08-15  
 Status: Production Release
 
@@ -10,7 +10,7 @@ The Snowflake Enterprise Handbook is a 20 chapter enterprise documentation set f
 
 Start with [Chapter 01](chapter-01/README.md) or review the [summary](summary.md).
 
-## v1.1.0 reader experience
+## v1.1.0 reader experience and operations
 
 - [Role-based reader paths](reader-paths.md)
 - [Hands-on labs](labs/index.md)
@@ -18,10 +18,11 @@ Start with [Chapter 01](chapter-01/README.md) or review the [summary](summary.md
 - [Operational architecture diagrams](architectures.md)
 - [Operational templates](templates/index.md)
 
-The v1.1.0 material is additive and remains marked as in development until its complete lab and runbook scope passes release validation.
+The v1.1.0 material is production-ready and extends the validated 20-chapter handbook with guided learning, hands-on exercises, incident response and reusable operational assets.
 
 ## Release
 
+- [v1.1.0 release notes](RELEASE_NOTES_v1.1.0.md)
 - [v1.0.0 release notes](RELEASE_NOTES_v1.0.0.md)
 - All 20 chapters have completed official-vendor validation and automated documentation checks.
 

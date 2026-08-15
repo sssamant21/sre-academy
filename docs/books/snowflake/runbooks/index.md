@@ -1,7 +1,7 @@
 # Snowflake Production Runbooks
 
 Version: v1.1.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 Runbooks provide evidence-first response procedures. They do not replace change management, incident command or Snowflake Support.

@@ -118,6 +118,14 @@ nav:
           - Glossary: books/snowflake/reference/glossary.md
           - Acronyms: books/snowflake/reference/acronyms.md
           - SQL and Command Index: books/snowflake/reference/sql-command-index.md
+      - DBRE and Reliability Engineering:
+          - Overview: books/snowflake/dbre/index.md
+          - Operating Model: books/snowflake/dbre/operating-model.md
+          - Service Catalog and Ownership: books/snowflake/dbre/service-catalog-and-ownership.md
+          - SLIs, SLOs and Error Budgets: books/snowflake/dbre/reliability-objectives.md
+          - Integrated Reliability Controls: books/snowflake/dbre/reliability-controls.md
+          - Production-Readiness Standard: books/snowflake/dbre/production-readiness.md
+          - Maturity Model: books/snowflake/dbre/maturity-model.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

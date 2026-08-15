@@ -4356,7 +4356,7 @@ This section aligns with documentation and industry guidance covering:
 
 Snowflake
 
-Snowsight Dashboards
+supported Snowflake visualization surfaces
 
 ACCOUNT_USAGE
 

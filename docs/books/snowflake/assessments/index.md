@@ -1,7 +1,7 @@
 # Snowflake Enterprise Handbook Assessments
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 The assessment program covers all 20 chapters with 60 questions: one concept question, one operational question and one scenario question per chapter.

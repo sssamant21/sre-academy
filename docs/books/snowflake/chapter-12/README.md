@@ -1,5 +1,16 @@
 # Chapter 12 - Automation, DevOps, Infrastructure as Code (IaC) & Platform Engineering for Snowflake
 
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 12 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
+
+
 ## 12.1 Enterprise Automation Strategy for Snowflake
 
 Learning Objectives
@@ -5635,3 +5646,38 @@ Platform Engineering and Internal Developer Platforms (IDPs)
 GitOps, Policy as Code, enterprise case studies, and the future of Snowflake platform engineering
 
 These practices establish a modern, secure, scalable, and automation-first operating model for enterprise Snowflake environments.
+
+
+## 12.11 Snowflake Openflow Integration Engineering
+
+### 12.11.1 Architecture and Deployment Choice
+
+Openflow is an integration service built on Apache NiFi concepts and delivered through supported Snowflake or customer-cloud deployment models. Select the deployment model only after validating cloud and region availability, networking, ownership, runtime isolation, connector support, cost, and recovery requirements.
+
+### 12.11.2 Security and Operating Model
+
+Define separate administrative and runtime roles, protect connector credentials, restrict outbound destinations, and assign owners for the control plane, deployments, runtimes, flows, and source systems. A connector's success state is not sufficient evidence of end-to-end correctness; validate source offsets, target counts, duplicates, schema changes, latency, and downstream consumption.
+
+### 12.11.3 Delivery and Recovery Controls
+
+- Store reviewed flow definitions and configuration outside the runtime.
+- Maintain environment-specific configuration and secret references.
+- Test connector upgrades, schema evolution, replay, and duplicate handling.
+- Monitor runtime health, processor back pressure, queues, source lag, and target errors.
+- Export flow definitions before infrastructure replacement or teardown.
+- Document recovery because runtime-local state is not protected by Snowflake Time Travel or Fail-safe.
+
+### 12.11.4 Production Runbook
+
+1. Confirm deployment, runtime, connector, source, and target health.
+2. Preserve flow state, queue evidence, timestamps, offsets, and error messages.
+3. Stop or isolate the smallest failing component.
+4. Correct authentication, connectivity, schema, or capacity issues.
+5. Resume with controlled throughput and reconcile source-to-target results.
+6. Record data-quality impact, replay decisions, and operational follow-up.
+
+### 12.11.5 Vendor Validation
+
+- [About Snowflake Openflow](https://docs.snowflake.com/en/user-guide/data-integration/openflow/about)
+- [Openflow connectors](https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/about-openflow-connectors)
+- [Manage Openflow](https://docs.snowflake.com/en/user-guide/data-integration/openflow/manage)

@@ -966,7 +966,6 @@ Snowflake Documentation – Virtual Warehouses.
 
 Snowflake Documentation – Multi-Cluster Shared Data Architecture.
 
-Note: In the published edition, replace these with the exact documentation titles and URLs reviewed during final validation to ensure they always point to the latest official Snowflake documentation.
 
 ### 1.6.1 Introduction
 
@@ -1273,7 +1272,6 @@ Snowflake Well-Architected Framework.
 
 Snowflake Security Documentation.
 
-Final publication note: Replace these placeholders with the exact documentation titles and URLs reviewed during the final technical validation to ensure readers always have authoritative references.
 
 ## Chapter 1
 
@@ -2852,3 +2850,12 @@ Snowflake Well-Architected Framework.
 Snowflake Documentation Home.
 
 Snowflake Release Notes.
+
+
+## Chapter 1 Vendor Validation Record — 2026-08-15
+
+Validated against current official Snowflake documentation covering architecture, organizations, accounts, editions, warehouses, and platform concepts. Unresolved publication placeholders were removed. Product availability remains subject to edition, cloud, region, and release status.
+
+- [Snowflake key concepts and architecture](https://docs.snowflake.com/en/user-guide/intro-key-concepts)
+- [Organizations](https://docs.snowflake.com/en/user-guide/organizations)
+- [Snowflake editions](https://docs.snowflake.com/en/user-guide/intro-editions)

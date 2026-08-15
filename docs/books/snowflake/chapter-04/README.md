@@ -1406,7 +1406,7 @@ Internal Query Representation
 
 ▼
 
-Cost-Based Optimizer
+Snowflake query optimizer
 
 Compilation provides the optimizer with a structured representation of the query instead of raw SQL text.
 
@@ -1562,7 +1562,7 @@ Relevant metadata is made available for optimization decisions.
 
 Foundation for Cost Estimation
 
-Compilation prepares the structures required for the Cost-Based Optimizer to estimate execution costs.
+Compilation prepares the structures required for the Snowflake query optimizer to estimate execution costs.
 
 ### 4.4.9 What Compilation Does Not Do
 
@@ -1596,7 +1596,7 @@ Compilation determines the fastest execution strategy.
 
 Reality
 
-The Cost-Based Optimizer selects the execution strategy after compilation.
+The Snowflake query optimizer selects the execution strategy after compilation.
 
 Misconception 3
 
@@ -1664,11 +1664,11 @@ Query transformations.
 
 Optimizer inputs.
 
-These concepts form the foundation of Snowflake's Cost-Based Optimizer.
+These concepts form the foundation of Snowflake's Snowflake query optimizer.
 
 ### 4.4.14 Key Takeaways
 
-Query compilation transforms a syntactically and semantically valid SQL statement into an internal representation suitable for optimization. During this stage, Snowflake prepares metadata references, organizes query operators, and constructs a structured model that becomes the input to the Cost-Based Optimizer. Compilation itself does not execute the query or generate the final execution plan; instead, it provides the foundation on which logical optimization and physical planning are built.
+Query compilation transforms a syntactically and semantically valid SQL statement into an internal representation suitable for optimization. During this stage, Snowflake prepares metadata references, organizes query operators, and constructs a structured model that becomes the input to the Snowflake query optimizer. Compilation itself does not execute the query or generate the final execution plan; instead, it provides the foundation on which logical optimization and physical planning are built.
 
 References
 
@@ -2033,7 +2033,7 @@ SQL execution begins immediately after logical planning.
 
 Reality
 
-The Cost-Based Optimizer still evaluates multiple execution alternatives before a physical plan is selected.
+The Snowflake query optimizer still evaluates multiple execution alternatives before a physical plan is selected.
 
 ### 4.5.11 Enterprise Perspective
 
@@ -2053,7 +2053,7 @@ This separation makes it easier to identify whether a performance issue originat
 
 ### 4.5.12 Looking Ahead
 
-The next section introduces the Cost-Based Optimizer (CBO).
+The next section introduces the Snowflake query optimizer (CBO).
 
 Topics include:
 
@@ -2069,11 +2069,11 @@ Predicate optimization.
 
 Execution plan selection.
 
-The Cost-Based Optimizer is responsible for transforming the logical plan into an efficient physical execution plan.
+The Snowflake query optimizer is responsible for transforming the logical plan into an efficient physical execution plan.
 
 ### 4.5.13 Key Takeaways
 
-A logical query plan is an abstract representation of the relational operations required to satisfy a SQL statement. It transforms declarative SQL into logical operators such as scans, filters, joins, projections, aggregations, and sorts without specifying execution strategies. This logical representation provides the foundation for the Cost-Based Optimizer, which evaluates alternative execution methods and generates the physical execution plan used by Virtual Warehouses. Understanding the distinction between logical and physical plans is fundamental for interpreting query behavior and diagnosing performance issues.
+A logical query plan is an abstract representation of the relational operations required to satisfy a SQL statement. It transforms declarative SQL into logical operators such as scans, filters, joins, projections, aggregations, and sorts without specifying execution strategies. This logical representation provides the foundation for the Snowflake query optimizer, which evaluates alternative execution methods and generates the physical execution plan used by Virtual Warehouses. Understanding the distinction between logical and physical plans is fundamental for interpreting query behavior and diagnosing performance issues.
 
 References
 
@@ -2095,13 +2095,13 @@ Snowflake Documentation – Micro-Partitions & Data Clustering
 
 Query Processing & Query Execution Engine
 
-## 4.6 Cost-Based Optimizer (CBO)
+## 4.6 Snowflake query optimizer (CBO)
 
 Learning Objectives
 
 After completing this section, readers will be able to:
 
-Understand the purpose of the Cost-Based Optimizer.
+Understand the purpose of the Snowflake query optimizer.
 
 
 ```sql
@@ -2150,11 +2150,11 @@ Different data distribution approaches.
 
 Different access paths.
 
-The role of the Cost-Based Optimizer (CBO) is to evaluate these alternatives and select the execution strategy with the lowest estimated cost according to Snowflake's optimizer model.
+The role of the Snowflake query optimizer (CBO) is to evaluate these alternatives and select the execution strategy with the lowest estimated cost according to Snowflake's optimizer model.
 
-### 4.6.2 What Is the Cost-Based Optimizer?
+### 4.6.2 What Is the Snowflake query optimizer?
 
-The Cost-Based Optimizer is the component responsible for transforming a logical query plan into an efficient physical execution plan.
+The Snowflake query optimizer is the component responsible for transforming a logical query plan into an efficient physical execution plan.
 
 Rather than relying on fixed optimization rules, the optimizer evaluates multiple candidate plans using metadata and estimated execution costs.
 
@@ -2208,7 +2208,7 @@ Logical Plan
 
 ▼
 
-Cost-Based Optimizer
+Snowflake query optimizer
 
 │
 
@@ -2447,7 +2447,7 @@ Snowflake's optimizer is designed to make execution decisions automatically. Man
 
 ### 4.6.12 Enterprise Perspective
 
-For DBREs, SREs, and Performance Engineers, understanding the Cost-Based Optimizer helps explain why two SQL statements with similar logic can have very different performance characteristics.
+For DBREs, SREs, and Performance Engineers, understanding the Snowflake query optimizer helps explain why two SQL statements with similar logic can have very different performance characteristics.
 
 When investigating slow queries:
 
@@ -2485,7 +2485,7 @@ These concepts provide the foundation for understanding why the optimizer choose
 
 ### 4.6.14 Key Takeaways
 
-The Cost-Based Optimizer is responsible for transforming a logical query plan into an efficient physical execution plan. It evaluates multiple execution alternatives using metadata, query structure, and estimated execution costs before selecting the strategy expected to perform best. The optimizer relies on information such as micro-partition metadata, clustering characteristics, and predicate selectivity rather than scanning complete tables. Understanding how the CBO makes optimization decisions is essential for interpreting Query Profiles, diagnosing performance issues, and designing efficient Snowflake workloads.
+The Snowflake query optimizer is responsible for transforming a logical query plan into an efficient physical execution plan. It evaluates multiple execution alternatives using metadata, query structure, and estimated execution costs before selecting the strategy expected to perform best. The optimizer relies on information such as micro-partition metadata, clustering characteristics, and predicate selectivity rather than scanning complete tables. Understanding how the CBO makes optimization decisions is essential for interpreting Query Profiles, diagnosing performance issues, and designing efficient Snowflake workloads.
 
 References
 
@@ -2530,7 +2530,7 @@ Recognize how estimation influences execution plan selection.
 
 ### 4.7.1 Introduction
 
-A Cost-Based Optimizer cannot evaluate execution strategies without estimating the amount of work each strategy will require.
+A Snowflake query optimizer cannot evaluate execution strategies without estimating the amount of work each strategy will require.
 
 For example:
 
@@ -2816,7 +2816,7 @@ This stage transforms the optimized logical plan into the executable physical pl
 
 ### 4.7.13 Key Takeaways
 
-Statistics, metadata, and cardinality estimation provide the foundation for Snowflake's Cost-Based Optimizer. By using documented metadata such as micro-partition minimum values, maximum values, distinct values, and clustering information, the optimizer estimates row counts and evaluates alternative execution strategies before query execution begins. Although Snowflake does not disclose its proprietary estimation algorithms, understanding the role of metadata and selectivity helps engineers interpret query behavior, analyze performance, and design efficient workloads.
+Statistics, metadata, and cardinality estimation provide the foundation for Snowflake's Snowflake query optimizer. By using documented metadata such as micro-partition minimum values, maximum values, distinct values, and clustering information, the optimizer estimates row counts and evaluates alternative execution strategies before query execution begins. Although Snowflake does not disclose its proprietary estimation algorithms, understanding the role of metadata and selectivity helps engineers interpret query behavior, analyze performance, and design efficient workloads.
 
 References
 
@@ -2850,7 +2850,7 @@ Differentiate logical operators from physical operators.
 
 
 ```sql
-Explain how the Cost-Based Optimizer selects execution strategies.
+Explain how the Snowflake query optimizer selects execution strategies.
 ```
 
 Understand the relationship between the physical plan and Virtual Warehouse execution.
@@ -2859,7 +2859,7 @@ Interpret physical execution concepts when troubleshooting queries.
 
 ### 4.8.1 Introduction
 
-Once the Cost-Based Optimizer has evaluated the logical query plan and estimated the cost of alternative execution strategies, it selects a physical execution plan.
+Once the Snowflake query optimizer has evaluated the logical query plan and estimated the cost of alternative execution strategies, it selects a physical execution plan.
 
 Unlike the logical plan, which describes what operations are required, the physical plan specifies how those operations will be executed.
 
@@ -2893,7 +2893,7 @@ Logical Plan
 
 ▼
 
-Cost-Based Optimizer
+Snowflake query optimizer
 
 │
 
@@ -3268,7 +3268,7 @@ Recognize how distributed execution contributes to scalability and performance.
 
 ### 4.9.1 Introduction
 
-Once the Cost-Based Optimizer selects a physical execution plan, responsibility shifts from the Cloud Services layer to the Virtual Warehouse.
+Once the Snowflake query optimizer selects a physical execution plan, responsibility shifts from the Cloud Services layer to the Virtual Warehouse.
 
 The execution engine now performs the actual work required to produce query results, including:
 
@@ -4448,7 +4448,7 @@ Understanding data movement is essential because many large analytical queries s
 
 ### 4.11.15 Key Takeaways
 
-Physical execution operators are the fundamental building blocks of every Snowflake query execution plan. Operators such as Scan, Filter, Join, Aggregate, Sort, and Exchange work together to execute SQL statements efficiently across distributed compute resources. Their arrangement is determined by the Cost-Based Optimizer and is visible through Query Profile. Understanding operator behavior enables engineers to diagnose performance bottlenecks, interpret execution plans, and make evidence-based optimization decisions without relying on assumptions about the underlying execution engine.
+Physical execution operators are the fundamental building blocks of every Snowflake query execution plan. Operators such as Scan, Filter, Join, Aggregate, Sort, and Exchange work together to execute SQL statements efficiently across distributed compute resources. Their arrangement is determined by the Snowflake query optimizer and is visible through Query Profile. Understanding operator behavior enables engineers to diagnose performance bottlenecks, interpret execution plans, and make evidence-based optimization decisions without relying on assumptions about the underlying execution engine.
 
 References
 
@@ -4872,7 +4872,7 @@ To avoid this unnecessary work, Snowflake maintains a Result Cache containing el
 
 ### 4.13.2 What Is the Result Cache?
 
-The Result Cache stores the final result of eligible SQL queries for reuse.
+Snowflake persists query results for eligible reuse. Results are retained for 24 hours; each eligible reuse resets that period, up to 31 days from the original execution, and reuse is not guaranteed even when documented conditions are satisfied.
 
 When a subsequent query satisfies Snowflake's documented cache reuse conditions, Snowflake can return the stored result instead of executing the physical query plan again.
 
@@ -5013,9 +5013,9 @@ These caches serve different purposes.
 
 Understanding this distinction is important when analyzing query performance.
 
-### 4.13.8 Result Cache vs. Metadata Cache
+### 4.13.8 Result Cache vs. Metadata Services
 
-| Result Cache | Metadata Cache |
+| Result Cache | Metadata Services |
 | --- | --- |
 | Final query result | Metadata used for planning and optimization |
 | Eliminates execution when reused | Supports optimization decisions |
@@ -5109,7 +5109,7 @@ Unlike the Result Cache, the Local Disk Cache accelerates query execution rather
 
 ### 4.13.13 Key Takeaways
 
-The Result Cache stores the final results of eligible SQL queries and can return those results without re-executing the query when Snowflake's documented cache reuse conditions are satisfied. This reduces latency, avoids unnecessary warehouse compute, and lowers credit consumption for repeated workloads. The Result Cache is distinct from both the Local Disk Cache and the Metadata Cache, which accelerate query execution rather than replacing it. Understanding cache eligibility is essential for accurate performance analysis, benchmarking, and production troubleshooting.
+The Result Cache stores the final results of eligible SQL queries and can return those results without re-executing the query when Snowflake's documented cache reuse conditions are satisfied. This reduces latency, avoids unnecessary warehouse compute, and lowers credit consumption for repeated workloads. The Result Cache is distinct from both the Local Disk Cache and the Metadata Services, which accelerate query execution rather than replacing it. Understanding cache eligibility is essential for accurate performance analysis, benchmarking, and production troubleshooting.
 
 References
 
@@ -5338,9 +5338,9 @@ Repeated storage access is reduced for eligible workloads within the same runnin
 | Query-level | Warehouse-level |
 | Shared according to documented Result Cache rules | Specific to an individual Virtual Warehouse |
 
-### 4.14.9 Local Disk Cache vs. Metadata Cache
+### 4.14.9 Local Disk Cache vs. Metadata Services
 
-| Local Disk Cache | Metadata Cache |
+| Local Disk Cache | Metadata Services |
 | --- | --- |
 | Stores data blocks read during execution | Stores metadata used for planning and optimization |
 | Improves scan performance | Improves optimizer decisions |
@@ -5418,7 +5418,7 @@ Balancing auto-suspend savings against cache warm-up overhead should be based on
 
 The next section explores the third major cache:
 
-## 4.15 Metadata Cache
+## 4.15 Metadata Services
 
 Topics include:
 
@@ -5432,7 +5432,7 @@ Metadata reuse.
 
 Relationship between metadata, partition pruning, and optimization.
 
-Unlike the Result Cache and Local Disk Cache, the Metadata Cache accelerates query planning rather than query execution.
+Unlike the Result Cache and Local Disk Cache, the Metadata Services accelerates query planning rather than query execution.
 
 ### 4.14.14 Key Takeaways
 
@@ -5474,7 +5474,7 @@ Distinguish metadata from table data.
 
 Understand how metadata enables partition pruning.
 
-Differentiate the Metadata Cache from the Result Cache and Local Disk Cache.
+Differentiate the Metadata Services from the Result Cache and Local Disk Cache.
 
 ### 4.15.1 Introduction
 
@@ -5679,13 +5679,13 @@ Faster query execution.
 
 Understanding this distinction is essential for interpreting Snowflake's architecture.
 
-### 4.15.8 Metadata Cache vs. Other Caches
+### 4.15.8 Metadata Services vs. Other Caches
 
 | Cache Type | Purpose |
 | --- | --- |
 | Result Cache | Stores final query results |
 | Local Disk Cache | Stores previously accessed data blocks for a running warehouse |
-| Metadata Cache | Supports planning and optimization using metadata |
+| Metadata Services | Supports planning and optimization using metadata |
 
 Each cache improves performance at a different stage of the query lifecycle.
 
@@ -5699,7 +5699,7 @@ Planning operations complete more quickly when metadata is readily available.
 
 Better Optimization
 
-The Cost-Based Optimizer relies on metadata to estimate execution costs.
+The Snowflake query optimizer relies on metadata to estimate execution costs.
 
 Improved Partition Pruning
 
@@ -5769,7 +5769,7 @@ The three cache mechanisms discussed so far each accelerate different phases of 
 | --- | --- | --- |
 | Result Cache | Before execution | Eliminates execution for eligible repeated queries |
 | Local Disk Cache | During execution | Reduces repeated storage reads within a running warehouse |
-| Metadata Cache | Planning and optimization | Accelerates validation, optimization, and partition pruning |
+| Metadata Services | Planning and optimization | Accelerates validation, optimization, and partition pruning |
 
 Understanding these distinctions is essential for accurate performance analysis.
 
@@ -6124,7 +6124,7 @@ Runtime optimizations complement the mechanisms discussed earlier in this chapte
 
 | Section | Primary Focus |
 | --- | --- |
-| Cost-Based Optimizer | Selects the execution strategy before execution |
+| Snowflake query optimizer | Selects the execution strategy before execution |
 | Physical Plan | Defines how the query will execute |
 | Distributed Execution | Executes the physical plan across compute resources |
 | Result Cache | Eliminates execution for eligible repeated queries |
@@ -6158,7 +6158,7 @@ This section connects the architectural concepts discussed throughout the chapte
 
 ### 4.16.14 Key Takeaways
 
-Runtime optimizations improve query execution efficiency after the physical execution plan has been selected. Snowflake uses documented techniques such as partition pruning, column pruning, predicate pushdown, distributed execution, and caching to reduce unnecessary work during query execution. These optimizations complement the Cost-Based Optimizer and help minimize storage access, data movement, and compute consumption while preserving query correctness. Understanding runtime optimizations enables engineers to interpret Query Profiles more effectively and make informed performance tuning decisions.
+Runtime optimizations improve query execution efficiency after the physical execution plan has been selected. Snowflake uses documented techniques such as partition pruning, column pruning, predicate pushdown, distributed execution, and caching to reduce unnecessary work during query execution. These optimizations complement the Snowflake query optimizer and help minimize storage access, data movement, and compute consumption while preserving query correctness. Understanding runtime optimizations enables engineers to interpret Query Profiles more effectively and make informed performance tuning decisions.
 
 References
 
@@ -7491,7 +7491,7 @@ How SQL statements are processed.
 
 How Cloud Services coordinates query execution.
 
-How the Cost-Based Optimizer selects execution strategies.
+How the Snowflake query optimizer selects execution strategies.
 
 How Virtual Warehouses execute physical plans.
 
@@ -7842,7 +7842,7 @@ Snowflake separates planning, execution, and storage into distinct architectural
 
 Query processing progresses through parsing, semantic analysis, compilation, optimization, planning, and distributed execution.
 
-The Cost-Based Optimizer uses documented metadata to select an efficient execution strategy.
+The Snowflake query optimizer uses documented metadata to select an efficient execution strategy.
 
 Virtual Warehouses execute distributed physical plans while the Storage layer provides immutable, compressed, columnar data.
 
@@ -7875,3 +7875,13 @@ Snowflake Documentation – Micro-Partitions & Data Clustering
 Snowflake Documentation – Persisted Query Results
 
 Snowflake SQL Reference
+
+
+## Chapter 4 Vendor Validation Record — 2026-08-15
+
+Validated against current official documentation for Query Profile, persisted query results, warehouse cache behavior, and documented query operators. Proprietary optimizer internals are described cautiously; the handbook does not imply that Snowflake publishes its complete optimization algorithms or a separate general-purpose metadata cache.
+
+- [Query Profile](https://docs.snowflake.com/en/user-guide/ui-query-profile)
+- [Using persisted query results](https://docs.snowflake.com/en/user-guide/querying-persisted-results)
+- [Optimizing the warehouse cache](https://docs.snowflake.com/en/user-guide/performance-query-warehouse-cache)
+- [Query operators](https://docs.snowflake.com/en/user-guide/ui-query-profile-operator-nodes)

@@ -3013,7 +3013,7 @@ Although each strategy produces the same result, execution costs may differ sign
 
 ### 2.11.3 Cost-Based Optimization
 
-Snowflake uses a Cost-Based Optimizer (CBO).
+Snowflake uses a Snowflake query optimizer.
 
 Rather than relying solely on fixed optimization rules, the optimizer estimates the relative cost of different execution plans using available metadata and statistics.
 
@@ -3229,7 +3229,7 @@ Together, these topics provide a comprehensive understanding of how Snowflake de
 
 ### 2.11.12 Key Takeaways
 
-The Query Optimizer is a central component of Snowflake's Cloud Services layer. Using a documented cost-based optimization approach, it analyzes SQL statements, consults metadata, evaluates candidate execution strategies, and selects an execution plan before any compute resources begin processing data. While Snowflake does not disclose all internal optimization algorithms, its documented architecture demonstrates that metadata, micro-partition statistics, and cost estimation play fundamental roles in efficient query execution.
+The Query Optimizer is a central component of Snowflake's Cloud Services layer. Using a documented optimization approach, it analyzes SQL statements, consults metadata, evaluates candidate execution strategies, and selects an execution plan before any compute resources begin processing data. While Snowflake does not disclose all internal optimization algorithms, its documented architecture demonstrates that metadata, micro-partition statistics, and cost estimation play fundamental roles in efficient query execution.
 
 References
 
@@ -3356,7 +3356,7 @@ This optimization is known as retrieval optimization.
 
 Documented Characteristics
 
-Results are cached for 24 hours.
+Persisted query results are retained for 24 hours. Each eligible reuse resets the 24-hour period, up to a maximum of 31 days from the original query execution; meeting the documented conditions does not guarantee reuse.
 
 Reuse requires an identical SQL statement (including syntax).
 
@@ -3480,7 +3480,7 @@ Metadata is just another cache.
 
 Reality
 
-Snowflake uses metadata extensively for optimization and pruning, but the official documentation does not describe a separate user-visible "metadata cache." Metadata services are part of the Cloud Services architecture rather than a documented cache mechanism.
+Snowflake uses metadata extensively for optimization and pruning, but the official documentation does not describe a separate user-visible "metadata services." Metadata services are part of the Cloud Services architecture rather than a documented cache mechanism.
 
 ### 2.12.10 Enterprise Perspective
 
@@ -4073,7 +4073,7 @@ Readers will learn how Snowflake's cloud-native architecture supports resilient 
 
 ### 2.14.12 Key Takeaways
 
-Snowflake manages concurrency through independent Virtual Warehouses, workload isolation, elastic compute scaling, and Multi-Cluster Warehouses. When demand exceeds available resources, queries may queue until compute becomes available. For environments with high concurrent workloads, Multi-Cluster Warehouses automatically add compute clusters to reduce queuing and improve throughput. Understanding the distinction between performance scaling (larger warehouses) and concurrency scaling (additional clusters) is essential for designing efficient, cost-effective enterprise architectures.
+Snowflake manages concurrency through independent Virtual Warehouses, workload isolation, elastic compute scaling, and Multi-Cluster Warehouses. When demand exceeds available resources, queries may queue until compute becomes available. For Enterprise Edition or higher, multi-cluster warehouses in Auto-scale mode can add compute clusters as demand increases, up to the configured maximum, to reduce queuing and improve throughput. Understanding the distinction between performance scaling (larger warehouses) and concurrency scaling (additional clusters) is essential for designing efficient, cost-effective enterprise architectures.
 
 References
 
@@ -6367,3 +6367,13 @@ Snowflake Documentation – Observability Overview.
 Snowflake Documentation – Business Continuity & Disaster Recovery.
 
 Snowflake Well-Architected Framework.
+
+
+## Chapter 2 Vendor Validation Record — 2026-08-15
+
+Validated against current official documentation for micro-partitions, persisted query results, virtual warehouses, multi-cluster warehouses, and warehouse caching. Terminology was corrected so that metadata services and metadata-based optimizations are not presented as a separately documented general-purpose “metadata cache.” Persisted-result retention and Enterprise Edition requirements were clarified.
+
+- [Micro-partitions and data clustering](https://docs.snowflake.com/en/user-guide/tables-clustering-micropartitions)
+- [Using persisted query results](https://docs.snowflake.com/en/user-guide/querying-persisted-results)
+- [Optimizing the warehouse cache](https://docs.snowflake.com/en/user-guide/performance-query-warehouse-cache)
+- [Multi-cluster warehouses](https://docs.snowflake.com/en/user-guide/warehouses-multicluster)

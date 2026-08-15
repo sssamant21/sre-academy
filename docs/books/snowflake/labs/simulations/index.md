@@ -35,6 +35,10 @@ These tabletop and controlled-environment simulations train evidence-based respo
 - FinOps responder when consumption is involved
 - Scribe and facilitator
 
+## Facilitator material
+
+Use the [facilitator guides and common scoring rubric](facilitator-guides/index.md) only after participants complete the scenario.
+
 ## Completion evidence
 
 Each team submits an incident timeline, evidence table, diagnosis, selected mitigation, rollback decision, customer communication and corrective actions. The facilitator scores reasoning and operational safety, not memorization.

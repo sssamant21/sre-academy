@@ -1,7 +1,7 @@
 # Snowflake SQL and Command Index
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 This is a task-oriented handbook index, not a replacement for the complete Snowflake command reference. Verify current syntax and privileges before execution.

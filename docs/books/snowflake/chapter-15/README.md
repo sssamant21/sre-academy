@@ -1,5 +1,7 @@
 # Chapter 15 - Executive Dashboards, Operational Analytics & Enterprise Reporting
 
+> **2026 platform change:** Legacy Snowflake Worksheets and Dashboards are retired. Creation was disabled April 20, 2026, and removal began June 22, 2026. Use supported Snowflake visualization surfaces, Workspaces, Streamlit, or external BI platforms for new implementations.
+
 > **Document control**
 >
 > - Status: Technical review
@@ -486,7 +488,7 @@ This section aligns with Snowflake documentation covering:
 
 Reporting & Analytics
 
-Snowsight Dashboards
+supported Snowflake visualization surfaces
 
 Snowsight Worksheets
 
@@ -957,7 +959,7 @@ This section aligns with Snowflake documentation covering:
 
 Reporting & Analytics
 
-Snowsight Dashboards
+supported Snowflake visualization surfaces
 
 ACCOUNT_USAGE
 
@@ -3076,7 +3078,7 @@ This section accurately positions Snowflake as the governed analytical data plat
 
 ## Chapter 15 - Executive Dashboards, Operational Analytics & Enterprise Reporting
 
-## 15.7 Snowsight Dashboards, Native Visualization & Operational Reporting
+## 15.7 supported Snowflake visualization surfaces, Native Visualization & Operational Reporting
 
 Learning Objectives
 
@@ -3484,7 +3486,7 @@ Snowsight provides a tightly integrated reporting experience that combines SQL d
 
 Engineering Checklist
 
-Before publishing Snowsight dashboards, verify that:
+Before publishing supported Snowflake visualization surfaces, verify that:
 
 ✓ SQL queries are optimized.
 
@@ -5130,7 +5132,7 @@ Security, governance, and compliance dashboards
 
 Self-service analytics and semantic layer design
 
-Snowsight dashboards and native visualization
+supported Snowflake visualization surfaces and native visualization
 
 Real-time analytics, alerting, and event-driven reporting
 
@@ -5139,3 +5141,13 @@ Dashboard governance, certification, and lifecycle management
 Enterprise reporting frameworks, operating models, and real-world case studies
 
 Together, these topics provide a complete methodology for designing, implementing, governing, and continuously improving enterprise reporting solutions on Snowflake.
+
+
+## Chapter 15 Vendor Validation Record — 2026-08-15
+
+Validated against current Snowflake UI documentation and 2026 behavior-change notices. Legacy Worksheets and Dashboards were retired: creation was disabled on April 20, 2026, and removal began June 22, 2026. New reporting designs must use currently supported Snowflake visualization surfaces, Workspaces where appropriate, Streamlit, or external BI platforms. Historical dashboard instructions must not be used as production runbooks.
+
+- [Legacy Worksheets and Dashboards retirement](https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-2260)
+- [Workspaces](https://docs.snowflake.com/en/user-guide/ui-snowsight/workspaces)
+- [Worksheet visualizations](https://docs.snowflake.com/en/user-guide/ui-snowsight-visualizations)
+- [Connecting applications and tools](https://docs.snowflake.com/en/guides-overview-connecting)

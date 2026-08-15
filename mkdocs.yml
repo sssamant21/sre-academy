@@ -113,6 +113,11 @@ nav:
       - Overview: books/snowflake/index.md
       - Summary: books/snowflake/summary.md
       - Reader Paths: books/snowflake/reader-paths.md
+      - Unified Reference:
+          - Overview: books/snowflake/reference/index.md
+          - Glossary: books/snowflake/reference/glossary.md
+          - Acronyms: books/snowflake/reference/acronyms.md
+          - SQL and Command Index: books/snowflake/reference/sql-command-index.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

@@ -25,6 +25,7 @@ The v1.1.0 material is production-ready and extends the validated 20-chapter han
 - [Incident simulation labs](labs/simulations/index.md)
 - [20-chapter assessments](assessments/index.md)
 - [Assessment answer appendix](assessments/answers/index.md)
+- [Unified glossary, acronyms and SQL index](reference/index.md)
 
 The v1.2.0 workstream adds safe, facilitated production-incident exercises without changing the released v1.1.0 technical content.
 

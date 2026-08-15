@@ -6727,7 +6727,7 @@ Example trend:
 
 Queue Time
 
-## 0.2 sec
+**0.2 sec**
 
 ↓
 

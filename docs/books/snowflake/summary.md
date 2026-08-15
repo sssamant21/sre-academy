@@ -7,6 +7,13 @@
 - [Glossary](reference/glossary.md)
 - [Acronym Reference](reference/acronyms.md)
 - [SQL and Command Index](reference/sql-command-index.md)
+- [Snowflake DBRE and Reliability Engineering](dbre/index.md)
+- [DBRE Operating Model](dbre/operating-model.md)
+- [Service Catalog and Ownership](dbre/service-catalog-and-ownership.md)
+- [SLIs, SLOs and Error Budgets](dbre/reliability-objectives.md)
+- [Integrated Reliability Controls](dbre/reliability-controls.md)
+- [DBRE Production-Readiness Standard](dbre/production-readiness.md)
+- [Snowflake DBRE Maturity Model](dbre/maturity-model.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

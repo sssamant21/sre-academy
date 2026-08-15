@@ -6640,3 +6640,12 @@ This maturity model provides a roadmap for organizations seeking to advance from
 ### 17.22.13 Section Summary
 
 Enterprise operational excellence is achieved through disciplined administration, standardized processes, continuous monitoring, effective governance, and a commitment to ongoing improvement. While Snowflake manages the underlying cloud platform, enterprise teams are responsible for operating their Snowflake environment in a secure, reliable, and efficient manner. By adopting the best practices presented throughout this chapter, organizations can build resilient data platforms that support business growth, simplify administration, strengthen compliance, and deliver consistent operational outcomes.
+
+
+## Chapter 17 Vendor Validation Record — 2026-08-15
+
+Validated against official administration, access control, replication, warehouse, resource-monitor, and Terraform documentation. Administrative runbooks must validate edition, role, replicated-object support, and provider-version requirements. REPLICATE and FAILOVER privileges are not themselves replicated.
+
+- [Access-control privileges](https://docs.snowflake.com/en/user-guide/security-access-control-privileges)
+- [Account replication](https://docs.snowflake.com/en/user-guide/account-replication-intro)
+- [Terraform provider](https://docs.snowflake.com/en/user-guide/terraform)

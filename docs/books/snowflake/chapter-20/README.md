@@ -1,5 +1,7 @@
 # Chapter 20
 
+> **Architecture validation rule:** Confirm edition, cloud, region, feature maturity, replicated-object support, identity, networking, external dependencies, RPO/RTO, and cost before adopting any reference pattern. Failover/failback and private connectivity commonly require Business Critical Edition or higher.
+
 > **Document control**
 >
 > - Status: Technical review
@@ -8687,3 +8689,14 @@ This handbook has explored the complete lifecycle of designing, implementing, op
 No single technology, framework, or operational practice is sufficient on its own. Lasting success is achieved by combining sound architectural principles, disciplined engineering, effective governance, operational excellence, and a culture of continuous improvement.
 
 The principles presented throughout this handbook are intended to serve as a long-term reference rather than a point-in-time implementation guide. As Snowflake evolves and organizational needs change, these foundational concepts remain applicable because they emphasize enduring enterprise architecture principles over transient implementation details.
+
+
+## Chapter 20 Vendor Validation Record — 2026-08-15
+
+Validated against official architecture, supported-cloud, private-connectivity, replication, failover, and Cortex documentation. Reference architectures must treat cloud/region, edition, preview/GA status, object-replication support, external dependencies, identity, networking, and cost as explicit design inputs. Private connectivity and failover commonly require Business Critical Edition or higher.
+
+- [Key concepts and architecture](https://docs.snowflake.com/en/user-guide/intro-key-concepts)
+- [Supported cloud platforms](https://docs.snowflake.com/en/user-guide/intro-cloud-platforms)
+- [Account replication](https://docs.snowflake.com/en/user-guide/account-replication-intro)
+- [AWS PrivateLink](https://docs.snowflake.com/en/user-guide/admin-security-privatelink)
+- [Azure Private Link](https://docs.snowflake.com/en/user-guide/privatelink-azure)

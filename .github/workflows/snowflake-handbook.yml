@@ -1,0 +1,27 @@
+name: Snowflake handbook integrity
+
+on:
+  pull_request:
+    paths:
+      - "docs/books/snowflake/**"
+      - "scripts/validate_snowflake_handbook.py"
+      - ".github/workflows/snowflake-handbook.yml"
+  push:
+    branches: [main]
+    paths:
+      - "docs/books/snowflake/**"
+      - "scripts/validate_snowflake_handbook.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate handbook structure
+        run: python scripts/validate_snowflake_handbook.py

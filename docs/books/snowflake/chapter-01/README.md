@@ -1,8 +1,17 @@
-# Chapter 1
+# Chapter 1 - Introduction to Snowflake & Enterprise Architecture
 
-Introduction to Snowflake & Enterprise Architecture
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 1 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
 
-Section 1.1 – The Evolution of Modern Enterprise Data Platforms
+
+## 1.1 The Evolution of Modern Enterprise Data Platforms
 
 Learning Objectives
 
@@ -153,7 +162,7 @@ Snowflake engineering blog on distributed query execution and cloud services arc
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.2 – What is Snowflake?
+## 1.2 What is Snowflake?
 
 Learning Objectives
 
@@ -313,7 +322,7 @@ Snowflake AI Data Cloud Architecture Overview
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.3 – Snowflake Design Principles
+## 1.3 Snowflake Design Principles
 
 Learning Objectives
 
@@ -473,7 +482,7 @@ Snowflake AI Data Cloud Architecture Overview.
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.4 – High-Level Snowflake Architecture
+## 1.4 High-Level Snowflake Architecture
 
 Learning Objectives
 
@@ -735,7 +744,7 @@ Snowflake Documentation Home
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.5 – Multi-Cluster Shared Data Architecture
+## 1.5 Multi-Cluster Shared Data Architecture
 
 Learning Objectives
 
@@ -1270,7 +1279,36 @@ Final publication note: Replace these placeholders with the exact documentation 
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.7 – Snowflake Core Platform Capabilities
+## 1.6 Snowflake Organizations, Accounts, Editions & Deployment Boundaries
+
+### 1.6.1 Organization and Account Boundaries
+
+A Snowflake organization groups one or more accounts and provides an administrative boundary for organization-level visibility and supported cross-account capabilities. An account is the primary security, configuration, metadata, and workload boundary. Enterprise designs should use accounts deliberately for environment, regulatory, residency, ownership, and blast-radius isolation rather than treating schemas as a universal substitute.
+
+### 1.6.2 Edition and Feature Requirements
+
+Snowflake editions differ in supported security, governance, continuity, and performance capabilities. Architecture decisions must record the required edition and must not assume that a feature demonstrated in one account is available in another. Validate edition, cloud, region, and account configuration before approving a production pattern.
+
+### 1.6.3 Cloud and Region Boundaries
+
+An account is hosted in a specific cloud platform and region. Cross-region and cross-cloud designs require explicit replication, failover, networking, identity, cost, and data-residency decisions. Availability of individual features can differ by region and deployment type.
+
+### 1.6.4 Enterprise Design Checklist
+
+- Define organization and account ownership.
+- Separate production from non-production workloads.
+- Record edition, cloud, region, residency, and regulatory requirements.
+- Establish naming, tagging, cost attribution, and administrative-role standards.
+- Define cross-account data-sharing and recovery patterns.
+- Maintain an approved feature-availability matrix.
+
+### 1.6.5 Vendor Validation
+
+- [Organizations](https://docs.snowflake.com/en/user-guide/organizations)
+- [Overview of Snowflake editions](https://docs.snowflake.com/en/user-guide/intro-editions)
+- [Account identifiers](https://docs.snowflake.com/en/user-guide/admin-account-identifier)
+
+## 1.7 Snowflake Core Platform Capabilities
 
 Learning Objectives
 
@@ -1482,7 +1520,7 @@ Snowflake Documentation – Governance and Security.
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.8 – Enterprise Deployment Model
+## 1.8 Enterprise Deployment Model
 
 Learning Objectives
 
@@ -1785,7 +1823,7 @@ Snowflake Well-Architected Framework.
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.9 – Enterprise Personas and Organizational Responsibilities
+## 1.9 Enterprise Personas and Organizational Responsibilities
 
 Learning Objectives
 
@@ -2156,7 +2194,7 @@ The organizational roles, Platform Engineering, DBRE, SRE, and FinOps guidance p
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.10 – Enterprise Operating Model
+## 1.10 Enterprise Operating Model
 
 Learning Objectives
 
@@ -2440,7 +2478,7 @@ The operating model described in this section is not an official Snowflake opera
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.11 – How to Use This Handbook
+## 1.11 How to Use This Handbook
 
 Learning Objectives
 
@@ -2707,7 +2745,7 @@ Snowflake Well-Architected Framework.
 
 Introduction to Snowflake & Enterprise Architecture
 
-Section 1.12 – Chapter Summary and Executive Review
+## 1.12 Chapter Summary and Executive Review
 
 Chapter Summary
 

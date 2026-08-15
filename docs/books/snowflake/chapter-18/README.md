@@ -1,5 +1,16 @@
 # Chapter 18 - Enterprise Automation, DevOps, Platform Engineering & Self-Healing Operations
 
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 18 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
+
+
 ## 18.1 Enterprise Automation Strategy & Platform Engineering for Snowflake
 
 Learning Objectives
@@ -4461,3 +4472,39 @@ AI-assisted operations and predictive analytics
 Enterprise automation roadmaps and maturity models
 
 Together, these concepts provide a complete framework for designing highly automated, secure, scalable, and governed Snowflake platforms capable of supporting modern enterprise data operations.
+
+
+## 18.9 Cortex AI, Agentic Applications & Responsible AI Operations
+
+### 18.9.1 Platform Scope
+
+Snowflake Cortex includes AI functions and managed capabilities such as Cortex Search and Cortex Analyst. Treat model availability, regional support, privilege requirements, data movement, model behavior, and consumption cost as changeable product constraints that must be revalidated before production use.
+
+### 18.9.2 Enterprise Controls
+
+- Approve use cases and data classifications before exposing content to AI features.
+- Use dedicated roles and the minimum required database roles and privileges.
+- Define evaluation datasets for accuracy, grounding, safety, latency, and cost.
+- Protect semantic models, search services, prompts, retrieved content, and generated output.
+- Log application versions, model choices, evaluation results, and material configuration changes.
+- Require human review for high-impact actions and prohibit autonomous privileged changes without bounded policy controls.
+
+### 18.9.3 Observability and FinOps
+
+Measure request volume, latency, failure rate, token or function consumption where available, search quality, analyst accuracy, user feedback, and cost by application and owner. Establish budgets and anomaly alerts. Model and regional availability can change, so maintain an explicit compatibility and fallback matrix.
+
+### 18.9.4 Operational Runbook
+
+1. Identify the affected application, feature, region, role, model, and data sources.
+2. Determine whether the failure is authorization, availability, grounding, semantic-model, search-index, quota, latency, or application logic.
+3. Preserve request identifiers and privacy-safe diagnostic evidence.
+4. Disable unsafe actions or route to a reviewed fallback.
+5. Re-run the approved evaluation suite before restoring service.
+6. Record accuracy, safety, cost, and governance impact in the incident review.
+
+### 18.9.5 Vendor Validation
+
+- [Snowflake AI and ML](https://docs.snowflake.com/en/guides-overview-ai-features)
+- [Cortex AI Functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql)
+- [Cortex Search](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview)
+- [Cortex Analyst](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst)

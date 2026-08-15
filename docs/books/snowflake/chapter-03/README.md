@@ -1,8 +1,17 @@
-# Chapter 3
+# Chapter 3 - Database Storage Internals
 
-Database Storage Internals
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 3 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
 
-Section 3.1 – Introduction to the Snowflake Storage Engine
+
+## 3.1 Introduction to the Snowflake Storage Engine
 
 Learning Objectives
 
@@ -339,7 +348,7 @@ Snowflake Documentation – Virtual Warehouses Overview.
 
 Database Storage Internals
 
-Section 3.2 – Storage Architecture Deep Dive
+## 3.2 Storage Architecture Deep Dive
 
 Learning Objectives
 
@@ -729,7 +738,7 @@ Snowflake Documentation – Hybrid Tables.
 
 Database Storage Internals
 
-Section 3.3 – Internal Columnar Storage Architecture
+## 3.3 Internal Columnar Storage Architecture
 
 Learning Objectives
 
@@ -1094,7 +1103,7 @@ Snowflake Documentation – Performance Optimization Overview. (docs.snowflake.c
 
 Database Storage Internals
 
-Section 3.4 – Immutable Storage Model
+## 3.4 Immutable Storage Model
 
 Learning Objectives
 
@@ -1457,7 +1466,7 @@ Snowflake Documentation – Zero-Copy Cloning. (docs.snowflake.com)
 
 Database Storage Internals
 
-Section 3.5 – Internal Structure of Micro-Partitions
+## 3.5 Internal Structure of Micro-Partitions
 
 Learning Objectives
 
@@ -1812,7 +1821,7 @@ Snowflake Documentation – Performance Optimization. (docs.snowflake.com)
 
 Database Storage Internals
 
-Section 3.6 – How Snowflake Creates Micro-Partitions
+## 3.6 How Snowflake Creates Micro-Partitions
 
 Learning Objectives
 
@@ -2105,7 +2114,7 @@ Snowflake Documentation – Understanding Snowflake Table Structures.
 
 Database Storage Internals
 
-Section 3.7 – Micro-Partition Metadata Architecture
+## 3.7 Micro-Partition Metadata Architecture
 
 Learning Objectives
 
@@ -2423,7 +2432,7 @@ Snowflake Documentation – Query Performance Optimization. (docs.snowflake.com)
 
 Database Storage Internals
 
-Section 3.8 – Micro-Partition Pruning
+## 3.8 Micro-Partition Pruning
 
 Learning Objectives
 
@@ -2769,7 +2778,7 @@ Snowflake Documentation – Clustering Keys & Clustered Tables. (docs.snowflake.
 
 Database Storage Internals
 
-Section 3.9 – Clustering and Clustering Depth
+## 3.9 Clustering and Clustering Depth
 
 Learning Objectives
 
@@ -3103,7 +3112,7 @@ Snowflake Documentation – Performance Optimization. (docs.snowflake.com)
 
 Database Storage Internals
 
-Section 3.10 – Compression Architecture
+## 3.10 Compression Architecture
 
 Learning Objectives
 
@@ -3406,7 +3415,7 @@ Snowflake Documentation – Performance Optimization Overview.
 
 Database Storage Internals
 
-Section 3.11 – Search Optimization Service Architecture
+## 3.11 Search Optimization Service Architecture
 
 Learning Objectives
 
@@ -3703,7 +3712,7 @@ Snowflake Documentation – Storage Optimization Considerations.
 
 Database Storage Internals
 
-Section 3.12 – Materialized Views Architecture
+## 3.12 Materialized Views Architecture
 
 Learning Objectives
 
@@ -3978,7 +3987,7 @@ Snowflake Documentation – Storage Optimization.
 
 Database Storage Internals
 
-Section 3.13 – Hybrid Tables Architecture
+## 3.13 Hybrid Tables Architecture
 
 Learning Objectives
 
@@ -4319,7 +4328,7 @@ Best Practices for Hybrid Tables.
 
 Database Storage Internals
 
-Section 3.14 – Apache Iceberg™ Tables Architecture
+## 3.14 Apache Iceberg™ Tables Architecture
 
 Learning Objectives
 
@@ -4580,7 +4589,7 @@ Apache Iceberg™ Project Documentation (for the open table format specification
 
 Database Storage Internals
 
-Section 3.15 – Storage Monitoring and Capacity Planning
+## 3.15 Storage Monitoring and Capacity Planning
 
 Learning Objectives
 
@@ -4898,7 +4907,7 @@ Snowflake Documentation – Fail-safe.
 
 Database Storage Internals
 
-Section 3.16 – Storage Cost Optimization Strategies
+## 3.16 Storage Cost Optimization Strategies
 
 Learning Objectives
 
@@ -5212,7 +5221,7 @@ Snowflake Documentation – Storage Usage.
 
 Database Storage Internals
 
-Section 3.17 – Storage Troubleshooting and Performance Diagnostics
+## 3.17 Storage Troubleshooting and Performance Diagnostics
 
 Learning Objectives
 
@@ -5544,7 +5553,7 @@ Snowflake Documentation – Clustering Keys.
 
 Database Storage Internals
 
-Section 3.18 – Enterprise Storage Best Practices
+## 3.18 Enterprise Storage Best Practices
 
 Learning Objectives
 
@@ -5974,7 +5983,7 @@ Snowflake Documentation – Cost Management.
 
 Database Storage Internals
 
-Section 3.19 – Real-World Production Case Studies and Lessons Learned
+## 3.19 Real-World Production Case Studies and Lessons Learned
 
 Learning Objectives
 
@@ -6389,7 +6398,7 @@ Snowflake Documentation – Cost Management.
 
 Database Storage Internals
 
-Section 3.20 – Chapter Summary and Key Lessons
+## 3.20 Chapter Summary and Key Lessons
 
 Learning Objectives
 

@@ -1,5 +1,16 @@
 # Chapter 19
 
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 19 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
+
+
 Enterprise Platform Operating Model & Service Management
 
 Organizing People, Governance, Service Management, and Operational Processes Around the Snowflake Platform
@@ -1636,6 +1647,39 @@ Neglecting to review and retire obsolete services.
 ### 19.7.12 Section Summary
 
 An Enterprise Service Catalog transforms Snowflake platform operations into a structured, customer-oriented service organization. By defining standardized services, assigning clear ownership, documenting request workflows, and measuring fulfillment performance, organizations improve operational consistency, strengthen governance, and provide a predictable experience for internal customers. As the platform matures, automation and self-service capabilities can further enhance efficiency while maintaining appropriate governance and security controls.
+
+## Chapter 19
+
+## 19.7 Service Catalog, Ownership & Support Model
+
+### 19.7.1 Service Definition
+
+Snowflake should be operated as a defined enterprise service rather than as an unmanaged collection of accounts and warehouses. The service catalog must identify supported capabilities, consumers, owners, boundaries, request channels, support hours, escalation paths, dependencies, and measurable commitments.
+
+### 19.7.2 Ownership Model
+
+- The executive sponsor owns business alignment and funding.
+- The platform owner is accountable for service outcomes and roadmap decisions.
+- Platform engineering owns reusable capabilities, automation, and paved roads.
+- Security and governance teams define mandatory controls and evidence requirements.
+- Data-product teams own data quality, business semantics, and consumer expectations.
+- SRE or operations teams own readiness, monitoring, incidents, and recovery exercises.
+
+### 19.7.3 Support Tiers
+
+Document standard, enhanced, and mission-critical support tiers where applicable. Each tier should specify onboarding requirements, service hours, severity definitions, response targets, RPO/RTO expectations, cost-allocation rules, and exit criteria. Avoid promising an SLA that cannot be measured from authoritative telemetry.
+
+### 19.7.4 Service Catalog Checklist
+
+- Named service and technical owners
+- Supported accounts, regions, editions, and environments
+- Request and approval workflows
+- Standard warehouse and security patterns
+- Monitoring and alerting responsibilities
+- Incident and escalation paths
+- Data-protection and recovery expectations
+- Cost ownership and showback or chargeback rules
+- Deprecation and lifecycle policy
 
 ## Chapter 19
 

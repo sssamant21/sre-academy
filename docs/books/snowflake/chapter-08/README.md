@@ -1,5 +1,16 @@
 # Chapter 8 - Security, Governance & Data Protection
 
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 8 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
+
+
 ## 8.1 Introduction to Security & Governance in Snowflake
 
 Learning Objectives
@@ -3124,532 +3135,6 @@ Security Administration
 Technical Validation
 
 This section is aligned with Snowflake's documented object ownership and privilege model. It accurately distinguishes ownership from operational privileges, emphasizes granting privileges to roles instead of users, and describes future grants and ownership transfer as governed administrative processes. The next section, 8.7 – User Lifecycle Management & Access Governance, will focus on user provisioning, onboarding, role assignment, deprovisioning, periodic access reviews, service accounts, and enterprise identity governance practices.
-
-## Chapter 8 - Security, Governance & Data Protection
-
-## 8.7 User Lifecycle Management & Access Governance
-
-Learning Objectives
-
-After completing this section, readers will be able to:
-
-Understand the complete Snowflake user lifecycle.
-
-Design secure onboarding and offboarding processes.
-
-Implement enterprise access governance.
-
-Manage service accounts securely.
-
-Perform periodic access reviews.
-
-Apply governance best practices for user administration.
-
-### 8.7.1 Introduction
-
-User management extends far beyond creating accounts. Every user represents a potential access path into the Snowflake environment and therefore must be managed throughout their entire lifecycle—from initial onboarding through role changes and eventual deprovisioning.
-
-Enterprise organizations typically manage thousands of users, contractors, applications, and service accounts. Without structured governance, organizations experience:
-
-Excessive privileges
-
-Orphaned accounts
-
-Dormant users
-
-Shared credentials
-
-Compliance violations
-
-Increased security risk
-
-Effective user lifecycle management ensures that access remains appropriate, auditable, and aligned with business responsibilities throughout a user's relationship with the organization.
-
-### 8.7.2 User Lifecycle Overview
-
-A mature identity governance process follows a structured lifecycle.
-
-Identity Created
-
-↓
-
-User Provisioned
-
-↓
-
-Authentication Configured
-
-↓
-
-Role Assigned
-
-↓
-
-Access Granted
-
-↓
-
-Activity Monitored
-
-↓
-
-Access Reviewed
-
-↓
-
-Role Updated
-
-↓
-
-User Disabled
-
-↓
-
-User Removed
-
-Every stage should be governed by documented operational procedures.
-
-### 8.7.3 User Provisioning
-
-Provisioning is the process of creating a user and granting initial access.
-
-Typical onboarding activities include:
-
-Identity verification
-
-User account creation
-
-Authentication configuration
-
-Default role assignment
-
-Warehouse assignment
-
-MFA enrollment (where applicable)
-
-Identity Provider synchronization
-
-Initial access validation
-
-Provisioning should be automated whenever possible to reduce manual errors.
-
-### 8.7.4 Identity Sources
-
-Enterprise users typically originate from centralized identity systems.
-
-Examples include:
-
-Microsoft Entra ID
-
-Okta
-
-Ping Identity
-
-Google Workspace
-
-Corporate LDAP/Active Directory (through supported federation solutions)
-
-HR information systems integrated with IAM workflows
-
-Snowflake should generally consume identities from enterprise identity management rather than maintaining a separate user directory.
-
-### 8.7.5 Role Assignment
-
-Users should receive roles based on:
-
-Job function
-
-Business unit
-
-Application responsibilities
-
-Operational requirements
-
-Regulatory constraints
-
-Example:
-
-| Employee Type | Assigned Role |
-| --- | --- |
-| Finance Analyst | FIN_ANALYST |
-| Data Engineer | DATA_ENGINEER |
-| Platform Engineer | PLATFORM_ADMIN |
-| Security Administrator | SECURITY_ADMIN |
-| Auditor | SECURITY_AUDITOR |
-
-Avoid assigning permissions individually whenever possible.
-
-### 8.7.6 Joiner–Mover–Leaver (JML) Process
-
-Most enterprises adopt a Joiner–Mover–Leaver lifecycle.
-
-Joiner
-
-New employee:
-
-Account created
-
-Authentication configured
-
-Required roles assigned
-
-Mover
-
-Employee changes role:
-
-Existing access reviewed
-
-Unnecessary roles removed
-
-New responsibilities assigned
-
-Leaver
-
-Employee leaves organization:
-
-Account disabled
-
-Active sessions terminated where appropriate
-
-Roles removed
-
-Credentials revoked
-
-Audit records retained according to organizational policy
-
-The JML process minimizes both operational delays and security exposure.
-
-### 8.7.7 Service Accounts
-
-Not every Snowflake identity represents a human user.
-
-Examples include:
-
-ETL pipelines
-
-CI/CD systems
-
-Data integration platforms
-
-Business intelligence tools
-
-Monitoring systems
-
-Automation scripts
-
-Service accounts should:
-
-Have clearly defined ownership.
-
-
-```text
-Use non-interactive authentication methods such as key pair authentication where appropriate.
-```
-
-Follow least-privilege principles.
-
-Be documented.
-
-Be reviewed regularly.
-
-### 8.7.8 Shared Accounts
-
-Shared user accounts should generally be avoided.
-
-Example:
-
-Incorrect
-
-ETL_USER
-
-↓
-
-Multiple Engineers
-
-Preferred:
-
-Engineer A
-
-Engineer B
-
-Engineer C
-
-↓
-
-Individual Accounts
-
-↓
-
-Separate Audit Trail
-
-Unique identities improve:
-
-Accountability
-
-Auditing
-
-Incident investigations
-
-Compliance
-
-Shared accounts should be used only in carefully controlled scenarios with documented justification.
-
-### 8.7.9 Periodic Access Reviews
-
-Access should not remain unchanged indefinitely.
-
-Periodic reviews should verify:
-
-Business justification
-
-Least privilege
-
-Role appropriateness
-
-Dormant users
-
-Service account usage
-
-Administrative privileges
-
-Typical review cadence:
-
-| Review Type | Suggested Frequency |
-| --- | --- |
-| Administrative roles | Monthly |
-| Business users | Quarterly |
-| Service accounts | Quarterly |
-| Full access certification | Annually (or according to organizational policy) |
-
-Organizations should define review intervals based on risk and regulatory requirements.
-
-### 8.7.10 Dormant Accounts
-
-Dormant accounts increase security risk.
-
-Indicators include:
-
-No recent login activity.
-
-No query activity.
-
-Inactive employment status.
-
-Obsolete service accounts.
-
-Dormant accounts should be investigated, disabled when appropriate, and removed following organizational procedures.
-
-### 8.7.11 Privileged Access Governance
-
-Administrative accounts require enhanced governance.
-
-Recommendations:
-
-MFA for interactive administrators.
-
-Least privilege.
-
-Dedicated administrative identities where organizational policy requires separation from standard user accounts.
-
-Regular review of administrative role assignments.
-
-Continuous monitoring of privileged activity.
-
-Administrative access should be granted only when operationally necessary.
-
-### 8.7.12 Access Governance Framework
-
-Identity Source
-
-↓
-
-Provision User
-
-↓
-
-Assign Role
-
-↓
-
-
-```text
-Grant Access
-```
-
-↓
-
-Monitor Activity
-
-↓
-
-Review Access
-
-↓
-
-
-```text
-Update Roles
-```
-
-↓
-
-
-```text
-Revoke Access
-```
-
-Governance should cover the complete identity lifecycle.
-
-### 8.7.13 Enterprise Example
-
-A global healthcare provider integrates Snowflake with Microsoft Entra ID.
-
-User lifecycle:
-
-HR hires employee.
-
-Identity created in Entra ID.
-
-User synchronized to Snowflake through enterprise identity processes.
-
-Business role assigned automatically.
-
-MFA enforced.
-
-Quarterly access review.
-
-Employee transfers departments.
-
-Previous role removed.
-
-New business role assigned.
-
-Upon departure, account disabled and access revoked.
-
-Benefits:
-
-Reduced administrative effort.
-
-Consistent RBAC.
-
-Faster onboarding.
-
-Improved compliance.
-
-Reduced orphaned accounts.
-
-### 8.7.14 Enterprise Governance
-
-Governance policies should define:
-
-User naming standards.
-
-Service account ownership.
-
-Role approval workflows.
-
-Temporary access procedures.
-
-Privileged access controls.
-
-User review cadence.
-
-Offboarding timelines.
-
-Emergency access processes.
-
-Documented governance improves consistency and audit readiness.
-
-Common Anti-Patterns
-
-Anti-Pattern 1 — Never Removing Users
-
-Dormant accounts increase unnecessary security exposure.
-
-Anti-Pattern 2 — Shared Administrative Accounts
-
-Administrative actions should be attributable to individual identities whenever possible.
-
-Anti-Pattern 3 — Permanent Elevated Access
-
-Administrative privileges should be reviewed regularly and limited to operational needs.
-
-Anti-Pattern 4 — Manual Provisioning Without Standards
-
-Automation and standardized workflows reduce configuration errors.
-
-Anti-Pattern 5 — No Access Reviews
-
-Without periodic reviews, privilege creep becomes increasingly difficult to detect.
-
-Engineering Decision Framework
-
-| Question | Recommendation |
-| --- | --- |
-| Problem solved | Manage user identities securely throughout their lifecycle while maintaining least privilege and governance. |
-| Primary governance mechanism | Structured provisioning, role assignment, monitoring, periodic review, and deprovisioning. |
-| Security impact | Very High; disciplined identity lifecycle management reduces unauthorized access and orphaned accounts. |
-| Operational impact | Automated provisioning and standardized governance reduce administrative overhead and improve consistency. |
-| Compliance impact | Supports identity governance, access certification, segregation of duties, and audit requirements. |
-| Production recommendation | Integrate Snowflake with enterprise identity management, automate user lifecycle processes where possible, perform regular access reviews, and enforce strong governance for privileged and service accounts. |
-
-Enterprise Perspective
-
-Identity governance is a continuous operational process rather than a one-time administrative task. Mature Snowflake environments integrate identity management with corporate IAM systems, automate provisioning and deprovisioning, and continuously validate that access remains aligned with business responsibilities. This approach reduces operational risk, simplifies audits, and ensures that authorization evolves alongside organizational changes.
-
-Engineering Checklist
-
-Before considering user lifecycle management production-ready, verify that:
-
-✓ User provisioning follows documented workflows.
-
-✓ Authentication methods comply with organizational standards.
-
-✓ Roles are assigned according to business responsibilities.
-
-✓ Service accounts have designated owners and documented purposes.
-
-✓ Dormant accounts are identified and reviewed regularly.
-
-✓ Privileged accounts receive enhanced governance.
-
-✓ Joiner–Mover–Leaver processes are documented and operational.
-
-✓ Periodic access reviews are scheduled and auditable.
-
-Key Takeaways
-
-User lifecycle management spans provisioning, role changes, monitoring, reviews, and deprovisioning.
-
-Enterprise IAM integration improves consistency and reduces manual administration.
-
-Service accounts require the same governance discipline as human users.
-
-Periodic access reviews help prevent privilege creep and reduce security risk.
-
-Strong identity governance supports operational efficiency, regulatory compliance, and long-term platform security.
-
-Official References
-
-This section aligns with Snowflake documentation covering:
-
-Users
-
-User Management
-
-Authentication
-
-Access Control
-
-Roles
-
-Identity Federation
-
-Security Administration
-
-Technical Validation
-
-This section is aligned with Snowflake's documented user management and access control capabilities. It combines Snowflake's identity model with widely adopted enterprise IAM and governance practices—such as Joiner–Mover–Leaver workflows, periodic access reviews, and service account governance—without attributing unsupported automation features to the Snowflake platform itself.
 
 ## Chapter 8 - Security, Governance & Data Protection
 
@@ -9203,3 +8688,34 @@ Security Best Practices
 Technical Validation
 
 This section is aligned with Snowflake's documented monitoring and auditing capabilities while incorporating established Security Operations Center (SOC), SRE, and incident response practices. It avoids attributing proprietary detection or response features to Snowflake itself and instead focuses on operational processes that leverage supported telemetry sources. The runbooks are designed to be adapted to organization-specific incident management procedures and regulatory obligations.
+
+
+## 8.18 Identity Automation, Horizon Catalog & Privacy-Preserving Collaboration
+
+### 8.18.1 SCIM Provisioning and Deprovisioning
+
+Use SCIM to automate supported user and group lifecycle operations from the enterprise identity provider. Establish a single authoritative identity source, map groups to functional roles rather than directly to object privileges, reconcile drift, and test disablement and emergency-access procedures. SCIM provisioning does not replace RBAC design, ownership governance, authentication controls, or periodic access certification.
+
+Operational controls include least-privilege integration roles, protected bearer tokens, monitored provisioning failures, documented rename and rehire behavior, and prompt deprovisioning tests.
+
+### 8.18.2 Snowflake Horizon Catalog
+
+Horizon Catalog should be treated as an enterprise discovery and governance capability spanning Snowflake-managed data, Apache Iceberg tables, catalog-linked databases, external engines, lineage, policies, and governed data products. Define accountable data owners, certification states, classification standards, lineage review, policy inheritance, and onboarding controls for external catalogs and engines.
+
+### 8.18.3 Snowflake Data Clean Rooms
+
+Data Clean Rooms require explicit provider and consumer responsibilities, approved analysis templates, privacy controls, join and projection policies, regional and deployment validation, audit evidence, and an offboarding process. Treat clean-room installation, application upgrades, linked datasets, differential-privacy choices, and invitations as governed changes.
+
+### 8.18.4 Production Readiness Checklist
+
+- Validate feature availability, edition, cloud, region, and deployment restrictions.
+- Separate platform administration from data-provider and consumer duties.
+- Confirm catalog, clean-room, and identity privileges through least-privilege tests.
+- Monitor provisioning failures, policy changes, invitations, and sensitive-data access.
+- Document rollback, token rotation, collaborator removal, and audit-evidence retention.
+
+### 8.18.5 Vendor Validation
+
+- [SCIM identity-provider integration](https://docs.snowflake.com/en/user-guide/scim)
+- [Snowflake Horizon Catalog](https://docs.snowflake.com/en/user-guide/snowflake-horizon)
+- [Snowflake Data Clean Rooms overview](https://docs.snowflake.com/en/user-guide/cleanrooms/overview)

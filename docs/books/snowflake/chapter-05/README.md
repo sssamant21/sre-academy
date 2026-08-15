@@ -1,8 +1,17 @@
-# Chapter 5
+# Chapter 5 - Query Performance Engineering and Optimization
 
-Query Performance Engineering and Optimization
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 5 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
 
-Section 5.1 – Introduction to Query Performance Engineering
+
+## 5.1 Introduction to Query Performance Engineering
 
 Learning Objectives
 
@@ -315,7 +324,7 @@ These practices help ensure that Snowflake environments remain efficient as work
 
 The next section explores the guiding principles behind Snowflake optimization:
 
-Section 5.2 – Snowflake Performance Optimization Philosophy
+## 5.2 Snowflake Performance Optimization Philosophy
 
 Topics include:
 
@@ -359,7 +368,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.2 – Snowflake Performance Optimization Philosophy
 
 Learning Objectives
 
@@ -691,7 +699,7 @@ These principles provide a consistent framework for decision-making throughout t
 
 The next section focuses on measuring performance, because optimization without reliable measurements is ineffective.
 
-Section 5.3 – Measuring Query Performance
+## 5.3 Measuring Query Performance
 
 Topics include:
 
@@ -737,7 +745,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.3 – Measuring Query Performance
 
 Learning Objectives
 
@@ -1122,7 +1129,7 @@ These practices help ensure that optimization efforts produce measurable busines
 
 The next section explores Performance Metrics and KPIs, focusing on how to define meaningful indicators for engineering teams and business stakeholders.
 
-Section 5.4 – Performance Metrics and KPIs
+## 5.4 Performance Metrics and KPIs
 
 Topics include:
 
@@ -1170,7 +1177,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.4 – Performance Metrics and KPIs
 
 Learning Objectives
 
@@ -1499,7 +1505,7 @@ KPIs should remain stable enough for trend analysis but evolve when workloads or
 
 The next section begins the practical optimization techniques discussed throughout the remainder of this chapter.
 
-Section 5.5 – Writing Efficient SQL
+## 5.5 Writing Efficient SQL
 
 Topics include:
 
@@ -1547,7 +1553,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.5 – Writing Efficient SQL
 
 Learning Objectives
 
@@ -1938,7 +1943,7 @@ Performance improvements have been measured.
 
 The next section explores one of the most influential optimization techniques in Snowflake:
 
-Section 5.6 – Predicate Optimization
+## 5.6 Predicate Optimization
 
 Topics include:
 
@@ -1980,7 +1985,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.6 – Predicate Optimization
 
 Learning Objectives
 
@@ -2370,7 +2374,7 @@ Bytes scanned decreased after optimization.
 
 The next section explores Join Optimization, one of the most important aspects of analytical query performance.
 
-Section 5.7 – Join Optimization
+## 5.7 Join Optimization
 
 Topics include:
 
@@ -2412,7 +2416,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.7 – Join Optimization
 
 Learning Objectives
 
@@ -2943,7 +2946,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.8 – Aggregation Optimization
+## 5.8 Aggregation Optimization
 
 Learning Objectives
 
@@ -3407,7 +3410,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.9 – ORDER BY, LIMIT, and Window Function Optimization
+## 5.9 ORDER BY, LIMIT, and Window Function Optimization
 
 Learning Objectives
 
@@ -3879,7 +3882,7 @@ Execution metrics improved after optimization.
 
 The next section begins the Storage Optimization portion of this chapter:
 
-Section 5.10 – Partition Pruning Best Practices
+## 5.10 Partition Pruning Best Practices
 
 Topics include:
 
@@ -3923,7 +3926,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.10 – Partition Pruning Best Practices
 
 Learning Objectives
 
@@ -4324,7 +4326,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.11 – Clustering Keys
+## 5.11 Clustering Keys
 
 Learning Objectives
 
@@ -4747,7 +4749,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.12 – Search Optimization Service
+## 5.12 Search Optimization Service
 
 Learning Objectives
 
@@ -5143,7 +5145,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.13 – Materialized Views
+## 5.13 Materialized Views
 
 Learning Objectives
 
@@ -5522,7 +5524,7 @@ Each feature addresses a different performance challenge and may be used togethe
 
 The next section begins the Compute Optimization portion of this chapter:
 
-Section 5.14 – Warehouse Sizing
+## 5.14 Warehouse Sizing
 
 Topics include:
 
@@ -5564,7 +5566,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.14 – Warehouse Sizing
 
 Learning Objectives
 
@@ -5959,7 +5960,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.15 – Multi-Cluster Warehouses
+## 5.15 Multi-Cluster Warehouses
 
 Learning Objectives
 
@@ -6359,7 +6360,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.16 – Query Profile Analysis
+## 5.16 Query Profile Analysis
 
 Learning Objectives
 
@@ -6881,7 +6882,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.17 – Performance Monitoring and Continuous Optimization
+## 5.17 Performance Monitoring and Continuous Optimization
 
 Learning Objectives
 
@@ -7340,7 +7341,7 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-Section 5.18 – Performance Engineering Best Practices and Production Readiness Checklist
+## 5.18 Performance Engineering Best Practices and Production Readiness Checklist
 
 Learning Objectives
 

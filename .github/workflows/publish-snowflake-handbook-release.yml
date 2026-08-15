@@ -110,5 +110,4 @@ jobs:
             --repo "${GITHUB_REPOSITORY}" \
             --target "${TARGET_SHA}" \
             --title "${RELEASE_NAME}" \
-            --notes-file "${NOTES_FILE}" \
-            --verify-tag=false
+            --notes-file "${NOTES_FILE}"

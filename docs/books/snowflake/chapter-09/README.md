@@ -7493,3 +7493,14 @@ These practices provide the foundation for operating Snowflake as a secure, scal
 Top of Form
 
 Bottom of Form
+
+
+## Chapter 9 Vendor Validation Record — 2026-08-15
+
+Validated against official Account Usage, Information Schema, Query History, warehouse metering, and storage usage documentation. Account Usage is historical rather than guaranteed real-time telemetry. Many views retain 365 days, but latency and retention vary by view; for example, some usage views can lag up to two hours or more under documented conditions.
+
+- [Account Usage](https://docs.snowflake.com/en/sql-reference/account-usage)
+- [Information Schema](https://docs.snowflake.com/en/sql-reference/info-schema)
+- [Query History](https://docs.snowflake.com/en/sql-reference/account-usage/query_history)
+- [Warehouse Metering History](https://docs.snowflake.com/en/sql-reference/account-usage/warehouse_metering_history)
+- [Storage Daily History](https://docs.snowflake.com/en/sql-reference/organization-usage/storage_daily_history)

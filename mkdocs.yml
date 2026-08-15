@@ -113,6 +113,18 @@ nav:
       - Overview: books/snowflake/index.md
       - Summary: books/snowflake/summary.md
       - Reader Paths: books/snowflake/reader-paths.md
+      - Chapter Assessments:
+          - Overview: books/snowflake/assessments/index.md
+          - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md
+          - Chapters 06-10: books/snowflake/assessments/chapters-06-10.md
+          - Chapters 11-15: books/snowflake/assessments/chapters-11-15.md
+          - Chapters 16-20: books/snowflake/assessments/chapters-16-20.md
+          - Answer Appendix:
+              - Overview: books/snowflake/assessments/answers/index.md
+              - Answers 01-05: books/snowflake/assessments/answers/chapters-01-05.md
+              - Answers 06-10: books/snowflake/assessments/answers/chapters-06-10.md
+              - Answers 11-15: books/snowflake/assessments/answers/chapters-11-15.md
+              - Answers 16-20: books/snowflake/assessments/answers/chapters-16-20.md
       - Operational Architecture Diagrams: books/snowflake/architectures.md
       - Hands-on Labs:
           - Overview: books/snowflake/labs/index.md

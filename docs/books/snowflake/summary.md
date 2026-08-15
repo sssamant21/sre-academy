@@ -1,6 +1,8 @@
 # Summary
 
 - [Content Ownership & Editorial Boundaries](content-ownership.md)
+- [Chapter Assessments](assessments/index.md)
+- [Assessment Answer Appendix](assessments/answers/index.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

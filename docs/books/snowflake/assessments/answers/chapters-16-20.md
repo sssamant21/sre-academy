@@ -1,7 +1,7 @@
 # Answers: Chapters 16–20
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 1. Labels distinguish verified product behavior from illustrative or privacy-protected experience and prevent unsupported generalization.

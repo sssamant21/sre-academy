@@ -1,7 +1,7 @@
 # Snowflake Handbook Unified Reference
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 - [Unified glossary](glossary.md)

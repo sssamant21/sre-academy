@@ -2,7 +2,7 @@
 
 Enterprise Architecture, Administration, Performance Engineering, Security, Platform Engineering, AI, Healthcare, Financial Services, SRE & Production Operations
 
-Version: v1.1.0  
+Version: v1.2.0  
 Release date: 2026-08-15  
 Status: Production Release
 
@@ -27,10 +27,11 @@ The v1.1.0 material is production-ready and extends the validated 20-chapter han
 - [Assessment answer appendix](assessments/answers/index.md)
 - [Unified glossary, acronyms and SQL index](reference/index.md)
 
-The v1.2.0 workstream adds safe, facilitated production-incident exercises without changing the released v1.1.0 technical content.
+The v1.2.0 material is production-ready and adds facilitated incident simulations, scoring guides, chapter assessments, verified answers and a unified reference layer.
 
 ## Release
 
+- [v1.2.0 release notes](RELEASE_NOTES_v1.2.0.md)
 - [v1.1.0 release notes](RELEASE_NOTES_v1.1.0.md)
 - [v1.0.0 release notes](RELEASE_NOTES_v1.0.0.md)
 - All 20 chapters have completed official-vendor validation and automated documentation checks.

@@ -1,7 +1,7 @@
 # Answers: Chapters 11–15
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 1. The trigger starts the event, contributing factors increase likelihood or impact, and root cause explains the underlying failure mechanism.

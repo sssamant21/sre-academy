@@ -368,7 +368,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.2 Snowflake Performance Optimization Philosophy
 
 Learning Objectives
 
@@ -746,7 +745,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.3 Measuring Query Performance
 
 Learning Objectives
 
@@ -1179,7 +1177,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.4 Performance Metrics and KPIs
 
 Learning Objectives
 
@@ -1556,7 +1553,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.5 Writing Efficient SQL
 
 Learning Objectives
 
@@ -1989,7 +1985,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.6 Predicate Optimization
 
 Learning Objectives
 
@@ -2421,7 +2416,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.7 Join Optimization
 
 Learning Objectives
 
@@ -3932,7 +3926,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.10 Partition Pruning Best Practices
 
 Learning Objectives
 
@@ -5573,7 +5566,6 @@ Snowflake SQL Reference
 
 Query Performance Engineering and Optimization
 
-## 5.14 Warehouse Sizing
 
 Learning Objectives
 

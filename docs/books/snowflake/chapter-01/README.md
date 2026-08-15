@@ -1279,6 +1279,35 @@ Final publication note: Replace these placeholders with the exact documentation 
 
 Introduction to Snowflake & Enterprise Architecture
 
+## 1.6 Snowflake Organizations, Accounts, Editions & Deployment Boundaries
+
+### 1.6.1 Organization and Account Boundaries
+
+A Snowflake organization groups one or more accounts and provides an administrative boundary for organization-level visibility and supported cross-account capabilities. An account is the primary security, configuration, metadata, and workload boundary. Enterprise designs should use accounts deliberately for environment, regulatory, residency, ownership, and blast-radius isolation rather than treating schemas as a universal substitute.
+
+### 1.6.2 Edition and Feature Requirements
+
+Snowflake editions differ in supported security, governance, continuity, and performance capabilities. Architecture decisions must record the required edition and must not assume that a feature demonstrated in one account is available in another. Validate edition, cloud, region, and account configuration before approving a production pattern.
+
+### 1.6.3 Cloud and Region Boundaries
+
+An account is hosted in a specific cloud platform and region. Cross-region and cross-cloud designs require explicit replication, failover, networking, identity, cost, and data-residency decisions. Availability of individual features can differ by region and deployment type.
+
+### 1.6.4 Enterprise Design Checklist
+
+- Define organization and account ownership.
+- Separate production from non-production workloads.
+- Record edition, cloud, region, residency, and regulatory requirements.
+- Establish naming, tagging, cost attribution, and administrative-role standards.
+- Define cross-account data-sharing and recovery patterns.
+- Maintain an approved feature-availability matrix.
+
+### 1.6.5 Vendor Validation
+
+- [Organizations](https://docs.snowflake.com/en/user-guide/organizations)
+- [Overview of Snowflake editions](https://docs.snowflake.com/en/user-guide/intro-editions)
+- [Account identifiers](https://docs.snowflake.com/en/user-guide/admin-account-identifier)
+
 ## 1.7 Snowflake Core Platform Capabilities
 
 Learning Objectives

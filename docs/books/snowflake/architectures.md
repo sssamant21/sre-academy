@@ -1,7 +1,7 @@
 # Snowflake Operational Architecture Diagrams
 
 Version: v1.1.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 These diagrams are conceptual operating models. They do not describe Snowflake's undisclosed internal implementation and must be adapted to each account, cloud and network design.

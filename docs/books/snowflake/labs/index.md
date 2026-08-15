@@ -41,4 +41,8 @@ Every lab must include:
 7. Idempotent cleanup where Snowflake supports it.
 8. Official Snowflake references and a validation date.
 
+## Incident simulations
+
+The [v1.2 incident simulation collection](simulations/index.md) provides six facilitated exercises for warehouse saturation, query regression, credit anomalies, failed task graphs, authentication/network-policy outages and dynamic-table freshness breaches.
+
 See the [lab authoring standard](lab-standard.md) before adding or modifying a lab.

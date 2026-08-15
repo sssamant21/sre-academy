@@ -120,6 +120,11 @@ nav:
           - Query Profile and Pruning: books/snowflake/labs/query-profile-and-pruning.md
           - Warehouse Concurrency Analysis: books/snowflake/labs/warehouse-concurrency-analysis.md
           - Credit Baseline and Guardrails: books/snowflake/labs/credit-baseline-and-guardrails.md
+          - Task and Task-Graph Troubleshooting: books/snowflake/labs/task-graph-troubleshooting.md
+          - Dynamic Table Monitoring: books/snowflake/labs/dynamic-table-monitoring.md
+          - Authentication and Network-Policy Diagnosis: books/snowflake/labs/authentication-network-policy-diagnosis.md
+          - Query Regression Investigation: books/snowflake/labs/query-regression-investigation.md
+          - Production Readiness Exercise: books/snowflake/labs/production-readiness-exercise.md
       - Production Runbooks:
           - Overview: books/snowflake/runbooks/index.md
           - Authoring Standard: books/snowflake/runbooks/runbook-standard.md

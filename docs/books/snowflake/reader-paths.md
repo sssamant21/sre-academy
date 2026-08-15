@@ -23,7 +23,10 @@ Use these paths to reach a practical outcome without reading all 20 chapters seq
 - **Investigate a slow query:** Chapters [4](chapter-04/README.md), [5](chapter-05/README.md), [7](chapter-07/README.md) and the [query-profile lab](labs/query-profile-and-pruning.md).
 - **Resolve warehouse queuing:** Chapters [6](chapter-06/README.md), [9](chapter-09/README.md) and the [warehouse-queuing runbook](runbooks/warehouse-queuing.md).
 - **Control unexpected spend:** Chapters [9](chapter-09/README.md), [10](chapter-10/README.md) and the [credit-spike runbook](runbooks/unexpected-credit-consumption.md).
-- **Prepare for production:** Chapters [8](chapter-08/README.md), [11](chapter-11/README.md), [17](chapter-17/README.md), [19](chapter-19/README.md) and [20](chapter-20/README.md).
+- **Prepare for production:** Chapters [8](chapter-08/README.md), [11](chapter-11/README.md), [17](chapter-17/README.md), [19](chapter-19/README.md) and [20](chapter-20/README.md), then complete the [production-readiness exercise](labs/production-readiness-exercise.md).
+- **Troubleshoot scheduled processing:** Complete the [task-graph](labs/task-graph-troubleshooting.md) and [dynamic-table](labs/dynamic-table-monitoring.md) labs.
+- **Diagnose access failures:** Complete the [authentication and network-policy lab](labs/authentication-network-policy-diagnosis.md).
+- **Investigate a regression:** Complete the [query-regression lab](labs/query-regression-investigation.md).
 - **Build platform automation:** Chapters [12](chapter-12/README.md), [18](chapter-18/README.md) and [19](chapter-19/README.md).
 
 ## Learning levels

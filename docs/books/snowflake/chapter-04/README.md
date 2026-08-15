@@ -3245,7 +3245,6 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-## 4.9 Distributed Query Execution
 
 Learning Objectives
 
@@ -3629,7 +3628,6 @@ Snowflake Documentation – Micro-Partitions & Data Clustering
 
 Query Processing & Query Execution Engine
 
-## 4.10 Virtual Warehouse Execution Model
 
 Learning Objectives
 
@@ -4037,7 +4035,6 @@ Snowflake Documentation – Overview of Snowflake Architecture
 
 Query Processing & Query Execution Engine
 
-## 4.11 Operator Execution (Scan, Filter, Join, Aggregate, Sort)
 
 Learning Objectives
 
@@ -4835,7 +4832,6 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-## 4.13 Result Cache
 
 Learning Objectives
 
@@ -5462,7 +5458,6 @@ Snowflake Documentation – Auto Suspend and Auto Resume
 
 Query Processing & Query Execution Engine
 
-## 4.15 Metadata Cache
 
 Learning Objectives
 
@@ -6187,7 +6182,6 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-## 4.17 Reading the Query Profile
 
 Learning Objectives
 
@@ -7486,7 +7480,6 @@ Technical Validation
 
 Query Processing & Query Execution Engine
 
-## 4.20 Chapter Summary and Key Lessons
 
 Chapter Objectives Review
 

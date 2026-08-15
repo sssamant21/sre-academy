@@ -20,6 +20,12 @@ Start with [Chapter 01](chapter-01/README.md) or review the [summary](summary.md
 
 The v1.1.0 material is production-ready and extends the validated 20-chapter handbook with guided learning, hands-on exercises, incident response and reusable operational assets.
 
+## v1.2.0 production simulations
+
+- [Incident simulation labs](labs/simulations/index.md)
+
+The v1.2.0 workstream adds safe, facilitated production-incident exercises without changing the released v1.1.0 technical content.
+
 ## Release
 
 - [v1.1.0 release notes](RELEASE_NOTES_v1.1.0.md)

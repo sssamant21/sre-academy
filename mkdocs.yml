@@ -125,6 +125,14 @@ nav:
           - Authentication and Network-Policy Diagnosis: books/snowflake/labs/authentication-network-policy-diagnosis.md
           - Query Regression Investigation: books/snowflake/labs/query-regression-investigation.md
           - Production Readiness Exercise: books/snowflake/labs/production-readiness-exercise.md
+          - Incident Simulations:
+              - Overview: books/snowflake/labs/simulations/index.md
+              - Warehouse Saturation: books/snowflake/labs/simulations/warehouse-saturation.md
+              - Query Regression: books/snowflake/labs/simulations/query-regression.md
+              - Unexpected Credit Spike: books/snowflake/labs/simulations/unexpected-credit-spike.md
+              - Failed Task Graph: books/snowflake/labs/simulations/failed-task-graph.md
+              - Authentication and Network-Policy Outage: books/snowflake/labs/simulations/authentication-network-policy-outage.md
+              - Dynamic-Table Freshness Breach: books/snowflake/labs/simulations/dynamic-table-freshness-breach.md
       - Production Runbooks:
           - Overview: books/snowflake/runbooks/index.md
           - Authoring Standard: books/snowflake/runbooks/runbook-standard.md

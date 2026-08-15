@@ -35,4 +35,8 @@ Use these paths to reach a practical outcome without reading all 20 chapters seq
 2. **Operations:** Chapters 6, 8–11 and the two initial runbooks.
 3. **Advanced engineering:** Chapters 12–20, with emphasis determined by role.
 
+## Incident-response practice
+
+After completing the operations path, use the [incident simulation collection](labs/simulations/index.md) to practice evidence collection, incident decisions, rollback and communication without disrupting production.
+
 The paths are recommendations, not prerequisites. Follow the chapter links when a lab or runbook identifies a concept that needs deeper context.

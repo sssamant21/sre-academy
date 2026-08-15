@@ -373,7 +373,7 @@ Elastic resource allocation.
 
 Cloud provider abstraction.
 
-These principles remain central to Snowflake's architecture today and continue to support new platform capabilities without requiring significant architectural redesign. (docs.snowflake.com)
+These principles remain central to Snowflake's architecture today and continue to support new platform capabilities without requiring significant architectural redesign.
 
 ### 2.2.5 Architectural Evolution Without Architectural Disruption
 
@@ -401,7 +401,7 @@ Secure collaboration.
 
 Governance enhancements.
 
-Despite these additions, the fundamental architectural model—Database Storage, Compute, and Cloud Services—remains consistent. This architectural stability simplifies adoption and reduces operational disruption for customers. (docs.snowflake.com)
+Despite these additions, the fundamental architectural model—Database Storage, Compute, and Cloud Services—remains consistent. This architectural stability simplifies adoption and reduces operational disruption for customers.
 
 Enterprise Perspective
 
@@ -1648,7 +1648,7 @@ Understand how Cloud Services coordinates query execution without executing quer
 
 The Cloud Services layer is the intelligence and coordination layer of the Snowflake platform. While the Database Storage layer persists enterprise data and the Compute layer executes SQL workloads, the Cloud Services layer orchestrates communication between these components and provides the centralized services required for the platform to operate as a unified system.
 
-Every interaction with Snowflake—whether a user signs in, submits a SQL statement, creates a warehouse, or accesses metadata—passes through Cloud Services before reaching other platform components. Rather than performing computational work, Cloud Services manages platform-wide coordination, ensuring that requests are authenticated, authorized, optimized, and directed to the appropriate resources. (docs.snowflake.com)
+Every interaction with Snowflake—whether a user signs in, submits a SQL statement, creates a warehouse, or accesses metadata—passes through Cloud Services before reaching other platform components. Rather than performing computational work, Cloud Services manages platform-wide coordination, ensuring that requests are authenticated, authorized, optimized, and directed to the appropriate resources.
 
 ### 2.7.2 Why a Control Plane is Needed
 
@@ -1700,7 +1700,7 @@ Infrastructure Coordination
 
 Manages communication between users, compute resources, and persistent storage.
 
-These services operate together to coordinate nearly every platform activity. (docs.snowflake.com)
+These services operate together to coordinate nearly every platform activity.
 
 ### 2.7.4 Cloud Services Architecture
 
@@ -1764,7 +1764,7 @@ The Virtual Warehouse retrieves required data from the Database Storage layer.
 
 Results are returned to the client.
 
-Cloud Services coordinates the process but does not execute the query itself. (docs.snowflake.com)
+Cloud Services coordinates the process but does not execute the query itself.
 
 ### 2.7.6 Separation from Compute
 
@@ -1870,17 +1870,17 @@ Observability.
 
 ### 2.7.11 Key Takeaways
 
-The Cloud Services layer is the centralized control plane of the Snowflake platform. It coordinates authentication, authorization, metadata management, query parsing, optimization, transaction coordination, and infrastructure communication while leaving SQL execution to the Compute layer. This architectural separation simplifies operations, enables independent compute scaling, and provides consistent governance across the platform. (docs.snowflake.com)
+The Cloud Services layer is the centralized control plane of the Snowflake platform. It coordinates authentication, authorization, metadata management, query parsing, optimization, transaction coordination, and infrastructure communication while leaving SQL execution to the Compute layer. This architectural separation simplifies operations, enables independent compute scaling, and provides consistent governance across the platform.
 
 References
 
 Official Snowflake Documentation
 
-Snowflake Documentation – Key Concepts and Architecture. (docs.snowflake.com)
+Snowflake Documentation – Key Concepts and Architecture.
 
-Snowflake Documentation – Access Control Overview. (docs.snowflake.com)
+Snowflake Documentation – Access Control Overview.
 
-Snowflake Documentation – Virtual Warehouses. (docs.snowflake.com)
+Snowflake Documentation – Virtual Warehouses.
 
 ## Chapter 2
 
@@ -1909,7 +1909,7 @@ Recognize how the Compute layer interacts with Cloud Services and Database Stora
 
 The Compute layer is responsible for executing workloads within Snowflake. While the Database Storage layer provides persistent storage and the Cloud Services layer coordinates platform operations, the Compute layer performs the computational work required to execute SQL statements, process data, and return query results.
 
-Snowflake implements the Compute layer through Virtual Warehouses, which are independent clusters of compute resources. These warehouses access shared storage but do not permanently store enterprise data. Their primary function is to process workloads while remaining logically isolated from one another. (docs.snowflake.com)
+Snowflake implements the Compute layer through Virtual Warehouses, which are independent clusters of compute resources. These warehouses access shared storage but do not permanently store enterprise data. Their primary function is to process workloads while remaining logically isolated from one another.
 
 ### 2.8.2 What is a Virtual Warehouse?
 
@@ -1929,7 +1929,7 @@ Snowpark workloads.
 
 Other supported compute-intensive operations.
 
-Warehouses consume compute credits only while running or resuming according to their configuration. They do not permanently store user data; they retrieve it from the Database Storage layer when required. (docs.snowflake.com)
+Warehouses consume compute credits only while running or resuming according to their configuration. They do not permanently store user data; they retrieve it from the Database Storage layer when required.
 
 ### 2.8.3 Compute Layer Architecture
 
@@ -2061,7 +2061,7 @@ Resume warehouses when needed.
 
 Configure warehouses independently for different workload patterns.
 
-This independent scaling is a direct consequence of Snowflake's separation of compute and storage. (docs.snowflake.com)
+This independent scaling is a direct consequence of Snowflake's separation of compute and storage.
 
 ### 2.8.7 Interaction with Other Layers
 
@@ -2180,17 +2180,17 @@ Performance optimization.
 
 ### 2.8.12 Key Takeaways
 
-The Compute layer is responsible for executing workloads within Snowflake through Virtual Warehouses. These independent compute clusters process SQL statements, DML operations, and supported workloads while accessing centralized storage managed by the Database Storage layer. Cloud Services coordinates authentication, authorization, metadata, and query planning, allowing the Compute layer to focus exclusively on execution. This separation of responsibilities enables workload isolation, elastic scalability, and operational flexibility, making it a cornerstone of Snowflake's architecture. (docs.snowflake.com)
+The Compute layer is responsible for executing workloads within Snowflake through Virtual Warehouses. These independent compute clusters process SQL statements, DML operations, and supported workloads while accessing centralized storage managed by the Database Storage layer. Cloud Services coordinates authentication, authorization, metadata, and query planning, allowing the Compute layer to focus exclusively on execution. This separation of responsibilities enables workload isolation, elastic scalability, and operational flexibility, making it a cornerstone of Snowflake's architecture.
 
 References
 
 Official Snowflake Documentation
 
-Snowflake Documentation – Virtual Warehouses Overview. (docs.snowflake.com)
+Snowflake Documentation – Virtual Warehouses Overview.
 
-Snowflake Documentation – Key Concepts and Architecture. (docs.snowflake.com)
+Snowflake Documentation – Key Concepts and Architecture.
 
-Snowflake Documentation – Warehouse Considerations. (docs.snowflake.com)
+Snowflake Documentation – Warehouse Considerations.
 
 ## Chapter 2
 
@@ -2271,7 +2271,7 @@ Number of distinct values.
 
 Additional optimization properties maintained by Snowflake.
 
-This metadata enables pruning and efficient query execution. (docs.snowflake.com)
+This metadata enables pruning and efficient query execution.
 
 Operational Metadata
 
@@ -2401,7 +2401,7 @@ Number of distinct values.
 
 Additional internal statistics used for optimization.
 
-When a query includes filtering predicates, this metadata allows Snowflake to determine which micro-partitions cannot satisfy the query and skip them entirely. This process is known as micro-partition pruning and is one of the platform's most effective performance optimizations. (docs.snowflake.com)
+When a query includes filtering predicates, this metadata allows Snowflake to determine which micro-partitions cannot satisfy the query and skip them entirely. This process is known as micro-partition pruning and is one of the platform's most effective performance optimizations.
 
 ### 2.9.6 Metadata and Governance
 
@@ -2519,11 +2519,11 @@ References
 
 Official Snowflake Documentation
 
-Snowflake Documentation – Micro-partitions & Data Clustering. (docs.snowflake.com)
+Snowflake Documentation – Micro-partitions & Data Clustering.
 
-Snowflake Documentation – Key Concepts and Architecture. (docs.snowflake.com)
+Snowflake Documentation – Key Concepts and Architecture.
 
-Snowflake Documentation – Account Usage & Information Schema. (docs.snowflake.com)
+Snowflake Documentation – Account Usage & Information Schema.
 
 ## Chapter 2
 
@@ -2929,11 +2929,11 @@ References
 
 Official Snowflake Documentation
 
-Snowflake Documentation – Key Concepts and Architecture. (docs.snowflake.com)
+Snowflake Documentation – Key Concepts and Architecture.
 
-Snowflake Documentation – Virtual Warehouses Overview. (docs.snowflake.com)
+Snowflake Documentation – Virtual Warehouses Overview.
 
-Snowflake Documentation – Micro-partitions & Data Clustering. (docs.snowflake.com)
+Snowflake Documentation – Micro-partitions & Data Clustering.
 
 ## Chapter 2
 

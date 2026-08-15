@@ -4478,7 +4478,7 @@ Together, these concepts provide a complete framework for designing highly autom
 
 ### 18.9.1 Platform Scope
 
-Snowflake Cortex includes AI functions and managed capabilities such as Cortex Search and Cortex Analyst. Treat model availability, regional support, privilege requirements, data movement, model behavior, and consumption cost as changeable product constraints that must be revalidated before production use.
+Cortex availability, privileges, preview/GA status, regional model support, and token costs must be validated before production use. Snowflake Cortex includes AI functions and managed capabilities such as Cortex Search and Cortex Analyst. Treat model availability, regional support, privilege requirements, data movement, model behavior, and consumption cost as changeable product constraints that must be revalidated before production use.
 
 ### 18.9.2 Enterprise Controls
 
@@ -4508,3 +4508,13 @@ Measure request volume, latency, failure rate, token or function consumption whe
 - [Cortex AI Functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql)
 - [Cortex Search](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview)
 - [Cortex Analyst](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst)
+
+
+## Chapter 18 Vendor Validation Record — 2026-08-15
+
+Validated against official Terraform and Cortex AI documentation. Only the latest Terraform provider version is officially supported; preview provider resources are disabled by default. Cortex features require feature-specific privileges, regional/model validation, preview/GA review, and token/capacity cost controls.
+
+- [Terraform provider](https://docs.snowflake.com/en/user-guide/terraform)
+- [Cortex AI Functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql)
+- [Cortex privileges](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql-privileges-and-access)
+- [Cortex cost considerations](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql-cost)

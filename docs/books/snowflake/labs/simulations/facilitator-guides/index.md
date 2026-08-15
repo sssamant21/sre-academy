@@ -1,7 +1,7 @@
 # Incident Simulation Facilitator Guides
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 These guides contain expected reasoning and scoring guidance for the six incident simulations. Participants should complete a simulation before opening its guide.

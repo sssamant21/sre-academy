@@ -1,7 +1,7 @@
 # Unified Snowflake Glossary
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 **Account Usage:** Views in the shared `SNOWFLAKE` database providing retained metadata and usage history, generally with data latency.

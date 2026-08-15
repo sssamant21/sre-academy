@@ -90,130 +90,19 @@ This logical separation supports governance, security, and operational independe
 
 ## 17.5 Chapter Structure
 
-The chapter is organized into the following sections:
+The developed chapter uses the following authoritative sequence:
 
-Part I — Platform Administration
-
-## 17.5 Enterprise Organization & Account Management
-
-## 17.6 Account Configuration & Global Parameters
-
-## 17.7 User Lifecycle Management
-
-## 17.8 Role-Based Access Control (RBAC) Administration
-
-Part II — Compute Administration
-
-## 17.9 Virtual Warehouse Administration
-
-## 17.10 Resource Monitors & Credit Governance
-
-## 17.11 Workload Isolation & Capacity Planning
-
-Part III — Database Administration
-
-## 17.12 Database Administration
-
-## 17.13 Schema Administration
-
-## 17.14 Object Lifecycle Management
-
-## 17.15 Storage Administration
-
-Part IV — Security & Governance
-
-## 17.16 Authentication & Identity Management
-
-## 17.17 Data Governance Administration
-
-## 17.18 Enterprise Auditing & Compliance
-
-Part V — Operations
-
-## 17.19 Enterprise Operational Maintenance
-
-## 17.20 Administrative Monitoring
-
-## 17.21 Administrative Automation
-
-## 17.22 Administrative Runbooks
-
-Part VI — Enterprise Management
-
-## 17.23 Platform Health Reviews
-
-## 17.24 Enterprise Administration Best Practices
-
-## 17.25 Administrative Anti-Patterns
-
-## 17.26 Enterprise Administrative Checklists
-
-## 17.27 Chapter Summary
-
-Why This Chapter Structure Works
-
-This progression follows the lifecycle of administering an enterprise Snowflake platform:
-
-Platform Foundation
-
-Organization and account architecture.
-
-Global configuration.
-
-Administrative governance.
-
-Identity & Security
-
-User lifecycle.
-
-RBAC.
-
-Authentication.
-
-Access governance.
-
-Compute & Resource Management
-
-Virtual Warehouses.
-
-Capacity planning.
-
-
-```text
-Resource Monitors.
-```
-
-Credit governance.
-
-Database & Storage Administration
-
-Databases.
-
-Schemas.
-
-Object lifecycle.
-
-Storage governance.
-
-Operational Administration
-
-Monitoring.
-
-Maintenance.
-
-Automation.
-
-Administrative runbooks.
-
-Enterprise Governance
-
-Health reviews.
-
-Best practices.
-
-Anti-patterns.
-
-Administrative checklists.
+- 17.5 Enterprise Organization & Account Management
+- 17.6 Enterprise Account Configuration & Global Administrative Parameters
+- 17.7 Enterprise User Lifecycle Management
+- 17.8 Enterprise Role-Based Access Control Administration
+- 17.9 Enterprise Virtual Warehouse Administration
+- 17.10 Enterprise Resource Monitors & Credit Governance
+- 17.11 Enterprise Workload Isolation & Capacity Planning
+- 17.12–17.15 Database, schema, object, and storage administration
+- 17.16–17.18 Identity, governance, auditing, and compliance
+- 17.19–17.21 Maintenance, monitoring, and administrative automation
+- 17.22 Production readiness and administrative excellence
 
 ## Chapter 17
 
@@ -6358,6 +6247,40 @@ Attempting to automate infrastructure managed by Snowflake.
 ### 17.21.14 Section Summary
 
 Enterprise administrative automation enables organizations to operate Snowflake consistently, securely, and efficiently. While Snowflake manages the underlying infrastructure, enterprise platform teams remain responsible for administering users, security, warehouses, governance policies, operational monitoring, and compliance processes. By automating these customer-owned activities through Infrastructure as Code, GitLab CI/CD, GitOps, and scheduled operational workflows, administrators reduce manual effort, improve governance, strengthen auditability, and build a more reliable and scalable Snowflake operating model.
+
+## Chapter 17
+
+## 17.21 Enterprise Administrative Automation
+
+### 17.21.1 Automation Scope
+
+Administrative automation should cover repeatable, reviewable tasks such as user lifecycle operations, grants, warehouse configuration, resource monitors, object provisioning, policy deployment, inventory collection, and evidence generation. Automation must use least-privilege identities and preserve an auditable change trail.
+
+### 17.21.2 Required Controls
+
+- Store declarative configuration in version control.
+- Require peer review and automated validation before production deployment.
+- Separate planning, approval, execution, and verification stages.
+- Prevent secrets and private keys from appearing in repositories or job logs.
+- Use idempotent operations and explicit rollback procedures.
+- Detect configuration drift and route exceptions to accountable owners.
+- Test emergency access and manual recovery when automation is unavailable.
+
+### 17.21.3 Validation Checklist
+
+1. Verify the execution role and active secondary roles.
+2. Generate and review a change plan.
+3. Validate object names, environments, ownership, and dependencies.
+4. Apply changes in a lower environment where supported.
+5. Execute the approved production change.
+6. Confirm grants, ownership, warehouse state, cost controls, and audit records.
+7. Record the deployment result and any drift requiring remediation.
+
+### 17.21.4 Vendor Validation
+
+- [Snowflake CLI](https://docs.snowflake.com/en/developer-guide/snowflake-cli/index)
+- [Snowflake Terraform provider](https://docs.snowflake.com/en/user-guide/terraform)
+- [Key-pair authentication and key rotation](https://docs.snowflake.com/en/user-guide/key-pair-auth)
 
 ## Chapter 17
 

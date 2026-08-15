@@ -1,8 +1,17 @@
-# Chapter 2
+# Chapter 2 - Snowflake Architecture: Internal Design and Platform Components
 
-Snowflake Architecture: Internal Design and Platform Components
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 2 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
 
-Section 2.1 – Introduction to Snowflake Architecture
+
+## 2.1 Introduction to Snowflake Architecture
 
 Learning Objectives
 
@@ -277,7 +286,7 @@ Snowflake Documentation – Cloud Services Layer
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.2 – Evolution of Snowflake Architecture
+## 2.2 Evolution of Snowflake Architecture
 
 Learning Objectives
 
@@ -504,7 +513,7 @@ Snowflake Documentation – Release Notes.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.3 – Hybrid Shared-Disk and Shared-Nothing Architecture
+## 2.3 Hybrid Shared-Disk and Shared-Nothing Architecture
 
 Learning Objectives
 
@@ -814,7 +823,7 @@ Snowflake Documentation – Compute and Storage Architecture
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.4 – Cloud-Native Design Principles
+## 2.4 Cloud-Native Design Principles
 
 Learning Objectives
 
@@ -1023,7 +1032,7 @@ Snowflake Well-Architected Framework
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.5 – Database Storage Layer
+## 2.5 Database Storage Layer
 
 Learning Objectives
 
@@ -1294,7 +1303,7 @@ Snowflake Documentation – Databases, Tables and Views Overview
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.6 – Micro-Partition Architecture
+## 2.6 Micro-Partition Architecture
 
 Learning Objectives
 
@@ -1616,7 +1625,7 @@ Snowflake Key Concepts and Architecture.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.7 – Cloud Services Layer
+## 2.7 Cloud Services Layer
 
 Learning Objectives
 
@@ -1877,7 +1886,7 @@ Snowflake Documentation – Virtual Warehouses. (docs.snowflake.com)
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.8 – Compute Layer and Virtual Warehouse Architecture
+## 2.8 Compute Layer and Virtual Warehouse Architecture
 
 Learning Objectives
 
@@ -2187,7 +2196,7 @@ Snowflake Documentation – Warehouse Considerations. (docs.snowflake.com)
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.9 – Metadata Services Architecture
+## 2.9 Metadata Services Architecture
 
 Learning Objectives
 
@@ -2520,7 +2529,7 @@ Snowflake Documentation – Account Usage & Information Schema. (docs.snowflake.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.10 – Query Lifecycle and Execution Flow
+## 2.10 Query Lifecycle and Execution Flow
 
 Learning Objectives
 
@@ -2930,7 +2939,7 @@ Snowflake Documentation – Micro-partitions & Data Clustering. (docs.snowflake.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.11 – Query Optimizer Architecture
+## 2.11 Query Optimizer Architecture
 
 Learning Objectives
 
@@ -3238,7 +3247,7 @@ Snowflake Documentation – Query Profile (for understanding execution plans).
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.12 – Caching Architecture
+## 2.12 Caching Architecture
 
 Learning Objectives
 
@@ -3529,7 +3538,7 @@ Snowflake Key Concepts and Architecture.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.13 – Transaction Management Architecture
+## 2.13 Transaction Management Architecture
 
 Learning Objectives
 
@@ -3782,7 +3791,7 @@ Snowflake Documentation – Key Concepts and Architecture.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.14 – Concurrency Control and Workload Management
+## 2.14 Concurrency Control and Workload Management
 
 Learning Objectives
 
@@ -4080,7 +4089,7 @@ Virtual Warehouses.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.15 – High Availability, Fault Tolerance, and Service Resiliency
+## 2.15 High Availability, Fault Tolerance, and Service Resiliency
 
 Learning Objectives
 
@@ -4398,7 +4407,7 @@ Snowflake Key Concepts and Architecture.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.16 – Multi-Region, Cross-Region, and Cross-Cloud Architecture
+## 2.16 Multi-Region, Cross-Region, and Cross-Cloud Architecture
 
 Learning Objectives
 
@@ -4693,7 +4702,7 @@ Share Data Securely Across Regions and Cloud Platforms.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.17 – Security Architecture Overview
+## 2.17 Security Architecture Overview
 
 Learning Objectives
 
@@ -5034,7 +5043,7 @@ Snowflake Documentation – Key Concepts and Architecture.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.18 – Observability and Monitoring Architecture
+## 2.18 Observability and Monitoring Architecture
 
 Learning Objectives
 
@@ -5451,7 +5460,7 @@ Snowflake Documentation – Logging, Tracing, and Metrics.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.19 – Complete End-to-End Snowflake Architecture
+## 2.19 Complete End-to-End Snowflake Architecture
 
 Learning Objectives
 
@@ -5927,7 +5936,7 @@ Snowflake Well-Architected Framework.
 
 Snowflake Architecture: Internal Design and Platform Components
 
-Section 2.20 – Chapter Summary, Architecture Review, and Enterprise Design Patterns
+## 2.20 Chapter Summary, Architecture Review, and Enterprise Design Patterns
 
 Learning Objectives
 

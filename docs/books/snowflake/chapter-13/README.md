@@ -5452,3 +5452,13 @@ Enterprise integrations with Grafana, Prometheus, Datadog, Splunk, and OpenTelem
 AI-driven observability, predictive analytics, and autonomous operations
 
 Together, these capabilities establish a comprehensive operational framework for monitoring, optimizing, securing, and governing enterprise-scale Snowflake deployments.
+
+
+## Chapter 13 Vendor Validation Record — 2026-08-15
+
+Validated against official Account Usage, Query History, warehouse metering, storage usage, alert, and Query Profile documentation. ACCOUNT_USAGE is historical telemetry with view-specific latency and retention; it must not be treated as a uniform real-time feed. Billing views can report consumption differently from invoiced adjustments.
+
+- [Account Usage](https://docs.snowflake.com/en/sql-reference/account-usage)
+- [Query History](https://docs.snowflake.com/en/sql-reference/account-usage/query_history)
+- [Warehouse Metering History](https://docs.snowflake.com/en/sql-reference/account-usage/warehouse_metering_history)
+- [Query Profile](https://docs.snowflake.com/en/user-guide/ui-query-profile)

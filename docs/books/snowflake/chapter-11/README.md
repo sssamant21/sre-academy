@@ -6056,3 +6056,13 @@ Bottom of Form
 Top of Form
 
 Bottom of Form
+
+
+## Chapter 11 Vendor Validation Record — 2026-08-15
+
+Validated against official alert, task, Query Profile, Query History, and incident-relevant usage documentation. Serverless alert and task compute is selected by Snowflake and is capped at the documented equivalent of an XXLARGE warehouse. Operational history is not uniformly real time; view-specific latency must be included in incident timelines.
+
+- [Alerts](https://docs.snowflake.com/en/user-guide/alerts)
+- [Tasks](https://docs.snowflake.com/en/user-guide/tasks-intro)
+- [Query Profile](https://docs.snowflake.com/en/user-guide/ui-query-profile)
+- [Account Usage](https://docs.snowflake.com/en/sql-reference/account-usage)

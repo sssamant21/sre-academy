@@ -2693,7 +2693,7 @@ This section accurately describes Snowflake's handling of aggregation and window
 
 ## Chapter 14 - Advanced SQL Performance Tuning, Query Optimization & Workload Engineering
 
-## 14.6 CTEs, Subqueries, Views & Materialized Views Performance
+## 14.6 CTEs, Subqueries, Views & Materialized views (Enterprise Edition or higher) Performance
 
 Learning Objectives
 
@@ -2707,7 +2707,7 @@ Understand recursive CTE execution.
 
 Analyze view performance.
 
-Determine when Materialized Views are appropriate.
+Determine when Materialized views (Enterprise Edition or higher) are appropriate.
 
 Build reusable SQL without sacrificing performance.
 
@@ -2723,7 +2723,7 @@ Nested subqueries
 
 Views
 
-Materialized Views
+Materialized views (Enterprise Edition or higher)
 
 Reusable reporting logic
 
@@ -3003,9 +3003,9 @@ Multiple layers of nested views can make troubleshooting more complex.
 
 Engineers should periodically review heavily used views for simplification opportunities.
 
-### 14.6.11 Materialized Views
+### 14.6.11 Materialized views (Enterprise Edition or higher)
 
-Materialized Views physically store precomputed query results maintained by Snowflake.
+Materialized views (Enterprise Edition or higher) physically store precomputed query results maintained by Snowflake.
 
 Typical use cases:
 
@@ -3025,7 +3025,7 @@ Lower repeated computation
 
 Improved reporting responsiveness
 
-Materialized Views also introduce maintenance overhead and consume storage, so they should be used selectively.
+Materialized views (Enterprise Edition or higher) also introduce maintenance overhead and consume storage, so they should be used selectively.
 
 ### 14.6.12 Materialized View Architecture
 
@@ -3045,7 +3045,7 @@ Reporting Query
 
 Queries may benefit from precomputed results when appropriate.
 
-### 14.6.13 Choosing Between Views and Materialized Views
+### 14.6.13 Choosing Between Views and Materialized views (Enterprise Edition or higher)
 
 | Feature | View | Materialized View |
 | --- | --- | --- |
@@ -3145,7 +3145,7 @@ Avoid unnecessary view nesting.
 
 Simplify reusable SQL where practical.
 
-Evaluate Materialized Views for frequently executed expensive queries.
+Evaluate Materialized views (Enterprise Edition or higher) for frequently executed expensive queries.
 
 Validate optimization decisions using Query Profile.
 
@@ -3161,7 +3161,7 @@ Anti-Pattern 1 — Deeply Nested Views
 
 Multiple layers of views increase troubleshooting complexity and may complicate optimization efforts.
 
-Anti-Pattern 2 — Creating Materialized Views for Rarely Executed Queries
+Anti-Pattern 2 — Creating Materialized views (Enterprise Edition or higher) for Rarely Executed Queries
 
 Maintenance and storage costs should be justified by workload frequency and performance gains.
 
@@ -3182,14 +3182,14 @@ Engineering Decision Framework
 | Question | Recommendation |
 | --- | --- |
 | Problem solved | Improve maintainability and performance of reusable analytical SQL while minimizing unnecessary computation. |
-| Primary operational mechanism | CTEs, reusable views, Materialized Views, Query Profile analysis, and workload-driven optimization. |
+| Primary operational mechanism | CTEs, reusable views, Materialized views (Enterprise Edition or higher), Query Profile analysis, and workload-driven optimization. |
 | Operational impact | High; improves query maintainability, reduces redundant processing, and accelerates frequently executed workloads. |
 | Business impact | Faster reporting, lower compute costs, improved developer productivity, and more consistent analytical logic. |
-| Production recommendation | Use CTEs and views to improve readability and maintainability, evaluate Materialized Views only for high-value repetitive workloads, minimize unnecessary view nesting, and validate all performance assumptions using Query Profile and workload metrics. |
+| Production recommendation | Use CTEs and views to improve readability and maintainability, evaluate Materialized views (Enterprise Edition or higher) only for high-value repetitive workloads, minimize unnecessary view nesting, and validate all performance assumptions using Query Profile and workload metrics. |
 
 Enterprise Perspective
 
-Reusable SQL is essential for enterprise analytics, but maintainability should never come at the expense of performance. Mature Snowflake organizations design modular SQL using CTEs and views while continuously reviewing execution behavior through Query Profile. Materialized Views are introduced selectively for expensive, frequently executed workloads where measurable business value justifies their maintenance and storage costs.
+Reusable SQL is essential for enterprise analytics, but maintainability should never come at the expense of performance. Mature Snowflake organizations design modular SQL using CTEs and views while continuously reviewing execution behavior through Query Profile. Materialized views (Enterprise Edition or higher) are introduced selectively for expensive, frequently executed workloads where measurable business value justifies their maintenance and storage costs.
 
 Engineering Checklist
 
@@ -3199,7 +3199,7 @@ Before promoting reusable SQL into production, verify that:
 
 ✓ View hierarchies are reviewed for simplification.
 
-✓ Materialized Views have a documented business justification.
+✓ Materialized views (Enterprise Edition or higher) have a documented business justification.
 
 ✓ Query Profile has been analyzed.
 
@@ -3221,7 +3221,7 @@ CTEs improve SQL readability and maintainability.
 
 Views centralize business logic but execute at query time.
 
-Materialized Views trade storage and maintenance for faster query performance.
+Materialized views (Enterprise Edition or higher) trade storage and maintenance for faster query performance.
 
 Query Profile should validate all performance assumptions.
 
@@ -3241,7 +3241,7 @@ Subqueries
 
 Views
 
-Materialized Views
+Materialized views (Enterprise Edition or higher)
 
 Query Profile
 
@@ -3257,7 +3257,7 @@ It also aligns with enterprise SQL engineering, analytical query design, and reu
 
 Technical Validation
 
-This section accurately distinguishes CTEs, views, and Materialized Views according to Snowflake's documented behavior. It avoids unsupported claims about optimizer internals, correctly notes that CTEs are primarily a logical query structuring feature, and emphasizes Query Profile as the authoritative source for performance analysis. The recommendations align with enterprise SQL engineering and Snowflake performance optimization guidance.
+This section accurately distinguishes CTEs, views, and Materialized views (Enterprise Edition or higher) according to Snowflake's documented behavior. It avoids unsupported claims about optimizer internals, correctly notes that CTEs are primarily a logical query structuring feature, and emphasizes Query Profile as the authoritative source for performance analysis. The recommendations align with enterprise SQL engineering and Snowflake performance optimization guidance.
 
 ## Chapter 14 - Advanced SQL Performance Tuning, Query Optimization & Workload Engineering
 
@@ -5419,7 +5419,7 @@ Join optimization and distributed query execution
 
 Aggregation, window functions, and analytical SQL optimization
 
-CTEs, subqueries, views, and Materialized Views
+CTEs, subqueries, views, and Materialized views (Enterprise Edition or higher)
 
 Search Optimization Service and clustering strategies
 
@@ -5430,3 +5430,13 @@ SQL benchmarking, concurrency testing, and regression validation
 Enterprise optimization frameworks, governance, and real-world case studies
 
 Together, these concepts provide a complete methodology for diagnosing, optimizing, validating, and governing SQL performance in enterprise-scale Snowflake environments.
+
+
+## Chapter 14 Vendor Validation Record — 2026-08-15
+
+Validated against official Query Profile, query-operator, persisted-result, search-optimization, materialized-view, and performance documentation. Query Profile exposes runtime evidence but does not document every proprietary optimizer decision. Materialized views and Search Optimization Service require Enterprise Edition or higher and incur maintenance costs.
+
+- [Query Profile](https://docs.snowflake.com/en/user-guide/ui-query-profile)
+- [Query operators](https://docs.snowflake.com/en/user-guide/ui-query-profile-operator-nodes)
+- [Persisted query results](https://docs.snowflake.com/en/user-guide/querying-persisted-results)
+- [Performance options](https://docs.snowflake.com/en/user-guide/performance-query-options)

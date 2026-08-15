@@ -14,5 +14,6 @@ Start with [Chapter 01](chapter-01/README.md) or review the [summary](summary.md
 - [Chapter content ownership and overlap boundaries](content-ownership.md)
 - [Official vendor validation: Chapters 1–5](validation/chapter-01-05.md)
 - [Official vendor validation: Chapters 6–10](validation/chapter-06-10.md)
+- [Official vendor validation: Chapters 11–15](validation/chapter-11-15.md)
 - Every chapter includes document-control metadata and official Snowflake source links.
 - Structural integrity is checked automatically for missing or duplicate top-level sections, unbalanced code fences, and missing vendor references.

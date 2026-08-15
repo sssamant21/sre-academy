@@ -485,6 +485,8 @@ This section establishes the architectural and operational foundations for autom
 
 ## 12.2 Snowflake CLI, SQL API & REST API Automation
 
+> **Current SQL API constraints:** AUTOCOMMIT must be TRUE at statement level. PUT and GET are unsupported; session-context operations and explicit transactions require supported multi-statement request patterns.
+
 Learning Objectives
 
 After completing this section, readers will be able to:
@@ -5681,3 +5683,13 @@ Define separate administrative and runtime roles, protect connector credentials,
 - [About Snowflake Openflow](https://docs.snowflake.com/en/user-guide/data-integration/openflow/about)
 - [Openflow connectors](https://docs.snowflake.com/en/user-guide/data-integration/openflow/connectors/about-openflow-connectors)
 - [Manage Openflow](https://docs.snowflake.com/en/user-guide/data-integration/openflow/manage)
+
+
+## Chapter 12 Vendor Validation Record — 2026-08-15
+
+Validated against official SQL API, Terraform provider, task, and alert documentation. SQL API AUTOCOMMIT must be TRUE per statement; PUT and GET are unsupported, and some session-scoped operations require multi-statement requests. Snowflake officially supports only the latest Terraform provider version; preview resources are disabled by default and can introduce breaking changes.
+
+- [SQL API introduction and limitations](https://docs.snowflake.com/en/developer-guide/sql-api/intro)
+- [Multiple SQL statements](https://docs.snowflake.com/en/developer-guide/sql-api/submitting-multiple-statements)
+- [Snowflake Terraform provider](https://docs.snowflake.com/en/user-guide/terraform)
+- [Tasks](https://docs.snowflake.com/en/user-guide/tasks-intro)

@@ -1,8 +1,17 @@
-# Chapter 4
+# Chapter 4 - Query Processing & Query Execution Engine
 
-Query Processing & Query Execution Engine
+> **Document control**
+>
+> - Status: Technical review
+> - Last vendor validation: 2026-08-15
+> - Source policy: Technical claims must be traceable to current official Snowflake documentation.
+> - Scope: Chapter 4 content and the operational procedures explicitly identified within it.
+> - Related material: Use the handbook [summary](../summary.md) to navigate overlapping topics.
+>
+> **Core vendor sources:** [Snowflake documentation](https://docs.snowflake.com/en/) · [SQL command reference](https://docs.snowflake.com/en/sql-reference-commands) · [Release notes](https://docs.snowflake.com/en/release-notes/overview)
 
-Section 4.1 – Introduction to the Snowflake Query Processing Engine
+
+## 4.1 Introduction to the Snowflake Query Processing Engine
 
 Learning Objectives
 
@@ -400,7 +409,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.2 – SQL Parsing and Syntax Validation
+## 4.2 SQL Parsing and Syntax Validation
 
 Learning Objectives
 
@@ -835,7 +844,7 @@ Snowflake Documentation – Query History
 
 Query Processing & Query Execution Engine
 
-Section 4.3 – Semantic Analysis and Object Resolution
+## 4.3 Semantic Analysis and Object Resolution
 
 Learning Objectives
 
@@ -1336,7 +1345,7 @@ Snowflake Documentation – Query Processing and Performance
 
 Query Processing & Query Execution Engine
 
-Section 4.4 – Query Compilation Pipeline
+## 4.4 Query Compilation Pipeline
 
 Learning Objectives
 
@@ -1681,7 +1690,7 @@ Snowflake Documentation – Performance Optimization Overview
 
 Query Processing & Query Execution Engine
 
-Section 4.5 – Logical Query Plan Generation
+## 4.5 Logical Query Plan Generation
 
 Learning Objectives
 
@@ -2086,7 +2095,7 @@ Snowflake Documentation – Micro-Partitions & Data Clustering
 
 Query Processing & Query Execution Engine
 
-Section 4.6 – Cost-Based Optimizer (CBO)
+## 4.6 Cost-Based Optimizer (CBO)
 
 Learning Objectives
 
@@ -2500,7 +2509,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.7 – Statistics, Metadata, and Cardinality Estimation
+## 4.7 Statistics, Metadata, and Cardinality Estimation
 
 Learning Objectives
 
@@ -2829,7 +2838,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.8 – Physical Query Plan Selection
+## 4.8 Physical Query Plan Selection
 
 Learning Objectives
 
@@ -3194,7 +3203,7 @@ These observations often identify the true performance bottleneck more effective
 
 The next section begins the execution phase of the query lifecycle:
 
-Section 4.9 – Distributed Query Execution
+## 4.9 Distributed Query Execution
 
 Topics include:
 
@@ -3236,7 +3245,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.9 – Distributed Query Execution
+## 4.9 Distributed Query Execution
 
 Learning Objectives
 
@@ -3576,7 +3585,7 @@ Scaling a warehouse should be considered only after understanding the execution 
 
 The next section explores the execution environment in more detail:
 
-Section 4.10 – Virtual Warehouse Execution Model
+## 4.10 Virtual Warehouse Execution Model
 
 Topics include:
 
@@ -3620,7 +3629,7 @@ Snowflake Documentation – Micro-Partitions & Data Clustering
 
 Query Processing & Query Execution Engine
 
-Section 4.10 – Virtual Warehouse Execution Model
+## 4.10 Virtual Warehouse Execution Model
 
 Learning Objectives
 
@@ -3982,7 +3991,7 @@ Balancing performance with cost requires understanding both query behavior and w
 
 The next section explores the individual execution operators that make up the physical plan:
 
-Section 4.11 – Operator Execution (Scan, Filter, Join, Aggregate, Sort)
+## 4.11 Operator Execution (Scan, Filter, Join, Aggregate, Sort)
 
 Topics include:
 
@@ -4028,7 +4037,7 @@ Snowflake Documentation – Overview of Snowflake Architecture
 
 Query Processing & Query Execution Engine
 
-Section 4.11 – Operator Execution (Scan, Filter, Join, Aggregate, Sort)
+## 4.11 Operator Execution (Scan, Filter, Join, Aggregate, Sort)
 
 Learning Objectives
 
@@ -4464,7 +4473,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.12 – Data Exchange and Shuffle Operations
+## 4.12 Data Exchange and Shuffle Operations
 
 Learning Objectives
 
@@ -4784,7 +4793,7 @@ This structured approach helps distinguish unavoidable distributed processing fr
 
 The next section begins our examination of Snowflake's caching architecture:
 
-Section 4.13 – Result Cache
+## 4.13 Result Cache
 
 Topics include:
 
@@ -4826,7 +4835,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.13 – Result Cache
+## 4.13 Result Cache
 
 Learning Objectives
 
@@ -5124,7 +5133,7 @@ Snowflake Documentation – Overview of Snowflake Architecture
 
 Query Processing & Query Execution Engine
 
-Section 4.14 – Local Disk Cache
+## 4.14 Local Disk Cache
 
 Learning Objectives
 
@@ -5413,7 +5422,7 @@ Balancing auto-suspend savings against cache warm-up overhead should be based on
 
 The next section explores the third major cache:
 
-Section 4.15 – Metadata Cache
+## 4.15 Metadata Cache
 
 Topics include:
 
@@ -5453,7 +5462,7 @@ Snowflake Documentation – Auto Suspend and Auto Resume
 
 Query Processing & Query Execution Engine
 
-Section 4.15 – Metadata Cache
+## 4.15 Metadata Cache
 
 Learning Objectives
 
@@ -5809,7 +5818,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.16 – Runtime Optimizations
+## 4.16 Runtime Optimizations
 
 Learning Objectives
 
@@ -6134,7 +6143,7 @@ Together, these components provide Snowflake's end-to-end performance optimizati
 
 The next section begins the operational analysis phase of this chapter:
 
-Section 4.17 – Reading the Query Profile
+## 4.17 Reading the Query Profile
 
 Topics include:
 
@@ -6178,7 +6187,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.17 – Reading the Query Profile
+## 4.17 Reading the Query Profile
 
 Learning Objectives
 
@@ -6640,7 +6649,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.18 – Query Performance Troubleshooting
+## 4.18 Query Performance Troubleshooting
 
 Learning Objectives
 
@@ -7088,7 +7097,7 @@ Snowflake SQL Reference
 
 Query Processing & Query Execution Engine
 
-Section 4.19 – Production Case Studies
+## 4.19 Production Case Studies
 
 Learning Objectives
 
@@ -7443,7 +7452,7 @@ This checklist provides a repeatable operational workflow for production teams.
 
 The next section concludes the chapter:
 
-Section 4.20 – Chapter Summary and Key Lessons
+## 4.20 Chapter Summary and Key Lessons
 
 It will consolidate the major concepts introduced throughout the chapter, reinforce architectural principles, summarize operational best practices, and provide a foundation for the next chapter on advanced query performance engineering.
 
@@ -7477,7 +7486,7 @@ Technical Validation
 
 Query Processing & Query Execution Engine
 
-Section 4.20 – Chapter Summary and Key Lessons
+## 4.20 Chapter Summary and Key Lessons
 
 Chapter Objectives Review
 

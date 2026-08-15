@@ -1,7 +1,7 @@
 # Answers: Chapters 1–5
 
 Version: v1.2.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 1. Separation permits independent compute scaling, shared managed storage and service-managed coordination, enabling isolation and cost attribution without coupling data size to compute.

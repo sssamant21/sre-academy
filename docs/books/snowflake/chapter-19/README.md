@@ -1639,6 +1639,39 @@ An Enterprise Service Catalog transforms Snowflake platform operations into a st
 
 ## Chapter 19
 
+## 19.7 Service Catalog, Ownership & Support Model
+
+### 19.7.1 Service Definition
+
+Snowflake should be operated as a defined enterprise service rather than as an unmanaged collection of accounts and warehouses. The service catalog must identify supported capabilities, consumers, owners, boundaries, request channels, support hours, escalation paths, dependencies, and measurable commitments.
+
+### 19.7.2 Ownership Model
+
+- The executive sponsor owns business alignment and funding.
+- The platform owner is accountable for service outcomes and roadmap decisions.
+- Platform engineering owns reusable capabilities, automation, and paved roads.
+- Security and governance teams define mandatory controls and evidence requirements.
+- Data-product teams own data quality, business semantics, and consumer expectations.
+- SRE or operations teams own readiness, monitoring, incidents, and recovery exercises.
+
+### 19.7.3 Support Tiers
+
+Document standard, enhanced, and mission-critical support tiers where applicable. Each tier should specify onboarding requirements, service hours, severity definitions, response targets, RPO/RTO expectations, cost-allocation rules, and exit criteria. Avoid promising an SLA that cannot be measured from authoritative telemetry.
+
+### 19.7.4 Service Catalog Checklist
+
+- Named service and technical owners
+- Supported accounts, regions, editions, and environments
+- Request and approval workflows
+- Standard warehouse and security patterns
+- Monitoring and alerting responsibilities
+- Incident and escalation paths
+- Data-protection and recovery expectations
+- Cost ownership and showback or chargeback rules
+- Deprecation and lifecycle policy
+
+## Chapter 19
+
 ## 19.8 Service Level Indicators (SLIs), Service Level Objectives (SLOs) & Service Level Agreements (SLAs)
 
 Measuring and Managing Snowflake Platform Service Performance

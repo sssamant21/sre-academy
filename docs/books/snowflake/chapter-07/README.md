@@ -7069,7 +7069,7 @@ A healthcare analytics platform computes patient visit rankings.
 
 Original query:
 
-## 1.2 billion rows.
+**1.2 billion rows.**
 
 Multiple joins.
 
@@ -8589,7 +8589,7 @@ A healthcare analytics platform supports:
 
 4,500 daily users
 
-## 1.8 million queries per day
+**1.8 million queries per day**
 
 42 Virtual Warehouses
 

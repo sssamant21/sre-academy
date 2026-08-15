@@ -3875,7 +3875,7 @@ Engineering Decision Framework
 | Primary operational mechanism | Disaster Recovery planning, replication, failover procedures, recovery validation, business continuity governance, and structured RCA. |
 | Operational impact | Very High; reduces recovery time, protects business operations, and strengthens organizational resilience. |
 | Business impact | Improved service continuity, reduced downtime, stronger regulatory readiness, increased customer confidence, and better executive preparedness. |
-| Production recommendation | Establish business-approved recovery objectives, implement Snowflake replication and failover capabilities where appropriate, regularly test disaster recovery procedures, validate business functionality after recovery, and treat every recovery exercise or real event as an opportunity to improve resilience. |
+| Production recommendation | Establish business-approved recovery objectives, implement Snowflake asynchronous replication and Business Critical-or-higher failover capabilities where appropriate, regularly test disaster recovery procedures, validate business functionality after recovery, and treat every recovery exercise or real event as an opportunity to improve resilience. |
 
 Enterprise Perspective
 
@@ -5867,3 +5867,12 @@ Production Readiness Reviews (PRRs) and operational maturity assessments
 Enterprise incident playbooks, operational runbooks, and a complete Snowflake Operations Handbook
 
 Together, these sections provide a production-ready operational model that integrates SRE, Platform Engineering, DBA, Security, FinOps, Data Engineering, and governance into a unified operational framework for Snowflake.
+
+
+## Chapter 16 Vendor Validation Record — 2026-08-15
+
+Validated against official BCDR, replication, failover, Time Travel, and incident telemetry documentation. Replication is asynchronous; RPO follows the configured refresh schedule. Failover/failback and replication of many account objects require Business Critical Edition or higher, and unsupported dependencies require separate recovery procedures.
+
+- [BCDR introduction](https://docs.snowflake.com/en/user-guide/replication-intro)
+- [Account replication](https://docs.snowflake.com/en/user-guide/account-replication-intro)
+- [Replication considerations](https://docs.snowflake.com/en/user-guide/account-replication-considerations)

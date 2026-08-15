@@ -113,6 +113,7 @@ nav:
       - Overview: books/snowflake/index.md
       - Summary: books/snowflake/summary.md
       - Content Ownership: books/snowflake/content-ownership.md
+      - Vendor Validation 01-05: books/snowflake/validation/chapter-01-05.md
       - Chapters:
           - "Chapter 01 - Introduction to Snowflake & Enterprise Architecture": books/snowflake/chapter-01/README.md
           - "Chapter 02 - Snowflake Architecture: Internal Design and Platform Components": books/snowflake/chapter-02/README.md

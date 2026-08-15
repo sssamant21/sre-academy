@@ -60,7 +60,7 @@ The release validates:
 - fenced code blocks;
 - v1.1 metadata;
 - official-reference sections;
-- unresolved TODO, TBD and FIXME markers;
+- unresolved work markers;
 - MkDocs configuration and navigation;
 - publishable documentation deployment.
 

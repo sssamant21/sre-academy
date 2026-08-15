@@ -161,7 +161,7 @@ Instead, it emerges from the interaction of:
 | --- | --- |
 | SQL | Joins, filters, aggregations, window functions |
 | Storage | Micro-partitions, clustering, pruning |
-| Optimization | Cost-Based Optimizer, metadata |
+| Optimization | Snowflake query optimizer, metadata |
 | Compute | Warehouse sizing, concurrency |
 | Execution | Parallelism, data exchange |
 | Operations | Monitoring, workload scheduling, caching |
@@ -2841,7 +2841,7 @@ The optimizer cannot optimize joins.
 
 Reality
 
-Snowflake's Cost-Based Optimizer selects the physical join strategy automatically. Engineers improve performance primarily by reducing the amount of data participating in the join.
+Snowflake's Snowflake query optimizer selects the physical join strategy automatically. Engineers improve performance primarily by reducing the amount of data participating in the join.
 
 Misconception 2
 
@@ -2924,7 +2924,7 @@ Aggregations are another major source of execution cost in analytical workloads,
 
 ### 5.7.17 Key Takeaways
 
-Join optimization in Snowflake focuses on reducing the amount of data entering join operations rather than manually selecting execution algorithms. Applying selective filters before joins, retrieving only required columns, eliminating unnecessary joins, and minimizing intermediate result sets enable the Cost-Based Optimizer to generate efficient execution plans. Query Profile should be used to validate every optimization by examining join operators, data movement, rows processed, and bytes scanned. Efficient join design improves both performance and compute cost across enterprise analytical workloads.
+Join optimization in Snowflake focuses on reducing the amount of data entering join operations rather than manually selecting execution algorithms. Applying selective filters before joins, retrieving only required columns, eliminating unnecessary joins, and minimizing intermediate result sets enable the Snowflake query optimizer to generate efficient execution plans. Query Profile should be used to validate every optimization by examining join operators, data movement, rows processed, and bytes scanned. Efficient join design improves both performance and compute cost across enterprise analytical workloads.
 
 References
 
@@ -4227,7 +4227,7 @@ Engineers manually control which micro-partitions are scanned.
 
 Reality
 
-The Cost-Based Optimizer determines which micro-partitions can be eliminated using metadata.
+The Snowflake query optimizer determines which micro-partitions can be eliminated using metadata.
 
 Misconception 3
 
@@ -5121,7 +5121,7 @@ Materialized Views complement Search Optimization by accelerating repeated analy
 
 ### 5.12.17 Key Takeaways
 
-Search Optimization Service is a specialized Snowflake performance feature designed to accelerate supported highly selective query patterns, such as equality lookups, certain joins, supported text searches, and searches against semi-structured data. It complements partition pruning and Clustering Keys rather than replacing them. Because it incurs additional storage and maintenance costs, Search Optimization should be enabled only after workload analysis demonstrates that its performance benefits outweigh its operational overhead. Engineers should always validate improvements using Query Profile, Query History, and measurable workload metrics.
+Search Optimization Service is an Enterprise Edition-or-higher performance feature designed to accelerate supported highly selective query patterns, such as equality lookups, certain joins, supported text searches, and searches against semi-structured data. It complements partition pruning and Clustering Keys rather than replacing them. Because it incurs additional storage and maintenance costs, Search Optimization should be enabled only after workload analysis demonstrates that its performance benefits outweigh its operational overhead. Engineers should always validate improvements using Query Profile, Query History, and measurable workload metrics.
 
 References
 
@@ -5330,7 +5330,7 @@ Snowflake validates that the definition meets the documented requirements for Ma
 
 ### 5.13.9 Optimizer Integration
 
-Snowflake's Cost-Based Optimizer can automatically consider an applicable Materialized View when planning a query.
+Snowflake's Snowflake query optimizer can automatically consider an applicable Materialized View when planning a query.
 
 Conceptually:
 
@@ -5544,7 +5544,7 @@ Warehouse sizing is one of the most important operational decisions because it d
 
 ### 5.13.19 Key Takeaways
 
-Materialized Views improve Snowflake performance by persisting the results of supported, frequently executed queries and automatically maintaining them as underlying data changes. They are most effective for repeated aggregations, dashboard queries, and reporting workloads where expensive computations are reused many times. Because Materialized Views incur additional storage and maintenance costs, engineers should deploy them selectively, validate their impact using Query Profile and Query History, and periodically review whether their operational benefits continue to outweigh their ongoing maintenance overhead.
+Materialized views, available with Enterprise Edition or higher, can improve Snowflake performance by persisting the results of supported, frequently executed queries and automatically maintaining them as underlying data changes. They are most effective for repeated aggregations, dashboard queries, and reporting workloads where expensive computations are reused many times. Because Materialized Views incur additional storage and maintenance costs, engineers should deploy them selectively, validate their impact using Query Profile and Query History, and periodically review whether their operational benefits continue to outweigh their ongoing maintenance overhead.
 
 References
 
@@ -6336,7 +6336,7 @@ Query Profile is the primary diagnostic tool for understanding how Snowflake exe
 
 ### 5.15.17 Key Takeaways
 
-Multi-Cluster Warehouses enable Snowflake to handle high levels of concurrent query execution by automatically adding or removing compute clusters based on workload demand. Unlike warehouse resizing, which increases the compute available to individual queries, Multi-Cluster Warehouses reduce queueing and improve responsiveness during periods of high concurrency. Engineers should deploy this feature only after confirming that concurrency—not inefficient SQL or poor storage optimization—is the primary bottleneck, and should continuously monitor queue time, utilization, active cluster count, and credit consumption to ensure that operational benefits justify the additional compute cost.
+Multi-cluster warehouses, available with Enterprise Edition or higher, enable Snowflake to handle high levels of concurrent query execution by automatically adding or removing compute clusters based on workload demand. Unlike warehouse resizing, which increases the compute available to individual queries, Multi-Cluster Warehouses reduce queueing and improve responsiveness during periods of high concurrency. Engineers should deploy this feature only after confirming that concurrency—not inefficient SQL or poor storage optimization—is the primary bottleneck, and should continuously monitor queue time, utilization, active cluster count, and credit consumption to ensure that operational benefits justify the additional compute cost.
 
 References
 
@@ -7810,3 +7810,13 @@ Snowflake Documentation – ACCOUNT_USAGE Views
 Snowflake Documentation – Query History
 
 Snowflake SQL Reference
+
+
+## Chapter 5 Vendor Validation Record — 2026-08-15
+
+Validated against current official performance documentation. Edition requirements and cost implications were clarified for search optimization, materialized views, and multi-cluster warehouses. Optimization guidance remains workload-dependent and should be confirmed through Query Profile and measured production tests.
+
+- [Optimizing query performance](https://docs.snowflake.com/en/user-guide/performance-query-options)
+- [Search optimization service](https://docs.snowflake.com/en/user-guide/search-optimization-service)
+- [Materialized views](https://docs.snowflake.com/en/user-guide/views-materialized)
+- [Multi-cluster warehouses](https://docs.snowflake.com/en/user-guide/warehouses-multicluster)

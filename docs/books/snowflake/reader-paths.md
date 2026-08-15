@@ -1,7 +1,7 @@
 # Snowflake Enterprise Handbook Reader Paths
 
 Version: v1.1.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-15
 
 Use these paths to reach a practical outcome without reading all 20 chapters sequentially. Chapter numbers link to the existing production handbook.

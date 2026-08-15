@@ -4681,7 +4681,7 @@ Applications
 
 ▼
 
-Snowsight Dashboards
+supported Snowflake visualization surfaces
 
 ACCOUNT_USAGE Views
 

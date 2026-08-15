@@ -767,7 +767,7 @@ Understand the architectural foundation for Virtual Warehouses discussed later i
 
 One of Snowflake's most distinctive architectural innovations is its Multi-Cluster Shared Data Architecture. Unlike traditional database systems that tightly couple compute resources with stored data, Snowflake separates persistent data storage from query execution while allowing multiple independent compute clusters to access the same underlying data simultaneously.
 
-This architecture enables organizations to support diverse workloads—including interactive analytics, data engineering, business intelligence, AI/ML processing, and reporting—without requiring separate copies of enterprise data or forcing unrelated workloads to compete for the same compute resources. (docs.snowflake.com)
+This architecture enables organizations to support diverse workloads—including interactive analytics, data engineering, business intelligence, AI/ML processing, and reporting—without requiring separate copies of enterprise data or forcing unrelated workloads to compete for the same compute resources.
 
 ### 1.5.2 What is Multi-Cluster Shared Data?
 
@@ -783,7 +783,7 @@ Data remains consistent regardless of which warehouse accesses it.
 
 Unlike shared-disk database systems, compute clusters do not directly share execution resources. Likewise, unlike traditional shared-nothing systems, data does not need to be duplicated across independent processing nodes.
 
-Snowflake combines characteristics of both architectural approaches, creating a hybrid model optimized for cloud-native analytics. (docs.snowflake.com)
+Snowflake combines characteristics of both architectural approaches, creating a hybrid model optimized for cloud-native analytics.
 
 ### 1.5.3 Architectural Overview
 
@@ -847,7 +847,7 @@ Data science workloads interfere with business users.
 
 Batch processing impacts interactive SQL sessions.
 
-Snowflake addresses these challenges by allowing organizations to allocate separate Virtual Warehouses to different workloads while maintaining a single shared data repository. (docs.snowflake.com)
+Snowflake addresses these challenges by allowing organizations to allocate separate Virtual Warehouses to different workloads while maintaining a single shared data repository.
 
 This architectural separation provides:
 
@@ -917,7 +917,7 @@ Compute Scaling
 
 Virtual Warehouses can be resized or configured independently based on workload requirements.
 
-This separation enables organizations to optimize compute resources without changing storage capacity, improving both operational flexibility and cost management. (docs.snowflake.com)
+This separation enables organizations to optimize compute resources without changing storage capacity, improving both operational flexibility and cost management.
 
 ### 1.5.8 Enterprise Benefits
 
@@ -938,7 +938,7 @@ Misconception 1
 
 Each Virtual Warehouse stores its own copy of the data.
 
-Reality: Virtual Warehouses access shared centralized storage. They do not maintain independent persistent copies of enterprise data. (docs.snowflake.com)
+Reality: Virtual Warehouses access shared centralized storage. They do not maintain independent persistent copies of enterprise data.
 
 Misconception 2
 
@@ -1324,7 +1324,7 @@ Distinguish between foundational platform services and enterprise implementation
 
 A strong understanding of Snowflake's architecture provides the foundation for understanding the services it delivers. While the previous sections explained how the platform is designed, this section introduces what the platform enables.
 
-Snowflake has evolved from a cloud data warehouse into a comprehensive cloud-native data platform that supports data engineering, analytics, application development, artificial intelligence (AI), secure collaboration, governance, and operational data management. Rather than requiring multiple specialized products, Snowflake provides an integrated platform where these capabilities operate together on a common architectural foundation. (docs.snowflake.com)
+Snowflake has evolved from a cloud data warehouse into a comprehensive cloud-native data platform that supports data engineering, analytics, application development, artificial intelligence (AI), secure collaboration, governance, and operational data management. Rather than requiring multiple specialized products, Snowflake provides an integrated platform where these capabilities operate together on a common architectural foundation.
 
 ### 1.7.2 Data Storage
 
@@ -1336,7 +1336,7 @@ Semi-structured data
 
 Unstructured data
 
-The platform also supports multiple table types, including native Snowflake tables, Apache Iceberg™ tables, and Hybrid Tables where appropriate. Snowflake manages storage optimization, compression, and physical organization for Snowflake-managed tables. (docs.snowflake.com)
+The platform also supports multiple table types, including native Snowflake tables, Apache Iceberg™ tables, and Hybrid Tables where appropriate. Snowflake manages storage optimization, compression, and physical organization for Snowflake-managed tables.
 
 ### 1.7.3 Data Processing
 
@@ -2749,7 +2749,7 @@ Chapter Summary
 
 This chapter introduced the fundamental concepts required to understand Snowflake as a modern cloud-native enterprise data platform. Rather than focusing on individual product features, the chapter established the architectural principles, operating model, and organizational responsibilities that underpin successful enterprise deployments.
 
-We began by examining the evolution of enterprise data platforms and the limitations of traditional on-premises data warehouse architectures. As organizations experienced exponential growth in data volume, workload diversity, and analytical requirements, conventional architectures became increasingly difficult to scale and operate. Cloud computing created an opportunity to rethink data platform architecture from first principles, enabling managed services, elastic scalability, and operational simplification. Snowflake was designed specifically to leverage these cloud-native characteristics rather than adapting a legacy database architecture to the cloud. This design philosophy is reflected throughout the platform and forms the basis of its Software-as-a-Service (SaaS) operating model. (docs.snowflake.com)
+We began by examining the evolution of enterprise data platforms and the limitations of traditional on-premises data warehouse architectures. As organizations experienced exponential growth in data volume, workload diversity, and analytical requirements, conventional architectures became increasingly difficult to scale and operate. Cloud computing created an opportunity to rethink data platform architecture from first principles, enabling managed services, elastic scalability, and operational simplification. Snowflake was designed specifically to leverage these cloud-native characteristics rather than adapting a legacy database architecture to the cloud. This design philosophy is reflected throughout the platform and forms the basis of its Software-as-a-Service (SaaS) operating model.
 
 The chapter then introduced Snowflake's core architectural principles, emphasizing that the platform is organized into three primary layers:
 
@@ -2759,7 +2759,7 @@ Compute
 
 Cloud Services
 
-This separation of responsibilities enables independent scaling of storage and compute, workload isolation through Virtual Warehouses, centralized metadata management, and simplified platform operations. Snowflake officially describes this architecture as a hybrid of traditional shared-disk and shared-nothing database designs, combining centralized storage with independent compute resources to support high concurrency and elastic scaling. (docs.snowflake.com)
+This separation of responsibilities enables independent scaling of storage and compute, workload isolation through Virtual Warehouses, centralized metadata management, and simplified platform operations. Snowflake officially describes this architecture as a hybrid of traditional shared-disk and shared-nothing database designs, combining centralized storage with independent compute resources to support high concurrency and elastic scaling.
 
 A significant portion of the chapter focused on the Shared Responsibility Model, one of the most important concepts for enterprise deployments. While Snowflake manages the underlying platform infrastructure and service operations, customers remain responsible for enterprise architecture, identity and access management, governance, security configuration, monitoring, FinOps, business continuity, and operational processes. Understanding these responsibility boundaries is essential because they influence every subsequent architectural and operational decision.
 

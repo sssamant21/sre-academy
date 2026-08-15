@@ -7069,7 +7069,7 @@ A healthcare analytics platform computes patient visit rankings.
 
 Original query:
 
-## 1.2 billion rows.
+**1.2 billion rows.**
 
 Multiple joins.
 
@@ -8226,7 +8226,7 @@ Resource Monitors
 
 Technical Validation
 
-This section is based on Snowflake's documented Virtual Warehouse architecture and operational guidance. It accurately distinguishes scaling up from scaling out, emphasizes the intended use of Multi-Cluster Warehouses for concurrency rather than single-query acceleration, and recommends evidence-based tuning using Query Profile and warehouse metrics. The next section, 7.18 – Enterprise Performance Monitoring & Continuous Optimization, will integrate Query History, ACCOUNT_USAGE views, Resource Monitors, Snowsight dashboards, alerts, and operational KPIs into a comprehensive performance engineering framework suitable for production Snowflake environments.
+This section is based on Snowflake's documented Virtual Warehouse architecture and operational guidance. It accurately distinguishes scaling up from scaling out, emphasizes the intended use of Multi-Cluster Warehouses for concurrency rather than single-query acceleration, and recommends evidence-based tuning using Query Profile and warehouse metrics. The next section, 7.18 – Enterprise Performance Monitoring & Continuous Optimization, will integrate Query History, ACCOUNT_USAGE views, Resource Monitors, supported Snowflake visualization surfaces, alerts, and operational KPIs into a comprehensive performance engineering framework suitable for production Snowflake environments.
 
 Top of Form
 
@@ -8589,7 +8589,7 @@ A healthcare analytics platform supports:
 
 4,500 daily users
 
-## 1.8 million queries per day
+**1.8 million queries per day**
 
 42 Virtual Warehouses
 

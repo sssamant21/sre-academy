@@ -1,7 +1,7 @@
 # DBRE Simulation Facilitator Guides
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-16
 
 These guides contain scenario injects, expected reasoning and scoring guidance. Participants should complete the simulation before opening its guide.

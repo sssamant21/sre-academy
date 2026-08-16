@@ -38,4 +38,3 @@ The team stopped other catalog changes, restored least-privilege metadata access
 - [`ALTER ICEBERG TABLE REFRESH`](https://docs.snowflake.com/en/sql-reference/sql/alter-iceberg-table-refresh)
 - [Manage Iceberg tables](https://docs.snowflake.com/en/user-guide/tables-iceberg-manage)
 - [Horizon Catalog external-engine access](https://docs.snowflake.com/en/user-guide/tables-iceberg-access-using-external-query-engine-snowflake-horizon)
-

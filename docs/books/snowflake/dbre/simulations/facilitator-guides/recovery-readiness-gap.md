@@ -1,7 +1,7 @@
 # Facilitator Guide: Recovery-Readiness Gap
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Duration: 75 minutes  
 Last reviewed: 2026-08-16
 

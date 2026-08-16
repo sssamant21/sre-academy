@@ -1,7 +1,7 @@
 # API Extraction with Durable Micro-Batches
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 ## Use when
@@ -69,4 +69,3 @@ Test an interrupted page sequence, expired cursor, late update, duplicate page a
 - [Semi-structured data](https://docs.snowflake.com/en/user-guide/semistructured-concepts)
 - [`MERGE`](https://docs.snowflake.com/en/sql-reference/sql/merge)
 - [Storage integrations](https://docs.snowflake.com/en/user-guide/data-load-storage-config)
-

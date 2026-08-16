@@ -44,4 +44,3 @@ Validate totals across time grains, join paths, null keys, many-to-many relation
 - [`CREATE SEMANTIC VIEW`](https://docs.snowflake.com/en/sql-reference/sql/create-semantic-view)
 - [Semantic-view SQL management](https://docs.snowflake.com/en/user-guide/views-semantic/sql)
 - [Semantic-view development practices](https://docs.snowflake.com/en/user-guide/views-semantic/best-practices-dev)
-

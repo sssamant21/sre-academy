@@ -18,6 +18,8 @@
 - [DBRE Dashboard Specifications](dbre/dashboards/dashboard-specifications.md)
 - [DBRE Metric Data Contracts](dbre/dashboards/metric-data-contracts.md)
 - [DBRE Reliability Runbooks](dbre/runbooks/index.md)
+- [DBRE Practical Labs](dbre/labs/index.md)
+- [DBRE Reliability Simulations](dbre/simulations/index.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

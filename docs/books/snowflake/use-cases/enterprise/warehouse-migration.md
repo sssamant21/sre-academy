@@ -44,4 +44,3 @@ Require zero unexplained critical reconciliation differences, approved functiona
 - [Data Migration and Validation](https://docs.snowflake.com/en/migrations/aim-for-datawarehouses/data-migration-validation/overview)
 - [Data migration](https://docs.snowflake.com/en/migrations/aim-for-datawarehouses/data-migration-validation/data-migration)
 - [Data validation](https://docs.snowflake.com/en/migrations/aim-for-datawarehouses/data-migration-validation/data-validation)
-

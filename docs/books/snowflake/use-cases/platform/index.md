@@ -18,4 +18,3 @@ This phase covers patterns that publish data beyond a single workload, preserve 
 ## Shared launch gate
 
 Record the owner, approved regions and editions, data classification, privilege boundary, cost model, SLO, validation evidence, incident owner, recovery method, version policy and decommission procedure. Preview features require an explicit risk acceptance and must not be described as generally available.
-

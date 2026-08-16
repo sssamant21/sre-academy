@@ -46,4 +46,3 @@ Record source snapshot ID, row count, distinct business keys, duplicates, null c
 - [Consuming shared data](https://docs.snowflake.com/en/user-guide/data-share-consumers)
 - [Zero-copy cloning](https://docs.snowflake.com/en/user-guide/object-clone)
 - [Transactions](https://docs.snowflake.com/en/sql-reference/transactions)
-

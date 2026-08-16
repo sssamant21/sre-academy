@@ -1,7 +1,7 @@
 # Case Study: Unexpected Credit Consumption
 
 Version: v1.5.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 Fictional composite; credit figures are illustrative.

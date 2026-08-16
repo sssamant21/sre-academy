@@ -1,7 +1,7 @@
 # Case Study: Snowpipe Backlog and Missing Files
 
 Version: v1.5.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 Fictional composite; all names and times are illustrative.

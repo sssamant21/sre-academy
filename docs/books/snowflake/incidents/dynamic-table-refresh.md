@@ -1,7 +1,7 @@
 # Case Study: Dynamic-Table Refresh Breach
 
 Version: v1.5.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 Fictional composite; target lag is a best-effort freshness objective, not a guarantee.

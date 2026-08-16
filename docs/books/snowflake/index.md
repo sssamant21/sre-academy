@@ -56,12 +56,11 @@ The v1.4.0 development work now spans ingestion, transformation, analytics, gove
 - [Warehouse saturation](incidents/warehouse-saturation.md)
 - [Unexpected credit consumption](incidents/unexpected-credit-consumption.md)
 
-The first v1.5.0 development phase adds fictional, evidence-driven production incident cases with timelines, containment, recovery, RCA and preventive controls.
-
-The second phase extends the collection with authentication, sharing, Iceberg, AI enrichment, Cortex Search and ML drift incidents.
+Version 1.5.0 adds twelve fictional, evidence-driven production incident cases with timelines, containment, recovery, RCA and preventive controls. The collection covers ingestion, orchestration, warehouses, cost, authentication, sharing, Iceberg, AI enrichment, Cortex Search and ML drift.
 
 ## Release
 
+- [v1.5.0 release notes](RELEASE_NOTES_v1.5.0.md)
 - [v1.4.0 release notes](RELEASE_NOTES_v1.4.0.md)
 - [v1.3.0 release notes](RELEASE_NOTES_v1.3.0.md)
 - [v1.2.0 release notes](RELEASE_NOTES_v1.2.0.md)

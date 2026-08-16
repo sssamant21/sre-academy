@@ -1,7 +1,7 @@
 # Production Incidents, RCA, and Case Studies
 
 Version: v1.5.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 These case studies are fictional composites built from documented Snowflake failure modes. They are exercises, not claims about a named customer or observed outage. Each case separates evidence from inference and ends with corrective and preventive actions.
@@ -32,8 +32,9 @@ These case studies are fictional composites built from documented Snowflake fail
 
 Every case includes impact, timeline, evidence, triage, containment, root cause, contributing factors, recovery, validation, RCA, corrective/preventive actions and learning objectives. Times, identifiers and measurements are illustrative. Responders must query the evidence retained in their account and account for telemetry latency and retention.
 
-## Planned phases
+## Release scope
 
-1. Pipeline and platform incidents — draft implementation.
-2. Security, sharing, Iceberg and AI/ML incidents — draft implementation.
-3. End-to-end architectures and full lifecycle case studies — planned.
+1. Pipeline and platform incidents — Production Release.
+2. Security, sharing, Iceberg and AI/ML incidents — Production Release.
+
+End-to-end architectures and full-lifecycle case studies remain candidates for a future handbook release and are not part of v1.5.0.

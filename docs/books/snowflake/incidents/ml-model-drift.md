@@ -1,7 +1,7 @@
 # Case Study: ML Model Drift and Alert Fatigue
 
 Version: v1.5.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 Fictional composite; evaluation figures are illustrative.

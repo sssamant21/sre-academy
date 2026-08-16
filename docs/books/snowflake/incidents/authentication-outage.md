@@ -1,7 +1,7 @@
 # Case Study: Authentication and Network-Policy Outage
 
 Version: v1.5.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 Fictional composite; identities, addresses and times are illustrative.

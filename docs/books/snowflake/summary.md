@@ -31,6 +31,13 @@
 - [Kafka Topics with the Snowflake Connector](use-cases/ingestion/kafka-connector.md)
 - [API Extraction with Durable Micro-Batches](use-cases/ingestion/api-microbatch.md)
 - [Incremental Curation with Streams and Triggered Tasks](use-cases/ingestion/streams-triggered-tasks.md)
+- [Transformation, Analytics, and Data Products](use-cases/transformation/index.md)
+- [Declarative Transformation with Dynamic Tables](use-cases/transformation/dynamic-table-pipeline.md)
+- [Slowly Changing Dimension Type 2](use-cases/transformation/scd2-dimension.md)
+- [Analytics Acceleration by Query Pattern](use-cases/transformation/analytics-acceleration.md)
+- [Governed Dashboard Data Product](use-cases/transformation/governed-dashboard-product.md)
+- [Semantic Metrics Layer](use-cases/transformation/semantic-metrics-layer.md)
+- [Automated Data-Quality Contract](use-cases/transformation/data-quality-contract.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

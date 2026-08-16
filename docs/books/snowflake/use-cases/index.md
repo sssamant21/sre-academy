@@ -11,7 +11,7 @@ This section converts handbook concepts into production implementation patterns.
 | Phase | Scope | Status |
 |---|---|---|
 | 1 | Data ingestion and near-real-time pipelines | Draft implementation |
-| 2 | Transformation, analytics and data products | Planned |
+| 2 | Transformation, analytics and data products | Draft implementation |
 | 3 | Sharing, Iceberg, applications and AI/ML | Planned |
 | 4 | Security, migration, industry and continuity patterns | Planned |
 
@@ -23,6 +23,15 @@ This section converts handbook concepts into production implementation patterns.
 4. [Kafka topics with the Snowflake Connector](ingestion/kafka-connector.md)
 5. [API extraction with durable micro-batches](ingestion/api-microbatch.md)
 6. [Incremental curation with streams and triggered tasks](ingestion/streams-triggered-tasks.md)
+
+## Phase 2: transformation, analytics and data products
+
+1. [Declarative transformation with dynamic tables](transformation/dynamic-table-pipeline.md)
+2. [Slowly changing dimension Type 2](transformation/scd2-dimension.md)
+3. [Analytics acceleration by query pattern](transformation/analytics-acceleration.md)
+4. [Governed dashboard data product](transformation/governed-dashboard-product.md)
+5. [Semantic metrics layer](transformation/semantic-metrics-layer.md)
+6. [Automated data-quality contract](transformation/data-quality-contract.md)
 
 ## Implementation contract
 

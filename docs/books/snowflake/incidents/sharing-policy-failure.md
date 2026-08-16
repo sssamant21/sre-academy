@@ -44,4 +44,3 @@ The provider restored the prior policy definition, validated authorized and unau
 - [`IS_DATABASE_ROLE_IN_SESSION`](https://docs.snowflake.com/en/sql-reference/functions/is_database_role_in_session)
 - [Share secure objects](https://docs.snowflake.com/en/user-guide/data-sharing-gs)
 - [Access History](https://docs.snowflake.com/en/user-guide/access-history)
-

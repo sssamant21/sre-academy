@@ -1,7 +1,7 @@
 # Kafka Topics with the Snowflake Connector
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 ## Use when
@@ -63,4 +63,3 @@ Publish unique test IDs across every partition, stop and restart a worker, intro
 - [Install and configure the connector](https://docs.snowflake.com/en/user-guide/kafka-connector/setup-kafka)
 - [Migrate connector v3 to v4](https://docs.snowflake.com/en/user-guide/kafka-connector/migrate-v3-to-v4)
 - [Kafka connector release notes](https://docs.snowflake.com/en/release-notes/clients-drivers/kafka-connector-2026)
-

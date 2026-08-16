@@ -1,7 +1,7 @@
 # Bulk Files with `COPY INTO`
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 ## Use when
@@ -86,4 +86,3 @@ Stop the scheduler, preserve rejected files and load evidence, correct the mappi
 - [`COPY INTO table`](https://docs.snowflake.com/en/sql-reference/sql/copy-into-table)
 - [Load considerations](https://docs.snowflake.com/en/user-guide/data-load-considerations-load)
 - [Transform data during a load](https://docs.snowflake.com/en/user-guide/data-load-transform)
-

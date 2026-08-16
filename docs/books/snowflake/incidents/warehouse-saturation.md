@@ -51,4 +51,3 @@ Root cause: workload-routing configuration assigned a batch export to the intera
 - [`WAREHOUSE_LOAD_HISTORY`](https://docs.snowflake.com/en/sql-reference/functions/warehouse_load_history)
 - [`QUERY_HISTORY`](https://docs.snowflake.com/en/sql-reference/account-usage/query_history)
 - [Multi-cluster warehouses](https://docs.snowflake.com/en/user-guide/warehouses-multicluster)
-

@@ -50,4 +50,3 @@ Test authorized and unauthorized users, uncommon terminology, no-answer question
 - [`CREATE CORTEX SEARCH SERVICE`](https://docs.snowflake.com/en/sql-reference/sql/create-cortex-search)
 - [Cortex Search costs](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-costs)
 - [Vector embeddings](https://docs.snowflake.com/en/user-guide/snowflake-cortex/vector-embeddings)
-

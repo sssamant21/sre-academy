@@ -137,6 +137,19 @@ nav:
               - Alert-Quality Failure: books/snowflake/dbre/runbooks/alert-quality-failure.md
               - Recovery-Readiness Risk: books/snowflake/dbre/runbooks/recovery-readiness-risk.md
               - Configuration Drift: books/snowflake/dbre/runbooks/configuration-drift.md
+          - Practical Labs:
+              - Overview: books/snowflake/dbre/labs/index.md
+              - Build a Service Profile: books/snowflake/dbre/labs/service-profile.md
+              - Define an SLO and Error Budget: books/snowflake/dbre/labs/slo-and-error-budget.md
+              - Design a Reliability Dashboard: books/snowflake/dbre/labs/reliability-dashboard.md
+              - Validate Telemetry Quality: books/snowflake/dbre/labs/telemetry-quality.md
+              - Assess Recovery Readiness: books/snowflake/dbre/labs/recovery-readiness.md
+              - Production-Readiness Review: books/snowflake/dbre/labs/production-readiness-review.md
+          - Reliability Simulations:
+              - Overview: books/snowflake/dbre/simulations/index.md
+              - Rapid Error-Budget Burn: books/snowflake/dbre/simulations/rapid-error-budget-burn.md
+              - Observability Blind Spot: books/snowflake/dbre/simulations/observability-blind-spot.md
+              - Recovery-Readiness Gap: books/snowflake/dbre/simulations/recovery-readiness-gap.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

@@ -1,7 +1,7 @@
 # Incremental Curation with Streams and Triggered Tasks
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 ## Use when
@@ -74,4 +74,3 @@ Verify insert, duplicate, update, delete-policy and task-failure scenarios. Reco
 - [Task history](https://docs.snowflake.com/en/sql-reference/functions/task_history)
 - [`SYSTEM$STREAM_HAS_DATA`](https://docs.snowflake.com/en/sql-reference/functions/system_stream_has_data)
 - [`MERGE`](https://docs.snowflake.com/en/sql-reference/sql/merge)
-

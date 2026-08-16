@@ -1,7 +1,7 @@
 # DBRE Reliability Simulations
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-16
 
 These tabletop simulations test DBRE decisions and management-system controls. Participants use synthetic evidence; they do not create failures in production.

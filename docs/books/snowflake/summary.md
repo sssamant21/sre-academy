@@ -52,6 +52,13 @@
 - [Healthcare PHI Data Product](use-cases/enterprise/healthcare-phi-product.md)
 - [Financial-Services Control Pipeline](use-cases/enterprise/financial-controls.md)
 - [Account Failover and Failback](use-cases/enterprise/account-failover.md)
+- [Production Incidents, RCA, and Case Studies](incidents/index.md)
+- [Snowpipe Backlog and Missing Files](incidents/snowpipe-backlog.md)
+- [Kafka Ingestion Freshness Breach](incidents/kafka-freshness.md)
+- [Dynamic-Table Refresh Breach](incidents/dynamic-table-refresh.md)
+- [Task-Graph Failure](incidents/task-graph-failure.md)
+- [Warehouse Saturation](incidents/warehouse-saturation.md)
+- [Unexpected Credit Consumption](incidents/unexpected-credit-consumption.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

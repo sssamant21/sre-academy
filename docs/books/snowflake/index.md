@@ -58,6 +58,8 @@ The v1.4.0 development work now spans ingestion, transformation, analytics, gove
 
 The first v1.5.0 development phase adds fictional, evidence-driven production incident cases with timelines, containment, recovery, RCA and preventive controls.
 
+The second phase extends the collection with authentication, sharing, Iceberg, AI enrichment, Cortex Search and ML drift incidents.
+
 ## Release
 
 - [v1.4.0 release notes](RELEASE_NOTES_v1.4.0.md)

@@ -17,6 +17,17 @@ These case studies are fictional composites built from documented Snowflake fail
 | [Warehouse saturation](warehouse-saturation.md) | Interactive latency and queueing increased | Warehouse load and query history |
 | [Unexpected credit consumption](unexpected-credit-consumption.md) | Daily spend exceeded forecast | Metering, warehouse, serverless and query attribution |
 
+## Phase 2 cases
+
+| Case | Primary symptom | Core evidence |
+|---|---|---|
+| [Authentication and network-policy outage](authentication-outage.md) | Human and workload logins failed | Login history, IdP and network-policy change |
+| [Secure-sharing policy failure](sharing-policy-failure.md) | Approved consumer role returned no rows | Share grants, policy references and access history |
+| [Iceberg catalog staleness](iceberg-catalog-staleness.md) | Snowflake remained on an older snapshot | Refresh status, catalog permissions and snapshot IDs |
+| [AI enrichment regression](ai-enrichment-regression.md) | Quality declined while token use increased | Prompt/model lineage, evaluations and usage history |
+| [Cortex Search grounding failure](cortex-search-grounding.md) | Answer cited an obsolete procedure | Retrieval trace, corpus version and document lifecycle |
+| [ML model drift](ml-model-drift.md) | Normal behavior generated excessive alerts | Training lineage, feature drift and backtesting |
+
 ## Case-study contract
 
 Every case includes impact, timeline, evidence, triage, containment, root cause, contributing factors, recovery, validation, RCA, corrective/preventive actions and learning objectives. Times, identifiers and measurements are illustrative. Responders must query the evidence retained in their account and account for telemetry latency and retention.
@@ -24,5 +35,5 @@ Every case includes impact, timeline, evidence, triage, containment, root cause,
 ## Planned phases
 
 1. Pipeline and platform incidents — draft implementation.
-2. Security, sharing, Iceberg and AI/ML incidents — planned.
+2. Security, sharing, Iceberg and AI/ML incidents — draft implementation.
 3. End-to-end architectures and full lifecycle case studies — planned.

@@ -201,6 +201,12 @@ nav:
           - Task-Graph Failure: books/snowflake/incidents/task-graph-failure.md
           - Warehouse Saturation: books/snowflake/incidents/warehouse-saturation.md
           - Unexpected Credit Consumption: books/snowflake/incidents/unexpected-credit-consumption.md
+          - Authentication Outage: books/snowflake/incidents/authentication-outage.md
+          - Secure-Sharing Policy Failure: books/snowflake/incidents/sharing-policy-failure.md
+          - Iceberg Catalog Staleness: books/snowflake/incidents/iceberg-catalog-staleness.md
+          - AI Enrichment Regression: books/snowflake/incidents/ai-enrichment-regression.md
+          - Cortex Search Grounding Failure: books/snowflake/incidents/cortex-search-grounding.md
+          - ML Model Drift: books/snowflake/incidents/ml-model-drift.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

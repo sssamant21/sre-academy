@@ -49,4 +49,3 @@ Write synthetic rows through the authorized engine, query from every approved en
 - [Create an Iceberg table](https://docs.snowflake.com/en/user-guide/tables-iceberg-create)
 - [Catalog integrations](https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration)
 - [`CREATE ICEBERG TABLE`](https://docs.snowflake.com/en/sql-reference/sql/create-iceberg-table)
-

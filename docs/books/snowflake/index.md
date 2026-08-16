@@ -44,7 +44,7 @@ The v1.3.0 material is production-ready and provides the customer-owned reliabil
 - [Practical Snowflake use cases](use-cases/index.md)
 - [Data ingestion and real-time pipelines](use-cases/ingestion/index.md)
 
-The v1.4.0 development work includes implementation-oriented ingestion, transformation, analytics and governed data-product patterns. Every pattern includes selection guidance, production controls, validation, failure handling and rollback.
+The v1.4.0 development work includes implementation-oriented ingestion, transformation, analytics, governed data products, sharing, open-table, application and AI/ML patterns. Every pattern includes selection guidance, production controls, validation, failure handling and rollback.
 
 ## Release
 

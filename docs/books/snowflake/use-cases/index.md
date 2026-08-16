@@ -12,7 +12,7 @@ This section converts handbook concepts into production implementation patterns.
 |---|---|---|
 | 1 | Data ingestion and near-real-time pipelines | Draft implementation |
 | 2 | Transformation, analytics and data products | Draft implementation |
-| 3 | Sharing, Iceberg, applications and AI/ML | Planned |
+| 3 | Sharing, Iceberg, applications and AI/ML | Draft implementation |
 | 4 | Security, migration, industry and continuity patterns | Planned |
 
 ## Phase 1: ingestion and real-time pipelines
@@ -32,6 +32,15 @@ This section converts handbook concepts into production implementation patterns.
 4. [Governed dashboard data product](transformation/governed-dashboard-product.md)
 5. [Semantic metrics layer](transformation/semantic-metrics-layer.md)
 6. [Automated data-quality contract](transformation/data-quality-contract.md)
+
+## Phase 3: sharing, Iceberg, applications and AI/ML
+
+1. [Policy-protected Secure Data Sharing](platform/secure-data-sharing.md)
+2. [Iceberg lakehouse table](platform/iceberg-lakehouse.md)
+3. [Snowflake Native App delivery](platform/native-app.md)
+4. [Governed AI enrichment](platform/ai-enrichment.md)
+5. [Cortex Search retrieval-augmented generation](platform/cortex-search-rag.md)
+6. [Operational anomaly detection with Snowflake ML](platform/ml-anomaly-detection.md)
 
 ## Implementation contract
 

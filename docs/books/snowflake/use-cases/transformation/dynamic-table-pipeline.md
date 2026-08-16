@@ -67,4 +67,3 @@ Compare a full source calculation with the dynamic-table result, verify late and
 - [Target lag](https://docs.snowflake.com/en/user-guide/dynamic-tables/target-lag)
 - [Refresh modes](https://docs.snowflake.com/en/user-guide/dynamic-tables/refresh-modes)
 - [Dynamic-table best practices](https://docs.snowflake.com/en/user-guide/dynamic-tables/best-practices)
-

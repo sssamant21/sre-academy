@@ -19,6 +19,7 @@ This map defines the authoritative purpose of each overlapping chapter. Cross-re
 | 20 | Reference architectures and industry deployment patterns |
 | DBRE section | Reliability operating model, service ownership record, SLI/SLO and error-budget policy, integrated control map, production-readiness standard, and maturity assessment. Detailed technical procedures remain with their authoritative chapters. |
 | Practical use cases | End-to-end selection and implementation patterns that compose authoritative chapter controls for a concrete workload. Use cases link to, rather than redefine, core security, reliability, observability and FinOps policy. |
+| v1.5 incident cases | Fictional evidence-driven exercises that apply authoritative monitoring, runbook and RCA methods to a bounded failure. Chapter 16 retains incident-management concepts and the general case-study framework. |
 
 ## Editorial rules
 

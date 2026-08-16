@@ -65,6 +65,7 @@
 - [AI Enrichment Quality and Cost Regression](incidents/ai-enrichment-regression.md)
 - [Cortex Search Grounding Failure](incidents/cortex-search-grounding.md)
 - [ML Model Drift and Alert Fatigue](incidents/ml-model-drift.md)
+- [v1.5.0 Release Notes](RELEASE_NOTES_v1.5.0.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

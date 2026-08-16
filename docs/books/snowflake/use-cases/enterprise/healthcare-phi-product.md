@@ -46,4 +46,3 @@ Test clinician, analyst, research, service and unauthorized roles, including ind
 - [Snowflake editions and PHI prerequisite](https://docs.snowflake.com/en/user-guide/intro-editions)
 - [Row access policies](https://docs.snowflake.com/en/user-guide/security-row-intro)
 - [Column-level security](https://docs.snowflake.com/en/user-guide/security-column-intro)
-

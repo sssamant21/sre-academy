@@ -18,6 +18,7 @@ This map defines the authoritative purpose of each overlapping chapter. Cross-re
 | 19 | Organization, ownership, service management, governance cadence, and service-level commitments |
 | 20 | Reference architectures and industry deployment patterns |
 | DBRE section | Reliability operating model, service ownership record, SLI/SLO and error-budget policy, integrated control map, production-readiness standard, and maturity assessment. Detailed technical procedures remain with their authoritative chapters. |
+| Practical use cases | End-to-end selection and implementation patterns that compose authoritative chapter controls for a concrete workload. Use cases link to, rather than redefine, core security, reliability, observability and FinOps policy. |
 
 ## Editorial rules
 
@@ -26,3 +27,5 @@ This map defines the authoritative purpose of each overlapping chapter. Cross-re
 3. Label hypothetical case studies explicitly; do not present them as observed production incidents.
 4. Revalidate product claims against official Snowflake documentation before release.
 5. Record feature maturity, cloud/region availability, edition requirements, required privileges, cost implications, and validation date when these affect implementation.
+6. Use fictional names and synthetic examples; do not imply that a reference architecture is an observed customer deployment.
+7. Keep implementation samples safe by default and include validation, failure recovery and rollback.

@@ -159,6 +159,16 @@ nav:
               - Overview: books/snowflake/dbre/assessments/index.md
               - Questions: books/snowflake/dbre/assessments/questions.md
               - Answer Appendix: books/snowflake/dbre/assessments/answers/index.md
+      - Practical Use Cases:
+          - Overview: books/snowflake/use-cases/index.md
+          - Data Ingestion and Real-Time Pipelines:
+              - Overview: books/snowflake/use-cases/ingestion/index.md
+              - Bulk Files with COPY INTO: books/snowflake/use-cases/ingestion/bulk-copy.md
+              - Snowpipe Auto-Ingest: books/snowflake/use-cases/ingestion/snowpipe-auto-ingest.md
+              - Snowpipe Streaming: books/snowflake/use-cases/ingestion/snowpipe-streaming.md
+              - Kafka Connector: books/snowflake/use-cases/ingestion/kafka-connector.md
+              - API Micro-Batches: books/snowflake/use-cases/ingestion/api-microbatch.md
+              - Streams and Triggered Tasks: books/snowflake/use-cases/ingestion/streams-triggered-tasks.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

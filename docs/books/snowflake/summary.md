@@ -45,6 +45,13 @@
 - [Governed AI Enrichment](use-cases/platform/ai-enrichment.md)
 - [Cortex Search Retrieval-Augmented Generation](use-cases/platform/cortex-search-rag.md)
 - [Operational Anomaly Detection with Snowflake ML](use-cases/platform/ml-anomaly-detection.md)
+- [Security, Migration, Industry, and Continuity](use-cases/enterprise/index.md)
+- [Human and Workload Authentication Hardening](use-cases/enterprise/authentication-hardening.md)
+- [Validated Enterprise Warehouse Migration](use-cases/enterprise/warehouse-migration.md)
+- [Cross-Account Data Promotion](use-cases/enterprise/cross-account-promotion.md)
+- [Healthcare PHI Data Product](use-cases/enterprise/healthcare-phi-product.md)
+- [Financial-Services Control Pipeline](use-cases/enterprise/financial-controls.md)
+- [Account Failover and Failback](use-cases/enterprise/account-failover.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

@@ -1,7 +1,7 @@
 # Lab: Conduct a DBRE Production-Readiness Review
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Audience: DBRE, service owners, security, platform engineering and FinOps  
 Duration: 90 minutes  
 Cost risk: Low  

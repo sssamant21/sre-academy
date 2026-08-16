@@ -1,7 +1,7 @@
 # SLIs, SLOs and Error Budgets
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 ## Reliability objective hierarchy

@@ -1,7 +1,7 @@
 # Event-Driven Files with Snowpipe Auto-Ingest
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 ## Use when
@@ -73,4 +73,3 @@ Prove that new files load within the agreed objective, malformed files alert, a 
 - [Automating Snowpipe for Azure](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-auto-azure)
 - [Automating Snowpipe for Google Cloud Storage](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-auto-gcs)
 - [Monitor Snowpipe](https://docs.snowflake.com/en/user-guide/data-load-snowpipe-monitor)
-

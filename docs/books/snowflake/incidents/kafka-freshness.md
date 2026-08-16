@@ -49,4 +49,3 @@ Recovery was accepted only when every partition caught up, target event IDs reco
 - [Install and configure connector v4](https://docs.snowflake.com/en/user-guide/kafka-connector/setup-kafka)
 - [Migrate v3 to v4](https://docs.snowflake.com/en/user-guide/kafka-connector/migrate-v3-to-v4)
 - [Snowpipe Streaming channel history](https://docs.snowflake.com/en/sql-reference/account-usage/snowpipe_streaming_channel_history)
-

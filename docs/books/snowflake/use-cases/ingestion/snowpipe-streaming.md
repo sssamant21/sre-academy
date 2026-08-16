@@ -1,7 +1,7 @@
 # Application Events with Snowpipe Streaming
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 ## Use when
@@ -62,4 +62,3 @@ Demonstrate process crash recovery, transient network retry, duplicate replay, p
 - [High-performance key concepts](https://docs.snowflake.com/en/user-guide/snowpipe-streaming/snowpipe-streaming-high-performance-overview)
 - [High-performance best practices](https://docs.snowflake.com/en/user-guide/snowpipe-streaming/snowpipe-streaming-high-performance-best-practices)
 - [Error handling](https://docs.snowflake.com/en/user-guide/snowpipe-streaming/snowpipe-streaming-high-performance-error-handling)
-

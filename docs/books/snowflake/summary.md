@@ -38,6 +38,13 @@
 - [Governed Dashboard Data Product](use-cases/transformation/governed-dashboard-product.md)
 - [Semantic Metrics Layer](use-cases/transformation/semantic-metrics-layer.md)
 - [Automated Data-Quality Contract](use-cases/transformation/data-quality-contract.md)
+- [Sharing, Iceberg, Applications, and AI/ML](use-cases/platform/index.md)
+- [Policy-Protected Secure Data Sharing](use-cases/platform/secure-data-sharing.md)
+- [Iceberg Lakehouse Table](use-cases/platform/iceberg-lakehouse.md)
+- [Snowflake Native App Delivery](use-cases/platform/native-app.md)
+- [Governed AI Enrichment](use-cases/platform/ai-enrichment.md)
+- [Cortex Search Retrieval-Augmented Generation](use-cases/platform/cortex-search-rag.md)
+- [Operational Anomaly Detection with Snowflake ML](use-cases/platform/ml-anomaly-detection.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

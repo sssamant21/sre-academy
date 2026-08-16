@@ -51,4 +51,3 @@ Responders suspended the root to prevent overlapping retries, granted the minimu
 - [Introduction to tasks](https://docs.snowflake.com/en/user-guide/tasks-intro)
 - [`TASK_HISTORY`](https://docs.snowflake.com/en/sql-reference/functions/task_history)
 - [`COMPLETE_TASK_GRAPHS`](https://docs.snowflake.com/en/sql-reference/functions/complete_task_graphs)
-

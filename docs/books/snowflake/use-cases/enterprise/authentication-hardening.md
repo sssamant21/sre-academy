@@ -50,4 +50,3 @@ Monitor login history, failed authentication, dormant users, policy coverage, le
 - [Authentication policies](https://docs.snowflake.com/en/user-guide/authentication-policies)
 - [Key-pair authentication and rotation](https://docs.snowflake.com/en/user-guide/key-pair-auth)
 - [Network policies](https://docs.snowflake.com/en/user-guide/network-policies)
-

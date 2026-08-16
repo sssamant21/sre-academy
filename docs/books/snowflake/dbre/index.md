@@ -25,6 +25,8 @@ After completing this section, a reader should be able to:
 4. [Reliability controls](reliability-controls.md)
 5. [Production-readiness standard](production-readiness.md)
 6. [DBRE maturity model](maturity-model.md)
+7. [DBRE operational dashboards](dashboards/index.md)
+8. [DBRE reliability runbooks](runbooks/index.md)
 
 ## Relationship to the core handbook
 
@@ -47,4 +49,3 @@ This section owns the DBRE management system: accountability, risk prioritizatio
 - [Snowflake service responsibilities](https://docs.snowflake.com/en/user-guide/intro-key-concepts)
 - [Account Usage](https://docs.snowflake.com/en/sql-reference/account-usage)
 - [Business continuity and disaster recovery](https://docs.snowflake.com/en/user-guide/replication-intro)
-

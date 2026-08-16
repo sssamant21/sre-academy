@@ -185,6 +185,14 @@ nav:
               - Governed AI Enrichment: books/snowflake/use-cases/platform/ai-enrichment.md
               - Cortex Search RAG: books/snowflake/use-cases/platform/cortex-search-rag.md
               - ML Anomaly Detection: books/snowflake/use-cases/platform/ml-anomaly-detection.md
+          - Security, Migration, Industry, and Continuity:
+              - Overview: books/snowflake/use-cases/enterprise/index.md
+              - Authentication Hardening: books/snowflake/use-cases/enterprise/authentication-hardening.md
+              - Enterprise Warehouse Migration: books/snowflake/use-cases/enterprise/warehouse-migration.md
+              - Cross-Account Data Promotion: books/snowflake/use-cases/enterprise/cross-account-promotion.md
+              - Healthcare PHI Data Product: books/snowflake/use-cases/enterprise/healthcare-phi-product.md
+              - Financial-Services Control Pipeline: books/snowflake/use-cases/enterprise/financial-controls.md
+              - Account Failover and Failback: books/snowflake/use-cases/enterprise/account-failover.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

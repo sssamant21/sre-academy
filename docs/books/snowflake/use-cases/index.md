@@ -1,7 +1,7 @@
 # Practical Snowflake Use Cases and Implementations
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 This section converts handbook concepts into production implementation patterns. Each guide states when to use the pattern, gives a deployable starting point, and includes security, reliability, cost, validation and rollback controls. Examples use placeholder names and must be adapted and tested outside production.

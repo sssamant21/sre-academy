@@ -169,6 +169,14 @@ nav:
               - Kafka Connector: books/snowflake/use-cases/ingestion/kafka-connector.md
               - API Micro-Batches: books/snowflake/use-cases/ingestion/api-microbatch.md
               - Streams and Triggered Tasks: books/snowflake/use-cases/ingestion/streams-triggered-tasks.md
+          - Transformation, Analytics, and Data Products:
+              - Overview: books/snowflake/use-cases/transformation/index.md
+              - Dynamic Table Pipeline: books/snowflake/use-cases/transformation/dynamic-table-pipeline.md
+              - SCD Type 2 Dimension: books/snowflake/use-cases/transformation/scd2-dimension.md
+              - Analytics Acceleration: books/snowflake/use-cases/transformation/analytics-acceleration.md
+              - Governed Dashboard Product: books/snowflake/use-cases/transformation/governed-dashboard-product.md
+              - Semantic Metrics Layer: books/snowflake/use-cases/transformation/semantic-metrics-layer.md
+              - Data-Quality Contract: books/snowflake/use-cases/transformation/data-quality-contract.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

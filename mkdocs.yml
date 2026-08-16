@@ -150,6 +150,15 @@ nav:
               - Rapid Error-Budget Burn: books/snowflake/dbre/simulations/rapid-error-budget-burn.md
               - Observability Blind Spot: books/snowflake/dbre/simulations/observability-blind-spot.md
               - Recovery-Readiness Gap: books/snowflake/dbre/simulations/recovery-readiness-gap.md
+              - Facilitator Guides:
+                  - Overview and Rubric: books/snowflake/dbre/simulations/facilitator-guides/index.md
+                  - Rapid Error-Budget Burn: books/snowflake/dbre/simulations/facilitator-guides/rapid-error-budget-burn.md
+                  - Observability Blind Spot: books/snowflake/dbre/simulations/facilitator-guides/observability-blind-spot.md
+                  - Recovery-Readiness Gap: books/snowflake/dbre/simulations/facilitator-guides/recovery-readiness-gap.md
+          - DBRE Assessment:
+              - Overview: books/snowflake/dbre/assessments/index.md
+              - Questions: books/snowflake/dbre/assessments/questions.md
+              - Answer Appendix: books/snowflake/dbre/assessments/answers/index.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

@@ -22,4 +22,3 @@ This final phase applies the handbook to high-risk enterprise transitions and re
 - Validate negative paths and rollback, not only successful execution.
 - Preserve immutable source and control evidence for the approved period.
 - Treat every identifier, account name, network address and secret as a deployment-specific placeholder.
-

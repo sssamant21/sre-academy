@@ -52,4 +52,3 @@ Inject a controlled null, duplicate or stale batch in non-production; verify mea
 - [System DMFs](https://docs.snowflake.com/en/user-guide/data-quality-system-dmfs)
 - [Data-quality results](https://docs.snowflake.com/en/user-guide/data-quality-results)
 - [Data-quality notifications](https://docs.snowflake.com/en/user-guide/data-quality-notifications)
-

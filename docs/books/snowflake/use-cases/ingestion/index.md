@@ -1,7 +1,7 @@
 # Data Ingestion and Real-Time Pipelines
 
 Version: v1.4.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 Select an ingestion pattern from the source contract and freshness objective—not from a product name.

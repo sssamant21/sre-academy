@@ -13,7 +13,7 @@ This section converts handbook concepts into production implementation patterns.
 | 1 | Data ingestion and near-real-time pipelines | Draft implementation |
 | 2 | Transformation, analytics and data products | Draft implementation |
 | 3 | Sharing, Iceberg, applications and AI/ML | Draft implementation |
-| 4 | Security, migration, industry and continuity patterns | Planned |
+| 4 | Security, migration, industry and continuity patterns | Draft implementation |
 
 ## Phase 1: ingestion and real-time pipelines
 
@@ -41,6 +41,15 @@ This section converts handbook concepts into production implementation patterns.
 4. [Governed AI enrichment](platform/ai-enrichment.md)
 5. [Cortex Search retrieval-augmented generation](platform/cortex-search-rag.md)
 6. [Operational anomaly detection with Snowflake ML](platform/ml-anomaly-detection.md)
+
+## Phase 4: security, migration, industry and continuity
+
+1. [Human and workload authentication hardening](enterprise/authentication-hardening.md)
+2. [Validated enterprise warehouse migration](enterprise/warehouse-migration.md)
+3. [Cross-account data promotion](enterprise/cross-account-promotion.md)
+4. [Healthcare PHI data product](enterprise/healthcare-phi-product.md)
+5. [Financial-services control pipeline](enterprise/financial-controls.md)
+6. [Account failover and failback](enterprise/account-failover.md)
 
 ## Implementation contract
 

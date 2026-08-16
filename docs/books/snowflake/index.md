@@ -2,8 +2,8 @@
 
 Enterprise Architecture, Administration, Performance Engineering, Security, Platform Engineering, AI, Healthcare, Financial Services, SRE & Production Operations
 
-Version: v1.2.0  
-Release date: 2026-08-15  
+Version: v1.3.0
+Release date: 2026-08-16
 Status: Production Release
 
 The Snowflake Enterprise Handbook is a 20 chapter enterprise documentation set for Snowflake architecture, administration, performance engineering, security, platform engineering, DevOps, GitOps, SRE, FinOps, AI, regulated industries, migration, and production operations.
@@ -37,10 +37,11 @@ The v1.2.0 material is production-ready and adds facilitated incident simulation
 - [Production-readiness standard](dbre/production-readiness.md)
 - [DBRE maturity model](dbre/maturity-model.md)
 
-The v1.3.0 workstream defines the customer-owned reliability operating model for Snowflake workloads and connects the existing handbook, labs, runbooks and assessments into a measurable DBRE practice.
+The v1.3.0 material is production-ready and provides the customer-owned reliability operating model, dashboards, runbooks, labs, simulations, facilitator guides and assessment program for Snowflake DBRE practice.
 
 ## Release
 
+- [v1.3.0 release notes](RELEASE_NOTES_v1.3.0.md)
 - [v1.2.0 release notes](RELEASE_NOTES_v1.2.0.md)
 - [v1.1.0 release notes](RELEASE_NOTES_v1.1.0.md)
 - [v1.0.0 release notes](RELEASE_NOTES_v1.0.0.md)

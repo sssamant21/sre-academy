@@ -1,7 +1,7 @@
 # Snowflake DBRE Practical Labs
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-16
 
 These labs convert the DBRE operating model into reviewable operational artifacts. They are designed for a sandbox, non-production account, or tabletop evidence pack.

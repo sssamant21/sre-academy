@@ -1,7 +1,7 @@
 # Lab: Build a Snowflake Service Profile
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Audience: DBRE, service owners and platform engineers  
 Duration: 60 minutes  
 Cost risk: Low  

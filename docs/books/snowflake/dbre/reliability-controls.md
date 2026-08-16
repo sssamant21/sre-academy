@@ -1,7 +1,7 @@
 # Integrated Reliability Controls
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 DBRE integrates existing engineering controls around a service's approved reliability objectives. This page is a control map; detailed procedures remain in the linked handbook chapters and runbooks.

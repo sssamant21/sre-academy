@@ -1,7 +1,7 @@
 # Lab: Validate Telemetry Quality
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Audience: DBRE and observability engineers  
 Duration: 60 minutes  
 Cost risk: Low  

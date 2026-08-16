@@ -1,7 +1,7 @@
 # Lab: Define an SLO and Error Budget
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Audience: DBRE, SRE and service owners  
 Duration: 75 minutes  
 Cost risk: Low  

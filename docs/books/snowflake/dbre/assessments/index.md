@@ -1,7 +1,7 @@
 # Snowflake DBRE Assessment
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-16
 
 This assessment contains 30 questions across the complete DBRE section: operating model, ownership, reliability objectives, controls, dashboards, runbooks, labs and simulations.

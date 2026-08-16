@@ -1,7 +1,7 @@
 # Lab: Assess Recovery Readiness
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Audience: DBRE, architects and service owners  
 Duration: 90 minutes  
 Cost risk: Low for tabletop/read-only execution  

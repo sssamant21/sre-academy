@@ -1,7 +1,7 @@
 # Simulation: Observability Blind Spot
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Duration: 60 minutes  
 Last vendor validation: 2026-08-16
 

@@ -1,7 +1,7 @@
 # Snowflake DBRE Maturity Model
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 The maturity model prioritizes improvement; it is not a certification. Score each domain using current evidence, record gaps and reassess after corrective work.

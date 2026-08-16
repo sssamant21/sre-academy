@@ -1,7 +1,7 @@
 # Snowflake DBRE and Reliability Engineering
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 Database Reliability Engineering (DBRE) applies software-engineering, SRE and database-operating practices to the reliability of Snowflake workloads. Snowflake operates the underlying service; the customer remains responsible for workload design, object configuration, access, pipelines, observability, recovery preparation and operational response.

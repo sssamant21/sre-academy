@@ -1,7 +1,7 @@
 # DBRE Production-Readiness Standard
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 Use this standard before a new Snowflake service enters production and after a material architecture, workload, security or recovery change. Record evidence and approved exceptions; a checked box without evidence is not acceptance.

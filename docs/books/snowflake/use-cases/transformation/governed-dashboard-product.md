@@ -53,4 +53,3 @@ Measure data freshness, successful refresh ratio, query latency, correctness che
 - [Row access policies](https://docs.snowflake.com/en/user-guide/security-row-intro)
 - [Column-level security](https://docs.snowflake.com/en/user-guide/security-column-intro)
 - [Database roles](https://docs.snowflake.com/en/user-guide/security-access-control-overview#database-roles)
-

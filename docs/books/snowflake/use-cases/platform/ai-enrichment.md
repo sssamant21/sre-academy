@@ -45,4 +45,3 @@ Measure accuracy by category, abstention or parse failures, harmful output, late
 - [Regional availability and models](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql-regional-availability)
 - [AI Function cost](https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql-cost)
 - [AI cost management](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-func-cost-management)
-

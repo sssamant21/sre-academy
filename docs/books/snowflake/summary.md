@@ -59,6 +59,12 @@
 - [Task-Graph Failure](incidents/task-graph-failure.md)
 - [Warehouse Saturation](incidents/warehouse-saturation.md)
 - [Unexpected Credit Consumption](incidents/unexpected-credit-consumption.md)
+- [Authentication and Network-Policy Outage](incidents/authentication-outage.md)
+- [Secure-Sharing Policy Failure](incidents/sharing-policy-failure.md)
+- [Iceberg Catalog Staleness](incidents/iceberg-catalog-staleness.md)
+- [AI Enrichment Quality and Cost Regression](incidents/ai-enrichment-regression.md)
+- [Cortex Search Grounding Failure](incidents/cortex-search-grounding.md)
+- [ML Model Drift and Alert Fatigue](incidents/ml-model-drift.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

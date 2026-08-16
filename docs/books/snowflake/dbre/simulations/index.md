@@ -25,6 +25,8 @@ These tabletop simulations test DBRE decisions and management-system controls. P
 
 Teams provide a UTC timeline, evidence table, impact statement, decision log, mitigation/rollback criteria, communication and corrective actions.
 
+Facilitators use the [guides and common scoring rubric](facilitator-guides/index.md) after participants submit their response.
+
 ## Safety
 
 - No production changes, failover, cancellation, workload generation or access-policy modifications.
@@ -35,4 +37,3 @@ Teams provide a UTC timeline, evidence table, impact statement, decision log, mi
 
 - [DBRE reliability runbooks](../runbooks/index.md)
 - [Existing Snowflake incident simulations](../../labs/simulations/index.md)
-

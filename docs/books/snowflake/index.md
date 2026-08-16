@@ -2,7 +2,7 @@
 
 Enterprise Architecture, Administration, Performance Engineering, Security, Platform Engineering, AI, Healthcare, Financial Services, SRE & Production Operations
 
-Version: v1.3.0
+Version: v1.4.0
 Release date: 2026-08-16
 Status: Production Release
 
@@ -48,6 +48,7 @@ The v1.4.0 development work now spans ingestion, transformation, analytics, gove
 
 ## Release
 
+- [v1.4.0 release notes](RELEASE_NOTES_v1.4.0.md)
 - [v1.3.0 release notes](RELEASE_NOTES_v1.3.0.md)
 - [v1.2.0 release notes](RELEASE_NOTES_v1.2.0.md)
 - [v1.1.0 release notes](RELEASE_NOTES_v1.1.0.md)

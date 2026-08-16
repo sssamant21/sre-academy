@@ -1,7 +1,7 @@
 # DBRE Operational Dashboards
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 DBRE dashboards turn Snowflake telemetry and service context into operational decisions. They supplement the observability architecture in Chapter 13; they do not redefine Snowflake system-view semantics.

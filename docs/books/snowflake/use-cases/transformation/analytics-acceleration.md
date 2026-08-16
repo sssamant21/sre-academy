@@ -47,4 +47,3 @@ Track user latency and credits together with clustering, search-optimization or 
 - [Storage optimization](https://docs.snowflake.com/en/user-guide/performance-query-storage)
 - [Materialized views](https://docs.snowflake.com/en/user-guide/views-materialized)
 - [Search Optimization Service](https://docs.snowflake.com/en/user-guide/search-optimization-service)
-

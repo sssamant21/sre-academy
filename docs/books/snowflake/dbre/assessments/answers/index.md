@@ -1,7 +1,7 @@
 # Snowflake DBRE Answer Appendix
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last reviewed: 2026-08-16
 
 Equivalent answers are acceptable when they preserve documented Snowflake behavior, DBRE reasoning and operational safety.

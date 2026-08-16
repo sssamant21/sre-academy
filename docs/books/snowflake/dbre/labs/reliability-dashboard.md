@@ -1,7 +1,7 @@
 # Lab: Design a DBRE Reliability Dashboard
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Audience: DBRE and observability engineers  
 Duration: 75 minutes  
 Cost risk: Low  

@@ -193,6 +193,14 @@ nav:
               - Healthcare PHI Data Product: books/snowflake/use-cases/enterprise/healthcare-phi-product.md
               - Financial-Services Control Pipeline: books/snowflake/use-cases/enterprise/financial-controls.md
               - Account Failover and Failback: books/snowflake/use-cases/enterprise/account-failover.md
+      - Production Incidents, RCA, and Case Studies:
+          - Overview: books/snowflake/incidents/index.md
+          - Snowpipe Backlog: books/snowflake/incidents/snowpipe-backlog.md
+          - Kafka Freshness Breach: books/snowflake/incidents/kafka-freshness.md
+          - Dynamic-Table Refresh Breach: books/snowflake/incidents/dynamic-table-refresh.md
+          - Task-Graph Failure: books/snowflake/incidents/task-graph-failure.md
+          - Warehouse Saturation: books/snowflake/incidents/warehouse-saturation.md
+          - Unexpected Credit Consumption: books/snowflake/incidents/unexpected-credit-consumption.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

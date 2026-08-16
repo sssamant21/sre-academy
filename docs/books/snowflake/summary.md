@@ -20,6 +20,9 @@
 - [DBRE Reliability Runbooks](dbre/runbooks/index.md)
 - [DBRE Practical Labs](dbre/labs/index.md)
 - [DBRE Reliability Simulations](dbre/simulations/index.md)
+- [DBRE Simulation Facilitator Guides](dbre/simulations/facilitator-guides/index.md)
+- [DBRE Assessment](dbre/assessments/index.md)
+- [DBRE Answer Appendix](dbre/assessments/answers/index.md)
 
 - [Chapter 01 - Introduction to Snowflake & Enterprise Architecture](chapter-01/README.md)
 - [Chapter 02 - Snowflake Architecture: Internal Design and Platform Components](chapter-02/README.md)

@@ -75,4 +75,3 @@ Test new, unchanged, changed, deleted, duplicate and late records. Rerunning a s
 - [Transactions](https://docs.snowflake.com/en/sql-reference/transactions)
 - [Window functions](https://docs.snowflake.com/en/user-guide/functions-window-using)
 - [Time Travel](https://docs.snowflake.com/en/user-guide/data-time-travel)
-

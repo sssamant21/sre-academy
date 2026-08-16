@@ -1,7 +1,7 @@
 # Application Events with Snowpipe Streaming
 
 Version: v1.4.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 ## Use when

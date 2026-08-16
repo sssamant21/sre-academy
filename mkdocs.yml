@@ -177,6 +177,14 @@ nav:
               - Governed Dashboard Product: books/snowflake/use-cases/transformation/governed-dashboard-product.md
               - Semantic Metrics Layer: books/snowflake/use-cases/transformation/semantic-metrics-layer.md
               - Data-Quality Contract: books/snowflake/use-cases/transformation/data-quality-contract.md
+          - Sharing, Iceberg, Applications, and AI/ML:
+              - Overview: books/snowflake/use-cases/platform/index.md
+              - Secure Data Sharing: books/snowflake/use-cases/platform/secure-data-sharing.md
+              - Iceberg Lakehouse Table: books/snowflake/use-cases/platform/iceberg-lakehouse.md
+              - Native App Delivery: books/snowflake/use-cases/platform/native-app.md
+              - Governed AI Enrichment: books/snowflake/use-cases/platform/ai-enrichment.md
+              - Cortex Search RAG: books/snowflake/use-cases/platform/cortex-search-rag.md
+              - ML Anomaly Detection: books/snowflake/use-cases/platform/ml-anomaly-detection.md
       - Chapter Assessments:
           - Overview: books/snowflake/assessments/index.md
           - Chapters 01-05: books/snowflake/assessments/chapters-01-05.md

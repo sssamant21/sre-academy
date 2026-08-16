@@ -39,6 +39,13 @@ The v1.2.0 material is production-ready and adds facilitated incident simulation
 
 The v1.3.0 material is production-ready and provides the customer-owned reliability operating model, dashboards, runbooks, labs, simulations, facilitator guides and assessment program for Snowflake DBRE practice.
 
+## v1.4.0 practical use cases and implementations
+
+- [Practical Snowflake use cases](use-cases/index.md)
+- [Data ingestion and real-time pipelines](use-cases/ingestion/index.md)
+
+The first v1.4.0 development phase adds implementation-oriented ingestion patterns for batch files, auto-ingest, direct application events, Kafka, external APIs and incremental curation. Every pattern includes selection guidance, production controls, validation, failure handling and rollback.
+
 ## Release
 
 - [v1.3.0 release notes](RELEASE_NOTES_v1.3.0.md)

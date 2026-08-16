@@ -29,6 +29,7 @@ After completing this section, a reader should be able to:
 8. [DBRE reliability runbooks](runbooks/index.md)
 9. [DBRE practical labs](labs/index.md)
 10. [DBRE reliability simulations](simulations/index.md)
+11. [DBRE assessment and answer appendix](assessments/index.md)
 
 ## Relationship to the core handbook
 

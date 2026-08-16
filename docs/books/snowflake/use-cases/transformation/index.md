@@ -18,4 +18,3 @@ This phase turns trusted landing data into maintained models and governed consum
 ## Shared product contract
 
 Every production data product must name its owner, consumers, source dependencies, schema and metric definitions, freshness and quality SLOs, access policy, cost boundary, change process, monitoring, recovery path and deprecation date. A table or dashboard without those controls is an output, not an operated data product.
-

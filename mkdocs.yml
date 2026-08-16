@@ -214,6 +214,7 @@ nav:
           - Performance Investigation: books/snowflake/templates/performance-investigation.md
           - Incident and RCA: books/snowflake/templates/incident-and-rca.md
           - FinOps Review: books/snowflake/templates/finops-review.md
+      - Release Notes v1.3.0: books/snowflake/RELEASE_NOTES_v1.3.0.md
       - Release Notes v1.2.0: books/snowflake/RELEASE_NOTES_v1.2.0.md
       - Release Notes v1.1.0: books/snowflake/RELEASE_NOTES_v1.1.0.md
       - Release Notes v1.0.0: books/snowflake/RELEASE_NOTES_v1.0.0.md

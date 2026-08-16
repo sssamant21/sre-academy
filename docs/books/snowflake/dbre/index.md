@@ -27,6 +27,8 @@ After completing this section, a reader should be able to:
 6. [DBRE maturity model](maturity-model.md)
 7. [DBRE operational dashboards](dashboards/index.md)
 8. [DBRE reliability runbooks](runbooks/index.md)
+9. [DBRE practical labs](labs/index.md)
+10. [DBRE reliability simulations](simulations/index.md)
 
 ## Relationship to the core handbook
 

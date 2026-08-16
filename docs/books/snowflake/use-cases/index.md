@@ -1,7 +1,7 @@
 # Practical Snowflake Use Cases and Implementations
 
 Version: v1.4.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 This section converts handbook concepts into production implementation patterns. Each guide states when to use the pattern, gives a deployable starting point, and includes security, reliability, cost, validation and rollback controls. Examples use placeholder names and must be adapted and tested outside production.
@@ -10,10 +10,10 @@ This section converts handbook concepts into production implementation patterns.
 
 | Phase | Scope | Status |
 |---|---|---|
-| 1 | Data ingestion and near-real-time pipelines | Draft implementation |
-| 2 | Transformation, analytics and data products | Draft implementation |
-| 3 | Sharing, Iceberg, applications and AI/ML | Draft implementation |
-| 4 | Security, migration, industry and continuity patterns | Draft implementation |
+| 1 | Data ingestion and near-real-time pipelines | Production Release |
+| 2 | Transformation, analytics and data products | Production Release |
+| 3 | Sharing, Iceberg, applications and AI/ML | Production Release |
+| 4 | Security, migration, industry and continuity patterns | Production Release |
 
 ## Phase 1: ingestion and real-time pipelines
 

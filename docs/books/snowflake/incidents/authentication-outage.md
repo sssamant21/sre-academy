@@ -42,4 +42,3 @@ An emergency administrator used the separately controlled path to add the valida
 - [Network policies](https://docs.snowflake.com/en/user-guide/network-policies)
 - [Authentication policies](https://docs.snowflake.com/en/user-guide/authentication-policies)
 - [SAML troubleshooting](https://docs.snowflake.com/en/user-guide/errors-saml)
-

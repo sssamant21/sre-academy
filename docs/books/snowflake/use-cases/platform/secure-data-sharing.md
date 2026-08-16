@@ -54,4 +54,3 @@ In a test consumer account, create the imported database, activate the intended 
 - [Share secure database objects](https://docs.snowflake.com/en/user-guide/data-sharing-gs)
 - [Secure objects for sharing](https://docs.snowflake.com/en/user-guide/data-sharing-secure-views)
 - [Share policy-protected data](https://docs.snowflake.com/en/user-guide/data-sharing-policy-protected-data)
-

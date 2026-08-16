@@ -44,4 +44,3 @@ The team suspended affected publication, preserved refresh history and DDL, rest
 - [Troubleshoot refreshes](https://docs.snowflake.com/en/user-guide/dynamic-tables/troubleshoot-refreshes)
 - [`DYNAMIC_TABLE_REFRESH_HISTORY`](https://docs.snowflake.com/en/sql-reference/functions/dynamic_table_refresh_history)
 - [Dynamic-table best practices](https://docs.snowflake.com/en/user-guide/dynamic-tables/best-practices)
-

@@ -1,7 +1,7 @@
 # DBRE Reliability Runbooks
 
 Version: v1.3.0  
-Status: In development  
+Status: Production Release  
 Last vendor validation: 2026-08-15
 
 These runbooks protect the DBRE management system. Technical incidents should use the existing production runbooks for warehouse queueing, query regression, pipeline failure, connectivity, dynamic-table freshness and unexpected cost.

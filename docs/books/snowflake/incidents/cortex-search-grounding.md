@@ -35,4 +35,3 @@ The team disabled affected answers, filtered the corpus to active approved docum
 - [`CREATE CORTEX SEARCH SERVICE`](https://docs.snowflake.com/en/sql-reference/sql/create-cortex-search)
 - [Cortex Search costs](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-costs)
 - [AI Observability](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/reference)
-

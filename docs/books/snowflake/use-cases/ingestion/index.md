@@ -1,7 +1,7 @@
 # Data Ingestion and Real-Time Pipelines
 
-Version: v1.4.0  
-Status: In development  
+Version: v1.4.0
+Status: In development
 Last vendor validation: 2026-08-16
 
 Select an ingestion pattern from the source contract and freshness objective—not from a product name.
@@ -23,4 +23,3 @@ Select an ingestion pattern from the source contract and freshness objective—n
 - Use least-privilege service roles and storage integrations; do not embed cloud credentials.
 - Measure freshness, completeness, correctness, duplicate rate and rejected records.
 - Test replay and recovery, not only the happy path.
-

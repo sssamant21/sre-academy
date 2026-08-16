@@ -45,4 +45,3 @@ Store validation result, query ID, data timestamp, code version, approver and ex
 - [Object tagging](https://docs.snowflake.com/en/user-guide/object-tagging)
 - [Time Travel](https://docs.snowflake.com/en/user-guide/data-time-travel)
 - [Transactions](https://docs.snowflake.com/en/sql-reference/transactions)
-

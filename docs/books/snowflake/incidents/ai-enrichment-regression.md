@@ -35,4 +35,3 @@ The team stopped the pending batch, restored the prior prompt/model configuratio
 - [Cortex AI Function cost management](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-func-cost-management)
 - [AI cost and governance](https://docs.snowflake.com/en/user-guide/snowflake-cortex/governance-and-availability/ai-cost-management-and-governance)
 - [AI Observability](https://docs.snowflake.com/en/user-guide/snowflake-cortex/ai-observability/reference)
-

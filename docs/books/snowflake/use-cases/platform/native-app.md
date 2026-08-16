@@ -56,4 +56,3 @@ Promote changes through release channels with a tested maintenance policy. If an
 - [Native App workflow](https://docs.snowflake.com/en/developer-guide/native-apps/native-apps-workflow)
 - [Application packages](https://docs.snowflake.com/en/developer-guide/native-apps/creating-app-package)
 - [Security requirements](https://docs.snowflake.com/en/developer-guide/native-apps/security-app-requirements)
-

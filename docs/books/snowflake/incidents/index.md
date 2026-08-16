@@ -26,4 +26,3 @@ Every case includes impact, timeline, evidence, triage, containment, root cause,
 1. Pipeline and platform incidents — draft implementation.
 2. Security, sharing, Iceberg and AI/ML incidents — planned.
 3. End-to-end architectures and full lifecycle case studies — planned.
-

@@ -46,6 +46,18 @@ The v1.3.0 material is production-ready and provides the customer-owned reliabil
 
 The v1.4.0 development work now spans ingestion, transformation, analytics, governed data products, sharing, open-table, application, AI/ML, security, migration, regulated-industry and continuity patterns. Every pattern includes selection guidance, production controls, validation, failure handling and rollback.
 
+## v1.5.0 production incidents and RCA
+
+- [Production incidents, RCA, and case studies](incidents/index.md)
+- [Snowpipe backlog and missing files](incidents/snowpipe-backlog.md)
+- [Kafka ingestion freshness breach](incidents/kafka-freshness.md)
+- [Dynamic-table refresh breach](incidents/dynamic-table-refresh.md)
+- [Task-graph failure](incidents/task-graph-failure.md)
+- [Warehouse saturation](incidents/warehouse-saturation.md)
+- [Unexpected credit consumption](incidents/unexpected-credit-consumption.md)
+
+The first v1.5.0 development phase adds fictional, evidence-driven production incident cases with timelines, containment, recovery, RCA and preventive controls.
+
 ## Release
 
 - [v1.4.0 release notes](RELEASE_NOTES_v1.4.0.md)

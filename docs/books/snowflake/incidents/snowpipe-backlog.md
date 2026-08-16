@@ -64,4 +64,3 @@ The team restored the validated event subscription, then used the documented Sno
 - [`SYSTEM$PIPE_STATUS`](https://docs.snowflake.com/en/sql-reference/functions/system_pipe_status)
 - [`COPY_HISTORY`](https://docs.snowflake.com/en/sql-reference/functions/copy_history)
 - [`VALIDATE_PIPE_LOAD`](https://docs.snowflake.com/en/sql-reference/functions/validate_pipe_load)
-

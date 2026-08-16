@@ -1,7 +1,7 @@
 # Sharing, Iceberg, Applications, and AI/ML
 
 Version: v1.4.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 This phase covers patterns that publish data beyond a single workload, preserve open-table interoperability, package applications, and operationalize AI/ML. Confirm cloud, region, edition, model and account availability before implementation.

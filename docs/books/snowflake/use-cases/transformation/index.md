@@ -1,7 +1,7 @@
 # Transformation, Analytics, and Data Products
 
 Version: v1.4.0
-Status: In development
+Status: Production Release
 Last vendor validation: 2026-08-16
 
 This phase turns trusted landing data into maintained models and governed consumer products. Select the pattern from the transformation semantics, freshness objective, query profile and consumer contract.

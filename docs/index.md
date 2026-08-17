@@ -1,73 +1,41 @@
-# Kubernetes SRE Engineering Handbook
+# SRE Academy
 
-SRE Academy is now focused on building a production-grade Kubernetes SRE Engineering Handbook.
+SRE Academy is a collection of production-grade SRE and DBRE engineering handbooks.
 
-The goal is to create a professional reference for engineers who design, operate, troubleshoot, and improve Kubernetes platforms in production.
+## Published Handbooks
 
-## What This Book Covers
+### PostgreSQL SRE & DBRE Handbook
 
-<div class="grid cards" markdown>
+Production-focused PostgreSQL architecture, reliability engineering, operations, troubleshooting, recovery, and automation guidance.
 
-- **Kubernetes Internals**
+[Open the PostgreSQL SRE & DBRE Handbook](books/postgresql-sre-dbre-handbook/index.md)
 
-    Control plane architecture, kube-apiserver behavior, scheduling, kubelet operations, etcd interaction, watches, informers, and reconciliation.
+**Published now:** Chapter 1 — PostgreSQL Architecture and Internals, sections 1.1–1.24.
 
-- **Production Operations**
+### Kubernetes SRE Engineering Handbook
 
-    Availability, performance, upgrades, scaling, observability, incident response, failure scenarios, and operational trade-offs.
+A professional reference for engineers who design, operate, troubleshoot, and improve Kubernetes platforms in production.
 
-- **Platform Tooling**
+The handbook covers Kubernetes internals, production operations, platform tooling, SRE practices, runbooks, troubleshooting workflows, labs, best practices, and managed Kubernetes platforms.
 
-    Helm, Kustomize, GitOps workflows, and managed Kubernetes provider operations for Amazon EKS, Azure AKS, and Google GKE.
+Use the site navigation to browse the Kubernetes handbook.
 
-- **SRE Practice**
+### Snowflake Enterprise Handbook
 
-    Runbooks, troubleshooting workflows, labs, best practices, engineering review notes, and interview questions.
+The Snowflake handbook provides enterprise architecture, DBRE and reliability engineering, practical use cases, operational runbooks, and production incident guidance.
 
-</div>
-
-## Book Standard
-
-Every major section should help readers answer these questions:
-
-1. What is this Kubernetes capability?
-2. Why does Kubernetes need it?
-3. How does it work internally?
-4. What happens in production?
-5. What breaks under failure or load?
-6. How does an SRE detect the problem?
-7. How does an SRE fix or mitigate it?
-8. How does behavior differ across EKS, AKS, and GKE where relevant?
-9. What best practices and trade-offs matter?
-10. What labs prove real understanding?
-
-## Current Focus
-
-The active manuscript focus is Chapter 7, the Kubernetes API Server.
-
-Start with the Kubernetes handbook overview or open the Chapter 7 sections from the navigation.
+Use the site navigation to browse the Snowflake handbook.
 
 ## Operating Model
 
 ```mermaid
 graph LR
-    Learn[Understand internals] --> Operate[Operate production clusters]
+    Learn[Understand internals] --> Operate[Operate production systems]
     Operate --> Observe[Measure reliability signals]
     Observe --> Respond[Respond to failures]
     Respond --> Improve[Improve platform design]
     Improve --> Learn
 ```
-
-## Local Preview
-
-Install the documentation dependencies and start the development server:
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
-
-Then open the local URL printed by MkDocs.
 
 ## Publishing
 

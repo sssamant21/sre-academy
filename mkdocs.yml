@@ -295,6 +295,35 @@ nav:
           - "Chapter 19 - Enterprise Platform Operating Model & Service Management": books/snowflake/chapter-19/README.md
           - "Chapter 20 - Enterprise Reference Architectures & Industry Deployment Patterns": books/snowflake/chapter-20/README.md
 
+  - PostgreSQL SRE & DBRE Handbook:
+      - Overview: books/postgresql-sre-dbre-handbook/index.md
+      - Master Table of Contents: books/postgresql-sre-dbre-handbook/MASTER_TOC.md
+      - Chapter 1 — PostgreSQL Architecture and Internals:
+          - "1.1": books/postgresql-sre-dbre-handbook/chapter-01/1.1-postgresql-architecture-overview.md
+          - "1.2": books/postgresql-sre-dbre-handbook/chapter-01/1.2-postgresql-server-process-architecture.md
+          - "1.3": books/postgresql-sre-dbre-handbook/chapter-01/1.3-postgresql-backend-process-architecture.md
+          - "1.4": books/postgresql-sre-dbre-handbook/chapter-01/1.4-postgresql-postmaster-and-process-lifecycle-architecture.md
+          - "1.5": books/postgresql-sre-dbre-handbook/chapter-01/1.5-postgresql-memory-architecture.md
+          - "1.6": books/postgresql-sre-dbre-handbook/chapter-01/1.6-postgresql-shared-memory-and-ipc-architecture.md
+          - "1.7": books/postgresql-sre-dbre-handbook/chapter-01/1.7-backend-processes-and-connection-architecture.md
+          - "1.8": books/postgresql-sre-dbre-handbook/chapter-01/1.8-postgresql-background-processes.md
+          - "1.9": books/postgresql-sre-dbre-handbook/chapter-01/1.9-postgresql-connection-architecture.md
+          - "1.10": books/postgresql-sre-dbre-handbook/chapter-01/1.10-postgresql-query-execution-lifecycle.md
+          - "1.11": books/postgresql-sre-dbre-handbook/chapter-01/1.11-postgresql-storage-architecture.md
+          - "1.12": books/postgresql-sre-dbre-handbook/chapter-01/1.12-postgresql-wal-and-durability-architecture.md
+          - "1.13": books/postgresql-sre-dbre-handbook/chapter-01/1.13-postgresql-transaction-and-mvcc-architecture.md
+          - "1.14": books/postgresql-sre-dbre-handbook/chapter-01/1.14-postgresql-locking-and-concurrency-architecture.md
+          - "1.15": books/postgresql-sre-dbre-handbook/chapter-01/1.15-postgresql-buffer-management-and-caching-architecture.md
+          - "1.16": books/postgresql-sre-dbre-handbook/chapter-01/1.16-postgresql-checkpoint-architecture-and-background-writing.md
+          - "1.17": books/postgresql-sre-dbre-handbook/chapter-01/1.17-postgresql-vacuum-autovacuum-and-transaction-id-architecture.md
+          - "1.18": books/postgresql-sre-dbre-handbook/chapter-01/1.18-postgresql-replication-architecture-and-wal-streaming-internals.md
+          - "1.19": books/postgresql-sre-dbre-handbook/chapter-01/1.19-postgresql-high-availability-failover-and-recovery-architecture.md
+          - "1.20": books/postgresql-sre-dbre-handbook/chapter-01/1.20-postgresql-logical-replication-architecture-and-internals.md
+          - "1.21": books/postgresql-sre-dbre-handbook/chapter-01/1.21-postgresql-parallel-query-and-parallel-processing-architecture.md
+          - "1.22": books/postgresql-sre-dbre-handbook/chapter-01/1.22-postgresql-extension-architecture-and-shared-libraries.md
+          - "1.23": books/postgresql-sre-dbre-handbook/chapter-01/1.23-archiver-process.md
+          - "1.24": books/postgresql-sre-dbre-handbook/chapter-01/1.24-replication-processes.md
+
 markdown_extensions:
   - admonition
   - attr_list

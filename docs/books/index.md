@@ -8,7 +8,7 @@ The SRE Academy catalog is organized around core technologies that justify full 
 | --- | --- |
 | Enterprise Kubernetes | Cluster operations, workloads, Helm, Kustomize, GitOps, EKS, AKS, and GKE. |
 | Apache Kafka | Kafka fundamentals, production operations, and managed Kafka platforms. |
-| PostgreSQL | Relational database operations, schema safety, backups, replication, failover, and performance. |
+| PostgreSQL SRE & DBRE Handbook | Relational database operations, internals, HA/DR, managed-cloud PostgreSQL, production SRE/DBRE workflows, and performance. |
 | MongoDB | Document database operations, schema design, indexing, replication, backups, and sharding. |
 | Elasticsearch | Search operations, index lifecycle, shard health, query tuning, and resilience. |
 | Redis | Cache and data structure operations, persistence, replication, high availability, and failover. |

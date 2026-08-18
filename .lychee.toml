@@ -4,5 +4,8 @@ exclude = [
   '^tel:',
   '^https://kubernetes\.io/docs/reference/using-api/$'
 ]
+exclude_path = [
+  'docs/books/postgresql-sre-dbre-handbook'
+]
 max_retries = 2
 timeout = 20

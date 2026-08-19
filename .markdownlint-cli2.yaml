@@ -1,3 +1,4 @@
 ignores:
   - docs/books/snowflake/**
   - docs/books/postgresql-sre-dbre-handbook/**
+  - docs/postgresql/chapter-02/**

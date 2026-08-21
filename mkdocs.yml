@@ -323,6 +323,41 @@ nav:
           - "1.22": books/postgresql-sre-dbre-handbook/chapter-01/1.22-postgresql-extension-architecture-and-shared-libraries.md
           - "1.23": books/postgresql-sre-dbre-handbook/chapter-01/1.23-archiver-process.md
           - "1.24": books/postgresql-sre-dbre-handbook/chapter-01/1.24-replication-processes.md
+      - Chapter 2 — PostgreSQL Installation, Configuration, Patching, and Upgrades:
+          - Overview: books/postgresql-sre-dbre-handbook/chapter-02/index.md
+          - "2.1 Deployment Models": books/postgresql-sre-dbre-handbook/chapter-02/2.1-postgresql-deployment-models.md
+          - "2.1": books/postgresql-sre-dbre-handbook/chapter-02/2.1-installation-strategy-and-production-planning.md
+          - "2.2 Version Selection and Support Strategy": books/postgresql-sre-dbre-handbook/chapter-02/2.2-postgresql-version-selection-and-support-strategy.md
+          - "2.2": books/postgresql-sre-dbre-handbook/chapter-02/2.2-binary-package-installation.md
+          - "2.3 Linux Operating System Preparation": books/postgresql-sre-dbre-handbook/chapter-02/2.3-linux-operating-system-preparation.md
+          - "2.3": books/postgresql-sre-dbre-handbook/chapter-02/2.3-source-build-and-custom-installation.md
+          - "2.4 Package-Based Installation": books/postgresql-sre-dbre-handbook/chapter-02/2.4-postgresql-package-based-installation.md
+          - "2.4": books/postgresql-sre-dbre-handbook/chapter-02/2.4-operating-system-prerequisites-and-service-account.md
+          - "2.5 Source-Based Installation": books/postgresql-sre-dbre-handbook/chapter-02/2.5-postgresql-source-based-installation.md
+          - "2.5": books/postgresql-sre-dbre-handbook/chapter-02/2.5-database-cluster-initialization-with-initdb.md
+          - "2.6 Database Cluster Initialization": books/postgresql-sre-dbre-handbook/chapter-02/2.6-database-cluster-initialization.md
+          - "2.6 Directory, Storage, and WAL Layout": books/postgresql-sre-dbre-handbook/chapter-02/2.6-postgresql-directory-storage-and-wal-layout.md
+          - "2.7 Directory and Filesystem Planning": books/postgresql-sre-dbre-handbook/chapter-02/2.7-directory-and-filesystem-planning.md
+          - "2.7 Configuration Baseline": books/postgresql-sre-dbre-handbook/chapter-02/2.7-postgresql-configuration-baseline.md
+          - "2.8 Authentication, Network, and TLS": books/postgresql-sre-dbre-handbook/chapter-02/2.8-authentication-network-and-tls-configuration.md
+          - "2.8 Startup, Shutdown, and Service Management": books/postgresql-sre-dbre-handbook/chapter-02/2.8-postgresql-server-startup-shutdown-and-service-management.md
+          - "2.9 Initial Server Configuration": books/postgresql-sre-dbre-handbook/chapter-02/2.9-initial-server-configuration.md
+          - "2.9 Service Startup, Shutdown, and Process Management": books/postgresql-sre-dbre-handbook/chapter-02/2.9-service-startup-shutdown-and-process-management.md
+          - "2.10": books/postgresql-sre-dbre-handbook/chapter-02/2.10-installation-validation-and-production-readiness-checks.md
+          - "2.11": books/postgresql-sre-dbre-handbook/chapter-02/2.11-postgresql-patching-and-minor-version-upgrades.md
+          - "2.12": books/postgresql-sre-dbre-handbook/chapter-02/2.12-postgresql-major-version-upgrades.md
+          - "2.13": books/postgresql-sre-dbre-handbook/chapter-02/2.13-post-upgrade-validation-and-remediation.md
+          - "2.14": books/postgresql-sre-dbre-handbook/chapter-02/2.14-upgrade-rollback-and-backout-strategy.md
+          - "2.15": books/postgresql-sre-dbre-handbook/chapter-02/2.15-upgrade-testing-rehearsal-and-change-management.md
+          - "2.16": books/postgresql-sre-dbre-handbook/chapter-02/2.16-extension-and-module-upgrade-management.md
+          - "2.17": books/postgresql-sre-dbre-handbook/chapter-02/2.17-tablespace-and-storage-upgrade-considerations.md
+          - "2.18": books/postgresql-sre-dbre-handbook/chapter-02/2.18-replication-and-high-availability-upgrade-strategy.md
+          - "2.19": books/postgresql-sre-dbre-handbook/chapter-02/2.19-backup-recovery-and-pitr-readiness-during-upgrades.md
+          - "2.20": books/postgresql-sre-dbre-handbook/chapter-02/2.20-post-upgrade-performance-monitoring-and-stabilization.md
+          - "2.21": books/postgresql-sre-dbre-handbook/chapter-02/2.21-production-monitoring-observability-and-alerting-baseline.md
+          - "2.22": books/postgresql-sre-dbre-handbook/chapter-02/2.22-routine-maintenance-vacuum-analyze-and-database-health.md
+          - "2.23": books/postgresql-sre-dbre-handbook/chapter-02/2.23-log-management-diagnostics-and-operational-troubleshooting.md
+          - "2.24": books/postgresql-sre-dbre-handbook/chapter-02/2.24-production-operations-checklist-and-chapter-runbook.md
 
 markdown_extensions:
   - admonition

@@ -22,9 +22,7 @@ Understand how enterprise data platforms have evolved over the past several deca
 Identify the architectural limitations of traditional on-premises data warehouses.
 
 
-```text
 Explain the business and technical drivers behind cloud-native analytical platforms.
-```
 
 Recognize why scalability, elasticity, and operational simplicity became essential design requirements.
 
@@ -136,9 +134,7 @@ Infrastructure monitoring.
 Operating system maintenance.
 
 
-```sql
 With Snowflake's managed service model, many of these platform-level operational responsibilities are handled by Snowflake within its service boundaries. This allows customer teams to focus more directly on business outcomes, including data engineering, analytics, governance, security configuration, data quality, and operational processes that remain under their control.
-```
 
 Enterprise Perspective
 
@@ -157,10 +153,6 @@ Official Snowflake Documentation
 Snowflake Documentation – Key Concepts and Architecture.
 
 Snowflake engineering blog on distributed query execution and cloud services architecture.
-
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
 
 ## 1.2 What is Snowflake?
 
@@ -318,10 +310,6 @@ Snowflake Key Concepts and Architecture
 
 Snowflake AI Data Cloud Architecture Overview
 
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
-
 ## 1.3 Snowflake Design Principles
 
 Learning Objectives
@@ -331,9 +319,7 @@ After completing this section, readers will be able to:
 Understand the architectural principles that guided Snowflake's design.
 
 
-```sql
 Explain why Snowflake separates storage, compute, and platform services.
-```
 
 Recognize how cloud-native design differs from simply hosting a traditional database in the cloud.
 
@@ -478,10 +464,6 @@ Snowflake Key Concepts and Architecture.
 
 Snowflake AI Data Cloud Architecture Overview.
 
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
-
 ## 1.4 High-Level Snowflake Architecture
 
 Learning Objectives
@@ -493,9 +475,7 @@ Understand Snowflake's high-level architecture.
 Identify the three architectural layers that form the platform.
 
 
-```text
 Explain the responsibilities of the Database Storage, Compute, and Cloud Services layers.
-```
 
 Understand how the architectural layers interact during query execution.
 
@@ -712,9 +692,7 @@ These principles explain many of the operational characteristics discussed throu
 A common misconception is that Snowflake is "just another database."
 
 
-```text
 From an enterprise architecture perspective, it is more accurately viewed as a managed platform that combines storage, compute, metadata services, security coordination, and workload orchestration into a unified cloud-native service.
-```
 
 Understanding this layered architecture helps explain:
 
@@ -740,10 +718,6 @@ Snowflake Key Concepts and Architecture
 
 Snowflake Documentation Home
 
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
-
 ## 1.5 Multi-Cluster Shared Data Architecture
 
 Learning Objectives
@@ -753,9 +727,7 @@ After completing this section, readers will be able to:
 Understand Snowflake's Multi-Cluster Shared Data Architecture.
 
 
-```text
 Explain how shared data differs from shared compute.
-```
 
 Understand why workload isolation is a key architectural advantage.
 
@@ -1273,10 +1245,6 @@ Snowflake Well-Architected Framework.
 Snowflake Security Documentation.
 
 
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
-
 ## 1.6 Snowflake Organizations, Accounts, Editions & Deployment Boundaries
 
 ### 1.6.1 Organization and Account Boundaries
@@ -1465,9 +1433,7 @@ The platform provides these capabilities, while organizations remain responsible
 Snowflake also provides capabilities that support enterprise operations, including:
 
 
-```text
 Resource Monitors
-```
 
 Query History
 
@@ -1513,10 +1479,6 @@ Snowflake Documentation – Secure Data Sharing.
 Snowflake Documentation – Cortex AI.
 
 Snowflake Documentation – Governance and Security.
-
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
 
 ## 1.8 Enterprise Deployment Model
 
@@ -1817,10 +1779,6 @@ Snowflake Documentation – Replication and Failover.
 
 Snowflake Well-Architected Framework.
 
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
-
 ## 1.9 Enterprise Personas and Organizational Responsibilities
 
 Learning Objectives
@@ -1936,9 +1894,7 @@ User and role administration.
 Warehouse management.
 
 
-```text
 Resource monitors.
-```
 
 Database and schema administration.
 
@@ -2187,10 +2143,6 @@ Snowflake Well-Architected Framework.
 Enterprise References
 
 The organizational roles, Platform Engineering, DBRE, SRE, and FinOps guidance presented in this section represent enterprise implementation practices rather than Snowflake-prescribed organizational models.
-
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
 
 ## 1.10 Enterprise Operating Model
 
@@ -2472,10 +2424,6 @@ Enterprise Implementation Note
 
 The operating model described in this section is not an official Snowflake operating model. It represents enterprise architecture guidance that complements Snowflake's managed platform capabilities and reflects widely adopted practices for operating cloud-native data platforms.
 
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
-
 ## 1.11 How to Use This Handbook
 
 Learning Objectives
@@ -2557,9 +2505,7 @@ Security
 Warehouses
 
 
-```text
 Resource monitors
-```
 
 Administration
 
@@ -2738,10 +2684,6 @@ Snowflake Key Concepts and Architecture.
 Snowflake Release Notes.
 
 Snowflake Well-Architected Framework.
-
-## Chapter 1
-
-Introduction to Snowflake & Enterprise Architecture
 
 ## 1.12 Chapter Summary and Executive Review
 

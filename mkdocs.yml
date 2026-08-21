@@ -358,6 +358,32 @@ nav:
           - "2.22": books/postgresql-sre-dbre-handbook/chapter-02/2.22-routine-maintenance-vacuum-analyze-and-database-health.md
           - "2.23": books/postgresql-sre-dbre-handbook/chapter-02/2.23-log-management-diagnostics-and-operational-troubleshooting.md
           - "2.24": books/postgresql-sre-dbre-handbook/chapter-02/2.24-production-operations-checklist-and-chapter-runbook.md
+      - Chapter 3 — PostgreSQL Database and Object Administration:
+          - Overview: books/postgresql-sre-dbre-handbook/chapter-03/index.md
+          - "3.1": books/postgresql-sre-dbre-handbook/chapter-03/3.1-postgresql-database-administration-fundamentals.md
+          - "3.2": books/postgresql-sre-dbre-handbook/chapter-03/3.2-creating-altering-and-dropping-databases.md
+          - "3.3": books/postgresql-sre-dbre-handbook/chapter-03/3.3-database-templates-template0-and-template1.md
+          - "3.4": books/postgresql-sre-dbre-handbook/chapter-03/3.4-database-ownership-privileges-and-access-control.md
+          - "3.5": books/postgresql-sre-dbre-handbook/chapter-03/3.5-postgresql-schemas-and-namespace-architecture.md
+          - "3.6": books/postgresql-sre-dbre-handbook/chapter-03/3.6-creating-and-managing-schemas.md
+          - "3.7": books/postgresql-sre-dbre-handbook/chapter-03/3.7-tables-and-table-administration.md
+          - "3.8": books/postgresql-sre-dbre-handbook/chapter-03/3.8-columns-data-types-defaults-and-generated-columns.md
+          - "3.9": books/postgresql-sre-dbre-handbook/chapter-03/3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md
+          - "3.10": books/postgresql-sre-dbre-handbook/chapter-03/3.10-postgresql-sequences-and-identity-columns.md
+          - "3.11": books/postgresql-sre-dbre-handbook/chapter-03/3.11-views-and-materialized-views.md
+          - "3.12": books/postgresql-sre-dbre-handbook/chapter-03/3.12-index-administration.md
+          - "3.13": books/postgresql-sre-dbre-handbook/chapter-03/3.13-table-partitioning-administration.md
+          - "3.14": books/postgresql-sre-dbre-handbook/chapter-03/3.14-tablespaces-and-storage-placement.md
+          - "3.15": books/postgresql-sre-dbre-handbook/chapter-03/3.15-functions-procedures-and-other-database-objects.md
+          - "3.16": books/postgresql-sre-dbre-handbook/chapter-03/3.16-extensions-and-extension-administration.md
+          - "3.17": books/postgresql-sre-dbre-handbook/chapter-03/3.17-object-ownership-and-dependency-management.md
+          - "3.18": books/postgresql-sre-dbre-handbook/chapter-03/3.18-object-privileges-grant-revoke-and-default-privileges.md
+          - "3.19": books/postgresql-sre-dbre-handbook/chapter-03/3.19-object-maintenance-and-schema-change-operations.md
+          - "3.20": books/postgresql-sre-dbre-handbook/chapter-03/3.20-database-and-object-metadata-system-catalog-administration.md
+          - "3.21": books/postgresql-sre-dbre-handbook/chapter-03/3.21-object-bloat-dead-objects-and-administrative-health-checks.md
+          - "3.22": books/postgresql-sre-dbre-handbook/chapter-03/3.22-production-object-administration-best-practices.md
+          - "3.23": books/postgresql-sre-dbre-handbook/chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md
+          - "3.24": books/postgresql-sre-dbre-handbook/chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md
 
 markdown_extensions:
   - admonition

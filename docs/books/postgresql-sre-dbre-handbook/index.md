@@ -89,7 +89,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 
 ### Chapter 3 Sections
 
-- [3.1 — PostgreSQL Database Administration Fundamentals](chapter-03/3.1-postgresql-database-administration-fundamentals.md) — Planned
+- [3.1 — PostgreSQL Database Administration Fundamentals](chapter-03/3.1-postgresql-database-administration-fundamentals.md) — Complete
 - [3.2 — Creating, Altering, and Dropping Databases](chapter-03/3.2-creating-altering-and-dropping-databases.md) — Planned
 - [3.3 — Database Templates: template0 and template1](chapter-03/3.3-database-templates-template0-and-template1.md) — Planned
 - [3.4 — Database Ownership, Privileges, and Access Control](chapter-03/3.4-database-ownership-privileges-and-access-control.md) — Planned

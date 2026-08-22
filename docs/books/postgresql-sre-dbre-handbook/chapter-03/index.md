@@ -12,7 +12,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 
 - [3.1 — PostgreSQL Database Administration Fundamentals](3.1-postgresql-database-administration-fundamentals.md) — Complete
 - [3.2 — Creating, Altering, and Dropping Databases](3.2-creating-altering-and-dropping-databases.md) — Complete
-- [3.3 — Database Templates: template0 and template1](3.3-database-templates-template0-and-template1.md) — Planned
+- [3.3 — Database Templates: template0 and template1](3.3-database-templates-template0-and-template1.md) — Complete
 - [3.4 — Database Ownership, Privileges, and Access Control](3.4-database-ownership-privileges-and-access-control.md) — Planned
 - [3.5 — PostgreSQL Schemas and Namespace Architecture](3.5-postgresql-schemas-and-namespace-architecture.md) — Planned
 - [3.6 — Creating and Managing Schemas](3.6-creating-and-managing-schemas.md) — Planned
@@ -39,7 +39,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1 and 3.2 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
+Sections 3.1, 3.2, and 3.3 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
 
 ## Authoring Note
 

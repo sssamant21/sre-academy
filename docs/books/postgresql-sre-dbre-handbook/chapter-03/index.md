@@ -15,7 +15,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.3 — Database Templates: template0 and template1](3.3-database-templates-template0-and-template1.md) — Complete
 - [3.4 — Schemas, Namespaces, and search_path](3.4-database-ownership-privileges-and-access-control.md) — Complete
 - [3.5 — PostgreSQL Schemas and Namespace Architecture](3.5-postgresql-schemas-and-namespace-architecture.md) — Complete
-- [3.6 — Creating and Managing Schemas](3.6-creating-and-managing-schemas.md) — Planned
+- [3.6 — Creating and Managing Schemas](3.6-creating-and-managing-schemas.md) — Complete
 - [3.7 — Tables and Table Administration](3.7-tables-and-table-administration.md) — Planned
 - [3.8 — Columns, Data Types, Defaults, and Generated Columns](3.8-columns-data-types-defaults-and-generated-columns.md) — Planned
 - [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Planned
@@ -39,7 +39,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1, 3.2, 3.3, 3.4, and 3.5 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
+Sections 3.1, 3.2, 3.3, 3.4, 3.5, and 3.6 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
 
 ## Authoring Note
 

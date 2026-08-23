@@ -93,7 +93,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.2 — Creating, Altering, and Dropping Databases](chapter-03/3.2-creating-altering-and-dropping-databases.md) — Complete
 - [3.3 — Database Templates: template0 and template1](chapter-03/3.3-database-templates-template0-and-template1.md) — Complete
 - [3.4 — Schemas, Namespaces, and search_path](chapter-03/3.4-database-ownership-privileges-and-access-control.md) — Complete
-- [3.5 — PostgreSQL Schemas and Namespace Architecture](chapter-03/3.5-postgresql-schemas-and-namespace-architecture.md) — Planned
+- [3.5 — PostgreSQL Schemas and Namespace Architecture](chapter-03/3.5-postgresql-schemas-and-namespace-architecture.md) — Complete
 - [3.6 — Creating and Managing Schemas](chapter-03/3.6-creating-and-managing-schemas.md) — Planned
 - [3.7 — Tables and Table Administration](chapter-03/3.7-tables-and-table-administration.md) — Planned
 - [3.8 — Columns, Data Types, Defaults, and Generated Columns](chapter-03/3.8-columns-data-types-defaults-and-generated-columns.md) — Planned

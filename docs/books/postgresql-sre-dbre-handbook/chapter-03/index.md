@@ -25,7 +25,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.13 — Table Partitioning Administration](3.13-table-partitioning-administration.md) — Complete
 - [3.14 — Tablespaces and Storage Placement](3.14-tablespaces-and-storage-placement.md) — Complete
 - [3.15 — Functions, Procedures, and Other Database Objects](3.15-functions-procedures-and-other-database-objects.md) — Complete
-- [3.16 — Extensions and Extension Administration](3.16-extensions-and-extension-administration.md) — Planned
+- [3.16 — Extensions and Extension Administration](3.16-extensions-and-extension-administration.md) — Complete
 - [3.17 — Object Ownership and Dependency Management](3.17-object-ownership-and-dependency-management.md) — Planned
 - [3.18 — Object Privileges, GRANT, REVOKE, and Default Privileges](3.18-object-privileges-grant-revoke-and-default-privileges.md) — Planned
 - [3.19 — Object Maintenance and Schema Change Operations](3.19-object-maintenance-and-schema-change-operations.md) — Planned
@@ -39,7 +39,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, and 3.15 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
+Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, and 3.16 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
 
 ## Authoring Note
 

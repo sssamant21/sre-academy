@@ -104,7 +104,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.13 — Table Partitioning Administration](chapter-03/3.13-table-partitioning-administration.md) — Complete
 - [3.14 — Tablespaces and Storage Placement](chapter-03/3.14-tablespaces-and-storage-placement.md) — Complete
 - [3.15 — Functions, Procedures, and Other Database Objects](chapter-03/3.15-functions-procedures-and-other-database-objects.md) — Complete
-- [3.16 — Extensions and Extension Administration](chapter-03/3.16-extensions-and-extension-administration.md) — Planned
+- [3.16 — Extensions and Extension Administration](chapter-03/3.16-extensions-and-extension-administration.md) — Complete
 - [3.17 — Object Ownership and Dependency Management](chapter-03/3.17-object-ownership-and-dependency-management.md) — Planned
 - [3.18 — Object Privileges, GRANT, REVOKE, and Default Privileges](chapter-03/3.18-object-privileges-grant-revoke-and-default-privileges.md) — Planned
 - [3.19 — Object Maintenance and Schema Change Operations](chapter-03/3.19-object-maintenance-and-schema-change-operations.md) — Planned

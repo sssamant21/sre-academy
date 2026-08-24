@@ -99,7 +99,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.8 — Columns, Data Types, Defaults, and Generated Columns](chapter-03/3.8-columns-data-types-defaults-and-generated-columns.md) — Planned
 - [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](chapter-03/3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Complete
 - [3.10 — PostgreSQL Sequences and Identity Columns](chapter-03/3.10-postgresql-sequences-and-identity-columns.md) — Complete
-- [3.11 — Views and Materialized Views](chapter-03/3.11-views-and-materialized-views.md) — Planned
+- [3.11 — Views and Materialized Views](chapter-03/3.11-views-and-materialized-views.md) — Complete
 - [3.12 — Index Administration](chapter-03/3.12-index-administration.md) — Complete
 - [3.13 — Table Partitioning Administration](chapter-03/3.13-table-partitioning-administration.md) — Planned
 - [3.14 — Tablespaces and Storage Placement](chapter-03/3.14-tablespaces-and-storage-placement.md) — Planned

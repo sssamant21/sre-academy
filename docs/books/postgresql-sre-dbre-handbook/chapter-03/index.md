@@ -22,7 +22,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.10 — PostgreSQL Sequences and Identity Columns](3.10-postgresql-sequences-and-identity-columns.md) — Complete
 - [3.11 — Views and Materialized Views](3.11-views-and-materialized-views.md) — Complete
 - [3.12 — Index Administration](3.12-index-administration.md) — Complete
-- [3.13 — Table Partitioning Administration](3.13-table-partitioning-administration.md) — Planned
+- [3.13 — Table Partitioning Administration](3.13-table-partitioning-administration.md) — Complete
 - [3.14 — Tablespaces and Storage Placement](3.14-tablespaces-and-storage-placement.md) — Planned
 - [3.15 — Functions, Procedures, and Other Database Objects](3.15-functions-procedures-and-other-database-objects.md) — Complete
 - [3.16 — Extensions and Extension Administration](3.16-extensions-and-extension-administration.md) — Planned
@@ -39,7 +39,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, and 3.15 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
+Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, and 3.15 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
 
 ## Authoring Note
 

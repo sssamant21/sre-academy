@@ -28,7 +28,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.16 — Extensions and Extension Administration](3.16-extensions-and-extension-administration.md) — Complete
 - [3.17 — Object Ownership and Dependency Management](3.17-object-ownership-and-dependency-management.md) — Complete
 - [3.18 — Object Privileges, GRANT, REVOKE, and Default Privileges](3.18-object-privileges-grant-revoke-and-default-privileges.md) — Complete
-- [3.19 — Object Maintenance and Schema Change Operations](3.19-object-maintenance-and-schema-change-operations.md) — Planned
+- [3.19 — Object Maintenance and Schema Change Operations](3.19-object-maintenance-and-schema-change-operations.md) — Complete
 - [3.20 — Database and Object Metadata / System Catalog Administration](3.20-database-and-object-metadata-system-catalog-administration.md) — Planned
 - [3.21 — Object Bloat, Dead Objects, and Administrative Health Checks](3.21-object-bloat-dead-objects-and-administrative-health-checks.md) — Planned
 - [3.22 — Production Object Administration Best Practices](3.22-production-object-administration-best-practices.md) — Planned
@@ -39,7 +39,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, 3.16, 3.17, and 3.18 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
+Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, 3.16, 3.17, 3.18, and 3.19 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
 
 ## Authoring Note
 

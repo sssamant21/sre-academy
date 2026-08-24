@@ -100,7 +100,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](chapter-03/3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Complete
 - [3.10 — PostgreSQL Sequences and Identity Columns](chapter-03/3.10-postgresql-sequences-and-identity-columns.md) — Planned
 - [3.11 — Views and Materialized Views](chapter-03/3.11-views-and-materialized-views.md) — Planned
-- [3.12 — Index Administration](chapter-03/3.12-index-administration.md) — Planned
+- [3.12 — Index Administration](chapter-03/3.12-index-administration.md) — Complete
 - [3.13 — Table Partitioning Administration](chapter-03/3.13-table-partitioning-administration.md) — Planned
 - [3.14 — Tablespaces and Storage Placement](chapter-03/3.14-tablespaces-and-storage-placement.md) — Planned
 - [3.15 — Functions, Procedures, and Other Database Objects](chapter-03/3.15-functions-procedures-and-other-database-objects.md) — Planned
@@ -108,7 +108,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.17 — Object Ownership and Dependency Management](chapter-03/3.17-object-ownership-and-dependency-management.md) — Planned
 - [3.18 — Object Privileges, GRANT, REVOKE, and Default Privileges](chapter-03/3.18-object-privileges-grant-revoke-and-default-privileges.md) — Planned
 - [3.19 — Object Maintenance and Schema Change Operations](chapter-03/3.19-object-maintenance-and-schema-change-operations.md) — Planned
-- [3.20 — Database and Object Metadata / System Catalog Administration](chapter-03/3.20-database-and-object-metadata-system-catalog-administration.md) — Planned
+- [3.20 — Database and Object Metadata / System Catalog Administration](chapter-03/3.20-database-object-metadata-system-catalog-administration.md) — Planned
 - [3.21 — Object Bloat, Dead Objects, and Administrative Health Checks](chapter-03/3.21-object-bloat-dead-objects-and-administrative-health-checks.md) — Planned
 - [3.22 — Production Object Administration Best Practices](chapter-03/3.22-production-object-administration-best-practices.md) — Planned
 - [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Planned

@@ -16,7 +16,7 @@ The SRE Academy catalog is organized around core technologies that justify full 
 | Prometheus | Metrics, PromQL, alerting, service-level indicators, and operational signals. |
 | Grafana | Dashboards, alert views, incident context, and observability workflows. |
 | Argo CD | GitOps delivery, drift detection, sync workflows, and multi-cluster operations. |
-| Terraform | Infrastructure as code, state management, plan review, and change safety. |
+| Terraform SRE & Cloud Infrastructure Engineering Handbook | Infrastructure as code, state management, plan review, and change safety. |
 | Linux | Host operations, processes, filesystems, resource pressure, and troubleshooting. |
 | Networking | DNS, TCP/IP, HTTP/HTTPS, reverse proxy, load balancing, TLS, service discovery, ingress, and gateways. |
 | AWS | AWS platform operations across IAM, Organizations, VPC, EC2, S3, RDS, CloudWatch, Route 53, EKS, and MSK. |

@@ -95,7 +95,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.4 — Schemas, Namespaces, and search_path](chapter-03/3.4-database-ownership-privileges-and-access-control.md) — Complete
 - [3.5 — PostgreSQL Schemas and Namespace Architecture](chapter-03/3.5-postgresql-schemas-and-namespace-architecture.md) — Complete
 - [3.6 — Creating and Managing Schemas](chapter-03/3.6-creating-and-managing-schemas.md) — Complete
-- [3.7 — Tables and Table Administration](chapter-03/3.7-tables-and-table-administration.md) — Planned
+- [3.7 — Tables and Table Administration](chapter-03/3.7-tables-and-table-administration.md) — Complete
 - [3.8 — Columns, Data Types, Defaults, and Generated Columns](chapter-03/3.8-columns-data-types-defaults-and-generated-columns.md) — Planned
 - [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](chapter-03/3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Planned
 - [3.10 — PostgreSQL Sequences and Identity Columns](chapter-03/3.10-postgresql-sequences-and-identity-columns.md) — Planned

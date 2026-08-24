@@ -110,7 +110,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.19 — Object Maintenance and Schema Change Operations](chapter-03/3.19-object-maintenance-and-schema-change-operations.md) — Complete
 - [3.20 — Database and Object Metadata / System Catalog Administration](chapter-03/3.20-database-and-object-metadata-system-catalog-administration.md) — Complete
 - [3.21 — Object Bloat, Dead Objects, and Administrative Health Checks](chapter-03/3.21-object-bloat-dead-objects-and-administrative-health-checks.md) — Complete
-- [3.22 — Production Object Administration Best Practices](chapter-03/3.22-production-object-administration-best-practices.md) — Planned
+- [3.22 — Production Object Administration Best Practices](chapter-03/3.22-production-object-administration-best-practices.md) — Complete
 - [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Planned
 - [3.24 — Automation, Operational Runbooks, and Production Case Studies](chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md) — Planned
 

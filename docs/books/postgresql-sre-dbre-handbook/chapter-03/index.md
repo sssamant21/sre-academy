@@ -18,7 +18,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.6 — Creating and Managing Schemas](3.6-creating-and-managing-schemas.md) — Complete
 - [3.7 — Tables and Table Administration](3.7-tables-and-table-administration.md) — Complete
 - [3.8 — Columns, Data Types, Defaults, and Generated Columns](3.8-columns-data-types-defaults-and-generated-columns.md) — Planned
-- [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Planned
+- [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Complete
 - [3.10 — PostgreSQL Sequences and Identity Columns](3.10-postgresql-sequences-and-identity-columns.md) — Planned
 - [3.11 — Views and Materialized Views](3.11-views-and-materialized-views.md) — Planned
 - [3.12 — Index Administration](3.12-index-administration.md) — Planned
@@ -39,7 +39,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, and 3.7 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
+Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, and 3.9 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
 
 ## Authoring Note
 

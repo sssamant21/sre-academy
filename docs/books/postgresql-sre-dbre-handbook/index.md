@@ -81,7 +81,7 @@ Chapter 2 covers production PostgreSQL installation, configuration, validation, 
 
 ## Chapter 3 — PostgreSQL Database and Object Administration
 
-Chapter 3 is initialized as the locked baseline for PostgreSQL database and object administration. Section content is planned for future incremental development.
+Chapter 3 is complete and canonical for PostgreSQL database and object administration.
 
 **Master Chapter 3 Structure v1.0 — LOCKED**
 
@@ -96,7 +96,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.5 — PostgreSQL Schemas and Namespace Architecture](chapter-03/3.5-postgresql-schemas-and-namespace-architecture.md) — Complete
 - [3.6 — Creating and Managing Schemas](chapter-03/3.6-creating-and-managing-schemas.md) — Complete
 - [3.7 — Tables and Table Administration](chapter-03/3.7-tables-and-table-administration.md) — Complete
-- [3.8 — Columns, Data Types, Defaults, and Generated Columns](chapter-03/3.8-columns-data-types-defaults-and-generated-columns.md) — Planned
+- [3.8 — Columns, Data Types, Defaults, and Generated Columns](chapter-03/3.8-columns-data-types-defaults-and-generated-columns.md) — Complete
 - [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](chapter-03/3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Complete
 - [3.10 — PostgreSQL Sequences and Identity Columns](chapter-03/3.10-postgresql-sequences-and-identity-columns.md) — Complete
 - [3.11 — Views and Materialized Views](chapter-03/3.11-views-and-materialized-views.md) — Complete
@@ -113,6 +113,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.22 — Production Object Administration Best Practices](chapter-03/3.22-production-object-administration-best-practices.md) — Complete
 - [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Complete
 - [3.24 — Automation, Operational Runbooks, and Production Case Studies](chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md) — Complete
+
 ### Chapter 3 Status Workflow
 
 Planned → Draft → Technical Review → Production Review → Complete
@@ -121,5 +122,5 @@ Planned → Draft → Technical Review → Production Review → Complete
 
 - Chapter 1 — Complete
 - Chapter 2 — Published
-- Chapter 3 — Planned
+- Chapter 3 — Complete
 - Chapters 4–24 — In development

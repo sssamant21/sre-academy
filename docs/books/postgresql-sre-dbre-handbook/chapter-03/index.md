@@ -1,10 +1,10 @@
 # Chapter 3 — PostgreSQL Database and Object Administration
 
-**Status:** Planned
+**Status:** Complete / Canonical
 
 **Master Chapter 3 Structure v1.0 — LOCKED**
 
-Chapter 3 establishes the approved structure for PostgreSQL database and object administration. Full production content will be added incrementally while preserving the locked section numbering, names, and ordering.
+Chapter 3 establishes the approved structure for PostgreSQL database and object administration. All approved sections are complete and canonical while preserving the locked section numbering, names, and ordering.
 
 [Start Chapter 3 — PostgreSQL Database Administration Fundamentals](3.1-postgresql-database-administration-fundamentals.md)
 
@@ -17,7 +17,7 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.5 — PostgreSQL Schemas and Namespace Architecture](3.5-postgresql-schemas-and-namespace-architecture.md) — Complete
 - [3.6 — Creating and Managing Schemas](3.6-creating-and-managing-schemas.md) — Complete
 - [3.7 — Tables and Table Administration](3.7-tables-and-table-administration.md) — Complete
-- [3.8 — Columns, Data Types, Defaults, and Generated Columns](3.8-columns-data-types-defaults-and-generated-columns.md) — Planned
+- [3.8 — Columns, Data Types, Defaults, and Generated Columns](3.8-columns-data-types-defaults-and-generated-columns.md) — Complete
 - [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Complete
 - [3.10 — PostgreSQL Sequences and Identity Columns](3.10-postgresql-sequences-and-identity-columns.md) — Complete
 - [3.11 — Views and Materialized Views](3.11-views-and-materialized-views.md) — Complete
@@ -34,11 +34,12 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.22 — Production Object Administration Best Practices](3.22-production-object-administration-best-practices.md) — Complete
 - [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Complete
 - [3.24 — Automation, Operational Runbooks, and Production Case Studies](3.24-automation-operational-runbooks-and-production-case-studies.md) — Complete
+
 ## Status Workflow
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19, 3.20, 3.21, 3.22, 3.23, and 3.24 are marked **Complete**. Chapter 3 is now complete.
+Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19, 3.20, 3.21, 3.22, 3.23, and 3.24 are marked **Complete**. Chapter 3 is now complete.
 
 ## Authoring Note
 
@@ -54,4 +55,4 @@ Future PostgreSQL technical content must be validated primarily against the offi
 
 ## Publication Status
 
-Chapter 3 is planned in the PostgreSQL SRE & DBRE Handbook navigation.
+Chapter 3 is complete and canonical in the PostgreSQL SRE & DBRE Handbook navigation.

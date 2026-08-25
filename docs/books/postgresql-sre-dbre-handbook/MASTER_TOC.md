@@ -53,5 +53,8 @@ takes precedence for exact wording.
 - Chapter 1 section sequence: LOCKED
 - Chapter 2 section sequence: Published
 - Master Chapter 3 Structure v1.0 — LOCKED
+- Master Chapter 4 Structure v1.0 — LOCKED
 
 Chapter 3 section titles, numbering, and order must not be renamed, renumbered, merged, split, reordered, deleted, or extended with new numbered sections unless explicitly approved later.
+
+Chapter 4 section titles, numbering, and order must not be renamed, renumbered, merged, split, reordered, deleted, or extended with new numbered sections unless explicitly approved later.

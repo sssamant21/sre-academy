@@ -393,6 +393,33 @@ nav:
           - "3.22": books/postgresql-sre-dbre-handbook/chapter-03/3.22-production-object-administration-best-practices.md
           - "3.23": books/postgresql-sre-dbre-handbook/chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md
           - "3.24": books/postgresql-sre-dbre-handbook/chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md
+      - Chapter 4 — PostgreSQL Storage Architecture and Capacity Management:
+          - Overview: books/postgresql-sre-dbre-handbook/chapter-04/index.md
+          - "4.1": books/postgresql-sre-dbre-handbook/chapter-04/4.1-postgresql-storage-architecture-overview.md
+          - "4.2": books/postgresql-sre-dbre-handbook/chapter-04/4.2-postgresql-data-directory-and-physical-layout.md
+          - "4.3": books/postgresql-sre-dbre-handbook/chapter-04/4.3-tables-relations-forks-and-physical-files.md
+          - "4.4": books/postgresql-sre-dbre-handbook/chapter-04/4.4-pages-blocks-tuples-and-on-disk-row-structure.md
+          - "4.5": books/postgresql-sre-dbre-handbook/chapter-04/4.5-heap-storage-architecture.md
+          - "4.6": books/postgresql-sre-dbre-handbook/chapter-04/4.6-index-storage-architecture.md
+          - "4.7": books/postgresql-sre-dbre-handbook/chapter-04/4.7-toast-architecture-and-large-value-storage.md
+          - "4.8": books/postgresql-sre-dbre-handbook/chapter-04/4.8-tablespaces-and-storage-placement.md
+          - "4.9": books/postgresql-sre-dbre-handbook/chapter-04/4.9-wal-storage-and-pg-wal-capacity-management.md
+          - "4.10": books/postgresql-sre-dbre-handbook/chapter-04/4.10-temporary-files-and-temporary-storage-management.md
+          - "4.11": books/postgresql-sre-dbre-handbook/chapter-04/4.11-free-space-map-and-visibility-map.md
+          - "4.12": books/postgresql-sre-dbre-handbook/chapter-04/4.12-mvcc-dead-tuples-and-storage-consumption.md
+          - "4.13": books/postgresql-sre-dbre-handbook/chapter-04/4.13-vacuum-autovacuum-and-space-reclamation.md
+          - "4.14": books/postgresql-sre-dbre-handbook/chapter-04/4.14-table-and-index-bloat.md
+          - "4.15": books/postgresql-sre-dbre-handbook/chapter-04/4.15-storage-growth-analysis-and-forecasting.md
+          - "4.16": books/postgresql-sre-dbre-handbook/chapter-04/4.16-database-schema-table-and-index-size-analysis.md
+          - "4.17": books/postgresql-sre-dbre-handbook/chapter-04/4.17-disk-capacity-planning-and-headroom-strategy.md
+          - "4.18": books/postgresql-sre-dbre-handbook/chapter-04/4.18-iops-throughput-latency-and-storage-performance.md
+          - "4.19": books/postgresql-sre-dbre-handbook/chapter-04/4.19-storage-monitoring-metrics-and-observability.md
+          - "4.20": books/postgresql-sre-dbre-handbook/chapter-04/4.20-storage-alerting-and-capacity-thresholds.md
+          - "4.21": books/postgresql-sre-dbre-handbook/chapter-04/4.21-disk-full-and-storage-exhaustion-failure-scenarios.md
+          - "4.22": books/postgresql-sre-dbre-handbook/chapter-04/4.22-storage-performance-troubleshooting.md
+          - "4.23": books/postgresql-sre-dbre-handbook/chapter-04/4.23-emergency-storage-recovery-and-remediation.md
+          - "4.24": books/postgresql-sre-dbre-handbook/chapter-04/4.24-storage-maintenance-automation-and-operational-runbooks.md
+          - "4.25": books/postgresql-sre-dbre-handbook/chapter-04/4.25-production-storage-incidents-and-case-studies.md
 
 markdown_extensions:
   - admonition

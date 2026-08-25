@@ -19,7 +19,7 @@ A production-focused Terraform reliability engineering handbook for SREs, platfo
 ### Chapter 1 - Infrastructure as Code and Terraform Fundamentals
 
 - [1.1 - What Is Infrastructure as Code?](chapter-01/1.1-what-is-infrastructure-as-code.md) - Complete
-- [1.2 - Problems with Manual Infrastructure Management](chapter-01/1.2-problems-with-manual-infrastructure-management.md) - Planned
+- [1.2 - Problems with Manual Infrastructure Management](chapter-01/1.2-problems-with-manual-infrastructure-management.md) - Complete
 - [1.3 - Declarative vs. Imperative Infrastructure](chapter-01/1.3-declarative-vs-imperative-infrastructure.md) - Planned
 - [1.4 - What Is Terraform?](chapter-01/1.4-what-is-terraform.md) - Planned
 - [1.5 - Terraform Architecture](chapter-01/1.5-terraform-architecture.md) - Planned

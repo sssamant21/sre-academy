@@ -300,6 +300,7 @@ nav:
       - Chapter 1 - Infrastructure as Code and Terraform Fundamentals:
           - Overview: books/terraform/chapter-01/index.md
           - "1.1 - What Is Infrastructure as Code?": books/terraform/chapter-01/1.1-what-is-infrastructure-as-code.md
+          - "1.2 - Problems with Manual Infrastructure Management": books/terraform/chapter-01/1.2-problems-with-manual-infrastructure-management.md
 
   - PostgreSQL SRE & DBRE Handbook:
       - Overview: books/postgresql-sre-dbre-handbook/index.md

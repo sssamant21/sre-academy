@@ -13,7 +13,7 @@ Chapter 1 establishes the approved structure for infrastructure as code and terr
 ## Chapter 1 Sections
 
 - [1.1 - What Is Infrastructure as Code?](1.1-what-is-infrastructure-as-code.md) - Complete
-- [1.2 - Problems with Manual Infrastructure Management](1.2-problems-with-manual-infrastructure-management.md) - Planned
+- [1.2 - Problems with Manual Infrastructure Management](1.2-problems-with-manual-infrastructure-management.md) - Complete
 - [1.3 - Declarative vs. Imperative Infrastructure](1.3-declarative-vs-imperative-infrastructure.md) - Planned
 - [1.4 - What Is Terraform?](1.4-what-is-terraform.md) - Planned
 - [1.5 - Terraform Architecture](1.5-terraform-architecture.md) - Planned

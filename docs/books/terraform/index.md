@@ -21,7 +21,7 @@ A production-focused Terraform reliability engineering handbook for SREs, platfo
 - [1.1 - What Is Infrastructure as Code?](chapter-01/1.1-what-is-infrastructure-as-code.md) - Complete
 - [1.2 - Problems with Manual Infrastructure Management](chapter-01/1.2-problems-with-manual-infrastructure-management.md) - Complete
 - [1.3 - Declarative vs. Imperative Infrastructure](chapter-01/1.3-declarative-vs-imperative-infrastructure.md) - Complete
-- [1.4 - What Is Terraform?](chapter-01/1.4-what-is-terraform.md) - Planned
+- [1.4 - Terraform Architecture and Core Components](chapter-01/1.4-terraform-architecture-and-core-components.md) - Complete
 - [1.5 - Terraform Architecture](chapter-01/1.5-terraform-architecture.md) - Planned
 - [1.6 - Terraform CLI](chapter-01/1.6-terraform-cli.md) - Planned
 - [1.7 - Terraform Configuration Language (HCL)](chapter-01/1.7-terraform-configuration-language-hcl.md) - Planned

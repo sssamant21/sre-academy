@@ -15,7 +15,7 @@ Chapter 1 establishes the approved structure for infrastructure as code and terr
 - [1.1 - What Is Infrastructure as Code?](1.1-what-is-infrastructure-as-code.md) - Complete
 - [1.2 - Problems with Manual Infrastructure Management](1.2-problems-with-manual-infrastructure-management.md) - Complete
 - [1.3 - Declarative vs. Imperative Infrastructure](1.3-declarative-vs-imperative-infrastructure.md) - Complete
-- [1.4 - What Is Terraform?](1.4-what-is-terraform.md) - Planned
+- [1.4 - Terraform Architecture and Core Components](1.4-terraform-architecture-and-core-components.md) - Complete
 - [1.5 - Terraform Architecture](1.5-terraform-architecture.md) - Planned
 - [1.6 - Terraform CLI](1.6-terraform-cli.md) - Planned
 - [1.7 - Terraform Configuration Language (HCL)](1.7-terraform-configuration-language-hcl.md) - Planned

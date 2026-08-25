@@ -1,4 +1,5 @@
 ignores:
   - docs/books/snowflake/**
+  - docs/books/terraform/**
   - docs/books/postgresql-sre-dbre-handbook/**
   - docs/postgresql/**

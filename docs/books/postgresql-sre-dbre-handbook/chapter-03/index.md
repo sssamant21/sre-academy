@@ -33,13 +33,12 @@ Chapter 3 establishes the approved structure for PostgreSQL database and object 
 - [3.21 — Object Bloat, Dead Objects, and Administrative Health Checks](3.21-object-bloat-dead-objects-and-administrative-health-checks.md) — Complete
 - [3.22 — Production Object Administration Best Practices](3.22-production-object-administration-best-practices.md) — Complete
 - [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Complete
-- [3.24 — Automation, Operational Runbooks, and Production Case Studies](3.24-automation-operational-runbooks-and-production-case-studies.md) — Planned
-
+- [3.24 — Automation, Operational Runbooks, and Production Case Studies](3.24-automation-operational-runbooks-and-production-case-studies.md) — Complete
 ## Status Workflow
 
 Planned → Draft → Technical Review → Production Review → Complete
 
-Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19, 3.20, 3.21, 3.22, and 3.23 are marked **Complete**. Remaining Chapter 3 sections are initially marked **Planned**.
+Sections 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.9, 3.10, 3.11, 3.12, 3.13, 3.14, 3.15, 3.16, 3.17, 3.18, 3.19, 3.20, 3.21, 3.22, 3.23, and 3.24 are marked **Complete**. Chapter 3 is now complete.
 
 ## Authoring Note
 

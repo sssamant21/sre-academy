@@ -112,8 +112,7 @@ Chapter 3 is initialized as the locked baseline for PostgreSQL database and obje
 - [3.21 — Object Bloat, Dead Objects, and Administrative Health Checks](chapter-03/3.21-object-bloat-dead-objects-and-administrative-health-checks.md) — Complete
 - [3.22 — Production Object Administration Best Practices](chapter-03/3.22-production-object-administration-best-practices.md) — Complete
 - [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Complete
-- [3.24 — Automation, Operational Runbooks, and Production Case Studies](chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md) — Planned
-
+- [3.24 — Automation, Operational Runbooks, and Production Case Studies](chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md) — Complete
 ### Chapter 3 Status Workflow
 
 Planned → Draft → Technical Review → Production Review → Complete

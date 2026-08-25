@@ -2,6 +2,7 @@
 .python-packages/
 .mkdocs-runtime/
 .mkdocs-runtime-codex/
+.mkdocs-runtime-verify/
 site/
 __pycache__/
 .pytest_cache/

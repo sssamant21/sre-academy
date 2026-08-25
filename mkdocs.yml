@@ -295,6 +295,12 @@ nav:
           - "Chapter 19 - Enterprise Platform Operating Model & Service Management": books/snowflake/chapter-19/README.md
           - "Chapter 20 - Enterprise Reference Architectures & Industry Deployment Patterns": books/snowflake/chapter-20/README.md
 
+  - Terraform SRE & Cloud Infrastructure Engineering Handbook:
+      - Overview: books/terraform/index.md
+      - Chapter 1 - Infrastructure as Code and Terraform Fundamentals:
+          - Overview: books/terraform/chapter-01/index.md
+          - "1.1 - What Is Infrastructure as Code?": books/terraform/chapter-01/1.1-what-is-infrastructure-as-code.md
+
   - PostgreSQL SRE & DBRE Handbook:
       - Overview: books/postgresql-sre-dbre-handbook/index.md
       - Master Table of Contents: books/postgresql-sre-dbre-handbook/MASTER_TOC.md

@@ -47,3 +47,11 @@ takes precedence for exact wording.
 22. PostgreSQL Enterprise DBA and SRE Operations
 23. PostgreSQL Automation, Infrastructure as Code, and Self-Healing Operations
 24. PostgreSQL Enterprise Reference Architectures and Production Runbooks
+
+## Chapter Structure Locks
+
+- Chapter 1 section sequence: LOCKED
+- Chapter 2 section sequence: Published
+- Master Chapter 3 Structure v1.0 — LOCKED
+
+Chapter 3 section titles, numbering, and order must not be renamed, renumbered, merged, split, reordered, deleted, or extended with new numbered sections unless explicitly approved later.

@@ -1,5 +1,7 @@
+.venv/
 .python-packages/
 .mkdocs-runtime/
+.mkdocs-runtime-codex/
 site/
 __pycache__/
 .pytest_cache/

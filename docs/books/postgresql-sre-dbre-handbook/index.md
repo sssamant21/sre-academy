@@ -79,8 +79,49 @@ Chapter 2 covers production PostgreSQL installation, configuration, validation, 
 - [2.23 — Log Management, Diagnostics, and Operational Troubleshooting](chapter-02/2.23-log-management-diagnostics-and-operational-troubleshooting.md)
 - [2.24 — Production Operations Checklist and Chapter Runbook](chapter-02/2.24-production-operations-checklist-and-chapter-runbook.md)
 
+## Chapter 3 — PostgreSQL Database and Object Administration
+
+Chapter 3 is complete and canonical for PostgreSQL database and object administration.
+
+**Master Chapter 3 Structure v1.0 — LOCKED**
+
+[Start Chapter 3 — PostgreSQL Database Administration Fundamentals](chapter-03/3.1-postgresql-database-administration-fundamentals.md)
+
+### Chapter 3 Sections
+
+- [3.1 — PostgreSQL Database Administration Fundamentals](chapter-03/3.1-postgresql-database-administration-fundamentals.md) — Complete
+- [3.2 — Creating, Altering, and Dropping Databases](chapter-03/3.2-creating-altering-and-dropping-databases.md) — Complete
+- [3.3 — Database Templates: template0 and template1](chapter-03/3.3-database-templates-template0-and-template1.md) — Complete
+- [3.4 — Schemas, Namespaces, and search_path](chapter-03/3.4-database-ownership-privileges-and-access-control.md) — Complete
+- [3.5 — PostgreSQL Schemas and Namespace Architecture](chapter-03/3.5-postgresql-schemas-and-namespace-architecture.md) — Complete
+- [3.6 — Creating and Managing Schemas](chapter-03/3.6-creating-and-managing-schemas.md) — Complete
+- [3.7 — Tables and Table Administration](chapter-03/3.7-tables-and-table-administration.md) — Complete
+- [3.8 — Columns, Data Types, Defaults, and Generated Columns](chapter-03/3.8-columns-data-types-defaults-and-generated-columns.md) — Complete
+- [3.9 — Constraints: PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL](chapter-03/3.9-constraints-primary-key-foreign-key-unique-check-and-not-null.md) — Complete
+- [3.10 — PostgreSQL Sequences and Identity Columns](chapter-03/3.10-postgresql-sequences-and-identity-columns.md) — Complete
+- [3.11 — Views and Materialized Views](chapter-03/3.11-views-and-materialized-views.md) — Complete
+- [3.12 — Index Administration](chapter-03/3.12-index-administration.md) — Complete
+- [3.13 — Table Partitioning Administration](chapter-03/3.13-table-partitioning-administration.md) — Complete
+- [3.14 — Tablespaces and Storage Placement](chapter-03/3.14-tablespaces-and-storage-placement.md) — Complete
+- [3.15 — Functions, Procedures, and Other Database Objects](chapter-03/3.15-functions-procedures-and-other-database-objects.md) — Complete
+- [3.16 — Extensions and Extension Administration](chapter-03/3.16-extensions-and-extension-administration.md) — Complete
+- [3.17 — Object Ownership and Dependency Management](chapter-03/3.17-object-ownership-and-dependency-management.md) — Complete
+- [3.18 — Object Privileges, GRANT, REVOKE, and Default Privileges](chapter-03/3.18-object-privileges-grant-revoke-and-default-privileges.md) — Complete
+- [3.19 — Object Maintenance and Schema Change Operations](chapter-03/3.19-object-maintenance-and-schema-change-operations.md) — Complete
+- [3.20 — Database and Object Metadata / System Catalog Administration](chapter-03/3.20-database-and-object-metadata-system-catalog-administration.md) — Complete
+- [3.21 — Object Bloat, Dead Objects, and Administrative Health Checks](chapter-03/3.21-object-bloat-dead-objects-and-administrative-health-checks.md) — Complete
+- [3.22 — Production Object Administration Best Practices](chapter-03/3.22-production-object-administration-best-practices.md) — Complete
+- [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Complete
+- [3.24 — Automation, Operational Runbooks, and Production Case Studies](chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md) — Complete
+
+### Chapter 3 Status Workflow
+
+Planned → Draft → Technical Review → Production Review → Complete
+
 ## Publication Status
 
 - Chapter 1 — Complete
 - Chapter 2 — Published
-- Chapters 3–24 — In development
+- Chapter 3 — Complete
+- Chapters 4–24 — In development
+

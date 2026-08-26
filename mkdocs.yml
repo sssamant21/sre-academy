@@ -1,4 +1,4 @@
-site_name: SRE Academy
+﻿site_name: SRE Academy
 site_description: Production-grade Kubernetes SRE Engineering Handbook.
 site_url: https://sssamant21.github.io/sre-academy/
 repo_url: https://github.com/sssamant21/sre-academy
@@ -400,12 +400,11 @@ nav:
           - "4.3": books/postgresql-sre-dbre-handbook/chapter-04/4.3-tables-relations-forks-and-physical-files.md
           - "4.4": books/postgresql-sre-dbre-handbook/chapter-04/4.4-pages-blocks-tuples-and-on-disk-row-structure.md
           - "4.5": books/postgresql-sre-dbre-handbook/chapter-04/4.5-heap-storage-architecture.md
-          - "4.6": books/postgresql-sre-dbre-handbook/chapter-04/4.6-index-storage-architecture.md
+          - "4.6": books/postgresql-sre-dbre-handbook/chapter-04/4.6-free-space-map-and-visibility-map.md
           - "4.7": books/postgresql-sre-dbre-handbook/chapter-04/4.7-toast-architecture-and-large-value-storage.md
           - "4.8": books/postgresql-sre-dbre-handbook/chapter-04/4.8-tablespaces-and-storage-placement.md
           - "4.9": books/postgresql-sre-dbre-handbook/chapter-04/4.9-wal-storage-and-pg-wal-capacity-management.md
           - "4.10": books/postgresql-sre-dbre-handbook/chapter-04/4.10-temporary-files-and-temporary-storage-management.md
-          - "4.11": books/postgresql-sre-dbre-handbook/chapter-04/4.11-free-space-map-and-visibility-map.md
           - "4.12": books/postgresql-sre-dbre-handbook/chapter-04/4.12-mvcc-dead-tuples-and-storage-consumption.md
           - "4.13": books/postgresql-sre-dbre-handbook/chapter-04/4.13-vacuum-autovacuum-and-space-reclamation.md
           - "4.14": books/postgresql-sre-dbre-handbook/chapter-04/4.14-table-and-index-bloat.md

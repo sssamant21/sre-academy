@@ -15,7 +15,7 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.1 -- PostgreSQL Storage Architecture Overview](4.1-postgresql-storage-architecture-overview.md) -- Complete
 - [4.2 -- PostgreSQL Data Directory and Physical Layout](4.2-postgresql-data-directory-and-physical-layout.md) -- Complete
 - [4.3 -- Tables, Relations, Forks, and Physical Files](4.3-tables-relations-forks-and-physical-files.md) -- Complete
-- [4.4 -- Pages, Blocks, Tuples, and On-Disk Row Structure](4.4-pages-blocks-tuples-and-on-disk-row-structure.md) -- Planned
+- [4.4 -- Pages, Blocks, Tuples, and On-Disk Row Structure](4.4-pages-blocks-tuples-and-on-disk-row-structure.md) -- Complete
 - [4.5 -- Heap Storage Architecture](4.5-heap-storage-architecture.md) -- Planned
 - [4.6 -- Index Storage Architecture](4.6-index-storage-architecture.md) -- Planned
 - [4.7 -- TOAST Architecture and Large-Value Storage](4.7-toast-architecture-and-large-value-storage.md) -- Planned
@@ -52,4 +52,4 @@ Future PostgreSQL storage content must be validated primarily against official P
 
 ## Publication Status
 
-Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1, 4.2, and 4.3 are complete and canonical.
+Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.4 are complete and canonical.

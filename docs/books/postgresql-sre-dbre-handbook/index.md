@@ -1,4 +1,4 @@
-# PostgreSQL SRE & DBRE Handbook
+﻿# PostgreSQL SRE & DBRE Handbook
 
 A production-focused PostgreSQL reliability engineering handbook for SREs, DBREs, database administrators, platform engineers, and cloud engineers.
 
@@ -132,7 +132,7 @@ Chapter 4 is in development for PostgreSQL storage architecture, physical storag
 - [4.2 — PostgreSQL Data Directory and Physical Layout](chapter-04/4.2-postgresql-data-directory-and-physical-layout.md) — Complete
 - [4.3 — Tables, Relations, Forks, and Physical Files](chapter-04/4.3-tables-relations-forks-and-physical-files.md) — Complete
 - [4.4 — Pages, Blocks, Tuples, and On-Disk Row Structure](chapter-04/4.4-pages-blocks-tuples-and-on-disk-row-structure.md) — Complete
-- [4.5 — Heap Storage Architecture](chapter-04/4.5-heap-storage-architecture.md) — Planned
+- [4.5 — Heap Storage Architecture](chapter-04/4.5-heap-storage-architecture.md) — Complete
 - [4.6 — Index Storage Architecture](chapter-04/4.6-index-storage-architecture.md) — Planned
 - [4.7 — TOAST Architecture and Large-Value Storage](chapter-04/4.7-toast-architecture-and-large-value-storage.md) — Planned
 - [4.8 — Tablespaces and Storage Placement](chapter-04/4.8-tablespaces-and-storage-placement.md) — Planned

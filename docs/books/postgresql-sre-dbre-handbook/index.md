@@ -120,7 +120,7 @@ Planned → Draft → Technical Review → Production Review → Complete
 
 ## Chapter 4 — PostgreSQL Storage Architecture and Capacity Management
 
-Chapter 4 is planned for PostgreSQL storage architecture, physical storage layout, capacity management, observability, storage failure scenarios, recovery, automation, and production storage incidents.
+Chapter 4 is in development for PostgreSQL storage architecture, physical storage layout, capacity management, observability, storage failure scenarios, recovery, automation, and production storage incidents.
 
 **Master Chapter 4 Structure v1.0 — LOCKED**
 
@@ -128,7 +128,7 @@ Chapter 4 is planned for PostgreSQL storage architecture, physical storage layou
 
 ### Chapter 4 Sections
 
-- [4.1 — PostgreSQL Storage Architecture Overview](chapter-04/4.1-postgresql-storage-architecture-overview.md) — Planned
+- [4.1 — PostgreSQL Storage Architecture Overview](chapter-04/4.1-postgresql-storage-architecture-overview.md) — Complete
 - [4.2 — PostgreSQL Data Directory and Physical Layout](chapter-04/4.2-postgresql-data-directory-and-physical-layout.md) — Planned
 - [4.3 — Tables, Relations, Forks, and Physical Files](chapter-04/4.3-tables-relations-forks-and-physical-files.md) — Planned
 - [4.4 — Pages, Blocks, Tuples, and On-Disk Row Structure](chapter-04/4.4-pages-blocks-tuples-and-on-disk-row-structure.md) — Planned
@@ -163,6 +163,6 @@ Draft → Technical Review → Production Review → Revised Final / Canonical E
 - Chapter 1 — Complete
 - Chapter 2 — Published
 - Chapter 3 — Complete
-- Chapter 4 — Planned
+- Chapter 4 — In development
 - Chapters 5–24 — In development
 

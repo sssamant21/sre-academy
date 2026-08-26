@@ -135,7 +135,7 @@ Chapter 4 is in development for PostgreSQL storage architecture, physical storag
 - [4.5 — Heap Storage Architecture](chapter-04/4.5-heap-storage-architecture.md) — Complete
 - [4.6 — Free Space Map and Visibility Map](chapter-04/4.6-free-space-map-and-visibility-map.md) — Complete
 - [4.7 — TOAST Architecture and Large-Value Storage](chapter-04/4.7-toast-architecture-and-large-value-storage.md) — Complete
-- [4.8 — Tablespaces and Storage Placement](chapter-04/4.8-tablespaces-and-storage-placement.md) — Planned
+- [4.8 — Tablespaces and Storage Placement](chapter-04/4.8-tablespaces-and-storage-placement.md) — Complete
 - [4.9 — WAL Storage and pg_wal Capacity Management](chapter-04/4.9-wal-storage-and-pg-wal-capacity-management.md) — Planned
 - [4.10 — Temporary Files and Temporary Storage Management](chapter-04/4.10-temporary-files-and-temporary-storage-management.md) — Planned
 - [4.12 — MVCC, Dead Tuples, and Storage Consumption](chapter-04/4.12-mvcc-dead-tuples-and-storage-consumption.md) — Planned

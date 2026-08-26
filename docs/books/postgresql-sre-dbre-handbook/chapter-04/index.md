@@ -18,7 +18,7 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.4 -- Pages, Blocks, Tuples, and On-Disk Row Structure](4.4-pages-blocks-tuples-and-on-disk-row-structure.md) -- Complete
 - [4.5 -- Heap Storage Architecture](4.5-heap-storage-architecture.md) -- Complete
 - [4.6 -- Free Space Map and Visibility Map](4.6-free-space-map-and-visibility-map.md) -- Complete
-- [4.7 -- TOAST Architecture and Large-Value Storage](4.7-toast-architecture-and-large-value-storage.md) -- Planned
+- [4.7 -- TOAST Architecture and Large-Value Storage](4.7-toast-architecture-and-large-value-storage.md) -- Complete
 - [4.8 -- Tablespaces and Storage Placement](4.8-tablespaces-and-storage-placement.md) -- Planned
 - [4.9 -- WAL Storage and pg_wal Capacity Management](4.9-wal-storage-and-pg-wal-capacity-management.md) -- Planned
 - [4.10 -- Temporary Files and Temporary Storage Management](4.10-temporary-files-and-temporary-storage-management.md) -- Planned
@@ -51,4 +51,4 @@ Future PostgreSQL storage content must be validated primarily against official P
 
 ## Publication Status
 
-Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.6 are complete and canonical.
+Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.7 are complete and canonical.

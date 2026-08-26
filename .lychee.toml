@@ -5,9 +5,9 @@ exclude = [
   '^https://kubernetes\.io/docs/reference/using-api/$'
 ]
 exclude_path = [
-  'docs/books/postgresql-sre-dbre-handbook',
-  'docs/books/snowflake',
-  'docs/books/terraform'
+  'docs/books/postgresql-sre-dbre-handbook/**',
+  'docs/books/snowflake/**',
+  'docs/books/terraform/**'
 ]
 max_retries = 2
 timeout = 20

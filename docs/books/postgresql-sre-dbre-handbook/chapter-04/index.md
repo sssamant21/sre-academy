@@ -20,7 +20,7 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.6 -- Free Space Map and Visibility Map](4.6-free-space-map-and-visibility-map.md) -- Complete
 - [4.7 -- TOAST Architecture and Large-Value Storage](4.7-toast-architecture-and-large-value-storage.md) -- Complete
 - [4.8 -- Tablespaces and Storage Placement](4.8-tablespaces-and-storage-placement.md) -- Complete
-- [4.9 -- WAL Storage and pg_wal Capacity Management](4.9-wal-storage-and-pg-wal-capacity-management.md) -- Planned
+- [4.9 -- WAL Storage and pg_wal Capacity Management](4.9-wal-storage-and-pg-wal-capacity-management.md) -- Complete
 - [4.10 -- Temporary Files and Temporary Storage Management](4.10-temporary-files-and-temporary-storage-management.md) -- Planned
 - [4.12 -- MVCC, Dead Tuples, and Storage Consumption](4.12-mvcc-dead-tuples-and-storage-consumption.md) -- Planned
 - [4.13 -- VACUUM, Autovacuum, and Space Reclamation](4.13-vacuum-autovacuum-and-space-reclamation.md) -- Planned
@@ -51,4 +51,4 @@ Future PostgreSQL storage content must be validated primarily against official P
 
 ## Publication Status
 
-Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.8 are complete and canonical.
+Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.9 are complete and canonical.

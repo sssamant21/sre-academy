@@ -22,8 +22,9 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 1.3 | mongod, mongos, and Supporting Components | ✅ Revised Final / Canonical Edition |
 | 1.4 | Database, Collection, Document, and Field Architecture | ✅ Revised Final / Canonical Edition |
 | 1.5 | BSON Architecture and Data Types | ✅ Revised Final / Canonical Edition |
-| 1.6 | MongoDB Namespace Architecture | Planned — Next |
+| 1.6 | MongoDB Namespace Architecture | ✅ Revised Final / Canonical Edition |
+| 1.7 | MongoDB Process Architecture | Planned — Next |
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 1.6 — MongoDB Namespace Architecture → Draft.
+**Next workflow stage:** 1.7 — MongoDB Process Architecture → Draft.

@@ -24,8 +24,9 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 1.5 | BSON Architecture and Data Types | ✅ Revised Final / Canonical Edition |
 | 1.6 | MongoDB Namespace Architecture | ✅ Revised Final / Canonical Edition |
 | 1.7 | MongoDB Process Architecture | ✅ Revised Final / Canonical Edition |
-| 1.8 | Client and Server Connection Architecture | Planned — Next |
+| 1.8 | Client and Server Connection Architecture | ✅ Revised Final / Canonical Edition |
+| 1.9 | Connection Strings: Standard and SRV | Planned — Next |
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 1.8 — Client and Server Connection Architecture → Draft.
+**Next workflow stage:** 1.9 — Connection Strings: Standard and SRV → Draft.

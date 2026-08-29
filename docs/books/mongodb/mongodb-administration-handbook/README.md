@@ -29,8 +29,9 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 1.10 | Replica Set Discovery and Server Selection | ✅ Revised Final / Canonical Edition |
 | 1.11 | Connection Pools and Timeout Architecture | ✅ Revised Final / Canonical Edition |
 | 1.12 | DNS and Connectivity Considerations | ✅ Revised Final / Canonical Edition |
-| 1.13 | MongoDB Memory Architecture | Planned — Next |
+| 1.13 | MongoDB Memory Architecture | ✅ Revised Final / Canonical Edition |
+| 1.14 | WiredTiger Storage Engine Architecture | Planned — Next |
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 1.13 — MongoDB Memory Architecture → Draft.
+**Next workflow stage:** 1.14 — WiredTiger Storage Engine Architecture → Draft.

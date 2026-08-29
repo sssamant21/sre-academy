@@ -2,7 +2,7 @@
 
 | Book | Title | Architecture | Content Status |
 |---|---|---|---|
-| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — 1.1–1.13 Canonical |
+| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — 1.1–1.14 Canonical |
 | 2 | MongoDB SRE & Reliability Engineering Handbook | 🔒 Locked | Planned |
 | 3 | MongoDB DBRE & Performance Engineering Handbook | 🔒 Locked | Planned |
 | 4 | MongoDB Cloud & Kubernetes Production Handbook | 🔒 Locked | Planned |
@@ -24,7 +24,8 @@
 | Chapter 1 — MongoDB Architecture and Internals | 1.11 — Connection Pools and Timeout Architecture | ✅ Revised Final / Canonical Edition |
 | Chapter 1 — MongoDB Architecture and Internals | 1.12 — DNS and Connectivity Considerations | ✅ Revised Final / Canonical Edition |
 | Chapter 1 — MongoDB Architecture and Internals | 1.13 — MongoDB Memory Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.14 — WiredTiger Storage Engine Architecture | Planned — Next |
+| Chapter 1 — MongoDB Architecture and Internals | 1.14 — WiredTiger Storage Engine Architecture | ✅ Revised Final / Canonical Edition |
+| Chapter 1 — MongoDB Architecture and Internals | 1.15 — Journaling and Durability Architecture | Planned — Next |
 
 ## Workflow
 
@@ -32,4 +33,4 @@
 
 Last architecture decision: MongoDB Production Engineering Series v1.0 locked with four books.
 
-Last content milestone: Book 1 section 1.13 — MongoDB Memory Architecture promoted to Revised Final / Canonical Edition.
+Last content milestone: Book 1 section 1.14 — WiredTiger Storage Engine Architecture promoted to Revised Final / Canonical Edition.

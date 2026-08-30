@@ -39,8 +39,9 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 1.20 | Sharding Architecture Overview | ✅ Revised Final / Canonical Edition |
 | 1.21 | MongoDB Deployment Topologies | ✅ Revised Final / Canonical Edition |
 | 1.22 | Community vs. Enterprise Advanced vs. Atlas | ✅ Revised Final / Canonical Edition |
-| 1.23 | MongoDB Versioning and Release Lifecycle | Planned — Next |
+| 1.23 | MongoDB Versioning and Release Lifecycle | ✅ Revised Final / Canonical Edition |
+| 1.24 | Architecture Troubleshooting and Diagnostic Fundamentals | Planned — Next |
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 1.23 — MongoDB Versioning and Release Lifecycle → Draft.
+**Next workflow stage:** 1.24 — Architecture Troubleshooting and Diagnostic Fundamentals → Draft.

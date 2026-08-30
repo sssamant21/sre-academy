@@ -35,8 +35,9 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 1.16 | Checkpoints and Recovery Architecture | ✅ Revised Final / Canonical Edition |
 | 1.17 | Concurrency and Locking Fundamentals | ✅ Revised Final / Canonical Edition |
 | 1.18 | Read and Write Execution Architecture | ✅ Revised Final / Canonical Edition |
-| 1.19 | Replication Architecture Overview | Planned — Next |
+| 1.19 | Replication Architecture Overview | ✅ Revised Final / Canonical Edition |
+| 1.20 | Sharding Architecture Overview | Planned — Next |
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 1.19 — Replication Architecture Overview → Draft.
+**Next workflow stage:** 1.20 — Sharding Architecture Overview → Draft.

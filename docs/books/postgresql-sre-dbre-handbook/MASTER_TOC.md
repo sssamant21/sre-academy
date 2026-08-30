@@ -6,12 +6,6 @@ Status: LOCKED
 
 This 24-chapter structure is the authoritative source of truth for the PostgreSQL SRE & DBRE Handbook. Chapter names, numbering, or ordering must not be changed without explicit project approval.
 
-## Recovery and Reconciliation Note
-
-Repository history, merged PR evidence, and current handbook files verify Chapter 1 as `PostgreSQL Architecture and Internals` and verify the locked Chapter 1 section sequence from 1.1 through 1.24.
-
-The original historical Master TOC v1.0 file was not recoverable from the current repository, reachable git history, branches, deleted files, or PR metadata. Chapters 2 through 24 are therefore preserved here from the project-approved reconciliation list supplied on 2026-08-17. If an older approved Master TOC artifact is later recovered, that historical evidence takes precedence for exact wording.
-
 ## Chapters
 
 1. PostgreSQL Architecture and Internals
@@ -46,8 +40,9 @@ The original historical Master TOC v1.0 file was not recoverable from the curren
 - Master Chapter 3 Structure v1.0 -- LOCKED
 - Master Chapter 4 Structure v1.1 -- LOCKED
 - Master Chapter 5 Structure v1.0 -- LOCKED and COMPLETE
+- Master Chapter 6 Structure v1.0 -- LOCKED and COMPLETE
 
-Chapter 3, Chapter 4, and Chapter 5 section titles, numbering, and order must not be renamed, renumbered, merged, split, reordered, deleted, or extended with new numbered sections unless explicitly approved later.
+Chapter 3 through Chapter 6 locked section titles, numbering, and order must not be changed without explicit project approval.
 
 ## Chapter 5 Locked Section Sequence
 
@@ -76,3 +71,31 @@ Chapter 3, Chapter 4, and Chapter 5 section titles, numbering, and order must no
 5.23 Transaction and Lock Monitoring, Metrics, and Alerting
 5.24 Transaction/Concurrency Troubleshooting and Production Runbooks
 5.25 Production Transaction, Locking, and Deadlock Case Studies
+
+## Chapter 6 Locked Section Sequence
+
+6.1 PostgreSQL Query Processing Architecture and Lifecycle
+6.2 Parser, Analyzer, Rewriter, Planner, and Executor
+6.3 Query Planner and Optimizer Architecture
+6.4 Planner Cost Model and Cost Parameters
+6.5 Cardinality, Selectivity, and Row-Count Estimation
+6.6 Planner Statistics and ANALYZE
+6.7 Extended Statistics and Correlated Columns
+6.8 EXPLAIN Fundamentals and Plan Trees
+6.9 EXPLAIN ANALYZE, BUFFERS, WAL, and Production-Safe Plan Analysis
+6.10 Sequential, Index, Index-Only, and Bitmap Scan Strategies
+6.11 Nested Loop, Hash, and Merge Join Strategies
+6.12 Sorting, Aggregation, DISTINCT, and GROUP BY Execution
+6.13 CTEs, Subqueries, Views, and Query Transformation
+6.14 Partition Pruning and Partition-Wise Query Planning
+6.15 Query Memory: work_mem, Hash Memory, and Temporary Spill
+6.16 Parallel Query Architecture and Parallel Plans
+6.17 JIT Compilation and CPU-Intensive Query Execution
+6.18 Prepared Statements, Generic Plans, and Custom Plans
+6.19 pg_stat_statements and Query Workload Profiling
+6.20 Slow Query Identification and Performance Baselines
+6.21 Query Tuning Methodology and Optimization Workflow
+6.22 Plan Regression, Statistics Drift, and Performance Instability
+6.23 Query Performance Monitoring, Metrics, and Alerting
+6.24 Query Performance Troubleshooting and Production Runbooks
+6.25 Production Query Performance Incidents and Case Studies

@@ -4,9 +4,9 @@
 
 **Workflow:** Draft -> Technical Review -> Production Review -> Revised Final / Canonical Edition
 
-**Master Chapter 4 Structure v1.0 -- LOCKED**
+**Master Chapter 4 Structure v1.1 -- LOCKED**
 
-Chapter 4 establishes the approved structure for PostgreSQL storage architecture, physical layout, capacity management, storage observability, operational recovery, and production storage incident analysis.
+Chapter 4 establishes the approved structure for PostgreSQL storage architecture, physical layout, capacity management, storage observability, operational recovery, and production storage incident analysis. Version 1.1 restores the previously omitted and user-approved Section 4.11.
 
 [Start Chapter 4 -- PostgreSQL Storage Architecture Overview](4.1-postgresql-storage-architecture-overview.md)
 
@@ -22,6 +22,7 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.8 -- Tablespaces and Storage Placement](4.8-tablespaces-and-storage-placement.md) -- Complete
 - [4.9 -- WAL Storage and pg_wal Capacity Management](4.9-wal-storage-and-pg-wal-capacity-management.md) -- Complete
 - [4.10 -- Temporary Files and Temporary Storage Management](4.10-temporary-files-and-temporary-storage-management.md) -- Complete
+- [4.11 -- PostgreSQL Storage Lifecycle and Space Reuse Fundamentals](4.11-postgresql-storage-lifecycle-and-space-reuse-fundamentals.md) -- Draft
 - [4.12 -- MVCC, Dead Tuples, and Storage Consumption](4.12-mvcc-dead-tuples-and-storage-consumption.md) -- Planned
 - [4.13 -- VACUUM, Autovacuum, and Space Reclamation](4.13-vacuum-autovacuum-and-space-reclamation.md) -- Planned
 - [4.14 -- Table and Index Bloat](4.14-table-and-index-bloat.md) -- Planned
@@ -37,20 +38,18 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.24 -- Storage Maintenance, Automation, and Operational Runbooks](4.24-storage-maintenance-automation-and-operational-runbooks.md) -- Planned
 - [4.25 -- Production Storage Incidents and Case Studies](4.25-production-storage-incidents-and-case-studies.md) -- Planned
 
-> **Sequence integrity note:** the locked Chapter 4 index currently has no 4.11 entry. Section 4.11 must be restored from the approved master structure before drafting; its title must not be invented.
-
 ## Status Workflow
 
 Draft -> Technical Review -> Production Review -> Revised Final / Canonical Edition
 
 ## SRE/DBRE Emphasis
 
-Chapter 4 should prioritize storage failure domains, storage growth risk, WAL and temporary file pressure, bloat, space reclamation, capacity forecasting, disk-full recovery, storage observability, and automation-ready operational runbooks.
+Chapter 4 prioritizes storage failure domains, storage growth risk, WAL and temporary-file pressure, storage lifecycle and reuse, bloat, space reclamation, capacity forecasting, disk-full recovery, storage observability, and automation-ready operational runbooks.
 
 ## Technical Validation Standard
 
-Future PostgreSQL storage content must be validated primarily against official PostgreSQL documentation. Cloud-specific behavior, if introduced later, must be validated against official vendor documentation for Amazon RDS for PostgreSQL, Amazon Aurora PostgreSQL, Azure Database for PostgreSQL, or Google Cloud SQL for PostgreSQL.
+PostgreSQL storage content must be validated primarily against official PostgreSQL documentation. Cloud-specific behavior, if introduced later, must be validated against official vendor documentation for Amazon RDS for PostgreSQL, Amazon Aurora PostgreSQL, Azure Database for PostgreSQL, or Google Cloud SQL for PostgreSQL.
 
 ## Publication Status
 
-Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.10 are complete and canonical. Section 4.11 is currently missing from the repository index and must be recovered from the approved locked structure before work advances.
+Sections 4.1 through 4.10 are complete and canonical. Section 4.11 has been restored to the approved Chapter 4 structure and is in Draft. Sections 4.12 through 4.25 remain planned.

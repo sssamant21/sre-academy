@@ -112,7 +112,7 @@ Chapter 3 is complete and canonical for PostgreSQL database and object administr
 
 ## Chapter 4 — PostgreSQL Storage Architecture and Capacity Management
 
-Chapter 4 is in development for PostgreSQL storage architecture, physical storage layout, capacity management, observability, storage failure scenarios, recovery, automation, and production storage incidents.
+Chapter 4 is complete and canonical for PostgreSQL storage architecture, physical storage layout, capacity management, observability, failure scenarios, recovery, automation, and production storage incidents.
 
 **Master Chapter 4 Structure v1.1 — LOCKED**
 
@@ -130,21 +130,21 @@ Chapter 4 is in development for PostgreSQL storage architecture, physical storag
 - [4.8 — Tablespaces and Storage Placement](chapter-04/4.8-tablespaces-and-storage-placement.md) — Complete
 - [4.9 — WAL Storage and pg_wal Capacity Management](chapter-04/4.9-wal-storage-and-pg-wal-capacity-management.md) — Complete
 - [4.10 — Temporary Files and Temporary Storage Management](chapter-04/4.10-temporary-files-and-temporary-storage-management.md) — Complete
-- [4.11 — PostgreSQL Storage Lifecycle and Space Reuse Fundamentals](chapter-04/4.11-postgresql-storage-lifecycle-and-space-reuse-fundamentals.md) — Draft
-- [4.12 — MVCC, Dead Tuples, and Storage Consumption](chapter-04/4.12-mvcc-dead-tuples-and-storage-consumption.md) — Planned
-- [4.13 — VACUUM, Autovacuum, and Space Reclamation](chapter-04/4.13-vacuum-autovacuum-and-space-reclamation.md) — Planned
-- [4.14 — Table and Index Bloat](chapter-04/4.14-table-and-index-bloat.md) — Planned
-- [4.15 — Storage Growth Analysis and Forecasting](chapter-04/4.15-storage-growth-analysis-and-forecasting.md) — Planned
-- [4.16 — Database, Schema, Table, and Index Size Analysis](chapter-04/4.16-database-schema-table-and-index-size-analysis.md) — Planned
-- [4.17 — Disk Capacity Planning and Headroom Strategy](chapter-04/4.17-disk-capacity-planning-and-headroom-strategy.md) — Planned
-- [4.18 — IOPS, Throughput, Latency, and Storage Performance](chapter-04/4.18-iops-throughput-latency-and-storage-performance.md) — Planned
-- [4.19 — Storage Monitoring, Metrics, and Observability](chapter-04/4.19-storage-monitoring-metrics-and-observability.md) — Planned
-- [4.20 — Storage Alerting and Capacity Thresholds](chapter-04/4.20-storage-alerting-and-capacity-thresholds.md) — Planned
-- [4.21 — Disk-Full and Storage-Exhaustion Failure Scenarios](chapter-04/4.21-disk-full-and-storage-exhaustion-failure-scenarios.md) — Planned
-- [4.22 — Storage Performance Troubleshooting](chapter-04/4.22-storage-performance-troubleshooting.md) — Planned
-- [4.23 — Emergency Storage Recovery and Remediation](chapter-04/4.23-emergency-storage-recovery-and-remediation.md) — Planned
-- [4.24 — Storage Maintenance, Automation, and Operational Runbooks](chapter-04/4.24-storage-maintenance-automation-and-operational-runbooks.md) — Planned
-- [4.25 — Production Storage Incidents and Case Studies](chapter-04/4.25-production-storage-incidents-and-case-studies.md) — Planned
+- [4.11 — PostgreSQL Storage Lifecycle and Space Reuse Fundamentals](chapter-04/4.11-postgresql-storage-lifecycle-and-space-reuse-fundamentals.md) — Complete
+- [4.12 — MVCC, Dead Tuples, and Storage Consumption](chapter-04/4.12-mvcc-dead-tuples-and-storage-consumption.md) — Complete
+- [4.13 — VACUUM, Autovacuum, and Space Reclamation](chapter-04/4.13-vacuum-autovacuum-and-space-reclamation.md) — Complete
+- [4.14 — Table and Index Bloat](chapter-04/4.14-table-and-index-bloat.md) — Complete
+- [4.15 — Storage Growth Analysis and Forecasting](chapter-04/4.15-storage-growth-analysis-and-forecasting.md) — Complete
+- [4.16 — Database, Schema, Table, and Index Size Analysis](chapter-04/4.16-database-schema-table-and-index-size-analysis.md) — Complete
+- [4.17 — Disk Capacity Planning and Headroom Strategy](chapter-04/4.17-disk-capacity-planning-and-headroom-strategy.md) — Complete
+- [4.18 — IOPS, Throughput, Latency, and Storage Performance](chapter-04/4.18-iops-throughput-latency-and-storage-performance.md) — Complete
+- [4.19 — Storage Monitoring, Metrics, and Observability](chapter-04/4.19-storage-monitoring-metrics-and-observability.md) — Complete
+- [4.20 — Storage Alerting and Capacity Thresholds](chapter-04/4.20-storage-alerting-and-capacity-thresholds.md) — Complete
+- [4.21 — Disk-Full and Storage-Exhaustion Failure Scenarios](chapter-04/4.21-disk-full-and-storage-exhaustion-failure-scenarios.md) — Complete
+- [4.22 — Storage Performance Troubleshooting](chapter-04/4.22-storage-performance-troubleshooting.md) — Complete
+- [4.23 — Emergency Storage Recovery and Remediation](chapter-04/4.23-emergency-storage-recovery-and-remediation.md) — Complete
+- [4.24 — Storage Maintenance, Automation, and Operational Runbooks](chapter-04/4.24-storage-maintenance-automation-and-operational-runbooks.md) — Complete
+- [4.25 — Production Storage Incidents and Case Studies](chapter-04/4.25-production-storage-incidents-and-case-studies.md) — Complete
 
 ### Chapter 4 Status Workflow
 
@@ -155,5 +155,5 @@ Draft → Technical Review → Production Review → Revised Final / Canonical E
 - Chapter 1 — Complete
 - Chapter 2 — Published
 - Chapter 3 — Complete
-- Chapter 4 — In development; 4.1 through 4.10 Complete, 4.11 Draft
+- Chapter 4 — **Complete / Canonical**
 - Chapters 5–24 — In development

@@ -1,4 +1,4 @@
-﻿# PostgreSQL SRE & DBRE Handbook
+# PostgreSQL SRE & DBRE Handbook
 
 A production-focused PostgreSQL reliability engineering handbook for SREs, DBREs, database administrators, platform engineers, and cloud engineers.
 
@@ -34,8 +34,6 @@ Chapter 1 establishes the PostgreSQL architecture and internals foundation used 
 - [1.22 — PostgreSQL Extension Architecture and Shared Libraries](chapter-01/1.22-postgresql-extension-architecture-and-shared-libraries.md)
 - [1.23 — Archiver Process](chapter-01/1.23-archiver-process.md)
 - [1.24 — Replication Processes](chapter-01/1.24-replication-processes.md)
-
-The chapter contains the complete locked sequence of sections **1.1 through 1.24**, covering server and backend processes, memory and IPC, connections, query execution, storage, WAL and durability, MVCC, locking, buffer management, checkpoints, vacuum, replication, high availability, logical replication, parallel processing, extensions, archiving, and replication processes.
 
 ## Chapter 2 — PostgreSQL Installation, Configuration, Patching, and Upgrades
 
@@ -83,8 +81,6 @@ Chapter 2 covers production PostgreSQL installation, configuration, validation, 
 
 Chapter 3 is complete and canonical for PostgreSQL database and object administration.
 
-**Master Chapter 3 Structure v1.0 — LOCKED**
-
 [Start Chapter 3 — PostgreSQL Database Administration Fundamentals](chapter-03/3.1-postgresql-database-administration-fundamentals.md)
 
 ### Chapter 3 Sections
@@ -114,15 +110,11 @@ Chapter 3 is complete and canonical for PostgreSQL database and object administr
 - [3.23 — Database/Object Administration Troubleshooting and Failure Scenarios](chapter-03/3.23-database-object-administration-troubleshooting-and-failure-scenarios.md) — Complete
 - [3.24 — Automation, Operational Runbooks, and Production Case Studies](chapter-03/3.24-automation-operational-runbooks-and-production-case-studies.md) — Complete
 
-### Chapter 3 Status Workflow
-
-Planned → Draft → Technical Review → Production Review → Complete
-
 ## Chapter 4 — PostgreSQL Storage Architecture and Capacity Management
 
 Chapter 4 is in development for PostgreSQL storage architecture, physical storage layout, capacity management, observability, storage failure scenarios, recovery, automation, and production storage incidents.
 
-**Master Chapter 4 Structure v1.0 — LOCKED**
+**Master Chapter 4 Structure v1.1 — LOCKED**
 
 [Start Chapter 4 — PostgreSQL Storage Architecture Overview](chapter-04/4.1-postgresql-storage-architecture-overview.md)
 
@@ -137,7 +129,8 @@ Chapter 4 is in development for PostgreSQL storage architecture, physical storag
 - [4.7 — TOAST Architecture and Large-Value Storage](chapter-04/4.7-toast-architecture-and-large-value-storage.md) — Complete
 - [4.8 — Tablespaces and Storage Placement](chapter-04/4.8-tablespaces-and-storage-placement.md) — Complete
 - [4.9 — WAL Storage and pg_wal Capacity Management](chapter-04/4.9-wal-storage-and-pg-wal-capacity-management.md) — Complete
-- [4.10 — Temporary Files and Temporary Storage Management](chapter-04/4.10-temporary-files-and-temporary-storage-management.md) — Planned
+- [4.10 — Temporary Files and Temporary Storage Management](chapter-04/4.10-temporary-files-and-temporary-storage-management.md) — Complete
+- [4.11 — PostgreSQL Storage Lifecycle and Space Reuse Fundamentals](chapter-04/4.11-postgresql-storage-lifecycle-and-space-reuse-fundamentals.md) — Draft
 - [4.12 — MVCC, Dead Tuples, and Storage Consumption](chapter-04/4.12-mvcc-dead-tuples-and-storage-consumption.md) — Planned
 - [4.13 — VACUUM, Autovacuum, and Space Reclamation](chapter-04/4.13-vacuum-autovacuum-and-space-reclamation.md) — Planned
 - [4.14 — Table and Index Bloat](chapter-04/4.14-table-and-index-bloat.md) — Planned
@@ -162,6 +155,5 @@ Draft → Technical Review → Production Review → Revised Final / Canonical E
 - Chapter 1 — Complete
 - Chapter 2 — Published
 - Chapter 3 — Complete
-- Chapter 4 — In development
+- Chapter 4 — In development; 4.1 through 4.10 Complete, 4.11 Draft
 - Chapters 5–24 — In development
-

@@ -2,7 +2,7 @@
 
 | Book | Title | Architecture | Content Status |
 |---|---|---|---|
-| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — 1.1–1.20 Canonical |
+| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — 1.1–1.21 Canonical |
 | 2 | MongoDB SRE & Reliability Engineering Handbook | 🔒 Locked | Planned |
 | 3 | MongoDB DBRE & Performance Engineering Handbook | 🔒 Locked | Planned |
 | 4 | MongoDB Cloud & Kubernetes Production Handbook | 🔒 Locked | Planned |
@@ -31,7 +31,8 @@
 | Chapter 1 — MongoDB Architecture and Internals | 1.18 — Read and Write Execution Architecture | ✅ Revised Final / Canonical Edition |
 | Chapter 1 — MongoDB Architecture and Internals | 1.19 — Replication Architecture Overview | ✅ Revised Final / Canonical Edition |
 | Chapter 1 — MongoDB Architecture and Internals | 1.20 — Sharding Architecture Overview | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.21 — MongoDB Deployment Topologies | Planned — Next |
+| Chapter 1 — MongoDB Architecture and Internals | 1.21 — MongoDB Deployment Topologies | ✅ Revised Final / Canonical Edition |
+| Chapter 1 — MongoDB Architecture and Internals | 1.22 — Community vs. Enterprise Advanced vs. Atlas | Planned — Next |
 
 ## Workflow
 
@@ -39,4 +40,4 @@
 
 Last architecture decision: MongoDB Production Engineering Series v1.0 locked with four books.
 
-Last content milestone: Book 1 section 1.20 — Sharding Architecture Overview promoted to Revised Final / Canonical Edition.
+Last content milestone: Book 1 section 1.21 — MongoDB Deployment Topologies promoted to Revised Final / Canonical Edition.

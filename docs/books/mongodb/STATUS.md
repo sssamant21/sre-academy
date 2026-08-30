@@ -2,46 +2,52 @@
 
 | Book | Title | Architecture | Content Status |
 |---|---|---|---|
-| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — Chapter 1 Complete (1.1–1.24 Canonical) |
+| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — Chapter 1 Complete; Chapter 2 through 2.1 Canonical |
 | 2 | MongoDB SRE & Reliability Engineering Handbook | 🔒 Locked | Planned |
 | 3 | MongoDB DBRE & Performance Engineering Handbook | 🔒 Locked | Planned |
 | 4 | MongoDB Cloud & Kubernetes Production Handbook | 🔒 Locked | Planned |
 
 ## Book 1 Progress
 
-| Chapter | Section | Status |
-|---|---|---|
-| Chapter 1 — MongoDB Architecture and Internals | 1.1 — What Is MongoDB? | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.2 — MongoDB Deployment Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.3 — mongod, mongos, and Supporting Components | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.4 — Database, Collection, Document, and Field Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.5 — BSON Architecture and Data Types | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.6 — MongoDB Namespace Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.7 — MongoDB Process Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.8 — Client and Server Connection Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.9 — Connection Strings: Standard and SRV | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.10 — Replica Set Discovery and Server Selection | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.11 — Connection Pools and Timeout Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.12 — DNS and Connectivity Considerations | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.13 — MongoDB Memory Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.14 — WiredTiger Storage Engine Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.15 — Journaling and Durability Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.16 — Checkpoints and Recovery Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.17 — Concurrency and Locking Fundamentals | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.18 — Read and Write Execution Architecture | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.19 — Replication Architecture Overview | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.20 — Sharding Architecture Overview | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.21 — MongoDB Deployment Topologies | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.22 — Community vs. Enterprise Advanced vs. Atlas | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.23 — MongoDB Versioning and Release Lifecycle | ✅ Revised Final / Canonical Edition |
-| Chapter 1 — MongoDB Architecture and Internals | 1.24 — Architecture Troubleshooting and Diagnostic Fundamentals | ✅ Revised Final / Canonical Edition |
-
 ### Chapter Status
 
 | Chapter | Status |
 |---|---|
 | Chapter 1 — MongoDB Architecture and Internals | ✅ COMPLETE — 1.1–1.24 Canonical |
-| Chapter 2 — Installation, Configuration, Patching, and Upgrades | Planned — Next |
+| Chapter 2 — Installation, Configuration, Patching, and Upgrades | In Progress — 2.1 Canonical; 2.2 Next |
+
+### Chapter 2 Sections
+
+| Section | Title | Status |
+|---|---|---|
+| 2.1 | Production Installation Planning | ✅ Revised Final / Canonical Edition |
+| 2.2 | Hardware and OS Requirements | Planned — Next |
+| 2.3 | Linux Preparation | Planned |
+| 2.4 | Filesystem and Storage Preparation | Planned |
+| 2.5 | Package and Repository Installation | Planned |
+| 2.6 | mongod.conf Architecture | Planned |
+| 2.7 | Network Configuration | Planned |
+| 2.8 | Storage Configuration | Planned |
+| 2.9 | Process Management with systemd | Planned |
+| 2.10 | Resource Limits and OS Tuning | Planned |
+| 2.11 | NUMA and Memory Considerations | Planned |
+| 2.12 | Transparent Huge Pages Considerations | Planned |
+| 2.13 | Time Synchronization | Planned |
+| 2.14 | Secure Production Configuration Baseline | Planned |
+| 2.15 | Runtime Parameters and setParameter | Planned |
+| 2.16 | Cluster Parameters and setClusterParameter | Planned |
+| 2.17 | Restart-Required vs. Runtime Changes | Planned |
+| 2.18 | Configuration Drift Detection | Planned |
+| 2.19 | MongoDB Version Management and Patch Management | Planned |
+| 2.20 | Upgrade Planning and Prechecks | Planned |
+| 2.21 | Feature Compatibility Version Architecture | Planned |
+| 2.22 | Binary Version vs. FCV | Planned |
+| 2.23 | FCV Upgrade Procedure and Burn-In Period | Planned |
+| 2.24 | Rolling Upgrades | Planned |
+| 2.25 | Backward-Incompatible Features and Downgrade Constraints | Planned |
+| 2.26 | Post-Upgrade Validation | Planned |
+| 2.27 | Upgrade Failure, Recovery, and Rollback Planning | Planned |
+| 2.28 | Installation and Upgrade Runbooks | Planned |
 
 ## Workflow
 
@@ -49,6 +55,6 @@
 
 Last architecture decision: MongoDB Production Engineering Series v1.0 locked with four books.
 
-Last content milestone: Book 1 Chapter 1 — MongoDB Architecture and Internals completed; sections 1.1–1.24 are Revised Final / Canonical Edition.
+Last content milestone: Book 1 section 2.1 — Production Installation Planning promoted to Revised Final / Canonical Edition.
 
-Next content milestone: Book 1 Chapter 2 — Installation, Configuration, Patching, and Upgrades → 2.1 Production Installation Planning → Draft.
+Next content milestone: Book 1 Chapter 2 → 2.2 — Hardware and OS Requirements → Draft.

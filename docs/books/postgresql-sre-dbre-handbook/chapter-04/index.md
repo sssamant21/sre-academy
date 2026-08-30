@@ -21,7 +21,7 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.7 -- TOAST Architecture and Large-Value Storage](4.7-toast-architecture-and-large-value-storage.md) -- Complete
 - [4.8 -- Tablespaces and Storage Placement](4.8-tablespaces-and-storage-placement.md) -- Complete
 - [4.9 -- WAL Storage and pg_wal Capacity Management](4.9-wal-storage-and-pg-wal-capacity-management.md) -- Complete
-- [4.10 -- Temporary Files and Temporary Storage Management](4.10-temporary-files-and-temporary-storage-management.md) -- Planned
+- [4.10 -- Temporary Files and Temporary Storage Management](4.10-temporary-files-and-temporary-storage-management.md) -- Complete
 - [4.12 -- MVCC, Dead Tuples, and Storage Consumption](4.12-mvcc-dead-tuples-and-storage-consumption.md) -- Planned
 - [4.13 -- VACUUM, Autovacuum, and Space Reclamation](4.13-vacuum-autovacuum-and-space-reclamation.md) -- Planned
 - [4.14 -- Table and Index Bloat](4.14-table-and-index-bloat.md) -- Planned
@@ -37,6 +37,8 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.24 -- Storage Maintenance, Automation, and Operational Runbooks](4.24-storage-maintenance-automation-and-operational-runbooks.md) -- Planned
 - [4.25 -- Production Storage Incidents and Case Studies](4.25-production-storage-incidents-and-case-studies.md) -- Planned
 
+> **Sequence integrity note:** the locked Chapter 4 index currently has no 4.11 entry. Section 4.11 must be restored from the approved master structure before drafting; its title must not be invented.
+
 ## Status Workflow
 
 Draft -> Technical Review -> Production Review -> Revised Final / Canonical Edition
@@ -51,4 +53,4 @@ Future PostgreSQL storage content must be validated primarily against official P
 
 ## Publication Status
 
-Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.9 are complete and canonical.
+Chapter 4 structure is published in the PostgreSQL SRE & DBRE Handbook navigation. Sections 4.1 through 4.10 are complete and canonical. Section 4.11 is currently missing from the repository index and must be recovered from the approved locked structure before work advances.

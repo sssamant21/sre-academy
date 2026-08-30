@@ -1,4 +1,4 @@
-﻿# Chapter 4 -- PostgreSQL Storage Architecture and Capacity Management
+# Chapter 4 -- PostgreSQL Storage Architecture and Capacity Management
 
 **Status:** In Development
 
@@ -22,8 +22,8 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.8 -- Tablespaces and Storage Placement](4.8-tablespaces-and-storage-placement.md) -- Complete
 - [4.9 -- WAL Storage and pg_wal Capacity Management](4.9-wal-storage-and-pg-wal-capacity-management.md) -- Complete
 - [4.10 -- Temporary Files and Temporary Storage Management](4.10-temporary-files-and-temporary-storage-management.md) -- Complete
-- [4.11 -- PostgreSQL Storage Lifecycle and Space Reuse Fundamentals](4.11-postgresql-storage-lifecycle-and-space-reuse-fundamentals.md) -- Draft
-- [4.12 -- MVCC, Dead Tuples, and Storage Consumption](4.12-mvcc-dead-tuples-and-storage-consumption.md) -- Planned
+- [4.11 -- PostgreSQL Storage Lifecycle and Space Reuse Fundamentals](4.11-postgresql-storage-lifecycle-and-space-reuse-fundamentals.md) -- Complete
+- [4.12 -- MVCC, Dead Tuples, and Storage Consumption](4.12-mvcc-dead-tuples-and-storage-consumption.md) -- Draft
 - [4.13 -- VACUUM, Autovacuum, and Space Reclamation](4.13-vacuum-autovacuum-and-space-reclamation.md) -- Planned
 - [4.14 -- Table and Index Bloat](4.14-table-and-index-bloat.md) -- Planned
 - [4.15 -- Storage Growth Analysis and Forecasting](4.15-storage-growth-analysis-and-forecasting.md) -- Planned
@@ -44,7 +44,7 @@ Draft -> Technical Review -> Production Review -> Revised Final / Canonical Edit
 
 ## SRE/DBRE Emphasis
 
-Chapter 4 prioritizes storage failure domains, storage growth risk, WAL and temporary-file pressure, storage lifecycle and reuse, bloat, space reclamation, capacity forecasting, disk-full recovery, storage observability, and automation-ready operational runbooks.
+Chapter 4 prioritizes storage failure domains, storage growth risk, WAL and temporary-file pressure, storage lifecycle and reuse, MVCC-driven storage consumption, bloat, space reclamation, capacity forecasting, disk-full recovery, storage observability, and automation-ready operational runbooks.
 
 ## Technical Validation Standard
 
@@ -52,4 +52,4 @@ PostgreSQL storage content must be validated primarily against official PostgreS
 
 ## Publication Status
 
-Sections 4.1 through 4.10 are complete and canonical. Section 4.11 has been restored to the approved Chapter 4 structure and is in Draft. Sections 4.12 through 4.25 remain planned.
+Sections 4.1 through 4.11 are complete and canonical. Section 4.12 is in Draft. Sections 4.13 through 4.25 remain planned.

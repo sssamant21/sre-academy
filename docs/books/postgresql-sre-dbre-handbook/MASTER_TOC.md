@@ -41,8 +41,9 @@ This 24-chapter structure is the authoritative source of truth for the PostgreSQ
 - Master Chapter 4 Structure v1.1 -- LOCKED
 - Master Chapter 5 Structure v1.0 -- LOCKED and COMPLETE
 - Master Chapter 6 Structure v1.0 -- LOCKED and COMPLETE
+- Master Chapter 7 Structure v1.0 -- LOCKED and COMPLETE
 
-Chapter 3 through Chapter 6 locked section titles, numbering, and order must not be changed without explicit project approval.
+Chapter 3 through Chapter 7 locked section titles, numbering, and order must not be changed without explicit project approval.
 
 ## Chapter 5 Locked Section Sequence
 
@@ -99,3 +100,31 @@ Chapter 3 through Chapter 6 locked section titles, numbering, and order must not
 6.23 Query Performance Monitoring, Metrics, and Alerting
 6.24 Query Performance Troubleshooting and Production Runbooks
 6.25 Production Query Performance Incidents and Case Studies
+
+## Chapter 7 Locked Section Sequence
+
+7.1 PostgreSQL Index Architecture and Fundamentals
+7.2 B-Tree Index Architecture and Operations
+7.3 Hash Index Architecture and Use Cases
+7.4 GiST Index Architecture and Specialized Search
+7.5 SP-GiST Index Architecture and Partitioned Search Spaces
+7.6 GIN Index Architecture for Composite Values and Search
+7.7 BRIN Index Architecture for Very Large Tables
+7.8 Multicolumn Index Design and Column Ordering
+7.9 Expression and Functional Indexes
+7.10 Partial Indexes and Selective Workloads
+7.11 Unique Indexes, Constraints, and NULL Semantics
+7.12 Covering Indexes, INCLUDE, and Index-Only Scans
+7.13 Indexes for ORDER BY, LIMIT, and Top-N Queries
+7.14 Bitmap Index Scans and Combining Multiple Indexes
+7.15 Operator Classes, Operator Families, and Collations
+7.16 Index Selectivity, Statistics, and Planner Decisions
+7.17 Index Build Strategies and CREATE INDEX CONCURRENTLY
+7.18 Index Maintenance, REINDEX, and REINDEX CONCURRENTLY
+7.19 Index Bloat, Fragmentation, and Storage Efficiency
+7.20 Duplicate, Overlapping, and Unused Index Analysis
+7.21 Index Monitoring, Metrics, and Observability
+7.22 Index Alerting and Reliability Thresholds
+7.23 Index Performance Troubleshooting
+7.24 Index Automation and Production Operational Runbooks
+7.25 Production Index Incidents and Case Studies

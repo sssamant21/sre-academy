@@ -27,8 +27,8 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 2.4 | Filesystem and Storage Preparation | ✅ Revised Final / Canonical Edition |
 | 2.5 | Package and Repository Installation | ✅ Revised Final / Canonical Edition |
 | 2.6 | mongod.conf Architecture | ✅ Revised Final / Canonical Edition |
-| 2.7 | Network Configuration | Planned — Next |
-| 2.8 | Storage Configuration | Planned |
+| 2.7 | Network Configuration | ✅ Revised Final / Canonical Edition |
+| 2.8 | Storage Configuration | Planned — Next |
 | 2.9 | Process Management with systemd | Planned |
 | 2.10 | Resource Limits and OS Tuning | Planned |
 | 2.11 | NUMA and Memory Considerations | Planned |
@@ -52,4 +52,4 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 2.7 — Network Configuration → Draft.
+**Next workflow stage:** 2.8 — Storage Configuration → Draft.

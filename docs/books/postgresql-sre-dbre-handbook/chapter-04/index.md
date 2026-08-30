@@ -1,12 +1,12 @@
 # Chapter 4 -- PostgreSQL Storage Architecture and Capacity Management
 
-**Status:** In Development
+**Status:** Complete -- Canonical
 
 **Workflow:** Draft -> Technical Review -> Production Review -> Revised Final / Canonical Edition
 
 **Master Chapter 4 Structure v1.1 -- LOCKED**
 
-Chapter 4 establishes the approved structure for PostgreSQL storage architecture, physical layout, capacity management, storage observability, operational recovery, and production storage incident analysis. Version 1.1 restores the previously omitted and user-approved Section 4.11.
+Chapter 4 provides the canonical PostgreSQL storage architecture and capacity-management foundation for SRE/DBRE operations.
 
 [Start Chapter 4 -- PostgreSQL Storage Architecture Overview](4.1-postgresql-storage-architecture-overview.md)
 
@@ -23,33 +23,29 @@ Chapter 4 establishes the approved structure for PostgreSQL storage architecture
 - [4.9 -- WAL Storage and pg_wal Capacity Management](4.9-wal-storage-and-pg-wal-capacity-management.md) -- Complete
 - [4.10 -- Temporary Files and Temporary Storage Management](4.10-temporary-files-and-temporary-storage-management.md) -- Complete
 - [4.11 -- PostgreSQL Storage Lifecycle and Space Reuse Fundamentals](4.11-postgresql-storage-lifecycle-and-space-reuse-fundamentals.md) -- Complete
-- [4.12 -- MVCC, Dead Tuples, and Storage Consumption](4.12-mvcc-dead-tuples-and-storage-consumption.md) -- Draft
-- [4.13 -- VACUUM, Autovacuum, and Space Reclamation](4.13-vacuum-autovacuum-and-space-reclamation.md) -- Planned
-- [4.14 -- Table and Index Bloat](4.14-table-and-index-bloat.md) -- Planned
-- [4.15 -- Storage Growth Analysis and Forecasting](4.15-storage-growth-analysis-and-forecasting.md) -- Planned
-- [4.16 -- Database, Schema, Table, and Index Size Analysis](4.16-database-schema-table-and-index-size-analysis.md) -- Planned
-- [4.17 -- Disk Capacity Planning and Headroom Strategy](4.17-disk-capacity-planning-and-headroom-strategy.md) -- Planned
-- [4.18 -- IOPS, Throughput, Latency, and Storage Performance](4.18-iops-throughput-latency-and-storage-performance.md) -- Planned
-- [4.19 -- Storage Monitoring, Metrics, and Observability](4.19-storage-monitoring-metrics-and-observability.md) -- Planned
-- [4.20 -- Storage Alerting and Capacity Thresholds](4.20-storage-alerting-and-capacity-thresholds.md) -- Planned
-- [4.21 -- Disk-Full and Storage-Exhaustion Failure Scenarios](4.21-disk-full-and-storage-exhaustion-failure-scenarios.md) -- Planned
-- [4.22 -- Storage Performance Troubleshooting](4.22-storage-performance-troubleshooting.md) -- Planned
-- [4.23 -- Emergency Storage Recovery and Remediation](4.23-emergency-storage-recovery-and-remediation.md) -- Planned
-- [4.24 -- Storage Maintenance, Automation, and Operational Runbooks](4.24-storage-maintenance-automation-and-operational-runbooks.md) -- Planned
-- [4.25 -- Production Storage Incidents and Case Studies](4.25-production-storage-incidents-and-case-studies.md) -- Planned
-
-## Status Workflow
-
-Draft -> Technical Review -> Production Review -> Revised Final / Canonical Edition
+- [4.12 -- MVCC, Dead Tuples, and Storage Consumption](4.12-mvcc-dead-tuples-and-storage-consumption.md) -- Complete
+- [4.13 -- VACUUM, Autovacuum, and Space Reclamation](4.13-vacuum-autovacuum-and-space-reclamation.md) -- Complete
+- [4.14 -- Table and Index Bloat](4.14-table-and-index-bloat.md) -- Complete
+- [4.15 -- Storage Growth Analysis and Forecasting](4.15-storage-growth-analysis-and-forecasting.md) -- Complete
+- [4.16 -- Database, Schema, Table, and Index Size Analysis](4.16-database-schema-table-and-index-size-analysis.md) -- Complete
+- [4.17 -- Disk Capacity Planning and Headroom Strategy](4.17-disk-capacity-planning-and-headroom-strategy.md) -- Complete
+- [4.18 -- IOPS, Throughput, Latency, and Storage Performance](4.18-iops-throughput-latency-and-storage-performance.md) -- Complete
+- [4.19 -- Storage Monitoring, Metrics, and Observability](4.19-storage-monitoring-metrics-and-observability.md) -- Complete
+- [4.20 -- Storage Alerting and Capacity Thresholds](4.20-storage-alerting-and-capacity-thresholds.md) -- Complete
+- [4.21 -- Disk-Full and Storage-Exhaustion Failure Scenarios](4.21-disk-full-and-storage-exhaustion-failure-scenarios.md) -- Complete
+- [4.22 -- Storage Performance Troubleshooting](4.22-storage-performance-troubleshooting.md) -- Complete
+- [4.23 -- Emergency Storage Recovery and Remediation](4.23-emergency-storage-recovery-and-remediation.md) -- Complete
+- [4.24 -- Storage Maintenance, Automation, and Operational Runbooks](4.24-storage-maintenance-automation-and-operational-runbooks.md) -- Complete
+- [4.25 -- Production Storage Incidents and Case Studies](4.25-production-storage-incidents-and-case-studies.md) -- Complete
 
 ## SRE/DBRE Emphasis
 
-Chapter 4 prioritizes storage failure domains, storage growth risk, WAL and temporary-file pressure, storage lifecycle and reuse, MVCC-driven storage consumption, bloat, space reclamation, capacity forecasting, disk-full recovery, storage observability, and automation-ready operational runbooks.
+The canonical chapter covers physical layout, pages and tuples, heap/FSM/VM/TOAST, tablespaces, WAL and temporary storage, storage lifecycle, MVCC/dead tuples, VACUUM/autovacuum, bloat, growth forecasting, size analysis, headroom, storage performance, observability, alerting, disk-full scenarios, troubleshooting, emergency recovery, automation/runbooks, and production case studies.
 
 ## Technical Validation Standard
 
-PostgreSQL storage content must be validated primarily against official PostgreSQL documentation. Cloud-specific behavior, if introduced later, must be validated against official vendor documentation for Amazon RDS for PostgreSQL, Amazon Aurora PostgreSQL, Azure Database for PostgreSQL, or Google Cloud SQL for PostgreSQL.
+Core PostgreSQL behavior is validated against official PostgreSQL concepts and documentation. Cloud- and Kubernetes-specific procedures must additionally be validated against the applicable provider/operator documentation before execution.
 
 ## Publication Status
 
-Sections 4.1 through 4.11 are complete and canonical. Section 4.12 is in Draft. Sections 4.13 through 4.25 remain planned.
+**Sections 4.1 through 4.25 are complete and canonical. Chapter 4 is COMPLETE.**

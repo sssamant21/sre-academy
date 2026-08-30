@@ -13,7 +13,7 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 ## Progress
 
-### Chapter 1 — MongoDB Architecture and Internals
+### Chapter 1 — MongoDB Architecture and Internals — ✅ COMPLETE
 
 | Section | Title | Status |
 |---|---|---|
@@ -40,8 +40,10 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 1.21 | MongoDB Deployment Topologies | ✅ Revised Final / Canonical Edition |
 | 1.22 | Community vs. Enterprise Advanced vs. Atlas | ✅ Revised Final / Canonical Edition |
 | 1.23 | MongoDB Versioning and Release Lifecycle | ✅ Revised Final / Canonical Edition |
-| 1.24 | Architecture Troubleshooting and Diagnostic Fundamentals | Planned — Next |
+| 1.24 | Architecture Troubleshooting and Diagnostic Fundamentals | ✅ Revised Final / Canonical Edition |
+
+**Chapter 1 status:** ✅ COMPLETE — all 24 sections promoted to Revised Final / Canonical Edition.
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 1.24 — Architecture Troubleshooting and Diagnostic Fundamentals → Draft.
+**Next workflow stage:** Chapter 2 — Installation, Configuration, Patching, and Upgrades → 2.1 Production Installation Planning → Draft.

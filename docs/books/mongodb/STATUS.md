@@ -2,7 +2,7 @@
 
 | Book | Title | Architecture | Content Status |
 |---|---|---|---|
-| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — Chapter 1 Complete; Chapter 2 through 2.4 Canonical |
+| 1 | MongoDB Administration Handbook | 🔒 Locked | In Progress — Chapter 1 Complete; Chapter 2 through 2.5 Canonical |
 | 2 | MongoDB SRE & Reliability Engineering Handbook | 🔒 Locked | Planned |
 | 3 | MongoDB DBRE & Performance Engineering Handbook | 🔒 Locked | Planned |
 | 4 | MongoDB Cloud & Kubernetes Production Handbook | 🔒 Locked | Planned |
@@ -14,7 +14,7 @@
 | Chapter | Status |
 |---|---|
 | Chapter 1 — MongoDB Architecture and Internals | ✅ COMPLETE — 1.1–1.24 Canonical |
-| Chapter 2 — Installation, Configuration, Patching, and Upgrades | In Progress — 2.1–2.4 Canonical; 2.5 Next |
+| Chapter 2 — Installation, Configuration, Patching, and Upgrades | In Progress — 2.1–2.5 Canonical; 2.6 Next |
 
 ### Chapter 2 Sections
 
@@ -24,8 +24,8 @@
 | 2.2 | Hardware and OS Requirements | ✅ Revised Final / Canonical Edition |
 | 2.3 | Linux Preparation | ✅ Revised Final / Canonical Edition |
 | 2.4 | Filesystem and Storage Preparation | ✅ Revised Final / Canonical Edition |
-| 2.5 | Package and Repository Installation | Planned — Next |
-| 2.6 | mongod.conf Architecture | Planned |
+| 2.5 | Package and Repository Installation | ✅ Revised Final / Canonical Edition |
+| 2.6 | mongod.conf Architecture | Planned — Next |
 | 2.7 | Network Configuration | Planned |
 | 2.8 | Storage Configuration | Planned |
 | 2.9 | Process Management with systemd | Planned |
@@ -55,6 +55,6 @@
 
 Last architecture decision: MongoDB Production Engineering Series v1.0 locked with four books.
 
-Last content milestone: Book 1 section 2.4 — Filesystem and Storage Preparation promoted to Revised Final / Canonical Edition.
+Last content milestone: Book 1 section 2.5 — Package and Repository Installation promoted to Revised Final / Canonical Edition.
 
-Next content milestone: Book 1 Chapter 2 → 2.5 — Package and Repository Installation → Draft.
+Next content milestone: Book 1 Chapter 2 → 2.6 — mongod.conf Architecture → Draft.

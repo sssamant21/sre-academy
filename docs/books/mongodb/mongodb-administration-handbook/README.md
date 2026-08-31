@@ -19,7 +19,7 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 ### Chapter 2 — Installation, Configuration, Patching, and Upgrades — IN PROGRESS
 
-**Chapter 2 progress:** 12 of 28 sections canonical.
+**Chapter 2 progress:** 13 of 28 sections canonical.
 
 | Section | Title | Status |
 |---|---|---|
@@ -35,8 +35,8 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 2.10 | Resource Limits and OS Tuning | ✅ Revised Final / Canonical Edition |
 | 2.11 | NUMA and Memory Considerations | ✅ Revised Final / Canonical Edition |
 | 2.12 | Transparent Huge Pages Considerations | ✅ Revised Final / Canonical Edition |
-| 2.13 | Time Synchronization | Draft — Current |
-| 2.14 | Secure Production Configuration Baseline | Planned |
+| 2.13 | Time Synchronization | ✅ Revised Final / Canonical Edition |
+| 2.14 | Secure Production Configuration Baseline | Draft — Current |
 | 2.15 | Runtime Parameters and setParameter | Planned |
 | 2.16 | Cluster Parameters and setClusterParameter | Planned |
 | 2.17 | Restart-Required vs. Runtime Changes | Planned |
@@ -54,4 +54,4 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Current workflow stage:** 2.13 — Time Synchronization → Draft.
+**Current workflow stage:** 2.14 — Secure Production Configuration Baseline → Draft.

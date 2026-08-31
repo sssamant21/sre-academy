@@ -19,7 +19,7 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 ### Chapter 2 — Installation, Configuration, Patching, and Upgrades — IN PROGRESS
 
-**Chapter 2 progress:** 15 of 28 sections canonical.
+**Chapter 2 progress:** 16 of 28 sections canonical.
 
 | Section | Title | Status |
 |---|---|---|
@@ -38,8 +38,8 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 2.13 | Time Synchronization | ✅ Revised Final / Canonical Edition |
 | 2.14 | Secure Production Configuration Baseline | ✅ Revised Final / Canonical Edition |
 | 2.15 | Runtime Parameters and setParameter | ✅ Revised Final / Canonical Edition |
-| 2.16 | Cluster Parameters and setClusterParameter | Draft — Current |
-| 2.17 | Restart-Required vs. Runtime Changes | Planned |
+| 2.16 | Cluster Parameters and setClusterParameter | ✅ Revised Final / Canonical Edition |
+| 2.17 | Restart-Required vs. Runtime Changes | Draft — Current |
 | 2.18 | Configuration Drift Detection | Planned |
 | 2.19 | MongoDB Version Management and Patch Management | Planned |
 | 2.20 | Upgrade Planning and Prechecks | Planned |
@@ -54,4 +54,4 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Current workflow stage:** 2.16 — Cluster Parameters and setClusterParameter → Draft.
+**Current workflow stage:** 2.17 — Restart-Required vs. Runtime Changes → Draft.

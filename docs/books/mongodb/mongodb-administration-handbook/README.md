@@ -19,7 +19,7 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 ### Chapter 2 — Installation, Configuration, Patching, and Upgrades — IN PROGRESS
 
-**Chapter 2 progress:** 8 of 28 sections canonical.
+**Chapter 2 progress:** 9 of 28 sections canonical.
 
 | Section | Title | Status |
 |---|---|---|
@@ -31,8 +31,8 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 2.6 | mongod.conf Architecture | ✅ Revised Final / Canonical Edition |
 | 2.7 | Network Configuration | ✅ Revised Final / Canonical Edition |
 | 2.8 | Storage Configuration | ✅ Revised Final / Canonical Edition |
-| 2.9 | Process Management with systemd | Planned — Next |
-| 2.10 | Resource Limits and OS Tuning | Planned |
+| 2.9 | Process Management with systemd | ✅ Revised Final / Canonical Edition |
+| 2.10 | Resource Limits and OS Tuning | Draft — Current |
 | 2.11 | NUMA and Memory Considerations | Planned |
 | 2.12 | Transparent Huge Pages Considerations | Planned |
 | 2.13 | Time Synchronization | Planned |
@@ -54,4 +54,4 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Next workflow stage:** 2.9 — Process Management with systemd → Draft.
+**Current workflow stage:** 2.10 — Resource Limits and OS Tuning → Draft.

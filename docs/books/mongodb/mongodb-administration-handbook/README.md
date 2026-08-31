@@ -19,7 +19,7 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 ### Chapter 2 — Installation, Configuration, Patching, and Upgrades — IN PROGRESS
 
-**Chapter 2 progress:** 19 of 28 sections canonical.
+**Chapter 2 progress:** 20 of 28 sections canonical.
 
 | Section | Title | Status |
 |---|---|---|
@@ -42,8 +42,8 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 2.17 | Restart-Required vs. Runtime Changes | ✅ Revised Final / Canonical Edition |
 | 2.18 | Configuration Drift Detection | ✅ Revised Final / Canonical Edition |
 | 2.19 | MongoDB Version Management and Patch Management | ✅ Revised Final / Canonical Edition |
-| 2.20 | Upgrade Planning and Prechecks | Draft — Current |
-| 2.21 | Feature Compatibility Version Architecture | Planned |
+| 2.20 | Upgrade Planning and Prechecks | ✅ Revised Final / Canonical Edition |
+| 2.21 | Feature Compatibility Version Architecture | Draft — Current |
 | 2.22 | Binary Version vs. FCV | Planned |
 | 2.23 | FCV Upgrade Procedure and Burn-In Period | Planned |
 | 2.24 | Rolling Upgrades | Planned |
@@ -54,4 +54,4 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Current workflow stage:** 2.20 — Upgrade Planning and Prechecks → Draft.
+**Current workflow stage:** 2.21 — Feature Compatibility Version Architecture → Draft.

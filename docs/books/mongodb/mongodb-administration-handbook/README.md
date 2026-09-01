@@ -19,7 +19,7 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 
 ### Chapter 2 — Installation, Configuration, Patching, and Upgrades — IN PROGRESS
 
-**Chapter 2 progress:** 22 of 28 sections canonical.
+**Chapter 2 progress:** 24 of 28 sections canonical.
 
 | Section | Title | Status |
 |---|---|---|
@@ -45,13 +45,13 @@ Planned → Draft → Technical + Source Review → Production + Copyright Revie
 | 2.20 | Upgrade Planning and Prechecks | ✅ Revised Final / Canonical Edition |
 | 2.21 | Feature Compatibility Version Architecture | ✅ Revised Final / Canonical Edition |
 | 2.22 | Binary Version vs. FCV | ✅ Revised Final / Canonical Edition |
-| 2.23 | FCV Upgrade Procedure and Burn-In Period | Draft — Current |
-| 2.24 | Rolling Upgrades | Planned |
-| 2.25 | Backward-Incompatible Features and Downgrade Constraints | Planned |
+| 2.23 | FCV Upgrade Procedure and Burn-In Period | ✅ Revised Final / Canonical Edition |
+| 2.24 | Rolling Upgrades | ✅ Revised Final / Canonical Edition |
+| 2.25 | Backward-Incompatible Features and Downgrade Constraints | Draft — Current |
 | 2.26 | Post-Upgrade Validation | Planned |
 | 2.27 | Upgrade Failure, Recovery, and Rollback Planning | Planned |
 | 2.28 | Installation and Upgrade Runbooks | Planned |
 
 The detailed chapter and section architecture is maintained in `MASTER-TOC.md` and is locked. Structural changes require an explicit architecture revision.
 
-**Current workflow stage:** 2.23 — FCV Upgrade Procedure and Burn-In Period → Draft.
+**Current workflow stage:** 2.25 — Backward-Incompatible Features and Downgrade Constraints → Draft.

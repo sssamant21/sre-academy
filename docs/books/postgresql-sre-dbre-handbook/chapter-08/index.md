@@ -1,6 +1,6 @@
 # Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance
 
-Status: **IN PROGRESS — 6/25 CANONICAL**
+Status: **IN PROGRESS — 7/25 CANONICAL**
 
 Master Chapter 8 Structure v1.0 — **LOCKED**
 
@@ -12,7 +12,7 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 - 8.4 — Autovacuum Architecture: Launcher, Workers, and Scheduling — Complete — Canonical
 - 8.5 — Autovacuum Trigger Thresholds and Scale Factors — Complete — Canonical
 - 8.6 — Per-Table Autovacuum Configuration and High-Churn Tables — Complete — Canonical
-- 8.7 — Vacuum Cost-Based Delay, Throttling, and Resource Control — Planned
+- 8.7 — Vacuum Cost-Based Delay, Throttling, and Resource Control — Complete — Canonical
 - 8.8 — Vacuum Memory, Parallel Vacuum, and Maintenance Resources — Planned
 - 8.9 — Visibility Map, All-Visible, and All-Frozen Pages — Planned
 - 8.10 — Transaction ID Freezing and Anti-Wraparound Vacuum — Planned

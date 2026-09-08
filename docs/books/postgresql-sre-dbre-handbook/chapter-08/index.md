@@ -1,6 +1,6 @@
 # Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance
 
-Status: **IN PROGRESS — 2/25 CANONICAL**
+Status: **IN PROGRESS — 3/25 CANONICAL**
 
 Master Chapter 8 Structure v1.0 — **LOCKED**
 
@@ -8,7 +8,7 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 
 - 8.1 — Vacuum Architecture and Maintenance Fundamentals — Complete — Canonical
 - 8.2 — MVCC Cleanup, Dead Tuples, and Reusable Space — Complete — Canonical
-- 8.3 — Standard VACUUM Internals and Processing Phases — Planned
+- 8.3 — Standard VACUUM Internals and Processing Phases — Complete — Canonical
 - 8.4 — Autovacuum Architecture: Launcher, Workers, and Scheduling — Planned
 - 8.5 — Autovacuum Trigger Thresholds and Scale Factors — Planned
 - 8.6 — Per-Table Autovacuum Configuration and High-Churn Tables — Planned

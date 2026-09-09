@@ -2,13 +2,14 @@
 
 **Version:** v1.0  
 **Total runbooks:** 90  
-**Canonical:** 1/90  
-**Current workflow:** RB-002 — Unlock/Restore User Access → Draft
+**Canonical:** 2/90  
+**Current workflow:** RB-003 — Troubleshoot Login/Authentication Failure → Draft
 
 | ID | Runbook | Category | Status |
 |---|---|---|---|
 | RB-001 | Reset User Password | Access & Authentication | CANONICAL |
-| RB-002 | Unlock/Restore User Access | Access & Authentication | NEXT — DRAFT |
+| RB-002 | Unlock/Restore User Access | Access & Authentication | CANONICAL |
+| RB-003 | Troubleshoot Login/Authentication Failure | Access & Authentication | NEXT — DRAFT |
 
 ## Workflow
 
@@ -16,4 +17,4 @@
 
 ## Progress
 
-`1/90 canonical`
+`2/90 canonical`

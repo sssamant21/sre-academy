@@ -5,7 +5,7 @@ Production operational playbooks for Snowflake DBRE/SRE and on-call engineers.
 **Scope:** problem → diagnosis → action → validation → rollback/escalation  
 **Version:** v1.0  
 **Runbooks:** 90  
-**Canonical progress:** 2/90
+**Canonical progress:** 3/90
 
 ## Standard Runbook Template
 
@@ -15,8 +15,8 @@ Trigger / Alert → Impact → Severity → Safety Checks → Required Access �
 
 - [RB-001 — Reset User Password](access-authentication/RB-001-reset-user-password.md) — **CANONICAL**
 - [RB-002 — Unlock/Restore User Access](access-authentication/RB-002-unlock-restore-user-access.md) — **CANONICAL**
-- RB-003 — Troubleshoot Login/Authentication Failure — **NEXT: DRAFT**
-- RB-004 — MFA Recovery
+- [RB-003 — Troubleshoot Login/Authentication Failure](access-authentication/RB-003-troubleshoot-login-authentication-failure.md) — **CANONICAL**
+- RB-004 — MFA Recovery — **NEXT: DRAFT**
 - RB-005 — Key-Pair Authentication Failure
 - RB-006 — SSO/OAuth Failure
 - RB-007 — Network Policy Blocking Access

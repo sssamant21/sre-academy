@@ -5,7 +5,7 @@ Production operational playbooks for Snowflake DBRE/SRE and on-call engineers.
 **Scope:** problem → diagnosis → action → validation → rollback/escalation  
 **Version:** v1.0  
 **Runbooks:** 90  
-**Canonical progress:** 7/90
+**Canonical progress:** 8/90
 
 ## Standard Runbook Template
 
@@ -20,11 +20,12 @@ Trigger / Alert → Impact → Severity → Safety Checks → Required Access �
 - [RB-005 — Key-Pair Authentication Failure](access-authentication/RB-005-key-pair-authentication-failure.md) — **CANONICAL**
 - [RB-006 — SSO/OAuth Failure](access-authentication/RB-006-sso-oauth-failure.md) — **CANONICAL**
 - [RB-007 — Network Policy Blocking Access](access-authentication/RB-007-network-policy-blocking-access.md) — **CANONICAL**
-- RB-008 — Emergency/Break-Glass Access — **NEXT: DRAFT**
+- [RB-008 — Emergency/Break-Glass Access](access-authentication/RB-008-emergency-break-glass-access.md) — **CANONICAL**
 
 ## 2. Roles, Grants & Permissions
 
-RB-009 through RB-014.
+- RB-009 — Grant User/Role Access — **NEXT: DRAFT**
+- RB-010 through RB-014.
 
 ## 3. Warehouse & Compute
 

@@ -2,8 +2,8 @@
 
 **Version:** v1.0  
 **Total runbooks:** 90  
-**Canonical:** 4/90  
-**Current workflow:** RB-005 — Key-Pair Authentication Failure → Draft
+**Canonical:** 5/90  
+**Current workflow:** RB-006 — SSO/OAuth Failure → Draft
 
 | ID | Runbook | Category | Status |
 |---|---|---|---|
@@ -11,7 +11,8 @@
 | RB-002 | Unlock/Restore User Access | Access & Authentication | CANONICAL |
 | RB-003 | Troubleshoot Login/Authentication Failure | Access & Authentication | CANONICAL |
 | RB-004 | MFA Recovery | Access & Authentication | CANONICAL |
-| RB-005 | Key-Pair Authentication Failure | Access & Authentication | NEXT — DRAFT |
+| RB-005 | Key-Pair Authentication Failure | Access & Authentication | CANONICAL |
+| RB-006 | SSO/OAuth Failure | Access & Authentication | NEXT — DRAFT |
 
 ## Workflow
 
@@ -19,4 +20,4 @@
 
 ## Progress
 
-`4/90 canonical`
+`5/90 canonical`

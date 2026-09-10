@@ -2,8 +2,8 @@
 
 **Version:** v1.0  
 **Total runbooks:** 90  
-**Canonical:** 9/90  
-**Current workflow:** RB-010 — Troubleshoot Insufficient Privileges → Draft
+**Canonical:** 10/90  
+**Current workflow:** RB-011 — Troubleshoot Object Ownership → Draft
 
 | ID | Runbook | Category | Status |
 |---|---|---|---|
@@ -16,7 +16,8 @@
 | RB-007 | Network Policy Blocking Access | Access & Authentication | CANONICAL |
 | RB-008 | Emergency/Break-Glass Access | Access & Authentication | CANONICAL |
 | RB-009 | Grant User/Role Access | Roles, Grants & Permissions | CANONICAL |
-| RB-010 | Troubleshoot Insufficient Privileges | Roles, Grants & Permissions | NEXT — DRAFT |
+| RB-010 | Troubleshoot Insufficient Privileges | Roles, Grants & Permissions | CANONICAL |
+| RB-011 | Troubleshoot Object Ownership | Roles, Grants & Permissions | NEXT — DRAFT |
 
 ## Workflow
 
@@ -24,4 +25,4 @@
 
 ## Progress
 
-`9/90 canonical`
+`10/90 canonical`

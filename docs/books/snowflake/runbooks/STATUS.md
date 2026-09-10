@@ -2,8 +2,8 @@
 
 **Version:** v1.0  
 **Total runbooks:** 90  
-**Canonical:** 6/90  
-**Current workflow:** RB-007 — Network Policy Blocking Access → Draft
+**Canonical:** 7/90  
+**Current workflow:** RB-008 — Emergency/Break-Glass Access → Draft
 
 | ID | Runbook | Category | Status |
 |---|---|---|---|
@@ -13,7 +13,8 @@
 | RB-004 | MFA Recovery | Access & Authentication | CANONICAL |
 | RB-005 | Key-Pair Authentication Failure | Access & Authentication | CANONICAL |
 | RB-006 | SSO/OAuth Failure | Access & Authentication | CANONICAL |
-| RB-007 | Network Policy Blocking Access | Access & Authentication | NEXT — DRAFT |
+| RB-007 | Network Policy Blocking Access | Access & Authentication | CANONICAL |
+| RB-008 | Emergency/Break-Glass Access | Access & Authentication | NEXT — DRAFT |
 
 ## Workflow
 
@@ -21,4 +22,4 @@
 
 ## Progress
 
-`6/90 canonical`
+`7/90 canonical`

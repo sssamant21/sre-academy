@@ -2,8 +2,8 @@
 
 **Version:** v1.0  
 **Total runbooks:** 90  
-**Canonical:** 5/90  
-**Current workflow:** RB-006 — SSO/OAuth Failure → Draft
+**Canonical:** 6/90  
+**Current workflow:** RB-007 — Network Policy Blocking Access → Draft
 
 | ID | Runbook | Category | Status |
 |---|---|---|---|
@@ -12,7 +12,8 @@
 | RB-003 | Troubleshoot Login/Authentication Failure | Access & Authentication | CANONICAL |
 | RB-004 | MFA Recovery | Access & Authentication | CANONICAL |
 | RB-005 | Key-Pair Authentication Failure | Access & Authentication | CANONICAL |
-| RB-006 | SSO/OAuth Failure | Access & Authentication | NEXT — DRAFT |
+| RB-006 | SSO/OAuth Failure | Access & Authentication | CANONICAL |
+| RB-007 | Network Policy Blocking Access | Access & Authentication | NEXT — DRAFT |
 
 ## Workflow
 
@@ -20,4 +21,4 @@
 
 ## Progress
 
-`5/90 canonical`
+`6/90 canonical`

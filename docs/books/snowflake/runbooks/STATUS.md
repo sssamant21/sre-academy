@@ -2,8 +2,8 @@
 
 **Version:** v1.0  
 **Total runbooks:** 90  
-**Canonical:** 8/90  
-**Current workflow:** RB-009 — Grant User/Role Access → Draft
+**Canonical:** 9/90  
+**Current workflow:** RB-010 — Troubleshoot Insufficient Privileges → Draft
 
 | ID | Runbook | Category | Status |
 |---|---|---|---|
@@ -15,7 +15,8 @@
 | RB-006 | SSO/OAuth Failure | Access & Authentication | CANONICAL |
 | RB-007 | Network Policy Blocking Access | Access & Authentication | CANONICAL |
 | RB-008 | Emergency/Break-Glass Access | Access & Authentication | CANONICAL |
-| RB-009 | Grant User/Role Access | Roles, Grants & Permissions | NEXT — DRAFT |
+| RB-009 | Grant User/Role Access | Roles, Grants & Permissions | CANONICAL |
+| RB-010 | Troubleshoot Insufficient Privileges | Roles, Grants & Permissions | NEXT — DRAFT |
 
 ## Workflow
 
@@ -23,4 +24,4 @@
 
 ## Progress
 
-`8/90 canonical`
+`9/90 canonical`

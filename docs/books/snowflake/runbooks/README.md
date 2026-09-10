@@ -5,7 +5,7 @@ Production operational playbooks for Snowflake DBRE/SRE and on-call engineers.
 **Scope:** problem → diagnosis → action → validation → rollback/escalation  
 **Version:** v1.0  
 **Runbooks:** 90  
-**Canonical progress:** 9/90
+**Canonical progress:** 10/90
 
 ## Standard Runbook Template
 
@@ -25,8 +25,9 @@ Trigger / Alert → Impact → Severity → Safety Checks → Required Access �
 ## 2. Roles, Grants & Permissions
 
 - [RB-009 — Grant User/Role Access](roles-grants-permissions/RB-009-grant-user-role-access.md) — **CANONICAL**
-- RB-010 — Troubleshoot Insufficient Privileges — **NEXT: DRAFT**
-- RB-011 through RB-014.
+- [RB-010 — Troubleshoot Insufficient Privileges](roles-grants-permissions/RB-010-troubleshoot-insufficient-privileges.md) — **CANONICAL**
+- RB-011 — Troubleshoot Object Ownership — **NEXT: DRAFT**
+- RB-012 through RB-014.
 
 ## 3. Warehouse & Compute
 

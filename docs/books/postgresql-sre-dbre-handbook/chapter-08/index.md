@@ -1,6 +1,6 @@
 # Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance
 
-Status: **IN PROGRESS — 15/25 CANONICAL**
+Status: **IN PROGRESS — 16/25 CANONICAL**
 
 Master Chapter 8 Structure v1.0 — **LOCKED**
 
@@ -21,7 +21,7 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 - 8.13 — Replication Slots, Standbys, and Cleanup Horizons — Complete — Canonical
 - 8.14 — Heap Bloat Architecture, Detection, and Interpretation — Complete — Canonical
 - 8.15 — Index Bloat, Dead Index Tuples, and Index Cleanup — Complete — Canonical
-- 8.16 — VACUUM FULL, Table Rewrites, and Physical Space Reclamation — Planned
+- 8.16 — VACUUM FULL, Table Rewrites, and Physical Space Reclamation — Complete — Canonical
 - 8.17 — REINDEX and Index Maintenance Strategy — Planned
 - 8.18 — ANALYZE, Planner Statistics, and Autovacuum Integration — Planned
 - 8.19 — Partitioned Tables and Maintenance Strategy — Planned

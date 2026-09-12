@@ -2,7 +2,7 @@
 
 ## Python Fundamentals and Development Environment
 
-**Progress:** `7/25 canonical`
+**Progress:** `8/25 canonical`
 
 | Section | Title | Status |
 |---|---|---|
@@ -13,8 +13,8 @@
 | 1.5 | Python Interpreter and REPL | CANONICAL |
 | 1.6 | Running Python Programs | CANONICAL |
 | 1.7 | Source Files and Encoding | CANONICAL |
-| 1.8 | Python Syntax and Statements | NEXT — DRAFT |
-| 1.9 | Variables and Name Binding | NOT STARTED |
+| 1.8 | Python Syntax and Statements | CANONICAL |
+| 1.9 | Variables and Name Binding | NEXT — DRAFT |
 | 1.10 | Built-in Data Types | NOT STARTED |
 | 1.11 | Numeric Types | NOT STARTED |
 | 1.12 | Strings | NOT STARTED |
@@ -32,6 +32,6 @@
 | 1.24 | Project Directory Structure | NOT STARTED |
 | 1.25 | Production Development Environment Baseline | NOT STARTED |
 
-**Current canonical count:** `7/25`
+**Current canonical count:** `8/25`
 
-**Next workflow stage:** `1.8 — Python Syntax and Statements → Draft`
+**Next workflow stage:** `1.9 — Variables and Name Binding → Draft`

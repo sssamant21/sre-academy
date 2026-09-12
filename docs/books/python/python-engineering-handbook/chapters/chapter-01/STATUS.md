@@ -2,13 +2,13 @@
 
 ## Python Fundamentals and Development Environment
 
-**Progress:** `1/25 canonical`
+**Progress:** `2/25 canonical`
 
 | Section | Title | Status |
 |---|---|---|
 | 1.1 | What Python Is and Where It Fits | CANONICAL |
-| 1.2 | Python Implementations and CPython | NEXT — DRAFT |
-| 1.3 | Python Versioning and Release Lifecycle | NOT STARTED |
+| 1.2 | Python Implementations and CPython | CANONICAL |
+| 1.3 | Python Versioning and Release Lifecycle | NEXT — DRAFT |
 | 1.4 | Installing Python | NOT STARTED |
 | 1.5 | Python Interpreter and REPL | NOT STARTED |
 | 1.6 | Running Python Programs | NOT STARTED |
@@ -32,6 +32,6 @@
 | 1.24 | Project Directory Structure | NOT STARTED |
 | 1.25 | Production Development Environment Baseline | NOT STARTED |
 
-**Current canonical count:** `1/25`
+**Current canonical count:** `2/25`
 
-**Next workflow stage:** `1.2 — Python Implementations and CPython → Draft`
+**Next workflow stage:** `1.3 — Python Versioning and Release Lifecycle → Draft`

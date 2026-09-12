@@ -1,6 +1,6 @@
 # Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance
 
-Status: **IN PROGRESS — 16/25 CANONICAL**
+Status: **IN PROGRESS — 17/25 CANONICAL**
 
 Master Chapter 8 Structure v1.0 — **LOCKED**
 
@@ -22,7 +22,7 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 - 8.14 — Heap Bloat Architecture, Detection, and Interpretation — Complete — Canonical
 - 8.15 — Index Bloat, Dead Index Tuples, and Index Cleanup — Complete — Canonical
 - 8.16 — VACUUM FULL, Table Rewrites, and Physical Space Reclamation — Complete — Canonical
-- 8.17 — REINDEX and Index Maintenance Strategy — Planned
+- 8.17 — REINDEX and Index Maintenance Strategy — Complete — Canonical
 - 8.18 — ANALYZE, Planner Statistics, and Autovacuum Integration — Planned
 - 8.19 — Partitioned Tables and Maintenance Strategy — Planned
 - 8.20 — Vacuum Progress, Statistics, Logs, and Observability — Planned
@@ -34,6 +34,6 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 
 ## Canonical production principles
 
-Routine standard VACUUM is the default maintenance mechanism; VACUUM FULL is a controlled rewrite requiring additional working space and an ACCESS EXCLUSIVE lock. Autovacuum should be tuned from workload churn and table size rather than disabled as a routine response to performance concerns. Vacuum health must be assessed through cleanup throughput, dead-tuple trends, freeze age, blocker horizons, worker saturation, I/O impact, and maintenance runway. Long-running transactions and retained horizons can prevent effective cleanup even when workers are active. Anti-wraparound maintenance is a correctness requirement. Heap and index bloat require evidence-based diagnosis rather than size alone. Automation should aggressively collect evidence and forecast risk while keeping destructive maintenance behind explicit safety gates.
+Routine standard VACUUM is the default maintenance mechanism; VACUUM FULL is a controlled rewrite requiring additional working space and an ACCESS EXCLUSIVE lock. Autovacuum should be tuned from workload churn and table size rather than disabled as a routine response to performance concerns. Vacuum health must be assessed through cleanup throughput, dead-tuple trends, freeze age, blocker horizons, worker saturation, I/O impact, and maintenance runway. Long-running transactions and retained horizons can prevent effective cleanup even when workers are active. Anti-wraparound maintenance is a correctness requirement. Heap and index bloat require evidence-based diagnosis rather than size alone. REINDEX is structural maintenance that should be driven by correctness or persistent physical inefficiency, with the smallest justified scope and explicit locking, capacity, WAL, replication, and failure-recovery controls. Automation should aggressively collect evidence and forecast risk while keeping destructive maintenance behind explicit safety gates.
 
-Technical baseline: PostgreSQL 18 official documentation for routine vacuuming, VACUUM, autovacuum configuration, statistics/progress reporting, transaction-ID and multixact freezing, visibility maps, and routine reindexing.
+Technical baseline: PostgreSQL 18 official documentation for routine vacuuming, VACUUM, autovacuum configuration, statistics/progress reporting, transaction-ID and multixact freezing, visibility maps, routine reindexing, REINDEX, and index-maintenance progress reporting.

@@ -1,6 +1,6 @@
 # Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance
 
-Status: **IN PROGRESS — 18/25 CANONICAL**
+Status: **IN PROGRESS — 19/25 CANONICAL**
 
 Master Chapter 8 Structure v1.0 — **LOCKED**
 
@@ -24,7 +24,7 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 - 8.16 — VACUUM FULL, Table Rewrites, and Physical Space Reclamation — Complete — Canonical
 - 8.17 — REINDEX and Index Maintenance Strategy — Complete — Canonical
 - 8.18 — ANALYZE, Planner Statistics, and Autovacuum Integration — Complete — Canonical
-- 8.19 — Partitioned Tables and Maintenance Strategy — Planned
+- 8.19 — Partitioned Tables and Maintenance Strategy — Complete — Canonical
 - 8.20 — Vacuum Progress, Statistics, Logs, and Observability — Planned
 - 8.21 — Vacuum, Autovacuum, Bloat, and Wraparound Alerting — Planned
 - 8.22 — Autovacuum Tuning Methodology and Capacity Planning — Planned
@@ -34,6 +34,6 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 
 ## Canonical production principles
 
-Routine standard VACUUM is the default maintenance mechanism; VACUUM FULL is a controlled rewrite requiring additional working space and an ACCESS EXCLUSIVE lock. Autovacuum should be tuned from workload churn and table size rather than disabled as a routine response to performance concerns. Vacuum health must be assessed through cleanup throughput, dead-tuple trends, freeze age, blocker horizons, worker saturation, I/O impact, and maintenance runway. Long-running transactions and retained horizons can prevent effective cleanup even when workers are active. Anti-wraparound maintenance is a correctness requirement. Heap and index bloat require evidence-based diagnosis rather than size alone. REINDEX is structural maintenance that should be driven by correctness or persistent physical inefficiency, with the smallest justified scope and explicit locking, capacity, WAL, replication, and failure-recovery controls. ANALYZE is planner-maintenance infrastructure: statistics freshness must be judged against workload churn and data-distribution change, with targeted per-table thresholds, column statistics targets, extended statistics, partition-parent maintenance, and post-ANALYZE estimate validation used where evidence requires them. Automation should aggressively collect evidence and forecast risk while keeping destructive maintenance behind explicit safety gates.
+Routine standard VACUUM is the default maintenance mechanism; VACUUM FULL is a controlled rewrite requiring additional working space and an ACCESS EXCLUSIVE lock. Autovacuum should be tuned from workload churn and table size rather than disabled as a routine response to performance concerns. Vacuum health must be assessed through cleanup throughput, dead-tuple trends, freeze age, blocker horizons, worker saturation, I/O impact, and maintenance runway. Long-running transactions and retained horizons can prevent effective cleanup even when workers are active. Anti-wraparound maintenance is a correctness requirement. Heap and index bloat require evidence-based diagnosis rather than size alone. REINDEX is structural maintenance that should be driven by correctness or persistent physical inefficiency, with the smallest justified scope and explicit locking, capacity, WAL, replication, and failure-recovery controls. ANALYZE is planner-maintenance infrastructure: statistics freshness must be judged against workload churn and data-distribution change, with targeted per-table thresholds, column statistics targets, extended statistics, partition-parent maintenance, and post-ANALYZE estimate validation used where evidence requires them. Partitioned-table maintenance must distinguish the logical parent from physical partitions, use workload- and lifecycle-aware per-partition maintenance, explicitly protect parent statistics and transaction-age correctness, monitor future/default partition behavior, and strongly gate destructive retention operations. Automation should aggressively collect evidence and forecast risk while keeping destructive maintenance behind explicit safety gates.
 
-Technical baseline: PostgreSQL 18 official documentation for routine vacuuming, VACUUM, ANALYZE, autovacuum configuration, planner statistics, extended statistics, statistics/progress reporting, transaction-ID and multixact freezing, visibility maps, routine reindexing, REINDEX, index-maintenance progress reporting, and ANALYZE progress reporting.
+Technical baseline: PostgreSQL 18 official documentation for routine vacuuming, VACUUM, ANALYZE, autovacuum configuration, planner statistics, extended statistics, declarative partitioning, partition ATTACH/DETACH lifecycle, pg_class and pg_inherits, statistics/progress reporting, transaction-ID and multixact freezing, visibility maps, routine reindexing, REINDEX, index-maintenance progress reporting, and ANALYZE progress reporting.

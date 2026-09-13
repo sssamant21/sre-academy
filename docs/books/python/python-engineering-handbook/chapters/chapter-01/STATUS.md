@@ -2,7 +2,7 @@
 
 ## Python Fundamentals and Development Environment
 
-**Progress:** `10/25 canonical`
+**Progress:** `11/25 canonical`
 
 | Section | Title | Status |
 |---|---|---|
@@ -16,8 +16,8 @@
 | 1.8 | Python Syntax and Statements | CANONICAL |
 | 1.9 | Variables and Name Binding | CANONICAL |
 | 1.10 | Built-in Data Types | CANONICAL |
-| 1.11 | Numeric Types | NEXT — DRAFT |
-| 1.12 | Strings | NOT STARTED |
+| 1.11 | Numeric Types | CANONICAL |
+| 1.12 | Strings | NEXT — CANONICAL COMMIT |
 | 1.13 | Boolean Values | NOT STARTED |
 | 1.14 | `None` and Null Semantics | NOT STARTED |
 | 1.15 | Operators and Expressions | NOT STARTED |
@@ -32,6 +32,6 @@
 | 1.24 | Project Directory Structure | NOT STARTED |
 | 1.25 | Production Development Environment Baseline | NOT STARTED |
 
-**Current canonical count:** `10/25`
+**Current canonical count:** `11/25`
 
-**Next workflow stage:** `1.11 — Numeric Types → Draft`
+**Next workflow stage:** `1.12 — Strings → Canonical Commit`

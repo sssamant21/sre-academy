@@ -1,6 +1,6 @@
 # Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance
 
-Status: **IN PROGRESS — 22/25 CANONICAL**
+Status: **IN PROGRESS — 23/25 CANONICAL**
 
 Master Chapter 8 Structure v1.0 — **LOCKED**
 
@@ -28,11 +28,11 @@ Master Chapter 8 Structure v1.0 — **LOCKED**
 - 8.20 — Vacuum Progress, Statistics, Logs, and Observability — Complete — Canonical
 - 8.21 — Vacuum, Autovacuum, Bloat, and Wraparound Alerting — Complete — Canonical
 - 8.22 — Autovacuum Tuning Methodology and Capacity Planning — Complete — Canonical
-- 8.23 — Vacuum and Bloat Troubleshooting and Failure Scenarios — NEXT — DRAFT
-- 8.24 — Maintenance Automation and Production Runbooks — Planned
+- 8.23 — Vacuum and Bloat Troubleshooting and Failure Scenarios — Complete — Canonical
+- 8.24 — Maintenance Automation and Production Runbooks — NEXT — DRAFT
 - 8.25 — Production Vacuum, Bloat, and Wraparound Case Studies — Planned
 
-**Next workflow stage:** 8.23 — Vacuum and Bloat Troubleshooting and Failure Scenarios → Draft
+**Next workflow stage:** 8.24 — Maintenance Automation and Production Runbooks → Draft
 
 ## Canonical production principles
 

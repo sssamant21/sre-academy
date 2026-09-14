@@ -2,7 +2,7 @@
 
 ## Python Fundamentals and Development Environment
 
-**Progress:** `19/25 canonical`
+**Progress:** `20/25 canonical`
 
 | Section | Title | Status |
 |---|---|---|
@@ -25,13 +25,13 @@
 | 1.17 | Input and Output | CANONICAL |
 | 1.18 | Comments and Documentation | CANONICAL |
 | 1.19 | Python Naming Conventions | CANONICAL |
-| 1.20 | PEP 8 and Code Style | NEXT — DRAFT |
-| 1.21 | Virtual Environments | NOT STARTED |
+| 1.20 | PEP 8 and Code Style | CANONICAL |
+| 1.21 | Virtual Environments | NEXT — DRAFT |
 | 1.22 | `pip` and Package Installation | NOT STARTED |
 | 1.23 | IDE and Editor Configuration | NOT STARTED |
 | 1.24 | Project Directory Structure | NOT STARTED |
 | 1.25 | Production Development Environment Baseline | NOT STARTED |
 
-**Current canonical count:** `19/25`
+**Current canonical count:** `20/25`
 
-**Next workflow stage:** 1.20 — PEP 8 and Code Style → Draft
+**Next workflow stage:** 1.21 — Virtual Environments → Draft

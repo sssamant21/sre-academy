@@ -150,10 +150,30 @@ Chapter 4 is complete and canonical for PostgreSQL storage architecture, physica
 
 Draft → Technical Review → Production Review → Revised Final / Canonical Edition
 
+## Chapter 5 — PostgreSQL Transactions, MVCC, Locking, and Concurrency
+
+[Open Chapter 5](chapter-05/index.md) — **Complete / Canonical**
+
+## Chapter 6 — PostgreSQL Query Processing, Performance Tuning, and Optimization
+
+[Open Chapter 6](chapter-06/index.md) — **Complete / Canonical**
+
+## Chapter 7 — PostgreSQL Index Architecture, Design, and Optimization
+
+[Open Chapter 7](chapter-07/index.md) — **Complete / Canonical**
+
+## Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance
+
+[Open Chapter 8](chapter-08/index.md) — **Complete / Canonical**
+
 ## Publication Status
 
 - Chapter 1 — Complete
 - Chapter 2 — Published
 - Chapter 3 — Complete
 - Chapter 4 — **Complete / Canonical**
-- Chapters 5–24 — In development
+- Chapter 5 — **Complete / Canonical**
+- Chapter 6 — **Complete / Canonical**
+- Chapter 7 — **Complete / Canonical**
+- Chapter 8 — **Complete / Canonical**
+- Chapters 9–24 — In development

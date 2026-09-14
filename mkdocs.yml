@@ -420,6 +420,115 @@ nav:
           - "4.24": books/postgresql-sre-dbre-handbook/chapter-04/4.24-storage-maintenance-automation-and-operational-runbooks.md
           - "4.25": books/postgresql-sre-dbre-handbook/chapter-04/4.25-production-storage-incidents-and-case-studies.md
 
+      - "Chapter 5 — PostgreSQL Transactions, MVCC, Locking, and Concurrency":
+          - Overview: books/postgresql-sre-dbre-handbook/chapter-05/index.md
+          - "5.1 — PostgreSQL Transaction Architecture and Fundamentals": books/postgresql-sre-dbre-handbook/chapter-05/5.1-postgresql-transaction-architecture-and-fundamentals.md
+          - "5.2 — Transaction Lifecycle: BEGIN, COMMIT, ROLLBACK, and SAVEPOINT": books/postgresql-sre-dbre-handbook/chapter-05/5.2-transaction-lifecycle-begin-commit-rollback-and-savepoint.md
+          - "5.3 — ACID Properties and PostgreSQL Transaction Guarantees": books/postgresql-sre-dbre-handbook/chapter-05/5.3-acid-properties-and-postgresql-transaction-guarantees.md
+          - "5.4 — MVCC Architecture and Tuple Versioning": books/postgresql-sre-dbre-handbook/chapter-05/5.4-mvcc-architecture-and-tuple-versioning.md
+          - "5.5 — Transaction IDs, XIDs, and Transaction Visibility": books/postgresql-sre-dbre-handbook/chapter-05/5.5-transaction-ids-xids-and-transaction-visibility.md
+          - "5.6 — Snapshots and MVCC Visibility Rules": books/postgresql-sre-dbre-handbook/chapter-05/5.6-snapshots-and-mvcc-visibility-rules.md
+          - "5.7 — Transaction Isolation Levels": books/postgresql-sre-dbre-handbook/chapter-05/5.7-transaction-isolation-levels.md
+          - "5.8 — Read Committed Isolation": books/postgresql-sre-dbre-handbook/chapter-05/5.8-read-committed-isolation.md
+          - "5.9 — Repeatable Read Isolation": books/postgresql-sre-dbre-handbook/chapter-05/5.9-repeatable-read-isolation.md
+          - "5.10 — Serializable Isolation and SSI": books/postgresql-sre-dbre-handbook/chapter-05/5.10-serializable-isolation-and-ssi.md
+          - "5.11 — Read-Only and Deferrable Transactions": books/postgresql-sre-dbre-handbook/chapter-05/5.11-read-only-and-deferrable-transactions.md
+          - "5.12 — Subtransactions, SAVEPOINTs, and Transaction Error Handling": books/postgresql-sre-dbre-handbook/chapter-05/5.12-subtransactions-savepoints-and-transaction-error-handling.md
+          - "5.13 — PostgreSQL Lock Manager Architecture": books/postgresql-sre-dbre-handbook/chapter-05/5.13-postgresql-lock-manager-architecture.md
+          - "5.14 — Table-Level Locks and Lock Modes": books/postgresql-sre-dbre-handbook/chapter-05/5.14-table-level-locks-and-lock-modes.md
+          - "5.15 — Row-Level Locks and Row Locking Behavior": books/postgresql-sre-dbre-handbook/chapter-05/5.15-row-level-locks-and-row-locking-behavior.md
+          - "5.16 — Page-Level, Advisory, and Other Lock Types": books/postgresql-sre-dbre-handbook/chapter-05/5.16-page-level-advisory-and-other-lock-types.md
+          - "5.17 — Explicit Locking and SELECT FOR UPDATE/SHARE": books/postgresql-sre-dbre-handbook/chapter-05/5.17-explicit-locking-and-select-for-update-share.md
+          - "5.18 — Lock Queues, Wait Events, and Blocking Chains": books/postgresql-sre-dbre-handbook/chapter-05/5.18-lock-queues-wait-events-and-blocking-chains.md
+          - "5.19 — Deadlocks: Detection, Diagnosis, and Prevention": books/postgresql-sre-dbre-handbook/chapter-05/5.19-deadlocks-detection-diagnosis-and-prevention.md
+          - "5.20 — Long-Running Transactions and idle in transaction": books/postgresql-sre-dbre-handbook/chapter-05/5.20-long-running-transactions-and-idle-in-transaction.md
+          - "5.21 — Transaction ID Wraparound and Freeze Management": books/postgresql-sre-dbre-handbook/chapter-05/5.21-transaction-id-wraparound-and-freeze-management.md
+          - "5.22 — Concurrency Contention and High-Contention Workloads": books/postgresql-sre-dbre-handbook/chapter-05/5.22-concurrency-contention-and-high-contention-workloads.md
+          - "5.23 — Transaction and Lock Monitoring, Metrics, and Alerting": books/postgresql-sre-dbre-handbook/chapter-05/5.23-transaction-and-lock-monitoring-metrics-and-alerting.md
+          - "5.24 — Transaction/Concurrency Troubleshooting and Production Runbooks": books/postgresql-sre-dbre-handbook/chapter-05/5.24-transaction-concurrency-troubleshooting-and-production-runbooks.md
+          - "5.25 — Production Transaction, Locking, and Deadlock Case Studies": books/postgresql-sre-dbre-handbook/chapter-05/5.25-production-transaction-locking-and-deadlock-case-studies.md
+      - "Chapter 6 — PostgreSQL Query Processing, Performance Tuning, and Optimization":
+          - Overview: books/postgresql-sre-dbre-handbook/chapter-06/index.md
+          - "6.1 — PostgreSQL Query Processing Architecture and Lifecycle": books/postgresql-sre-dbre-handbook/chapter-06/6.1-query-processing-architecture-and-lifecycle.md
+          - "6.2 — Parser, Analyzer, Rewriter, Planner, and Executor": books/postgresql-sre-dbre-handbook/chapter-06/6.2-parser-analyzer-rewriter-planner-executor.md
+          - "6.3 — Query Planner and Optimizer Architecture": books/postgresql-sre-dbre-handbook/chapter-06/6.3-query-planner-and-optimizer-architecture.md
+          - "6.4 — Planner Cost Model and Cost Parameters": books/postgresql-sre-dbre-handbook/chapter-06/6.4-planner-cost-model-and-cost-parameters.md
+          - "6.5 — Cardinality, Selectivity, and Row-Count Estimation": books/postgresql-sre-dbre-handbook/chapter-06/6.5-cardinality-selectivity-and-row-count-estimation.md
+          - "6.6 — Planner Statistics and ANALYZE": books/postgresql-sre-dbre-handbook/chapter-06/6.6-planner-statistics-and-analyze.md
+          - "6.7 — Extended Statistics and Correlated Columns": books/postgresql-sre-dbre-handbook/chapter-06/6.7-extended-statistics-and-correlated-columns.md
+          - "6.8 — EXPLAIN Fundamentals and Plan Trees": books/postgresql-sre-dbre-handbook/chapter-06/6.8-explain-fundamentals-and-plan-trees.md
+          - "6.9 — EXPLAIN ANALYZE, BUFFERS, WAL, and Production-Safe Plan Analysis": books/postgresql-sre-dbre-handbook/chapter-06/6.9-explain-analyze-buffers-wal-production-safety.md
+          - "6.10 — Sequential, Index, Index-Only, and Bitmap Scan Strategies": books/postgresql-sre-dbre-handbook/chapter-06/6.10-scan-strategies.md
+          - "6.11 — Nested Loop, Hash, and Merge Join Strategies": books/postgresql-sre-dbre-handbook/chapter-06/6.11-join-strategies.md
+          - "6.12 — Sorting, Aggregation, DISTINCT, and GROUP BY Execution": books/postgresql-sre-dbre-handbook/chapter-06/6.12-sorting-aggregation-distinct-group-by.md
+          - "6.13 — CTEs, Subqueries, Views, and Query Transformation": books/postgresql-sre-dbre-handbook/chapter-06/6.13-ctes-subqueries-views-query-transformation.md
+          - "6.14 — Partition Pruning and Partition-Wise Query Planning": books/postgresql-sre-dbre-handbook/chapter-06/6.14-partition-pruning-and-partition-wise-planning.md
+          - "6.15 — Query Memory: work_mem, Hash Memory, and Temporary Spill": books/postgresql-sre-dbre-handbook/chapter-06/6.15-query-memory-work-mem-hash-and-spill.md
+          - "6.16 — Parallel Query Architecture and Parallel Plans": books/postgresql-sre-dbre-handbook/chapter-06/6.16-parallel-query-architecture-and-plans.md
+          - "6.17 — JIT Compilation and CPU-Intensive Query Execution": books/postgresql-sre-dbre-handbook/chapter-06/6.17-jit-compilation-and-cpu-intensive-execution.md
+          - "6.18 — Prepared Statements, Generic Plans, and Custom Plans": books/postgresql-sre-dbre-handbook/chapter-06/6.18-prepared-statements-generic-and-custom-plans.md
+          - "6.19 — pg_stat_statements and Query Workload Profiling": books/postgresql-sre-dbre-handbook/chapter-06/6.19-pg-stat-statements-and-workload-profiling.md
+          - "6.20 — Slow Query Identification and Performance Baselines": books/postgresql-sre-dbre-handbook/chapter-06/6.20-slow-query-identification-and-performance-baselines.md
+          - "6.21 — Query Tuning Methodology and Optimization Workflow": books/postgresql-sre-dbre-handbook/chapter-06/6.21-query-tuning-methodology-and-optimization-workflow.md
+          - "6.22 — Plan Regression, Statistics Drift, and Performance Instability": books/postgresql-sre-dbre-handbook/chapter-06/6.22-plan-regression-statistics-drift-and-instability.md
+          - "6.23 — Query Performance Monitoring, Metrics, and Alerting": books/postgresql-sre-dbre-handbook/chapter-06/6.23-query-performance-monitoring-metrics-and-alerting.md
+          - "6.24 — Query Performance Troubleshooting and Production Runbooks": books/postgresql-sre-dbre-handbook/chapter-06/6.24-query-performance-troubleshooting-and-production-runbooks.md
+          - "6.25 — Production Query Performance Incidents and Case Studies": books/postgresql-sre-dbre-handbook/chapter-06/6.25-production-query-performance-incidents-and-case-studies.md
+      - "Chapter 7 — PostgreSQL Index Architecture, Design, and Optimization":
+          - Overview: books/postgresql-sre-dbre-handbook/chapter-07/index.md
+          - "7.1 — PostgreSQL Index Architecture and Fundamentals": books/postgresql-sre-dbre-handbook/chapter-07/7.1-postgresql-index-architecture-and-fundamentals.md
+          - "7.2 — B-Tree Index Architecture and Operations": books/postgresql-sre-dbre-handbook/chapter-07/7.2-b-tree-index-architecture-and-operations.md
+          - "7.3 — Hash Index Architecture and Use Cases": books/postgresql-sre-dbre-handbook/chapter-07/7.3-hash-index-architecture-and-use-cases.md
+          - "7.4 — GiST Index Architecture and Specialized Search": books/postgresql-sre-dbre-handbook/chapter-07/7.4-gist-index-architecture-and-specialized-search.md
+          - "7.5 — SP-GiST Index Architecture and Partitioned Search Spaces": books/postgresql-sre-dbre-handbook/chapter-07/7.5-sp-gist-index-architecture-and-partitioned-search-spaces.md
+          - "7.6 — GIN Index Architecture for Composite Values and Search": books/postgresql-sre-dbre-handbook/chapter-07/7.6-gin-index-architecture-for-composite-values-and-search.md
+          - "7.7 — BRIN Index Architecture for Very Large Tables": books/postgresql-sre-dbre-handbook/chapter-07/7.7-brin-index-architecture-for-very-large-tables.md
+          - "7.8 — Multicolumn Index Design and Column Ordering": books/postgresql-sre-dbre-handbook/chapter-07/7.8-multicolumn-index-design-and-column-ordering.md
+          - "7.9 — Expression and Functional Indexes": books/postgresql-sre-dbre-handbook/chapter-07/7.9-expression-and-functional-indexes.md
+          - "7.10 — Partial Indexes and Selective Workloads": books/postgresql-sre-dbre-handbook/chapter-07/7.10-partial-indexes-and-selective-workloads.md
+          - "7.11 — Unique Indexes, Constraints, and NULL Semantics": books/postgresql-sre-dbre-handbook/chapter-07/7.11-unique-indexes-constraints-and-null-semantics.md
+          - "7.12 — Covering Indexes, INCLUDE, and Index-Only Scans": books/postgresql-sre-dbre-handbook/chapter-07/7.12-covering-indexes-include-and-index-only-scans.md
+          - "7.13 — Indexes for ORDER BY, LIMIT, and Top-N Queries": books/postgresql-sre-dbre-handbook/chapter-07/7.13-indexes-for-order-by-limit-and-top-n-queries.md
+          - "7.14 — Bitmap Index Scans and Combining Multiple Indexes": books/postgresql-sre-dbre-handbook/chapter-07/7.14-bitmap-index-scans-and-combining-multiple-indexes.md
+          - "7.15 — Operator Classes, Operator Families, and Collations": books/postgresql-sre-dbre-handbook/chapter-07/7.15-operator-classes-operator-families-and-collations.md
+          - "7.16 — Index Selectivity, Statistics, and Planner Decisions": books/postgresql-sre-dbre-handbook/chapter-07/7.16-index-selectivity-statistics-and-planner-decisions.md
+          - "7.17 — Index Build Strategies and CREATE INDEX CONCURRENTLY": books/postgresql-sre-dbre-handbook/chapter-07/7.17-index-build-strategies-and-create-index-concurrently.md
+          - "7.18 — Index Maintenance, REINDEX, and REINDEX CONCURRENTLY": books/postgresql-sre-dbre-handbook/chapter-07/7.18-index-maintenance-reindex-and-reindex-concurrently.md
+          - "7.19 — Index Bloat, Fragmentation, and Storage Efficiency": books/postgresql-sre-dbre-handbook/chapter-07/7.19-index-bloat-fragmentation-and-storage-efficiency.md
+          - "7.20 — Duplicate, Overlapping, and Unused Index Analysis": books/postgresql-sre-dbre-handbook/chapter-07/7.20-duplicate-overlapping-and-unused-index-analysis.md
+          - "7.21 — Index Monitoring, Metrics, and Observability": books/postgresql-sre-dbre-handbook/chapter-07/7.21-index-monitoring-metrics-and-observability.md
+          - "7.22 — Index Alerting and Reliability Thresholds": books/postgresql-sre-dbre-handbook/chapter-07/7.22-index-alerting-and-reliability-thresholds.md
+          - "7.23 — Index Performance Troubleshooting": books/postgresql-sre-dbre-handbook/chapter-07/7.23-index-performance-troubleshooting.md
+          - "7.24 — Index Automation and Production Operational Runbooks": books/postgresql-sre-dbre-handbook/chapter-07/7.24-index-automation-and-production-operational-runbooks.md
+          - "7.25 — Production Index Incidents and Case Studies": books/postgresql-sre-dbre-handbook/chapter-07/7.25-production-index-incidents-and-case-studies.md
+      - "Chapter 8 — PostgreSQL Vacuum, Autovacuum, Bloat, and Maintenance":
+          - Overview: books/postgresql-sre-dbre-handbook/chapter-08/index.md
+          - "8.1 — Vacuum Architecture and Maintenance Fundamentals": books/postgresql-sre-dbre-handbook/chapter-08/8.1-vacuum-architecture-and-maintenance-fundamentals.md
+          - "8.2 — MVCC Cleanup, Dead Tuples, and Reusable Space": books/postgresql-sre-dbre-handbook/chapter-08/8.2-mvcc-cleanup-dead-tuples-and-reusable-space.md
+          - "8.3 — Standard VACUUM Internals and Processing Phases": books/postgresql-sre-dbre-handbook/chapter-08/8.3-standard-vacuum-internals-and-processing-phases.md
+          - "8.4 — Autovacuum Architecture: Launcher, Workers, and Scheduling": books/postgresql-sre-dbre-handbook/chapter-08/8.4-autovacuum-architecture-launcher-workers-and-scheduling.md
+          - "8.5 — Autovacuum Trigger Thresholds and Scale Factors": books/postgresql-sre-dbre-handbook/chapter-08/8.5-autovacuum-trigger-thresholds-and-scale-factors.md
+          - "8.6 — Per-Table Autovacuum Configuration and High-Churn Tables": books/postgresql-sre-dbre-handbook/chapter-08/8.6-per-table-autovacuum-configuration-and-high-churn-tables.md
+          - "8.7 — Vacuum Cost-Based Delay, Throttling, and Resource Control": books/postgresql-sre-dbre-handbook/chapter-08/8.7-vacuum-cost-based-delay-throttling-and-resource-control.md
+          - "8.8 — Vacuum Memory, Parallel Vacuum, and Maintenance Resources": books/postgresql-sre-dbre-handbook/chapter-08/8.8-vacuum-memory-parallel-vacuum-and-maintenance-resources.md
+          - "8.9 — Visibility Map, All-Visible, and All-Frozen Pages": books/postgresql-sre-dbre-handbook/chapter-08/8.9-visibility-map-all-visible-and-all-frozen-pages.md
+          - "8.10 — Transaction ID Freezing and Anti-Wraparound Vacuum": books/postgresql-sre-dbre-handbook/chapter-08/8.10-transaction-id-freezing-and-anti-wraparound-vacuum.md
+          - "8.11 — Multixact Aging, Freezing, and Wraparound Protection": books/postgresql-sre-dbre-handbook/chapter-08/8.11-multixact-aging-freezing-and-wraparound-protection.md
+          - "8.12 — Long Transactions, Old Snapshots, and Vacuum Blockers": books/postgresql-sre-dbre-handbook/chapter-08/8.12-long-transactions-old-snapshots-and-vacuum-blockers.md
+          - "8.13 — Replication Slots, Standbys, and Cleanup Horizons": books/postgresql-sre-dbre-handbook/chapter-08/8.13-replication-slots-standbys-and-cleanup-horizons.md
+          - "8.14 — Heap Bloat Architecture, Detection, and Interpretation": books/postgresql-sre-dbre-handbook/chapter-08/8.14-heap-bloat-architecture-detection-and-interpretation.md
+          - "8.15 — Index Bloat, Dead Index Tuples, and Index Cleanup": books/postgresql-sre-dbre-handbook/chapter-08/8.15-index-bloat-dead-index-tuples-and-index-cleanup.md
+          - "8.16 — VACUUM FULL, Table Rewrites, and Physical Space Reclamation": books/postgresql-sre-dbre-handbook/chapter-08/8.16-vacuum-full-table-rewrites-and-physical-space-reclamation.md
+          - "8.17 — REINDEX and Index Maintenance Strategy": books/postgresql-sre-dbre-handbook/chapter-08/8.17-reindex-and-index-maintenance-strategy.md
+          - "8.18 — ANALYZE, Planner Statistics, and Autovacuum Integration": books/postgresql-sre-dbre-handbook/chapter-08/8.18-analyze-planner-statistics-and-autovacuum-integration.md
+          - "8.19 — Partitioned Tables and Maintenance Strategy": books/postgresql-sre-dbre-handbook/chapter-08/8.19-partitioned-tables-and-maintenance-strategy.md
+          - "8.20 — Vacuum Progress, Statistics, Logs, and Observability": books/postgresql-sre-dbre-handbook/chapter-08/8.20-vacuum-progress-statistics-logs-and-observability.md
+          - "8.21 — Vacuum, Autovacuum, Bloat, and Wraparound Alerting": books/postgresql-sre-dbre-handbook/chapter-08/8.21-vacuum-autovacuum-bloat-and-wraparound-alerting.md
+          - "8.22 --- Autovacuum Tuning Methodology and Capacity Planning": books/postgresql-sre-dbre-handbook/chapter-08/8.22-autovacuum-tuning-methodology-and-capacity-planning.md
+          - "8.23 — Vacuum and Bloat Troubleshooting and Failure Scenarios": books/postgresql-sre-dbre-handbook/chapter-08/8.23-vacuum-and-bloat-troubleshooting-and-failure-scenarios.md
+          - "8.24 — Maintenance Automation and Production Runbooks": books/postgresql-sre-dbre-handbook/chapter-08/8.24-maintenance-automation-and-production-runbooks.md
+          - "8.25 — Production Vacuum, Bloat, and Wraparound Case Studies": books/postgresql-sre-dbre-handbook/chapter-08/8.25-production-vacuum-bloat-and-wraparound-case-studies.md
+
 markdown_extensions:
   - admonition
   - attr_list

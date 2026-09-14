@@ -2,7 +2,7 @@
 
 ## Python Fundamentals and Development Environment
 
-**Progress:** `15/25 canonical`
+**Progress:** `16/25 canonical`
 
 | Section | Title | Status |
 |---|---|---|
@@ -21,8 +21,8 @@
 | 1.13 | Boolean Values | CANONICAL |
 | 1.14 | `None` and Null Semantics | CANONICAL |
 | 1.15 | Operators and Expressions | CANONICAL |
-| 1.16 | Type Conversion | NEXT — DRAFT |
-| 1.17 | Input and Output | NOT STARTED |
+| 1.16 | Type Conversion | CANONICAL |
+| 1.17 | Input and Output | NEXT — DRAFT |
 | 1.18 | Comments and Documentation | NOT STARTED |
 | 1.19 | Python Naming Conventions | NOT STARTED |
 | 1.20 | PEP 8 and Code Style | NOT STARTED |
@@ -32,6 +32,6 @@
 | 1.24 | Project Directory Structure | NOT STARTED |
 | 1.25 | Production Development Environment Baseline | NOT STARTED |
 
-**Current canonical count:** `15/25`
+**Current canonical count:** `16/25`
 
-**Next workflow stage:** 1.16 — Type Conversion → Draft
+**Next workflow stage:** 1.17 — Input and Output → Draft
